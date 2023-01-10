@@ -1,4 +1,4 @@
-# Moonboard Guidebook
+# Moonboard Guidebook 🌝
 
 ## What does it do?
 
