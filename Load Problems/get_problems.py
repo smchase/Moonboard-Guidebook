@@ -54,5 +54,5 @@ mb_types = [
 ]
 for holdset, angle in mb_types:
 	problems = get_problems(holdset, angle, token)
-	with open(f"problems-{holdset}-{angle}.json", 'w') as file:
+	with open(f"data/problems-{holdset}-{angle}.json", 'w') as file:
 		json.dump(problems, file, indent="\t")

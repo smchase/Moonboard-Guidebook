@@ -1,0 +1,5047 @@
+[
+	{
+		"name": "CHRISTMAS DROP",
+		"grade": "6A",
+		"userGrade": "6A",
+		"setbyId": "8012c0c1-44e4-48df-8596-b15a2c4743fa",
+		"setby": "kasperg ",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 1013,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 358895,
+				"description": "A4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 358895,
+				"description": "B5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 358895,
+				"description": "A9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 358895,
+				"description": "H6",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 358895,
+				"description": "E10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 358895,
+				"description": "C14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 358895,
+				"description": "F15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 358895,
+				"description": "F14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 358895,
+				"description": "J15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 358895,
+				"description": "J18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 358895,
+		"dateInserted": "2019-12-24T12:29:05.79",
+		"dateUpdated": "2023-01-12T11:19:30.91",
+		"dateDeleted": null
+	},
+	{
+		"name": "DUCK WINGS",
+		"grade": "6A",
+		"userGrade": "6A",
+		"setbyId": "8012c0c1-44e4-48df-8596-b15a2c4743fa",
+		"setby": "kasperg ",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 799,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 358899,
+				"description": "D5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 358899,
+				"description": "G5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 358899,
+				"description": "E10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 358899,
+				"description": "F10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 358899,
+				"description": "C14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 358899,
+				"description": "F14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 358899,
+				"description": "D18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 358899,
+		"dateInserted": "2019-12-24T12:38:45.803",
+		"dateUpdated": "2023-01-12T18:17:50.93",
+		"dateDeleted": null
+	},
+	{
+		"name": "BRUNE KARTOFLER",
+		"grade": "5+",
+		"userGrade": "5+",
+		"setbyId": "8012c0c1-44e4-48df-8596-b15a2c4743fa",
+		"setby": "kasperg ",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 1350,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 358907,
+				"description": "A5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 358907,
+				"description": "D3",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 358907,
+				"description": "B8",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 358907,
+				"description": "A9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 358907,
+				"description": "E11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 358907,
+				"description": "C14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 358907,
+				"description": "D15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 358907,
+				"description": "D18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 358907,
+		"dateInserted": "2019-12-24T13:06:18.24",
+		"dateUpdated": "2023-01-12T16:32:58.043",
+		"dateDeleted": null
+	},
+	{
+		"name": "MOONLANDING",
+		"grade": "6B+",
+		"userGrade": "6B+",
+		"setbyId": "0F90475A-4C26-4D4E-BA49-5A163291F070",
+		"setby": "Angus Harrison-smart",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 834,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 362869,
+				"description": "H9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 362869,
+				"description": "F10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 362869,
+				"description": "F14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 362869,
+				"description": "C17",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 362869,
+				"description": "D18",
+				"isStart": false,
+				"isEnd": true
+			},
+			{
+				"problemId": 362869,
+				"description": "G5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 362869,
+				"description": "J3",
+				"isStart": true,
+				"isEnd": false
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 362869,
+		"dateInserted": "2020-02-11T18:52:23.487",
+		"dateUpdated": "2023-01-12T17:16:54.99",
+		"dateDeleted": null
+	},
+	{
+		"name": "SIDE FOOL",
+		"grade": "6C",
+		"userGrade": "6C",
+		"setbyId": "0F90475A-4C26-4D4E-BA49-5A163291F070",
+		"setby": "Angus Harrison-smart",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 461,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 362870,
+				"description": "H15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 362870,
+				"description": "C14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 362870,
+				"description": "E10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 362870,
+				"description": "D5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 362870,
+				"description": "G5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 362870,
+				"description": "G18",
+				"isStart": false,
+				"isEnd": true
+			},
+			{
+				"problemId": 362870,
+				"description": "J10",
+				"isStart": false,
+				"isEnd": false
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": true,
+		"moonBoardConfigurationId": 2,
+		"apiId": 362870,
+		"dateInserted": "2020-02-11T18:58:08.597",
+		"dateUpdated": "2023-01-11T21:13:31.623",
+		"dateDeleted": null
+	},
+	{
+		"name": "BIG BAD BOUNCE",
+		"grade": "6C+",
+		"userGrade": "6C+",
+		"setbyId": "0F90475A-4C26-4D4E-BA49-5A163291F070",
+		"setby": "Angus Harrison-smart",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 228,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 362881,
+				"description": "H10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 362881,
+				"description": "C14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 362881,
+				"description": "F9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 362881,
+				"description": "J5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 362881,
+				"description": "I4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 362881,
+				"description": "E16",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 362881,
+				"description": "B18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": true,
+		"moonBoardConfigurationId": 2,
+		"apiId": 362881,
+		"dateInserted": "2020-02-11T20:00:16.277",
+		"dateUpdated": "2023-01-11T12:57:23.24",
+		"dateDeleted": null
+	},
+	{
+		"name": "MO\u2019D\u2019S IMMUNITY BOOSTER",
+		"grade": "5+",
+		"userGrade": "5+",
+		"setbyId": "24715be3-ae19-4d90-8255-131159715aca",
+		"setby": "Vizual Pupil",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 887,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 365729,
+				"description": "F4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 365729,
+				"description": "H4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 365729,
+				"description": "G9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365729,
+				"description": "C8",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365729,
+				"description": "E12",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365729,
+				"description": "G15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365729,
+				"description": "D18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 365729,
+		"dateInserted": "2020-03-14T15:38:25.62",
+		"dateUpdated": "2023-01-12T14:13:37.563",
+		"dateDeleted": null
+	},
+	{
+		"name": "OPEN BOARDERS",
+		"grade": "6C+",
+		"userGrade": "6C+",
+		"setbyId": "24715be3-ae19-4d90-8255-131159715aca",
+		"setby": "Vizual Pupil",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 223,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 365733,
+				"description": "F4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 365733,
+				"description": "J6",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365733,
+				"description": "I7",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365733,
+				"description": "K11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365733,
+				"description": "H14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365733,
+				"description": "G15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365733,
+				"description": "C18",
+				"isStart": false,
+				"isEnd": true
+			},
+			{
+				"problemId": 365733,
+				"description": "E9",
+				"isStart": false,
+				"isEnd": false
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 365733,
+		"dateInserted": "2020-03-14T16:15:15.767",
+		"dateUpdated": "2023-01-11T13:03:42.86",
+		"dateDeleted": null
+	},
+	{
+		"name": "ABUNDANCE OF CAUTION",
+		"grade": "6A+",
+		"userGrade": "6A+",
+		"setbyId": "537A03B7-A482-41C6-A72A-EECBB5454E47",
+		"setby": "Michael O'Donnell",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 878,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 365734,
+				"description": "A6",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365734,
+				"description": "F4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 365734,
+				"description": "F8",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365734,
+				"description": "G10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365734,
+				"description": "C12",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365734,
+				"description": "E14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365734,
+				"description": "C18",
+				"isStart": false,
+				"isEnd": true
+			},
+			{
+				"problemId": 365734,
+				"description": "B16",
+				"isStart": false,
+				"isEnd": false
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			}
+		],
+		"hasBetaVideo": true,
+		"moonBoardConfigurationId": 2,
+		"apiId": 365734,
+		"dateInserted": "2020-03-14T16:19:01.757",
+		"dateUpdated": "2023-01-12T18:21:48.57",
+		"dateDeleted": null
+	},
+	{
+		"name": "TWO PLY",
+		"grade": "6A+",
+		"userGrade": "6A+",
+		"setbyId": "BA64FD29-9545-4078-8F94-73D80181A81C",
+		"setby": "Chloe Krueger",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 891,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 365745,
+				"description": "C5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 365745,
+				"description": "F8",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365745,
+				"description": "C10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365745,
+				"description": "G11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365745,
+				"description": "E14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365745,
+				"description": "H16",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365745,
+				"description": "H18",
+				"isStart": false,
+				"isEnd": true
+			},
+			{
+				"problemId": 365745,
+				"description": "F2",
+				"isStart": true,
+				"isEnd": false
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 365745,
+		"dateInserted": "2020-03-14T17:20:55.08",
+		"dateUpdated": "2023-01-12T18:23:55.3",
+		"dateDeleted": null
+	},
+	{
+		"name": "CORONATION",
+		"grade": "5+",
+		"userGrade": "5+",
+		"setbyId": "BA64FD29-9545-4078-8F94-73D80181A81C",
+		"setby": "Chloe Krueger",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 823,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 365747,
+				"description": "H5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 365747,
+				"description": "K9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365747,
+				"description": "G10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365747,
+				"description": "H12",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365747,
+				"description": "E14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365747,
+				"description": "H16",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365747,
+				"description": "D18",
+				"isStart": false,
+				"isEnd": true
+			},
+			{
+				"problemId": 365747,
+				"description": "K4",
+				"isStart": true,
+				"isEnd": false
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 365747,
+		"dateInserted": "2020-03-14T17:29:13.78",
+		"dateUpdated": "2023-01-12T18:07:54.56",
+		"dateDeleted": null
+	},
+	{
+		"name": "SICK BRAH",
+		"grade": "6B+",
+		"userGrade": "6B+",
+		"setbyId": "BA64FD29-9545-4078-8F94-73D80181A81C",
+		"setby": "Chloe Krueger",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 386,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 365753,
+				"description": "E3",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 365753,
+				"description": "H3",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 365753,
+				"description": "F6",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365753,
+				"description": "D8",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365753,
+				"description": "G11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365753,
+				"description": "E14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365753,
+				"description": "G17",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365753,
+				"description": "D18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 365753,
+		"dateInserted": "2020-03-14T17:53:37.163",
+		"dateUpdated": "2023-01-11T03:02:52.63",
+		"dateDeleted": null
+	},
+	{
+		"name": "SOCIAL DISTANCING",
+		"grade": "6B+",
+		"userGrade": "6B+",
+		"setbyId": "05840737-B387-4421-B05F-E08B1A105B3A",
+		"setby": "Erika Eliz",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 395,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 365836,
+				"description": "F4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 365836,
+				"description": "G9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365836,
+				"description": "I15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365836,
+				"description": "D18",
+				"isStart": false,
+				"isEnd": true
+			},
+			{
+				"problemId": 365836,
+				"description": "H4",
+				"isStart": true,
+				"isEnd": false
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 365836,
+		"dateInserted": "2020-03-15T17:03:57.527",
+		"dateUpdated": "2023-01-12T17:33:22.693",
+		"dateDeleted": null
+	},
+	{
+		"name": "DON\u2019T COVID THY NEIGHBOR",
+		"grade": "6A+",
+		"userGrade": "6A+",
+		"setbyId": "05840737-B387-4421-B05F-E08B1A105B3A",
+		"setby": "Erika Eliz",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 423,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 365856,
+				"description": "H4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 365856,
+				"description": "F6",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365856,
+				"description": "E11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365856,
+				"description": "C13",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365856,
+				"description": "C8",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365856,
+				"description": "B16",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 365856,
+				"description": "A18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 365856,
+		"dateInserted": "2020-03-15T18:39:59.107",
+		"dateUpdated": "2023-01-12T18:04:55.31",
+		"dateDeleted": null
+	},
+	{
+		"name": "DAYSHIFT",
+		"grade": "5+",
+		"userGrade": "5+",
+		"setbyId": "E0122A7C-0EB0-4736-8F05-0C4FA620A0B5",
+		"setby": "Chalkdust66",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 1075,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 366173,
+				"description": "I18",
+				"isStart": false,
+				"isEnd": true
+			},
+			{
+				"problemId": 366173,
+				"description": "H16",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 366173,
+				"description": "H12",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 366173,
+				"description": "D10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 366173,
+				"description": "F8",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 366173,
+				"description": "H4",
+				"isStart": true,
+				"isEnd": false
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 366173,
+		"dateInserted": "2020-03-21T15:50:42.863",
+		"dateUpdated": "2023-01-12T18:06:19.047",
+		"dateDeleted": null
+	},
+	{
+		"name": "T REX 25",
+		"grade": "6A+",
+		"userGrade": "6A+",
+		"setbyId": "E0122A7C-0EB0-4736-8F05-0C4FA620A0B5",
+		"setby": "Chalkdust66",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 451,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 366249,
+				"description": "I5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 366249,
+				"description": "K4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 366249,
+				"description": "H9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 366249,
+				"description": "D8",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 366249,
+				"description": "E11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 366249,
+				"description": "C13",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 366249,
+				"description": "F16",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 366249,
+				"description": "D18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 366249,
+		"dateInserted": "2020-03-22T15:25:01.04",
+		"dateUpdated": "2023-01-12T17:58:48.303",
+		"dateDeleted": null
+	},
+	{
+		"name": "COVID HAIR",
+		"grade": "6C",
+		"userGrade": "6C",
+		"setbyId": "E0122A7C-0EB0-4736-8F05-0C4FA620A0B5",
+		"setby": "Chalkdust66",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 269,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 366406,
+				"description": "D2",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 366406,
+				"description": "G3",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 366406,
+				"description": "F6",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 366406,
+				"description": "G10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 366406,
+				"description": "H11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 366406,
+				"description": "I15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 366406,
+				"description": "A18",
+				"isStart": false,
+				"isEnd": true
+			},
+			{
+				"problemId": 366406,
+				"description": "D16",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 366406,
+				"description": "F16",
+				"isStart": false,
+				"isEnd": false
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 366406,
+		"dateInserted": "2020-03-25T17:21:48.343",
+		"dateUpdated": "2023-01-11T22:48:31.193",
+		"dateDeleted": null
+	},
+	{
+		"name": "PUG IN A RUG 25 DEG",
+		"grade": "6B",
+		"userGrade": "6B",
+		"setbyId": "05840737-B387-4421-B05F-E08B1A105B3A",
+		"setby": "Erika Eliz",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 721,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 366741,
+				"description": "F5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 366741,
+				"description": "D8",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 366741,
+				"description": "E11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 366741,
+				"description": "E14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 366741,
+				"description": "C18",
+				"isStart": false,
+				"isEnd": true
+			},
+			{
+				"problemId": 366741,
+				"description": "G17",
+				"isStart": false,
+				"isEnd": false
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 366741,
+		"dateInserted": "2020-03-31T23:50:06.647",
+		"dateUpdated": "2023-01-12T17:52:48.81",
+		"dateDeleted": null
+	},
+	{
+		"name": "NO MATCH FOR YOU",
+		"grade": "6A",
+		"userGrade": "6A",
+		"setbyId": "E0122A7C-0EB0-4736-8F05-0C4FA620A0B5",
+		"setby": "Chalkdust66",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 536,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 367750,
+				"description": "A4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 367750,
+				"description": "F2",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 367750,
+				"description": "E7",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 367750,
+				"description": "D6",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 367750,
+				"description": "E10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 367750,
+				"description": "B12",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 367750,
+				"description": "F13",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 367750,
+				"description": "C15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 367750,
+				"description": "H16",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 367750,
+				"description": "J18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 367750,
+		"dateInserted": "2020-04-19T17:00:37.55",
+		"dateUpdated": "2023-01-12T11:56:20.893",
+		"dateDeleted": null
+	},
+	{
+		"name": "SNART",
+		"grade": "6A+",
+		"userGrade": "6A+",
+		"setbyId": "b166765d-4153-4fc8-99b3-4b8fa9d93584",
+		"setby": "Allison Stowers",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 455,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 367762,
+				"description": "D3",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 367762,
+				"description": "G4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 367762,
+				"description": "G9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 367762,
+				"description": "C12",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 367762,
+				"description": "F16",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 367762,
+				"description": "D18",
+				"isStart": false,
+				"isEnd": true
+			},
+			{
+				"problemId": 367762,
+				"description": "F13",
+				"isStart": false,
+				"isEnd": false
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 367762,
+		"dateInserted": "2020-04-19T19:12:26.873",
+		"dateUpdated": "2023-01-12T18:04:29.107",
+		"dateDeleted": null
+	},
+	{
+		"name": "BROWNTOWN BOMBER 25",
+		"grade": "7A",
+		"userGrade": "7A",
+		"setbyId": "24715be3-ae19-4d90-8255-131159715aca",
+		"setby": "Vizual Pupil",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 240,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 368073,
+				"description": "I5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 368073,
+				"description": "K8",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368073,
+				"description": "E9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368073,
+				"description": "I11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368073,
+				"description": "F13",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368073,
+				"description": "B12",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368073,
+				"description": "B15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368073,
+				"description": "B17",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368073,
+				"description": "A18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			}
+		],
+		"hasBetaVideo": true,
+		"moonBoardConfigurationId": 2,
+		"apiId": 368073,
+		"dateInserted": "2020-04-25T18:24:15.36",
+		"dateUpdated": "2023-01-11T12:54:15.78",
+		"dateDeleted": null
+	},
+	{
+		"name": "SUMMER REIGN",
+		"grade": "6C",
+		"userGrade": "6C",
+		"setbyId": "E0122A7C-0EB0-4736-8F05-0C4FA620A0B5",
+		"setby": "Chalkdust66",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 316,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 368139,
+				"description": "K3",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368139,
+				"description": "A4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 368139,
+				"description": "A6",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 368139,
+				"description": "F8",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368139,
+				"description": "G9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368139,
+				"description": "K12",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368139,
+				"description": "G11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368139,
+				"description": "J15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368139,
+				"description": "G16",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368139,
+				"description": "F16",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368139,
+				"description": "B18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 368139,
+		"dateInserted": "2020-04-26T17:11:00.263",
+		"dateUpdated": "2023-01-12T03:03:58.563",
+		"dateDeleted": null
+	},
+	{
+		"name": "SHORT BACK AND SIDES",
+		"grade": "6B",
+		"userGrade": "6B",
+		"setbyId": "E0122A7C-0EB0-4736-8F05-0C4FA620A0B5",
+		"setby": "Chalkdust66",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 858,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 368719,
+				"description": "I4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 368719,
+				"description": "D5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 368719,
+				"description": "G9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368719,
+				"description": "E11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368719,
+				"description": "A10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368719,
+				"description": "B14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368719,
+				"description": "F16",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368719,
+				"description": "E16",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368719,
+				"description": "J18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 368719,
+		"dateInserted": "2020-05-10T15:58:45.42",
+		"dateUpdated": "2023-01-12T11:26:49.43",
+		"dateDeleted": null
+	},
+	{
+		"name": "HEARTBREAK CROSS",
+		"grade": "6B+",
+		"userGrade": "6B+",
+		"setbyId": "E0122A7C-0EB0-4736-8F05-0C4FA620A0B5",
+		"setby": "Chalkdust66",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 505,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 368854,
+				"description": "B4",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368854,
+				"description": "D5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 368854,
+				"description": "G4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 368854,
+				"description": "C10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368854,
+				"description": "F9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368854,
+				"description": "F13",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368854,
+				"description": "G15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 368854,
+				"description": "J18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 368854,
+		"dateInserted": "2020-05-13T15:27:22.58",
+		"dateUpdated": "2023-01-12T19:02:58.22",
+		"dateDeleted": null
+	},
+	{
+		"name": "M\u0141ODY SYNEK",
+		"grade": "7A",
+		"userGrade": "7A",
+		"setbyId": "b2c5d4cb-2356-43c0-8f7f-7d163e300f86",
+		"setby": "saymix",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 200,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 369215,
+				"description": "J3",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 369215,
+				"description": "F3",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 369215,
+				"description": "G8",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 369215,
+				"description": "E10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 369215,
+				"description": "B13",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 369215,
+				"description": "F15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 369215,
+				"description": "G18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": true,
+		"moonBoardConfigurationId": 2,
+		"apiId": 369215,
+		"dateInserted": "2020-05-22T16:34:23.213",
+		"dateUpdated": "2023-01-11T20:28:39.713",
+		"dateDeleted": null
+	},
+	{
+		"name": "SATAY",
+		"grade": "6B+",
+		"userGrade": "6B+",
+		"setbyId": "E0122A7C-0EB0-4736-8F05-0C4FA620A0B5",
+		"setby": "Chalkdust66",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 439,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 369247,
+				"description": "D1",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 369247,
+				"description": "A4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 369247,
+				"description": "E7",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 369247,
+				"description": "C10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 369247,
+				"description": "G12",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 369247,
+				"description": "E16",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 369247,
+				"description": "I18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 369247,
+		"dateInserted": "2020-05-23T16:39:23.29",
+		"dateUpdated": "2023-01-12T12:10:25.97",
+		"dateDeleted": null
+	},
+	{
+		"name": "ASZYNBECHER",
+		"grade": "7A",
+		"userGrade": "7A",
+		"setbyId": "3e966be5-6d4f-453e-9608-0bc444877fb6",
+		"setby": "simon",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 197,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 369766,
+				"description": "J3",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 369766,
+				"description": "H6",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 369766,
+				"description": "I6",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 369766,
+				"description": "F10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 369766,
+				"description": "E10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 369766,
+				"description": "C14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 369766,
+				"description": "H15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 369766,
+				"description": "I18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 369766,
+		"dateInserted": "2020-06-04T22:23:19.573",
+		"dateUpdated": "2023-01-11T20:54:40.503",
+		"dateDeleted": null
+	},
+	{
+		"name": "MORE PROBS 5",
+		"grade": "7B",
+		"userGrade": "7B",
+		"setbyId": "7fd54c4a-53d7-4719-85d4-99252dd890b3",
+		"setby": "Colin Bauer",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 120,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": true,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 371617,
+				"description": "D3",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 371617,
+				"description": "J13",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 371617,
+				"description": "E15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 371617,
+				"description": "D18",
+				"isStart": false,
+				"isEnd": true
+			},
+			{
+				"problemId": 371617,
+				"description": "I9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 371617,
+				"description": "H5",
+				"isStart": true,
+				"isEnd": false
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 371617,
+		"dateInserted": "2020-07-07T19:36:52.923",
+		"dateUpdated": "2023-01-11T06:26:00.25",
+		"dateDeleted": null
+	},
+	{
+		"name": "SUMMER VIBE",
+		"grade": "6B+",
+		"userGrade": "6B+",
+		"setbyId": "d1abc6b4-dda7-4b31-afe9-865bf7c36a93",
+		"setby": "Yann",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 174,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 371946,
+				"description": "F3",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 371946,
+				"description": "I4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 371946,
+				"description": "F8",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 371946,
+				"description": "I6",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 371946,
+				"description": "I11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 371946,
+				"description": "E13",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 371946,
+				"description": "G15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 371946,
+				"description": "D18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 371946,
+		"dateInserted": "2020-07-12T11:01:11.557",
+		"dateUpdated": "2023-01-12T18:53:00.407",
+		"dateDeleted": null
+	},
+	{
+		"name": "SUZUKI",
+		"grade": "6C+",
+		"userGrade": "6C+",
+		"setbyId": "c403d15c-89df-4775-bb7d-6a757240310e",
+		"setby": "Reinjong",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 289,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 372710,
+				"description": "B3",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 372710,
+				"description": "A11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 372710,
+				"description": "F14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 372710,
+				"description": "E18",
+				"isStart": false,
+				"isEnd": true
+			},
+			{
+				"problemId": 372710,
+				"description": "D4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 372710,
+				"description": "E7",
+				"isStart": false,
+				"isEnd": false
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 372710,
+		"dateInserted": "2020-07-22T17:14:52.107",
+		"dateUpdated": "2023-01-12T17:34:26.223",
+		"dateDeleted": null
+	},
+	{
+		"name": "VILLE PREND 2 AILES",
+		"grade": "6B",
+		"userGrade": "6B",
+		"setbyId": "2de4ecbf-23a3-4d6a-9b54-f98eef2c9fe7",
+		"setby": "Raphaa",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 360,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 372946,
+				"description": "C3",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 372946,
+				"description": "B8",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 372946,
+				"description": "F10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 372946,
+				"description": "G13",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 372946,
+				"description": "J15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 372946,
+				"description": "J18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": true,
+		"moonBoardConfigurationId": 2,
+		"apiId": 372946,
+		"dateInserted": "2020-07-25T20:10:10.197",
+		"dateUpdated": "2023-01-11T21:06:08.763",
+		"dateDeleted": null
+	},
+	{
+		"name": "PEAR, BOAT AND STOMACH",
+		"grade": "7A+",
+		"userGrade": "7A+",
+		"setbyId": "2de4ecbf-23a3-4d6a-9b54-f98eef2c9fe7",
+		"setby": "Raphaa",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 102,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 373120,
+				"description": "C3",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 373120,
+				"description": "E5",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 373120,
+				"description": "J5",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 373120,
+				"description": "K1",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 373120,
+				"description": "H11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 373120,
+				"description": "F14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 373120,
+				"description": "G18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 373120,
+		"dateInserted": "2020-07-28T15:38:30.77",
+		"dateUpdated": "2023-01-07T13:05:52.957",
+		"dateDeleted": null
+	},
+	{
+		"name": "NAZGUL 5",
+		"grade": "6A",
+		"userGrade": "6A",
+		"setbyId": "d752fdd4-32ea-4211-be60-fc360ae3c9c8",
+		"setby": "Ludozen",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 706,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 373264,
+				"description": "C3",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 373264,
+				"description": "D9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 373264,
+				"description": "G12",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 373264,
+				"description": "E15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 373264,
+				"description": "F18",
+				"isStart": false,
+				"isEnd": true
+			},
+			{
+				"problemId": 373264,
+				"description": "G5",
+				"isStart": true,
+				"isEnd": false
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 373264,
+		"dateInserted": "2020-07-30T12:19:22.16",
+		"dateUpdated": "2023-01-12T16:25:53.837",
+		"dateDeleted": null
+	},
+	{
+		"name": "EASY START",
+		"grade": "5+",
+		"userGrade": "5+",
+		"setbyId": "22631269-b868-49c5-9b8c-b5d09496b8ff",
+		"setby": "Mikkelfb",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 1102,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 373387,
+				"description": "A5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 373387,
+				"description": "E10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 373387,
+				"description": "C14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 373387,
+				"description": "B8",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 373387,
+				"description": "A11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 373387,
+				"description": "F15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 373387,
+				"description": "D3",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 373387,
+				"description": "D18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 373387,
+		"dateInserted": "2020-08-01T07:12:52.067",
+		"dateUpdated": "2023-01-12T17:15:06.357",
+		"dateDeleted": null
+	},
+	{
+		"name": "INGEN REPSKET",
+		"grade": "6B+",
+		"userGrade": "6B+",
+		"setbyId": "7d2edfb5-f0a5-4f6e-941d-a5b88cc27dcf",
+		"setby": "Malthe J\u00f8rgensen",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 329,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 373590,
+				"description": "C2",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 373590,
+				"description": "G3",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 373590,
+				"description": "D5",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 373590,
+				"description": "G9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 373590,
+				"description": "E12",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 373590,
+				"description": "H15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 373590,
+				"description": "H18",
+				"isStart": false,
+				"isEnd": true
+			},
+			{
+				"problemId": 373590,
+				"description": "K11",
+				"isStart": false,
+				"isEnd": false
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 373590,
+		"dateInserted": "2020-08-03T19:09:46.727",
+		"dateUpdated": "2023-01-12T17:57:54.593",
+		"dateDeleted": null
+	},
+	{
+		"name": "KNEE SLAPPER",
+		"grade": "5+",
+		"userGrade": "5+",
+		"setbyId": "62b611db-7c24-47e7-9ba1-1232c2d0e7eb",
+		"setby": "maurits enserink",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 1141,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 374058,
+				"description": "B5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 374058,
+				"description": "E7",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 374058,
+				"description": "A9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 374058,
+				"description": "E11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 374058,
+				"description": "C14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 374058,
+				"description": "H16",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 374058,
+				"description": "H18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 374058,
+		"dateInserted": "2020-08-09T13:15:13.173",
+		"dateUpdated": "2023-01-12T16:44:56.947",
+		"dateDeleted": null
+	},
+	{
+		"name": "BIG BOX SMALL BOX",
+		"grade": "7A",
+		"userGrade": "7A",
+		"setbyId": "ab591b27-d1a9-48a5-aedb-3ed1304bb716",
+		"setby": "Frankenator",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 404,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 375024,
+				"description": "I6",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 375024,
+				"description": "C9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 375024,
+				"description": "F11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 375024,
+				"description": "J18",
+				"isStart": false,
+				"isEnd": true
+			},
+			{
+				"problemId": 375024,
+				"description": "B13",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 375024,
+				"description": "D7",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 375024,
+				"description": "I4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 375024,
+				"description": "E16",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 375024,
+				"description": "G14",
+				"isStart": false,
+				"isEnd": false
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			}
+		],
+		"hasBetaVideo": true,
+		"moonBoardConfigurationId": 2,
+		"apiId": 375024,
+		"dateInserted": "2020-08-24T14:53:20.393",
+		"dateUpdated": "2023-01-12T16:49:38.857",
+		"dateDeleted": null
+	},
+	{
+		"name": "EM SCHW\u00dcGGLIGI HOOKTOPIA",
+		"grade": "6B",
+		"userGrade": "6B",
+		"setbyId": "bb702b93-fc93-4cc3-8b08-12c96990ddec",
+		"setby": "Rymeee",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 503,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 375854,
+				"description": "A5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 375854,
+				"description": "E5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 375854,
+				"description": "H4",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 375854,
+				"description": "H11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 375854,
+				"description": "D9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 375854,
+				"description": "E13",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 375854,
+				"description": "H16",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 375854,
+				"description": "G18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": true,
+		"moonBoardConfigurationId": 2,
+		"apiId": 375854,
+		"dateInserted": "2020-09-04T10:55:46.297",
+		"dateUpdated": "2023-01-12T11:49:42.55",
+		"dateDeleted": null
+	},
+	{
+		"name": "TRY HARD :)",
+		"grade": "7A",
+		"userGrade": "7A",
+		"setbyId": "99e6cba2-bd2b-4eaf-88fd-94985e5ac3b1",
+		"setby": "Lach",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 328,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 377574,
+				"description": "H5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 377574,
+				"description": "K2",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 377574,
+				"description": "C3",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 377574,
+				"description": "A10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 377574,
+				"description": "F8",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 377574,
+				"description": "F14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 377574,
+				"description": "D18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 377574,
+		"dateInserted": "2020-09-27T09:50:02.237",
+		"dateUpdated": "2023-01-11T20:13:48.727",
+		"dateDeleted": null
+	},
+	{
+		"name": "ONLY LITTLE WOOD",
+		"grade": "6C+",
+		"userGrade": "6C+",
+		"setbyId": "106a71a9-c229-4891-9f6c-c523df03a27e",
+		"setby": "Violett",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 172,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 381654,
+				"description": "I4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 381654,
+				"description": "E4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 381654,
+				"description": "F9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 381654,
+				"description": "F11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 381654,
+				"description": "B13",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 381654,
+				"description": "E16",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 381654,
+				"description": "E18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 381654,
+		"dateInserted": "2020-11-14T01:09:05.19",
+		"dateUpdated": "2023-01-10T10:39:27.65",
+		"dateDeleted": null
+	},
+	{
+		"name": "SUGAR",
+		"grade": "6A",
+		"userGrade": "6A",
+		"setbyId": "dcae54d4-cd55-4d14-80be-b6ff263f12f2",
+		"setby": "claud.ini",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 468,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 387798,
+				"description": "F5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 387798,
+				"description": "D8",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 387798,
+				"description": "E10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 387798,
+				"description": "D13",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 387798,
+				"description": "G14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 387798,
+				"description": "G17",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 387798,
+				"description": "H18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 387798,
+		"dateInserted": "2021-01-19T14:41:29.3",
+		"dateUpdated": "2023-01-12T02:52:39.81",
+		"dateDeleted": null
+	},
+	{
+		"name": "TOEPRESS 25\u2019",
+		"grade": "6C",
+		"userGrade": "6C",
+		"setbyId": "E0122A7C-0EB0-4736-8F05-0C4FA620A0B5",
+		"setby": "Chalkdust66",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 483,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 395024,
+				"description": "F4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 395024,
+				"description": "K8",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395024,
+				"description": "H11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395024,
+				"description": "I14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395024,
+				"description": "E14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395024,
+				"description": "E16",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395024,
+				"description": "B18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 395024,
+		"dateInserted": "2021-03-07T21:56:36.71",
+		"dateUpdated": "2023-01-11T22:49:16.79",
+		"dateDeleted": null
+	},
+	{
+		"name": "THE  25\u2019 SURPRISE",
+		"grade": "7A+",
+		"userGrade": "7A+",
+		"setbyId": "E0122A7C-0EB0-4736-8F05-0C4FA620A0B5",
+		"setby": "Chalkdust66",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 134,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 395086,
+				"description": "J5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 395086,
+				"description": "F9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395086,
+				"description": "F11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395086,
+				"description": "B13",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395086,
+				"description": "E16",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395086,
+				"description": "F18",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395086,
+				"description": "J18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 395086,
+		"dateInserted": "2021-03-08T17:56:19.843",
+		"dateUpdated": "2023-01-09T19:22:42.627",
+		"dateDeleted": null
+	},
+	{
+		"name": "FINGER JUGS",
+		"grade": "7A+",
+		"userGrade": "7A+",
+		"setbyId": "bcf77753-4f64-4030-be02-dfd85579fd19",
+		"setby": "Ullie",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 196,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 395281,
+				"description": "B4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 395281,
+				"description": "C4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 395281,
+				"description": "G4",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395281,
+				"description": "I10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395281,
+				"description": "E13",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395281,
+				"description": "F18",
+				"isStart": false,
+				"isEnd": true
+			},
+			{
+				"problemId": 395281,
+				"description": "G7",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395281,
+				"description": "D14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395281,
+				"description": "C16",
+				"isStart": false,
+				"isEnd": false
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 395281,
+		"dateInserted": "2021-03-10T10:56:32.8",
+		"dateUpdated": "2023-01-11T09:54:20.577",
+		"dateDeleted": null
+	},
+	{
+		"name": "CYPHER 25",
+		"grade": "6C",
+		"userGrade": "6C",
+		"setbyId": "E0122A7C-0EB0-4736-8F05-0C4FA620A0B5",
+		"setby": "Chalkdust66",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 327,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 395305,
+				"description": "I5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 395305,
+				"description": "D4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 395305,
+				"description": "F8",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395305,
+				"description": "H11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395305,
+				"description": "E14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395305,
+				"description": "H15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395305,
+				"description": "B17",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395305,
+				"description": "A18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 395305,
+		"dateInserted": "2021-03-10T16:13:33.48",
+		"dateUpdated": "2023-01-11T13:52:10.3",
+		"dateDeleted": null
+	},
+	{
+		"name": "ZIPPY PUGUA",
+		"grade": "6A+",
+		"userGrade": "6A+",
+		"setbyId": "E0122A7C-0EB0-4736-8F05-0C4FA620A0B5",
+		"setby": "Chalkdust66",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 369,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 395307,
+				"description": "D3",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 395307,
+				"description": "H4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 395307,
+				"description": "F9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395307,
+				"description": "E14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395307,
+				"description": "D18",
+				"isStart": false,
+				"isEnd": true
+			},
+			{
+				"problemId": 395307,
+				"description": "H12",
+				"isStart": false,
+				"isEnd": false
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 395307,
+		"dateInserted": "2021-03-10T16:29:26.667",
+		"dateUpdated": "2023-01-12T11:25:13.15",
+		"dateDeleted": null
+	},
+	{
+		"name": "MEAN PINBALL 25",
+		"grade": "6B",
+		"userGrade": "6B",
+		"setbyId": "E0122A7C-0EB0-4736-8F05-0C4FA620A0B5",
+		"setby": "Chalkdust66",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 587,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 395311,
+				"description": "I5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 395311,
+				"description": "F6",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 395311,
+				"description": "H10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395311,
+				"description": "E14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395311,
+				"description": "E15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395311,
+				"description": "A12",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395311,
+				"description": "B18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 395311,
+		"dateInserted": "2021-03-10T16:47:57.17",
+		"dateUpdated": "2023-01-12T17:04:44.63",
+		"dateDeleted": null
+	},
+	{
+		"name": "COUCH LIFE 25",
+		"grade": "6C+",
+		"userGrade": "6C+",
+		"setbyId": "E0122A7C-0EB0-4736-8F05-0C4FA620A0B5",
+		"setby": "Chalkdust66",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 206,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 395317,
+				"description": "A4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 395317,
+				"description": "D3",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 395317,
+				"description": "C8",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395317,
+				"description": "E9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395317,
+				"description": "B15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395317,
+				"description": "F16",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395317,
+				"description": "G18",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395317,
+				"description": "J18",
+				"isStart": false,
+				"isEnd": true
+			},
+			{
+				"problemId": 395317,
+				"description": "F13",
+				"isStart": false,
+				"isEnd": false
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 395317,
+		"dateInserted": "2021-03-10T17:26:50.007",
+		"dateUpdated": "2023-01-12T03:18:00.717",
+		"dateDeleted": null
+	},
+	{
+		"name": "THINK ON FEET 25\u00b0",
+		"grade": "7A",
+		"userGrade": "7A",
+		"setbyId": "E0122A7C-0EB0-4736-8F05-0C4FA620A0B5",
+		"setby": "Chalkdust66",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 216,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 395596,
+				"description": "K3",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 395596,
+				"description": "J6",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 395596,
+				"description": "H8",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395596,
+				"description": "G15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395596,
+				"description": "E14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395596,
+				"description": "F11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395596,
+				"description": "I18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			}
+		],
+		"hasBetaVideo": true,
+		"moonBoardConfigurationId": 2,
+		"apiId": 395596,
+		"dateInserted": "2021-03-13T16:30:30.69",
+		"dateUpdated": "2023-01-12T17:46:17.453",
+		"dateDeleted": null
+	},
+	{
+		"name": "PARAPARA-VAR 25",
+		"grade": "7A",
+		"userGrade": "7A",
+		"setbyId": "E0122A7C-0EB0-4736-8F05-0C4FA620A0B5",
+		"setby": "Chalkdust66",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 263,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 395685,
+				"description": "A5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 395685,
+				"description": "G7",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395685,
+				"description": "D6",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395685,
+				"description": "D12",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395685,
+				"description": "D11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395685,
+				"description": "I14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395685,
+				"description": "H17",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 395685,
+				"description": "K18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 395685,
+		"dateInserted": "2021-03-14T17:12:15.01",
+		"dateUpdated": "2023-01-12T02:43:49.773",
+		"dateDeleted": null
+	},
+	{
+		"name": "DRAMATICALLY WARM 25\u00b0",
+		"grade": "6A+",
+		"userGrade": "6A+",
+		"setbyId": "4ea41116-c6b7-4784-b418-442b25712278",
+		"setby": "Adrian Landreth",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 852,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 397774,
+				"description": "G6",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 397774,
+				"description": "J4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 397774,
+				"description": "K9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 397774,
+				"description": "F10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 397774,
+				"description": "G12",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 397774,
+				"description": "C14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 397774,
+				"description": "F16",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 397774,
+				"description": "B18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 397774,
+		"dateInserted": "2021-03-28T04:33:21.4",
+		"dateUpdated": "2023-01-12T18:25:49.53",
+		"dateDeleted": null
+	},
+	{
+		"name": "NUGGET PRESSURE 25\u00b0",
+		"grade": "6A+",
+		"userGrade": "6A+",
+		"setbyId": "4ea41116-c6b7-4784-b418-442b25712278",
+		"setby": "Adrian Landreth",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 713,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 397775,
+				"description": "F4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 397775,
+				"description": "J4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 397775,
+				"description": "G9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 397775,
+				"description": "D10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 397775,
+				"description": "A11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 397775,
+				"description": "A14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 397775,
+				"description": "A15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 397775,
+				"description": "D18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 397775,
+		"dateInserted": "2021-03-28T04:35:21.01",
+		"dateUpdated": "2023-01-12T16:53:19.08",
+		"dateDeleted": null
+	},
+	{
+		"name": "TUCK-IN 25\u00b0",
+		"grade": "6C",
+		"userGrade": "6C",
+		"setbyId": "4ea41116-c6b7-4784-b418-442b25712278",
+		"setby": "Adrian Landreth",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 145,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 402100,
+				"description": "F5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 402100,
+				"description": "G9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 402100,
+				"description": "C13",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 402100,
+				"description": "E14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 402100,
+				"description": "D18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 402100,
+		"dateInserted": "2021-05-08T01:46:41.083",
+		"dateUpdated": "2023-01-12T16:54:33.867",
+		"dateDeleted": null
+	},
+	{
+		"name": "LES BOR\u00c9ADES 25\u00b0",
+		"grade": "6C",
+		"userGrade": "6C",
+		"setbyId": "4ea41116-c6b7-4784-b418-442b25712278",
+		"setby": "Adrian Landreth",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 349,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 402673,
+				"description": "H4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 402673,
+				"description": "E8",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 402673,
+				"description": "I10",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 402673,
+				"description": "E12",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 402673,
+				"description": "F13",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 402673,
+				"description": "B14",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 402673,
+				"description": "D18",
+				"isStart": false,
+				"isEnd": true
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Wooden Holds",
+				"locations": null,
+				"apiId": 9
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 402673,
+		"dateInserted": "2021-05-15T21:59:40.823",
+		"dateUpdated": "2023-01-12T09:11:45.58",
+		"dateDeleted": null
+	},
+	{
+		"name": "M&Y 1",
+		"grade": "6C",
+		"userGrade": "6C",
+		"setbyId": "e04ddb71-e431-4d12-93e7-d46215be6300",
+		"setby": "Yann",
+		"method": "Feet follow hands",
+		"userRating": 5,
+		"repeats": 118,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": false,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 412565,
+				"description": "H4",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 412565,
+				"description": "C3",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 412565,
+				"description": "A2",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 412565,
+				"description": "G7",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 412565,
+				"description": "F12",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 412565,
+				"description": "D11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 412565,
+				"description": "A15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 412565,
+				"description": "C18",
+				"isStart": false,
+				"isEnd": true
+			},
+			{
+				"problemId": 412565,
+				"description": "D16",
+				"isStart": false,
+				"isEnd": false
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Original School Holds",
+				"locations": null,
+				"apiId": 3
+			},
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 412565,
+		"dateInserted": "2021-08-22T18:03:48.663",
+		"dateUpdated": "2023-01-12T19:20:32.67",
+		"dateDeleted": null
+	}
+]
