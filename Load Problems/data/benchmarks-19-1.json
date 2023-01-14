@@ -195,7 +195,7 @@
 		"setby": "Ramoo",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 635,
+		"repeats": 636,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -254,7 +254,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 370130,
 		"dateInserted": "2020-06-13T08:30:19.353",
-		"dateUpdated": "2023-01-12T07:33:13.987",
+		"dateUpdated": "2023-01-13T19:52:21.537",
 		"dateDeleted": null
 	},
 	{
@@ -335,7 +335,7 @@
 		"setby": "DonCha",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 510,
+		"repeats": 511,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -387,7 +387,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 370299,
 		"dateInserted": "2020-06-16T21:15:52.59",
-		"dateUpdated": "2023-01-12T01:43:15.713",
+		"dateUpdated": "2023-01-13T17:26:23.95",
 		"dateDeleted": null
 	},
 	{
@@ -531,7 +531,7 @@
 		"setby": "Diana Wolf",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 752,
+		"repeats": 753,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -600,7 +600,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 370515,
 		"dateInserted": "2020-06-20T20:13:33.47",
-		"dateUpdated": "2023-01-12T04:37:45.993",
+		"dateUpdated": "2023-01-13T18:40:27.563",
 		"dateDeleted": null
 	},
 	{
@@ -1066,7 +1066,7 @@
 		"setby": "Joe Melvin",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 219,
+		"repeats": 221,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -1136,7 +1136,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 370734,
 		"dateInserted": "2020-06-24T03:24:32.813",
-		"dateUpdated": "2023-01-11T15:08:42.243",
+		"dateUpdated": "2023-01-14T01:48:00.29",
 		"dateDeleted": null
 	},
 	{
@@ -1423,7 +1423,7 @@
 		"setby": "Diana Wolf",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 307,
+		"repeats": 308,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -1498,7 +1498,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 370964,
 		"dateInserted": "2020-06-27T20:10:38.553",
-		"dateUpdated": "2023-01-12T17:19:17.387",
+		"dateUpdated": "2023-01-14T01:37:29.04",
 		"dateDeleted": null
 	},
 	{
@@ -1687,7 +1687,7 @@
 		"setby": "Joe Melvin",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 190,
+		"repeats": 191,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -1751,7 +1751,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 371153,
 		"dateInserted": "2020-07-01T01:54:08.63",
-		"dateUpdated": "2023-01-11T15:11:26.087",
+		"dateUpdated": "2023-01-13T18:13:53.623",
 		"dateDeleted": null
 	},
 	{
@@ -1762,7 +1762,7 @@
 		"setby": "mnanao",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 589,
+		"repeats": 590,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -1820,7 +1820,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 371241,
 		"dateInserted": "2020-07-02T13:18:25.497",
-		"dateUpdated": "2023-01-09T09:57:25.9",
+		"dateUpdated": "2023-01-13T18:51:42.377",
 		"dateDeleted": null
 	},
 	{
@@ -1900,7 +1900,7 @@
 		"setby": "McGizzle",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 292,
+		"repeats": 293,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -1970,7 +1970,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 371546,
 		"dateInserted": "2020-07-07T05:50:16.067",
-		"dateUpdated": "2023-01-12T17:18:34.54",
+		"dateUpdated": "2023-01-14T01:41:20.377",
 		"dateDeleted": null
 	},
 	{
@@ -2150,7 +2150,7 @@
 		"setby": "McGizzle",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 199,
+		"repeats": 200,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -2225,7 +2225,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 371925,
 		"dateInserted": "2020-07-12T01:08:27.643",
-		"dateUpdated": "2023-01-04T20:32:54.797",
+		"dateUpdated": "2023-01-14T01:55:43.91",
 		"dateDeleted": null
 	},
 	{
@@ -2300,7 +2300,7 @@
 		"setby": "Speedy",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 767,
+		"repeats": 768,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -2358,7 +2358,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 372504,
 		"dateInserted": "2020-07-20T18:36:49",
-		"dateUpdated": "2023-01-12T18:28:23.723",
+		"dateUpdated": "2023-01-13T18:33:16.217",
 		"dateDeleted": null
 	},
 	{
@@ -2842,7 +2842,7 @@
 		"setby": "d. chu",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 41,
+		"repeats": 42,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -2918,7 +2918,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 373468,
 		"dateInserted": "2020-08-02T07:29:59.7",
-		"dateUpdated": "2023-01-11T19:47:11.487",
+		"dateUpdated": "2023-01-13T16:03:03.29",
 		"dateDeleted": null
 	},
 	{
@@ -3297,7 +3297,7 @@
 		"setby": "sweaty.tips",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 419,
+		"repeats": 420,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -3407,7 +3407,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 374478,
 		"dateInserted": "2020-08-15T15:50:00.393",
-		"dateUpdated": "2023-01-02T23:25:00.233",
+		"dateUpdated": "2023-01-13T02:16:16.86",
 		"dateDeleted": null
 	},
 	{
@@ -3515,7 +3515,7 @@
 		"setby": "jason mccarthy",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 448,
+		"repeats": 449,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -3579,7 +3579,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 374556,
 		"dateInserted": "2020-08-17T00:27:58.413",
-		"dateUpdated": "2023-01-10T17:37:00.423",
+		"dateUpdated": "2023-01-13T14:20:49.39",
 		"dateDeleted": null
 	},
 	{
@@ -3927,7 +3927,7 @@
 		"setby": "McGizzle",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 857,
+		"repeats": 859,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -4014,7 +4014,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 374947,
 		"dateInserted": "2020-08-23T04:25:59.333",
-		"dateUpdated": "2023-01-12T17:57:13.6",
+		"dateUpdated": "2023-01-13T14:16:32.89",
 		"dateDeleted": null
 	},
 	{
@@ -4025,7 +4025,7 @@
 		"setby": "McGizzle",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 498,
+		"repeats": 500,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -4100,7 +4100,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 374948,
 		"dateInserted": "2020-08-23T04:26:42.753",
-		"dateUpdated": "2023-01-11T15:23:41.783",
+		"dateUpdated": "2023-01-13T18:15:22.697",
 		"dateDeleted": null
 	},
 	{
@@ -4277,7 +4277,7 @@
 		"setby": "Nick Wedge",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 37,
+		"repeats": 38,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -4351,7 +4351,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 375159,
 		"dateInserted": "2020-08-26T05:02:17.157",
-		"dateUpdated": "2023-01-03T10:42:17.677",
+		"dateUpdated": "2023-01-13T03:48:02.007",
 		"dateDeleted": null
 	},
 	{
@@ -5023,7 +5023,7 @@
 		"setby": "Alessandro Sigismondi",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 482,
+		"repeats": 484,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -5099,7 +5099,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 376159,
 		"dateInserted": "2020-09-09T18:50:34.82",
-		"dateUpdated": "2023-01-09T17:54:38.873",
+		"dateUpdated": "2023-01-14T01:29:04.37",
 		"dateDeleted": null
 	},
 	{
@@ -5368,7 +5368,7 @@
 		"setby": "d. chu",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 81,
+		"repeats": 82,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -5449,7 +5449,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 377469,
 		"dateInserted": "2020-09-26T00:03:24.493",
-		"dateUpdated": "2023-01-05T19:30:06.593",
+		"dateUpdated": "2023-01-13T22:40:11.463",
 		"dateDeleted": null
 	},
 	{
@@ -5714,7 +5714,7 @@
 		"setby": "mnanao",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 456,
+		"repeats": 457,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -5790,7 +5790,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 378148,
 		"dateInserted": "2020-10-04T10:29:05.893",
-		"dateUpdated": "2023-01-09T23:13:53.06",
+		"dateUpdated": "2023-01-14T01:29:23.87",
 		"dateDeleted": null
 	},
 	{
@@ -6198,7 +6198,7 @@
 		"setby": "mnanao",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 127,
+		"repeats": 128,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -6274,7 +6274,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 379084,
 		"dateInserted": "2020-10-15T09:38:20.67",
-		"dateUpdated": "2023-01-12T17:31:50.39",
+		"dateUpdated": "2023-01-14T02:03:51.447",
 		"dateDeleted": null
 	},
 	{
@@ -6538,7 +6538,7 @@
 		"setby": "Dexter",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 307,
+		"repeats": 308,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -6602,7 +6602,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 381306,
 		"dateInserted": "2020-11-10T17:18:59.197",
-		"dateUpdated": "2023-01-08T19:13:20.647",
+		"dateUpdated": "2023-01-14T01:37:14.09",
 		"dateDeleted": null
 	},
 	{
@@ -6861,7 +6861,7 @@
 		"setby": "John Niklasson",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 442,
+		"repeats": 444,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -6913,7 +6913,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 382166,
 		"dateInserted": "2020-11-16T19:18:01.193",
-		"dateUpdated": "2023-01-11T15:25:40.31",
+		"dateUpdated": "2023-01-13T19:00:54.55",
 		"dateDeleted": null
 	},
 	{
@@ -6994,7 +6994,7 @@
 		"setby": "John Niklasson",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 193,
+		"repeats": 194,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -7052,7 +7052,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 382269,
 		"dateInserted": "2020-11-17T18:56:20.223",
-		"dateUpdated": "2023-01-07T23:44:37.823",
+		"dateUpdated": "2023-01-13T17:21:40.823",
 		"dateDeleted": null
 	},
 	{
@@ -7748,7 +7748,7 @@
 		"setby": "Alessandro Sigismondi",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 400,
+		"repeats": 401,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -7818,7 +7818,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 383590,
 		"dateInserted": "2020-12-03T19:35:15.797",
-		"dateUpdated": "2023-01-09T23:30:14.747",
+		"dateUpdated": "2023-01-14T01:29:42.3",
 		"dateDeleted": null
 	},
 	{
@@ -8082,7 +8082,7 @@
 		"setby": "Fox79",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 685,
+		"repeats": 686,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -8162,7 +8162,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 384002,
 		"dateInserted": "2020-12-08T13:37:47.53",
-		"dateUpdated": "2023-01-12T19:27:21.773",
+		"dateUpdated": "2023-01-14T00:39:59.77",
 		"dateDeleted": null
 	},
 	{
@@ -8327,7 +8327,7 @@
 		"setby": "Jutmanmingo",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 559,
+		"repeats": 560,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -8402,7 +8402,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 384235,
 		"dateInserted": "2020-12-10T18:14:01.403",
-		"dateUpdated": "2023-01-12T19:08:09.767",
+		"dateUpdated": "2023-01-13T17:52:02.147",
 		"dateDeleted": null
 	},
 	{
@@ -9319,7 +9319,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 385962,
 		"dateInserted": "2020-12-30T16:39:04.813",
-		"dateUpdated": "2023-01-12T09:44:58.477",
+		"dateUpdated": "2023-01-13T13:41:16.083",
 		"dateDeleted": null
 	},
 	{
@@ -9962,8 +9962,8 @@
 		"setbyId": "46B7A5A1-6252-401C-8A6C-5F50DF853FD5",
 		"setby": "Sebastian Dr\u00fceke",
 		"method": "Feet follow hands",
-		"userRating": 4,
-		"repeats": 697,
+		"userRating": 5,
+		"repeats": 699,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -10038,7 +10038,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 386649,
 		"dateInserted": "2021-01-07T17:42:20.433",
-		"dateUpdated": "2023-01-12T20:10:06.37",
+		"dateUpdated": "2023-01-13T18:57:55.05",
 		"dateDeleted": null
 	},
 	{
@@ -10208,7 +10208,7 @@
 		"setby": "Wytold",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 505,
+		"repeats": 506,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -10277,7 +10277,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 387576,
 		"dateInserted": "2021-01-16T19:35:22.653",
-		"dateUpdated": "2023-01-12T19:15:37.81",
+		"dateUpdated": "2023-01-13T17:47:44.92",
 		"dateDeleted": null
 	},
 	{
@@ -10890,7 +10890,7 @@
 		"setby": "nobbs",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 533,
+		"repeats": 534,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -10966,7 +10966,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 388648,
 		"dateInserted": "2021-01-25T21:55:16.913",
-		"dateUpdated": "2023-01-11T10:25:04.02",
+		"dateUpdated": "2023-01-13T05:45:16.697",
 		"dateDeleted": null
 	},
 	{
@@ -11900,7 +11900,7 @@
 		"setby": "Ahamyszka",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 290,
+		"repeats": 291,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -11969,7 +11969,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 392573,
 		"dateInserted": "2021-02-11T21:11:09.247",
-		"dateUpdated": "2023-01-12T19:33:05.09",
+		"dateUpdated": "2023-01-13T17:45:40.727",
 		"dateDeleted": null
 	},
 	{
@@ -12068,7 +12068,7 @@
 		"setby": "d. chu",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 59,
+		"repeats": 60,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -12139,7 +12139,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 392793,
 		"dateInserted": "2021-02-13T23:33:36.08",
-		"dateUpdated": "2022-12-19T18:22:38.41",
+		"dateUpdated": "2023-01-13T17:44:54.293",
 		"dateDeleted": null
 	},
 	{
@@ -12364,7 +12364,7 @@
 		"setby": "akrajnc ",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 495,
+		"repeats": 496,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -12445,7 +12445,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 393920,
 		"dateInserted": "2021-02-24T18:43:06.25",
-		"dateUpdated": "2023-01-12T19:40:02.61",
+		"dateUpdated": "2023-01-13T17:43:28.45",
 		"dateDeleted": null
 	},
 	{
@@ -12456,7 +12456,7 @@
 		"setby": "Vertical.jan",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 216,
+		"repeats": 217,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -12537,7 +12537,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 394307,
 		"dateInserted": "2021-02-28T14:57:32.353",
-		"dateUpdated": "2023-01-12T23:11:40.787",
+		"dateUpdated": "2023-01-13T17:40:03.47",
 		"dateDeleted": null
 	},
 	{
@@ -12547,8 +12547,8 @@
 		"setbyId": "370740D4-CBE4-401B-B9FC-4E9676269BE5",
 		"setby": "d. chu",
 		"method": "Feet follow hands",
-		"userRating": 4,
-		"repeats": 35,
+		"userRating": 5,
+		"repeats": 36,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -12600,7 +12600,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 394718,
 		"dateInserted": "2021-03-04T04:13:32.127",
-		"dateUpdated": "2022-12-18T18:01:55.727",
+		"dateUpdated": "2023-01-13T05:17:19.08",
 		"dateDeleted": null
 	},
 	{
@@ -12686,7 +12686,7 @@
 		"setby": "Tom",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 179,
+		"repeats": 180,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -12773,7 +12773,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 395242,
 		"dateInserted": "2021-03-09T23:35:56.033",
-		"dateUpdated": "2023-01-11T01:56:29.793",
+		"dateUpdated": "2023-01-13T17:19:28.41",
 		"dateDeleted": null
 	},
 	{
@@ -13128,7 +13128,7 @@
 		"setby": "Jan",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 561,
+		"repeats": 562,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -13208,7 +13208,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 395585,
 		"dateInserted": "2021-03-13T14:10:57.157",
-		"dateUpdated": "2023-01-12T19:28:28.38",
+		"dateUpdated": "2023-01-14T00:53:08.363",
 		"dateDeleted": null
 	},
 	{
@@ -14363,7 +14363,7 @@
 		"setby": "jenskm",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 128,
+		"repeats": 129,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -14467,7 +14467,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 402031,
 		"dateInserted": "2021-05-06T21:31:14.93",
-		"dateUpdated": "2023-01-05T12:23:14.43",
+		"dateUpdated": "2023-01-14T02:04:05.1",
 		"dateDeleted": null
 	},
 	{
@@ -14715,7 +14715,7 @@
 		"setby": "jenskm",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 86,
+		"repeats": 88,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -14796,7 +14796,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 402802,
 		"dateInserted": "2021-05-17T21:16:24.97",
-		"dateUpdated": "2023-01-12T10:36:10.68",
+		"dateUpdated": "2023-01-14T02:20:25.813",
 		"dateDeleted": null
 	},
 	{
@@ -14807,7 +14807,7 @@
 		"setby": "JennyPenny",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 236,
+		"repeats": 237,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -14888,7 +14888,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 402935,
 		"dateInserted": "2021-05-19T14:27:22.16",
-		"dateUpdated": "2023-01-08T20:54:42.78",
+		"dateUpdated": "2023-01-14T01:47:45.37",
 		"dateDeleted": null
 	},
 	{
@@ -15037,7 +15037,7 @@
 		"setby": "jenskm",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 545,
+		"repeats": 546,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -15106,7 +15106,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 405190,
 		"dateInserted": "2021-06-04T19:06:35.997",
-		"dateUpdated": "2023-01-12T01:40:30.84",
+		"dateUpdated": "2023-01-13T17:26:25.08",
 		"dateDeleted": null
 	},
 	{
@@ -15117,7 +15117,7 @@
 		"setby": "Wytold",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 144,
+		"repeats": 145,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -15198,7 +15198,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 406740,
 		"dateInserted": "2021-06-12T20:30:45.58",
-		"dateUpdated": "2023-01-10T19:10:44.897",
+		"dateUpdated": "2023-01-14T01:55:22.49",
 		"dateDeleted": null
 	},
 	{
@@ -15209,7 +15209,7 @@
 		"setby": "lekanteto",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 418,
+		"repeats": 421,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -15284,7 +15284,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 406795,
 		"dateInserted": "2021-06-13T19:24:13.657",
-		"dateUpdated": "2023-01-10T18:34:09.603",
+		"dateUpdated": "2023-01-13T19:33:06.25",
 		"dateDeleted": null
 	},
 	{
@@ -15295,7 +15295,7 @@
 		"setby": "Mr. Pancakes",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 249,
+		"repeats": 251,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -15376,7 +15376,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 406889,
 		"dateInserted": "2021-06-15T04:52:11.773",
-		"dateUpdated": "2023-01-11T20:46:36.27",
+		"dateUpdated": "2023-01-13T20:35:59.623",
 		"dateDeleted": null
 	},
 	{
@@ -15387,7 +15387,7 @@
 		"setby": "jenskm",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 99,
+		"repeats": 101,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -15467,7 +15467,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 407237,
 		"dateInserted": "2021-06-19T20:25:54.11",
-		"dateUpdated": "2023-01-12T02:36:06.993",
+		"dateUpdated": "2023-01-14T02:11:29.37",
 		"dateDeleted": null
 	},
 	{
@@ -15557,7 +15557,7 @@
 		"setby": "herberge",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 192,
+		"repeats": 193,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -15626,7 +15626,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 407336,
 		"dateInserted": "2021-06-21T19:36:42.403",
-		"dateUpdated": "2023-01-11T20:48:02.787",
+		"dateUpdated": "2023-01-13T21:35:13.32",
 		"dateDeleted": null
 	},
 	{
@@ -15872,7 +15872,7 @@
 		"setby": "Jordsmith",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 136,
+		"repeats": 138,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -15965,7 +15965,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 408074,
 		"dateInserted": "2021-07-02T11:53:05.413",
-		"dateUpdated": "2023-01-12T10:12:05.757",
+		"dateUpdated": "2023-01-14T01:56:56.7",
 		"dateDeleted": null
 	},
 	{
@@ -15976,7 +15976,7 @@
 		"setby": "edmund markey",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 135,
+		"repeats": 138,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -16046,7 +16046,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 409238,
 		"dateInserted": "2021-07-04T15:07:11.977",
-		"dateUpdated": "2023-01-12T02:21:01.213",
+		"dateUpdated": "2023-01-14T01:56:11.427",
 		"dateDeleted": null
 	},
 	{
@@ -16505,7 +16505,7 @@
 		"setby": "McGizzle",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 143,
+		"repeats": 144,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -16580,7 +16580,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 413447,
 		"dateInserted": "2021-09-05T01:12:33.613",
-		"dateUpdated": "2023-01-10T18:10:43.96",
+		"dateUpdated": "2023-01-14T02:15:19.18",
 		"dateDeleted": null
 	},
 	{
@@ -16816,7 +16816,7 @@
 		"setby": "Alkozine ",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 112,
+		"repeats": 114,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -16874,7 +16874,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 414426,
 		"dateInserted": "2021-09-18T12:08:21.837",
-		"dateUpdated": "2023-01-11T20:55:15.617",
+		"dateUpdated": "2023-01-14T01:29:19.417",
 		"dateDeleted": null
 	},
 	{
@@ -17264,7 +17264,7 @@
 		"setby": "DeathShadowBe",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 617,
+		"repeats": 618,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -17340,7 +17340,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 416870,
 		"dateInserted": "2021-10-17T13:58:53.503",
-		"dateUpdated": "2023-01-10T20:17:54.03",
+		"dateUpdated": "2023-01-13T20:07:50.39",
 		"dateDeleted": null
 	},
 	{
@@ -17654,7 +17654,7 @@
 		"setby": "Tom",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 70,
+		"repeats": 71,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -17729,7 +17729,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 419277,
 		"dateInserted": "2021-11-14T23:54:21.43",
-		"dateUpdated": "2023-01-07T18:17:25.107",
+		"dateUpdated": "2023-01-13T15:43:14.69",
 		"dateDeleted": null
 	},
 	{
@@ -17871,7 +17871,7 @@
 		"setby": "Callen",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 98,
+		"repeats": 99,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -17946,7 +17946,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 419771,
 		"dateInserted": "2021-11-19T13:29:34.737",
-		"dateUpdated": "2023-01-12T18:14:37.71",
+		"dateUpdated": "2023-01-14T02:11:47.073",
 		"dateDeleted": null
 	},
 	{
@@ -17957,7 +17957,7 @@
 		"setby": "Roli",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 27,
+		"repeats": 28,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -18037,7 +18037,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 420044,
 		"dateInserted": "2021-11-22T16:59:02.803",
-		"dateUpdated": "2022-12-19T15:30:49.017",
+		"dateUpdated": "2023-01-13T17:58:06.257",
 		"dateDeleted": null
 	},
 	{
@@ -18294,7 +18294,7 @@
 		"setby": "BigT",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 22,
+		"repeats": 23,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -18380,7 +18380,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 423835,
 		"dateInserted": "2022-01-01T22:47:31.593",
-		"dateUpdated": "2022-12-19T11:11:44.823",
+		"dateUpdated": "2023-01-13T22:26:15.103",
 		"dateDeleted": null
 	},
 	{
@@ -18391,7 +18391,7 @@
 		"setby": "James Zanoni",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 151,
+		"repeats": 153,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -18466,7 +18466,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 423855,
 		"dateInserted": "2022-01-02T00:25:25.937",
-		"dateUpdated": "2023-01-12T17:06:50.687",
+		"dateUpdated": "2023-01-13T19:30:44.07",
 		"dateDeleted": null
 	},
 	{
@@ -18551,7 +18551,7 @@
 		"setby": "John Niklasson",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 139,
+		"repeats": 140,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -18620,7 +18620,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 424342,
 		"dateInserted": "2022-01-06T18:14:50.88",
-		"dateUpdated": "2023-01-11T19:28:23.8",
+		"dateUpdated": "2023-01-13T21:54:42.35",
 		"dateDeleted": null
 	},
 	{
@@ -18718,7 +18718,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 424560,
 		"dateInserted": "2022-01-09T11:11:14.55",
-		"dateUpdated": "2023-01-10T20:54:01.667",
+		"dateUpdated": "2023-01-13T20:55:57.523",
 		"dateDeleted": null
 	},
 	{
@@ -18994,7 +18994,7 @@
 		"setby": "Callen",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 253,
+		"repeats": 254,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -19069,7 +19069,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 427187,
 		"dateInserted": "2022-02-05T14:59:58.04",
-		"dateUpdated": "2023-01-09T04:10:39.707",
+		"dateUpdated": "2023-01-14T01:41:32.61",
 		"dateDeleted": null
 	},
 	{
@@ -19553,7 +19553,7 @@
 		"setby": "Zach Lum",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 138,
+		"repeats": 139,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -19634,7 +19634,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 431659,
 		"dateInserted": "2022-03-26T23:29:58.28",
-		"dateUpdated": "2023-01-12T02:35:28.33",
+		"dateUpdated": "2023-01-13T21:52:08.47",
 		"dateDeleted": null
 	},
 	{
@@ -19988,7 +19988,7 @@
 		"setby": "FRISKY",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 23,
+		"repeats": 24,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -20057,7 +20057,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 438958,
 		"dateInserted": "2022-06-22T18:16:55.203",
-		"dateUpdated": "2023-01-11T05:37:18.69",
+		"dateUpdated": "2023-01-13T21:49:27.337",
 		"dateDeleted": null
 	},
 	{
@@ -20068,7 +20068,7 @@
 		"setby": "Jutmanmingo",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 227,
+		"repeats": 228,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -20137,7 +20137,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 439299,
 		"dateInserted": "2022-06-26T21:36:12.96",
-		"dateUpdated": "2023-01-12T17:57:04.107",
+		"dateUpdated": "2023-01-13T14:28:59.073",
 		"dateDeleted": null
 	},
 	{
@@ -20410,7 +20410,7 @@
 		"setby": "lifehasorder",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 96,
+		"repeats": 97,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -20496,7 +20496,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 440860,
 		"dateInserted": "2022-07-16T07:32:28.687",
-		"dateUpdated": "2023-01-07T00:41:18.29",
+		"dateUpdated": "2023-01-13T21:46:29.69",
 		"dateDeleted": null
 	},
 	{
@@ -20691,7 +20691,7 @@
 		"setby": "Dirtymoon",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 260,
+		"repeats": 262,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -20772,7 +20772,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 442314,
 		"dateInserted": "2022-08-04T01:38:01.8",
-		"dateUpdated": "2023-01-12T09:58:18.213",
+		"dateUpdated": "2023-01-13T21:44:01.713",
 		"dateDeleted": null
 	},
 	{
@@ -20921,7 +20921,7 @@
 		"setby": "rikko",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 193,
+		"repeats": 196,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -20996,7 +20996,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 444564,
 		"dateInserted": "2022-09-01T21:35:24.34",
-		"dateUpdated": "2023-01-12T18:13:19.55",
+		"dateUpdated": "2023-01-13T21:41:55.583",
 		"dateDeleted": null
 	},
 	{
@@ -21150,7 +21150,7 @@
 		"setby": "Micha",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 73,
+		"repeats": 74,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -21214,7 +21214,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 445883,
 		"dateInserted": "2022-09-17T15:28:23.33",
-		"dateUpdated": "2023-01-12T18:17:17.267",
+		"dateUpdated": "2023-01-14T02:16:49.78",
 		"dateDeleted": null
 	},
 	{
@@ -21289,7 +21289,7 @@
 		"setby": "Callen",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 169,
+		"repeats": 172,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -21381,7 +21381,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 448240,
 		"dateInserted": "2022-10-01T15:16:27.74",
-		"dateUpdated": "2023-01-12T09:53:10.84",
+		"dateUpdated": "2023-01-14T01:15:26.173",
 		"dateDeleted": null
 	},
 	{
@@ -21466,7 +21466,7 @@
 		"setby": "Callen",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 71,
+		"repeats": 72,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -21546,7 +21546,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 449527,
 		"dateInserted": "2022-10-15T15:36:10.937",
-		"dateUpdated": "2023-01-12T02:25:20.947",
+		"dateUpdated": "2023-01-14T02:20:38.96",
 		"dateDeleted": null
 	},
 	{
@@ -21693,7 +21693,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 450063,
 		"dateInserted": "2022-10-21T00:37:17.3",
-		"dateUpdated": "2023-01-12T15:38:37.743",
+		"dateUpdated": "2023-01-13T20:20:59.493",
 		"dateDeleted": null
 	},
 	{
@@ -21784,7 +21784,7 @@
 		"setby": "florianmllrkln",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 140,
+		"repeats": 143,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -21870,7 +21870,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 452013,
 		"dateInserted": "2022-11-09T01:03:49.543",
-		"dateUpdated": "2023-01-12T17:44:09.543",
+		"dateUpdated": "2023-01-13T20:06:05.6",
 		"dateDeleted": null
 	},
 	{
@@ -22019,7 +22019,7 @@
 		"setby": "Hugh Schmeckle",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 32,
+		"repeats": 34,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -22105,7 +22105,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 453559,
 		"dateInserted": "2022-11-22T22:50:55.84",
-		"dateUpdated": "2023-01-12T18:34:35.457",
+		"dateUpdated": "2023-01-13T20:22:53.647",
 		"dateDeleted": null
 	},
 	{
@@ -22116,7 +22116,7 @@
 		"setby": "oliwa",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 247,
+		"repeats": 251,
 		"holdsetup": {
 			"description": "Mini MoonBoard 2020",
 			"holdsets": null,
@@ -22191,7 +22191,7 @@
 		"moonBoardConfigurationId": 1,
 		"apiId": 453713,
 		"dateInserted": "2022-11-24T08:04:55.93",
-		"dateUpdated": "2023-01-12T15:31:05.01",
+		"dateUpdated": "2023-01-14T01:12:09.207",
 		"dateDeleted": null
 	}
 ]
