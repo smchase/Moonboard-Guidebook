@@ -7,7 +7,7 @@
 		"setby": "kasperg ",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1014,
+		"repeats": 1016,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -100,8 +100,29 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 358895,
 		"dateInserted": "2019-12-24T12:29:05.79",
-		"dateUpdated": "2023-01-13T17:29:03.983",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T20:51:18.003",
+		"dateDeleted": null,
+		"userGrades": {
+			"6B+": 9,
+			"6B": 3,
+			"6A+": 45,
+			"6A": 908,
+			"5+": 51
+		},
+		"userStars": {
+			"5": 441,
+			"4": 439,
+			"3": 88,
+			"2": 33,
+			"1": 3,
+			"0": 12
+		},
+		"userAttempts": {
+			"Flashed": 76,
+			"2nd try": 12,
+			"3rd try": 7,
+			"more than 3 tries": 5
+		}
 	},
 	{
 		"name": "DUCK WINGS",
@@ -187,7 +208,28 @@
 		"apiId": 358899,
 		"dateInserted": "2019-12-24T12:38:45.803",
 		"dateUpdated": "2023-01-12T23:45:53.257",
-		"dateDeleted": null
+		"dateDeleted": null,
+		"userGrades": {
+			"6B+": 9,
+			"6B": 4,
+			"6A+": 58,
+			"6A": 699,
+			"5+": 30
+		},
+		"userStars": {
+			"5": 261,
+			"4": 387,
+			"3": 79,
+			"2": 42,
+			"1": 25,
+			"0": 4
+		},
+		"userAttempts": {
+			"Flashed": 69,
+			"2nd try": 15,
+			"3rd try": 8,
+			"more than 3 tries": 8
+		}
 	},
 	{
 		"name": "BRUNE KARTOFLER",
@@ -197,7 +239,7 @@
 		"setby": "kasperg ",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1353,
+		"repeats": 1360,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -283,8 +325,28 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 358907,
 		"dateInserted": "2019-12-24T13:06:18.24",
-		"dateUpdated": "2023-01-13T19:50:08.41",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T20:42:58.063",
+		"dateDeleted": null,
+		"userGrades": {
+			"6B": 1,
+			"6A+": 17,
+			"6A": 19,
+			"5+": 1323
+		},
+		"userStars": {
+			"5": 492,
+			"4": 655,
+			"3": 136,
+			"2": 55,
+			"1": 2,
+			"0": 19
+		},
+		"userAttempts": {
+			"Flashed": 87,
+			"2nd try": 7,
+			"3rd try": 3,
+			"more than 3 tries": 3
+		}
 	},
 	{
 		"name": "MOONLANDING",
@@ -370,7 +432,29 @@
 		"apiId": 362869,
 		"dateInserted": "2020-02-11T18:52:23.487",
 		"dateUpdated": "2023-01-13T18:26:55.717",
-		"dateDeleted": null
+		"dateDeleted": null,
+		"userGrades": {
+			"6C": 1,
+			"6B+": 566,
+			"6B": 150,
+			"6A+": 99,
+			"6A": 12,
+			"5+": 8
+		},
+		"userStars": {
+			"5": 351,
+			"4": 365,
+			"3": 85,
+			"2": 25,
+			"1": 5,
+			"0": 5
+		},
+		"userAttempts": {
+			"Flashed": 80,
+			"2nd try": 12,
+			"3rd try": 5,
+			"more than 3 tries": 3
+		}
 	},
 	{
 		"name": "SIDE FOOL",
@@ -461,7 +545,29 @@
 		"apiId": 362870,
 		"dateInserted": "2020-02-11T18:58:08.597",
 		"dateUpdated": "2023-01-13T13:11:50.623",
-		"dateDeleted": null
+		"dateDeleted": null,
+		"userGrades": {
+			"6C+": 5,
+			"6C": 375,
+			"6B+": 66,
+			"6B": 10,
+			"6A+": 3,
+			"5+": 3
+		},
+		"userStars": {
+			"5": 196,
+			"4": 194,
+			"3": 48,
+			"2": 17,
+			"1": 4,
+			"0": 3
+		},
+		"userAttempts": {
+			"Flashed": 68,
+			"2nd try": 17,
+			"3rd try": 10,
+			"more than 3 tries": 6
+		}
 	},
 	{
 		"name": "BIG BAD BOUNCE",
@@ -471,7 +577,7 @@
 		"setby": "Angus Harrison-smart",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 229,
+		"repeats": 231,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -546,8 +652,28 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 362881,
 		"dateInserted": "2020-02-11T20:00:16.277",
-		"dateUpdated": "2023-01-13T13:09:24.84",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T17:53:54.83",
+		"dateDeleted": null,
+		"userGrades": {
+			"7A": 8,
+			"6C+": 196,
+			"6C": 19,
+			"6B+": 7,
+			"6B": 1
+		},
+		"userStars": {
+			"5": 119,
+			"4": 85,
+			"3": 19,
+			"2": 6,
+			"1": 2
+		},
+		"userAttempts": {
+			"Flashed": 46,
+			"2nd try": 19,
+			"3rd try": 19,
+			"more than 3 tries": 16
+		}
 	},
 	{
 		"name": "MO\u2019D\u2019S IMMUNITY BOOSTER",
@@ -557,7 +683,7 @@
 		"setby": "Vizual Pupil",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 887,
+		"repeats": 889,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -627,8 +753,29 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 365729,
 		"dateInserted": "2020-03-14T15:38:25.62",
-		"dateUpdated": "2023-01-12T14:13:37.563",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T20:19:19.013",
+		"dateDeleted": null,
+		"userGrades": {
+			"6C+": 1,
+			"6B": 1,
+			"6A+": 38,
+			"6A": 57,
+			"5+": 792
+		},
+		"userStars": {
+			"5": 313,
+			"4": 429,
+			"3": 102,
+			"2": 29,
+			"1": 10,
+			"0": 6
+		},
+		"userAttempts": {
+			"Flashed": 76,
+			"2nd try": 13,
+			"3rd try": 6,
+			"more than 3 tries": 5
+		}
 	},
 	{
 		"name": "OPEN BOARDERS",
@@ -638,7 +785,7 @@
 		"setby": "Vizual Pupil",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 224,
+		"repeats": 225,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -724,8 +871,27 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 365733,
 		"dateInserted": "2020-03-14T16:15:15.767",
-		"dateUpdated": "2023-01-13T12:45:34.613",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T17:55:05",
+		"dateDeleted": null,
+		"userGrades": {
+			"7A": 6,
+			"6C+": 191,
+			"6C": 16,
+			"6B+": 12
+		},
+		"userStars": {
+			"5": 107,
+			"4": 89,
+			"3": 19,
+			"2": 9,
+			"1": 1
+		},
+		"userAttempts": {
+			"Flashed": 56,
+			"2nd try": 17,
+			"3rd try": 13,
+			"more than 3 tries": 14
+		}
 	},
 	{
 		"name": "ABUNDANCE OF CAUTION",
@@ -735,7 +901,7 @@
 		"setby": "Michael O'Donnell",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 878,
+		"repeats": 879,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -816,8 +982,29 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 365734,
 		"dateInserted": "2020-03-14T16:19:01.757",
-		"dateUpdated": "2023-01-12T18:21:48.57",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T15:26:13.103",
+		"dateDeleted": null,
+		"userGrades": {
+			"6B+": 6,
+			"6B": 8,
+			"6A+": 757,
+			"6A": 76,
+			"5+": 32
+		},
+		"userStars": {
+			"5": 346,
+			"4": 412,
+			"3": 81,
+			"2": 24,
+			"1": 9,
+			"0": 7
+		},
+		"userAttempts": {
+			"Flashed": 80,
+			"2nd try": 12,
+			"3rd try": 5,
+			"more than 3 tries": 3
+		}
 	},
 	{
 		"name": "TWO PLY",
@@ -827,7 +1014,7 @@
 		"setby": "Chloe Krueger",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 892,
+		"repeats": 893,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -913,8 +1100,29 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 365745,
 		"dateInserted": "2020-03-14T17:20:55.08",
-		"dateUpdated": "2023-01-13T18:28:53.497",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T12:02:17.56",
+		"dateDeleted": null,
+		"userGrades": {
+			"6B+": 6,
+			"6B": 10,
+			"6A+": 782,
+			"6A": 62,
+			"5+": 33
+		},
+		"userStars": {
+			"5": 309,
+			"4": 440,
+			"3": 89,
+			"2": 32,
+			"1": 12,
+			"0": 11
+		},
+		"userAttempts": {
+			"Flashed": 78,
+			"2nd try": 12,
+			"3rd try": 5,
+			"more than 3 tries": 5
+		}
 	},
 	{
 		"name": "CORONATION",
@@ -924,7 +1132,7 @@
 		"setby": "Chloe Krueger",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 824,
+		"repeats": 825,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -1005,8 +1213,29 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 365747,
 		"dateInserted": "2020-03-14T17:29:13.78",
-		"dateUpdated": "2023-01-13T13:33:06.38",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T20:19:05.367",
+		"dateDeleted": null,
+		"userGrades": {
+			"6B+": 3,
+			"6B": 1,
+			"6A+": 37,
+			"6A": 65,
+			"5+": 719
+		},
+		"userStars": {
+			"5": 305,
+			"4": 397,
+			"3": 75,
+			"2": 27,
+			"1": 9,
+			"0": 12
+		},
+		"userAttempts": {
+			"Flashed": 82,
+			"2nd try": 10,
+			"3rd try": 4,
+			"more than 3 tries": 5
+		}
 	},
 	{
 		"name": "SICK BRAH",
@@ -1016,7 +1245,7 @@
 		"setby": "Chloe Krueger",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 388,
+		"repeats": 389,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -1097,8 +1326,31 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 365753,
 		"dateInserted": "2020-03-14T17:53:37.163",
-		"dateUpdated": "2023-01-13T18:29:13.823",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T15:03:16.097",
+		"dateDeleted": null,
+		"userGrades": {
+			"6C+": 2,
+			"6C": 14,
+			"6B+": 330,
+			"6B": 26,
+			"6A+": 13,
+			"6A": 1,
+			"5+": 3
+		},
+		"userStars": {
+			"5": 170,
+			"4": 155,
+			"3": 34,
+			"2": 22,
+			"1": 5,
+			"0": 3
+		},
+		"userAttempts": {
+			"Flashed": 61,
+			"2nd try": 19,
+			"3rd try": 11,
+			"more than 3 tries": 9
+		}
 	},
 	{
 		"name": "SOCIAL DISTANCING",
@@ -1167,7 +1419,30 @@
 		"apiId": 365836,
 		"dateInserted": "2020-03-15T17:03:57.527",
 		"dateUpdated": "2023-01-12T17:33:22.693",
-		"dateDeleted": null
+		"dateDeleted": null,
+		"userGrades": {
+			"7A": 2,
+			"6C+": 5,
+			"6C": 6,
+			"6B+": 316,
+			"6B": 43,
+			"6A+": 16,
+			"6A": 3,
+			"5+": 4
+		},
+		"userStars": {
+			"5": 157,
+			"4": 170,
+			"3": 36,
+			"2": 25,
+			"1": 7
+		},
+		"userAttempts": {
+			"Flashed": 67,
+			"2nd try": 13,
+			"3rd try": 11,
+			"more than 3 tries": 9
+		}
 	},
 	{
 		"name": "DON\u2019T COVID THY NEIGHBOR",
@@ -1177,7 +1452,7 @@
 		"setby": "Erika Eliz",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 423,
+		"repeats": 425,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -1247,8 +1522,31 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 365856,
 		"dateInserted": "2020-03-15T18:39:59.107",
-		"dateUpdated": "2023-01-12T18:04:55.31",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T15:30:00.253",
+		"dateDeleted": null,
+		"userGrades": {
+			"6C+": 2,
+			"6C": 1,
+			"6B+": 35,
+			"6B": 50,
+			"6A+": 324,
+			"6A": 8,
+			"5+": 5
+		},
+		"userStars": {
+			"5": 151,
+			"4": 193,
+			"3": 45,
+			"2": 20,
+			"1": 13,
+			"0": 3
+		},
+		"userAttempts": {
+			"Flashed": 56,
+			"2nd try": 16,
+			"3rd try": 13,
+			"more than 3 tries": 15
+		}
 	},
 	{
 		"name": "DAYSHIFT",
@@ -1258,7 +1556,7 @@
 		"setby": "Chalkdust66",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1077,
+		"repeats": 1078,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -1317,8 +1615,29 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 366173,
 		"dateInserted": "2020-03-21T15:50:42.863",
-		"dateUpdated": "2023-01-13T16:01:09.87",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T20:18:54.227",
+		"dateDeleted": null,
+		"userGrades": {
+			"6B+": 2,
+			"6B": 3,
+			"6A+": 59,
+			"6A": 110,
+			"5+": 904
+		},
+		"userStars": {
+			"5": 322,
+			"4": 546,
+			"3": 137,
+			"2": 47,
+			"1": 18,
+			"0": 8
+		},
+		"userAttempts": {
+			"Flashed": 73,
+			"2nd try": 12,
+			"3rd try": 7,
+			"more than 3 tries": 8
+		}
 	},
 	{
 		"name": "T REX 25",
@@ -1328,7 +1647,7 @@
 		"setby": "Chalkdust66",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 452,
+		"repeats": 453,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -1414,8 +1733,29 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 366249,
 		"dateInserted": "2020-03-22T15:25:01.04",
-		"dateUpdated": "2023-01-13T17:18:50.317",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T14:44:55.073",
+		"dateDeleted": null,
+		"userGrades": {
+			"6B+": 10,
+			"6B": 12,
+			"6A+": 401,
+			"6A": 19,
+			"5+": 11
+		},
+		"userStars": {
+			"5": 196,
+			"4": 183,
+			"3": 43,
+			"2": 24,
+			"1": 3,
+			"0": 4
+		},
+		"userAttempts": {
+			"Flashed": 72,
+			"2nd try": 13,
+			"3rd try": 6,
+			"more than 3 tries": 8
+		}
 	},
 	{
 		"name": "COVID HAIR",
@@ -1518,7 +1858,28 @@
 		"apiId": 366406,
 		"dateInserted": "2020-03-25T17:21:48.343",
 		"dateUpdated": "2023-01-13T13:07:41.41",
-		"dateDeleted": null
+		"dateDeleted": null,
+		"userGrades": {
+			"7A": 4,
+			"6C+": 14,
+			"6C": 238,
+			"6B+": 10,
+			"6B": 2,
+			"5+": 2
+		},
+		"userStars": {
+			"5": 123,
+			"4": 116,
+			"3": 21,
+			"2": 7,
+			"1": 3
+		},
+		"userAttempts": {
+			"Flashed": 56,
+			"2nd try": 20,
+			"3rd try": 10,
+			"more than 3 tries": 14
+		}
 	},
 	{
 		"name": "PUG IN A RUG 25 DEG",
@@ -1593,7 +1954,29 @@
 		"apiId": 366741,
 		"dateInserted": "2020-03-31T23:50:06.647",
 		"dateUpdated": "2023-01-13T19:40:05.85",
-		"dateDeleted": null
+		"dateDeleted": null,
+		"userGrades": {
+			"6C+": 2,
+			"6B+": 11,
+			"6B": 609,
+			"6A+": 86,
+			"6A": 8,
+			"5+": 8
+		},
+		"userStars": {
+			"5": 267,
+			"4": 345,
+			"3": 68,
+			"2": 28,
+			"1": 6,
+			"0": 10
+		},
+		"userAttempts": {
+			"Flashed": 78,
+			"2nd try": 11,
+			"3rd try": 6,
+			"more than 3 tries": 6
+		}
 	},
 	{
 		"name": "NO MATCH FOR YOU",
@@ -1603,7 +1986,7 @@
 		"setby": "Chalkdust66",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 537,
+		"repeats": 538,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -1711,8 +2094,30 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 367750,
 		"dateInserted": "2020-04-19T17:00:37.55",
-		"dateUpdated": "2023-01-13T16:40:36.593",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T04:45:03.027",
+		"dateDeleted": null,
+		"userGrades": {
+			"6C": 1,
+			"6B+": 16,
+			"6B": 11,
+			"6A+": 54,
+			"6A": 442,
+			"5+": 14
+		},
+		"userStars": {
+			"5": 205,
+			"4": 230,
+			"3": 69,
+			"2": 28,
+			"1": 4,
+			"0": 2
+		},
+		"userAttempts": {
+			"Flashed": 68,
+			"2nd try": 15,
+			"3rd try": 8,
+			"more than 3 tries": 9
+		}
 	},
 	{
 		"name": "SNART",
@@ -1803,7 +2208,28 @@
 		"apiId": 367762,
 		"dateInserted": "2020-04-19T19:12:26.873",
 		"dateUpdated": "2023-01-13T17:18:35.09",
-		"dateDeleted": null
+		"dateDeleted": null,
+		"userGrades": {
+			"6B+": 6,
+			"6B": 5,
+			"6A+": 396,
+			"6A": 34,
+			"5+": 15
+		},
+		"userStars": {
+			"5": 214,
+			"4": 182,
+			"3": 49,
+			"2": 8,
+			"1": 1,
+			"0": 2
+		},
+		"userAttempts": {
+			"Flashed": 80,
+			"2nd try": 11,
+			"3rd try": 5,
+			"more than 3 tries": 4
+		}
 	},
 	{
 		"name": "BROWNTOWN BOMBER 25",
@@ -1813,7 +2239,7 @@
 		"setby": "Vizual Pupil",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 240,
+		"repeats": 241,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -1900,8 +2326,30 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 368073,
 		"dateInserted": "2020-04-25T18:24:15.36",
-		"dateUpdated": "2023-01-11T12:54:15.78",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T17:50:16.88",
+		"dateDeleted": null,
+		"userGrades": {
+			"7B+": 1,
+			"7A+": 10,
+			"7A": 210,
+			"6C+": 14,
+			"6C": 5,
+			"6B+": 1
+		},
+		"userStars": {
+			"5": 117,
+			"4": 87,
+			"3": 23,
+			"2": 8,
+			"1": 5,
+			"0": 1
+		},
+		"userAttempts": {
+			"Flashed": 35,
+			"2nd try": 18,
+			"3rd try": 19,
+			"more than 3 tries": 29
+		}
 	},
 	{
 		"name": "SUMMER REIGN",
@@ -2021,7 +2469,29 @@
 		"apiId": 368139,
 		"dateInserted": "2020-04-26T17:11:00.263",
 		"dateUpdated": "2023-01-12T03:03:58.563",
-		"dateDeleted": null
+		"dateDeleted": null,
+		"userGrades": {
+			"7A": 3,
+			"6C+": 13,
+			"6C": 284,
+			"6B+": 14,
+			"6B": 1,
+			"5+": 1
+		},
+		"userStars": {
+			"5": 151,
+			"4": 124,
+			"3": 28,
+			"2": 7,
+			"1": 4,
+			"0": 2
+		},
+		"userAttempts": {
+			"Flashed": 52,
+			"2nd try": 21,
+			"3rd try": 12,
+			"more than 3 tries": 16
+		}
 	},
 	{
 		"name": "SHORT BACK AND SIDES",
@@ -2031,7 +2501,7 @@
 		"setby": "Chalkdust66",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 858,
+		"repeats": 859,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -2128,8 +2598,31 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 368719,
 		"dateInserted": "2020-05-10T15:58:45.42",
-		"dateUpdated": "2023-01-12T11:26:49.43",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T15:57:05.547",
+		"dateDeleted": null,
+		"userGrades": {
+			"6C+": 2,
+			"6C": 1,
+			"6B+": 15,
+			"6B": 740,
+			"6A+": 82,
+			"6A": 8,
+			"5+": 11
+		},
+		"userStars": {
+			"5": 393,
+			"4": 348,
+			"3": 88,
+			"2": 15,
+			"1": 8,
+			"0": 7
+		},
+		"userAttempts": {
+			"Flashed": 71,
+			"2nd try": 17,
+			"3rd try": 8,
+			"more than 3 tries": 4
+		}
 	},
 	{
 		"name": "HEARTBREAK CROSS",
@@ -2139,7 +2632,7 @@
 		"setby": "Chalkdust66",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 505,
+		"repeats": 506,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -2225,8 +2718,30 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 368854,
 		"dateInserted": "2020-05-13T15:27:22.58",
-		"dateUpdated": "2023-01-12T19:02:58.22",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T15:08:15.98",
+		"dateDeleted": null,
+		"userGrades": {
+			"6C+": 1,
+			"6C": 9,
+			"6B+": 438,
+			"6B": 39,
+			"6A+": 16,
+			"5+": 3
+		},
+		"userStars": {
+			"5": 208,
+			"4": 232,
+			"3": 37,
+			"2": 17,
+			"1": 5,
+			"0": 7
+		},
+		"userAttempts": {
+			"Flashed": 58,
+			"2nd try": 20,
+			"3rd try": 9,
+			"more than 3 tries": 13
+		}
 	},
 	{
 		"name": "M\u0141ODY SYNEK",
@@ -2317,7 +2832,27 @@
 		"apiId": 369215,
 		"dateInserted": "2020-05-22T16:34:23.213",
 		"dateUpdated": "2023-01-13T16:23:30.11",
-		"dateDeleted": null
+		"dateDeleted": null,
+		"userGrades": {
+			"7A+": 6,
+			"7A": 184,
+			"6C+": 9,
+			"6C": 2
+		},
+		"userStars": {
+			"5": 93,
+			"4": 73,
+			"3": 22,
+			"2": 7,
+			"1": 5,
+			"0": 1
+		},
+		"userAttempts": {
+			"Flashed": 29,
+			"2nd try": 17,
+			"3rd try": 26,
+			"more than 3 tries": 27
+		}
 	},
 	{
 		"name": "SATAY",
@@ -2327,7 +2862,7 @@
 		"setby": "Chalkdust66",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 440,
+		"repeats": 442,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -2402,8 +2937,31 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 369247,
 		"dateInserted": "2020-05-23T16:39:23.29",
-		"dateUpdated": "2023-01-13T18:35:46.3",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T15:21:44.517",
+		"dateDeleted": null,
+		"userGrades": {
+			"6C+": 3,
+			"6C": 5,
+			"6B+": 390,
+			"6B": 32,
+			"6A+": 6,
+			"6A": 2,
+			"5+": 4
+		},
+		"userStars": {
+			"5": 155,
+			"4": 225,
+			"3": 41,
+			"2": 13,
+			"1": 4,
+			"0": 4
+		},
+		"userAttempts": {
+			"Flashed": 67,
+			"2nd try": 20,
+			"3rd try": 7,
+			"more than 3 tries": 6
+		}
 	},
 	{
 		"name": "ASZYNBECHER",
@@ -2500,7 +3058,27 @@
 		"apiId": 369766,
 		"dateInserted": "2020-06-04T22:23:19.573",
 		"dateUpdated": "2023-01-13T16:30:59.31",
-		"dateDeleted": null
+		"dateDeleted": null,
+		"userGrades": {
+			"7A+": 10,
+			"7A": 164,
+			"6C+": 19,
+			"6C": 4,
+			"6B+": 1
+		},
+		"userStars": {
+			"5": 91,
+			"4": 82,
+			"3": 17,
+			"2": 5,
+			"1": 3
+		},
+		"userAttempts": {
+			"Flashed": 46,
+			"2nd try": 15,
+			"3rd try": 17,
+			"more than 3 tries": 22
+		}
 	},
 	{
 		"name": "MORE PROBS 5",
@@ -2510,7 +3088,7 @@
 		"setby": "Colin Bauer",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 120,
+		"repeats": 121,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -2584,8 +3162,28 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 371617,
 		"dateInserted": "2020-07-07T19:36:52.923",
-		"dateUpdated": "2023-01-11T06:26:00.25",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T17:16:23.787",
+		"dateDeleted": null,
+		"userGrades": {
+			"7B+": 3,
+			"7B": 92,
+			"7A+": 22,
+			"7A": 3,
+			"6C+": 1
+		},
+		"userStars": {
+			"5": 72,
+			"4": 32,
+			"3": 14,
+			"2": 2,
+			"0": 1
+		},
+		"userAttempts": {
+			"Flashed": 38,
+			"2nd try": 14,
+			"3rd try": 17,
+			"more than 3 tries": 31
+		}
 	},
 	{
 		"name": "SUMMER VIBE",
@@ -2682,7 +3280,27 @@
 		"apiId": 371946,
 		"dateInserted": "2020-07-12T11:01:11.557",
 		"dateUpdated": "2023-01-13T18:03:59.41",
-		"dateDeleted": null
+		"dateDeleted": null,
+		"userGrades": {
+			"6C+": 2,
+			"6C": 4,
+			"6B+": 146,
+			"6B": 16,
+			"6A+": 8
+		},
+		"userStars": {
+			"5": 71,
+			"4": 78,
+			"3": 23,
+			"2": 3,
+			"1": 1
+		},
+		"userAttempts": {
+			"Flashed": 75,
+			"2nd try": 15,
+			"3rd try": 8,
+			"more than 3 tries": 2
+		}
 	},
 	{
 		"name": "SUZUKI",
@@ -2767,7 +3385,28 @@
 		"apiId": 372710,
 		"dateInserted": "2020-07-22T17:14:52.107",
 		"dateUpdated": "2023-01-13T18:45:02.6",
-		"dateDeleted": null
+		"dateDeleted": null,
+		"userGrades": {
+			"7A": 3,
+			"6C+": 253,
+			"6C": 23,
+			"6B+": 10,
+			"6B": 3
+		},
+		"userStars": {
+			"5": 138,
+			"4": 111,
+			"3": 25,
+			"2": 13,
+			"1": 3,
+			"0": 2
+		},
+		"userAttempts": {
+			"Flashed": 54,
+			"2nd try": 18,
+			"3rd try": 13,
+			"more than 3 tries": 14
+		}
 	},
 	{
 		"name": "VILLE PREND 2 AILES",
@@ -2842,7 +3481,31 @@
 		"apiId": 372946,
 		"dateInserted": "2020-07-25T20:10:10.197",
 		"dateUpdated": "2023-01-11T21:06:08.763",
-		"dateDeleted": null
+		"dateDeleted": null,
+		"userGrades": {
+			"7A+": 1,
+			"6C+": 6,
+			"6C": 4,
+			"6B+": 42,
+			"6B": 293,
+			"6A+": 9,
+			"6A": 2,
+			"5+": 3
+		},
+		"userStars": {
+			"5": 160,
+			"4": 139,
+			"3": 42,
+			"2": 7,
+			"1": 10,
+			"0": 2
+		},
+		"userAttempts": {
+			"Flashed": 63,
+			"2nd try": 19,
+			"3rd try": 9,
+			"more than 3 tries": 9
+		}
 	},
 	{
 		"name": "PEAR, BOAT AND STOMACH",
@@ -2933,7 +3596,29 @@
 		"apiId": 373120,
 		"dateInserted": "2020-07-28T15:38:30.77",
 		"dateUpdated": "2023-01-13T16:19:23.97",
-		"dateDeleted": null
+		"dateDeleted": null,
+		"userGrades": {
+			"7B+": 2,
+			"7B": 3,
+			"7A+": 84,
+			"7A": 11,
+			"6C+": 3,
+			"6B": 1
+		},
+		"userStars": {
+			"5": 58,
+			"4": 33,
+			"3": 8,
+			"2": 3,
+			"1": 1,
+			"0": 1
+		},
+		"userAttempts": {
+			"Flashed": 40,
+			"2nd try": 15,
+			"3rd try": 22,
+			"more than 3 tries": 23
+		}
 	},
 	{
 		"name": "NAZGUL 5",
@@ -2943,7 +3628,7 @@
 		"setby": "Ludozen",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 706,
+		"repeats": 707,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -3012,8 +3697,30 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 373264,
 		"dateInserted": "2020-07-30T12:19:22.16",
-		"dateUpdated": "2023-01-12T16:25:53.837",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T10:12:05.45",
+		"dateDeleted": null,
+		"userGrades": {
+			"8B+": 1,
+			"6B+": 10,
+			"6B": 8,
+			"6A+": 47,
+			"6A": 605,
+			"5+": 36
+		},
+		"userStars": {
+			"5": 242,
+			"4": 340,
+			"3": 79,
+			"2": 33,
+			"1": 8,
+			"0": 5
+		},
+		"userAttempts": {
+			"Flashed": 71,
+			"2nd try": 15,
+			"3rd try": 7,
+			"more than 3 tries": 7
+		}
 	},
 	{
 		"name": "EASY START",
@@ -3023,7 +3730,7 @@
 		"setby": "Mikkelfb",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1104,
+		"repeats": 1109,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -3104,8 +3811,27 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 373387,
 		"dateInserted": "2020-08-01T07:12:52.067",
-		"dateUpdated": "2023-01-13T15:55:51.253",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T20:18:44.867",
+		"dateDeleted": null,
+		"userGrades": {
+			"6A+": 20,
+			"6A": 32,
+			"5+": 1057
+		},
+		"userStars": {
+			"5": 378,
+			"4": 528,
+			"3": 134,
+			"2": 39,
+			"1": 18,
+			"0": 12
+		},
+		"userAttempts": {
+			"Flashed": 77,
+			"2nd try": 13,
+			"3rd try": 5,
+			"more than 3 tries": 5
+		}
 	},
 	{
 		"name": "INGEN REPSKET",
@@ -3202,7 +3928,29 @@
 		"apiId": 373590,
 		"dateInserted": "2020-08-03T19:09:46.727",
 		"dateUpdated": "2023-01-12T17:57:54.593",
-		"dateDeleted": null
+		"dateDeleted": null,
+		"userGrades": {
+			"6C+": 4,
+			"6C": 21,
+			"6B+": 278,
+			"6B": 17,
+			"6A+": 5,
+			"6A": 1,
+			"5+": 3
+		},
+		"userStars": {
+			"5": 154,
+			"4": 125,
+			"3": 32,
+			"2": 12,
+			"1": 6
+		},
+		"userAttempts": {
+			"Flashed": 52,
+			"2nd try": 19,
+			"3rd try": 16,
+			"more than 3 tries": 13
+		}
 	},
 	{
 		"name": "KNEE SLAPPER",
@@ -3212,7 +3960,7 @@
 		"setby": "maurits enserink",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1144,
+		"repeats": 1151,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -3287,8 +4035,28 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 374058,
 		"dateInserted": "2020-08-09T13:15:13.173",
-		"dateUpdated": "2023-01-14T03:28:55.12",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T20:46:44.303",
+		"dateDeleted": null,
+		"userGrades": {
+			"6B": 1,
+			"6A+": 32,
+			"6A": 62,
+			"5+": 1056
+		},
+		"userStars": {
+			"5": 392,
+			"4": 558,
+			"3": 144,
+			"2": 35,
+			"1": 5,
+			"0": 17
+		},
+		"userAttempts": {
+			"Flashed": 79,
+			"2nd try": 11,
+			"3rd try": 4,
+			"more than 3 tries": 6
+		}
 	},
 	{
 		"name": "BIG BOX SMALL BOX",
@@ -3298,7 +4066,7 @@
 		"setby": "Frankenator",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 404,
+		"repeats": 406,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -3380,8 +4148,28 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 375024,
 		"dateInserted": "2020-08-24T14:53:20.393",
-		"dateUpdated": "2023-01-12T16:49:38.857",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T18:16:00.917",
+		"dateDeleted": null,
+		"userGrades": {
+			"7A+": 5,
+			"7A": 351,
+			"6C+": 37,
+			"6C": 9,
+			"6B+": 4
+		},
+		"userStars": {
+			"5": 224,
+			"4": 142,
+			"3": 28,
+			"2": 10,
+			"1": 2
+		},
+		"userAttempts": {
+			"Flashed": 44,
+			"2nd try": 22,
+			"3rd try": 15,
+			"more than 3 tries": 19
+		}
 	},
 	{
 		"name": "EM SCHW\u00dcGGLIGI HOOKTOPIA",
@@ -3483,7 +4271,29 @@
 		"apiId": 375854,
 		"dateInserted": "2020-09-04T10:55:46.297",
 		"dateUpdated": "2023-01-12T11:49:42.55",
-		"dateDeleted": null
+		"dateDeleted": null,
+		"userGrades": {
+			"6C+": 4,
+			"6B+": 37,
+			"6B": 431,
+			"6A+": 23,
+			"6A": 3,
+			"5+": 5
+		},
+		"userStars": {
+			"5": 205,
+			"4": 222,
+			"3": 47,
+			"2": 20,
+			"1": 6,
+			"0": 3
+		},
+		"userAttempts": {
+			"Flashed": 68,
+			"2nd try": 17,
+			"3rd try": 8,
+			"more than 3 tries": 7
+		}
 	},
 	{
 		"name": "TRY HARD :)",
@@ -3493,7 +4303,7 @@
 		"setby": "Lach",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 328,
+		"repeats": 329,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -3573,8 +4383,30 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 377574,
 		"dateInserted": "2020-09-27T09:50:02.237",
-		"dateUpdated": "2023-01-11T20:13:48.727",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T10:47:26.58",
+		"dateDeleted": null,
+		"userGrades": {
+			"7A+": 10,
+			"7A": 279,
+			"6C+": 29,
+			"6C": 8,
+			"6B+": 2,
+			"6A+": 1
+		},
+		"userStars": {
+			"5": 169,
+			"4": 122,
+			"3": 23,
+			"2": 10,
+			"1": 4,
+			"0": 1
+		},
+		"userAttempts": {
+			"Flashed": 45,
+			"2nd try": 17,
+			"3rd try": 18,
+			"more than 3 tries": 20
+		}
 	},
 	{
 		"name": "ONLY LITTLE WOOD",
@@ -3650,7 +4482,28 @@
 		"apiId": 381654,
 		"dateInserted": "2020-11-14T01:09:05.19",
 		"dateUpdated": "2023-01-13T16:48:41.583",
-		"dateDeleted": null
+		"dateDeleted": null,
+		"userGrades": {
+			"7B+": 1,
+			"7A+": 1,
+			"7A": 8,
+			"6C+": 148,
+			"6C": 7,
+			"6B+": 8
+		},
+		"userStars": {
+			"5": 89,
+			"4": 54,
+			"3": 24,
+			"2": 5,
+			"1": 1
+		},
+		"userAttempts": {
+			"Flashed": 49,
+			"2nd try": 14,
+			"3rd try": 17,
+			"more than 3 tries": 20
+		}
 	},
 	{
 		"name": "SUGAR",
@@ -3660,7 +4513,7 @@
 		"setby": "claud.ini",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 469,
+		"repeats": 470,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -3740,8 +4593,29 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 387798,
 		"dateInserted": "2021-01-19T14:41:29.3",
-		"dateUpdated": "2023-01-13T16:36:17.857",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T11:53:22.51",
+		"dateDeleted": null,
+		"userGrades": {
+			"6B+": 17,
+			"6B": 10,
+			"6A+": 75,
+			"6A": 361,
+			"5+": 7
+		},
+		"userStars": {
+			"5": 152,
+			"4": 227,
+			"3": 61,
+			"2": 19,
+			"1": 8,
+			"0": 3
+		},
+		"userAttempts": {
+			"Flashed": 59,
+			"2nd try": 19,
+			"3rd try": 9,
+			"more than 3 tries": 14
+		}
 	},
 	{
 		"name": "TOEPRESS 25\u2019",
@@ -3751,7 +4625,7 @@
 		"setby": "Chalkdust66",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 483,
+		"repeats": 484,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -3836,8 +4710,32 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 395024,
 		"dateInserted": "2021-03-07T21:56:36.71",
-		"dateUpdated": "2023-01-11T22:49:16.79",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T13:23:27.017",
+		"dateDeleted": null,
+		"userGrades": {
+			"7A": 2,
+			"6C+": 4,
+			"6C": 417,
+			"6B+": 44,
+			"6B": 10,
+			"6A+": 3,
+			"6A": 1,
+			"5+": 3
+		},
+		"userStars": {
+			"5": 239,
+			"4": 186,
+			"3": 36,
+			"2": 17,
+			"1": 4,
+			"0": 2
+		},
+		"userAttempts": {
+			"Flashed": 62,
+			"2nd try": 19,
+			"3rd try": 7,
+			"more than 3 tries": 11
+		}
 	},
 	{
 		"name": "THE  25\u2019 SURPRISE",
@@ -3847,7 +4745,7 @@
 		"setby": "Chalkdust66",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 135,
+		"repeats": 136,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -3927,8 +4825,28 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 395086,
 		"dateInserted": "2021-03-08T17:56:19.843",
-		"dateUpdated": "2023-01-14T01:25:50.543",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T16:55:25.29",
+		"dateDeleted": null,
+		"userGrades": {
+			"7B+": 1,
+			"7B": 1,
+			"7A+": 107,
+			"7A": 20,
+			"6C+": 6,
+			"6C": 1
+		},
+		"userStars": {
+			"5": 65,
+			"4": 47,
+			"3": 17,
+			"2": 7
+		},
+		"userAttempts": {
+			"Flashed": 49,
+			"2nd try": 16,
+			"3rd try": 13,
+			"more than 3 tries": 22
+		}
 	},
 	{
 		"name": "FINGER JUGS",
@@ -4026,7 +4944,27 @@
 		"apiId": 395281,
 		"dateInserted": "2021-03-10T10:56:32.8",
 		"dateUpdated": "2023-01-13T16:42:48.613",
-		"dateDeleted": null
+		"dateDeleted": null,
+		"userGrades": {
+			"7B": 2,
+			"7A+": 159,
+			"7A": 30,
+			"6C+": 4,
+			"6C": 2
+		},
+		"userStars": {
+			"5": 102,
+			"4": 71,
+			"3": 20,
+			"2": 2,
+			"1": 2
+		},
+		"userAttempts": {
+			"Flashed": 46,
+			"2nd try": 16,
+			"3rd try": 15,
+			"more than 3 tries": 23
+		}
 	},
 	{
 		"name": "CYPHER 25",
@@ -4128,7 +5066,28 @@
 		"apiId": 395305,
 		"dateInserted": "2021-03-10T16:13:33.48",
 		"dateUpdated": "2023-01-11T13:52:10.3",
-		"dateDeleted": null
+		"dateDeleted": null,
+		"userGrades": {
+			"7A": 1,
+			"6C+": 22,
+			"6C": 287,
+			"6B+": 14,
+			"6B": 1,
+			"5+": 2
+		},
+		"userStars": {
+			"5": 150,
+			"4": 130,
+			"3": 27,
+			"2": 16,
+			"1": 4
+		},
+		"userAttempts": {
+			"Flashed": 59,
+			"2nd try": 18,
+			"3rd try": 10,
+			"more than 3 tries": 13
+		}
 	},
 	{
 		"name": "ZIPPY PUGUA",
@@ -4208,7 +5167,29 @@
 		"apiId": 395307,
 		"dateInserted": "2021-03-10T16:29:26.667",
 		"dateUpdated": "2023-01-13T12:28:29.893",
-		"dateDeleted": null
+		"dateDeleted": null,
+		"userGrades": {
+			"6C": 1,
+			"6B+": 17,
+			"6B": 36,
+			"6A+": 300,
+			"6A": 9,
+			"5+": 7
+		},
+		"userStars": {
+			"5": 139,
+			"4": 157,
+			"3": 36,
+			"2": 22,
+			"1": 10,
+			"0": 6
+		},
+		"userAttempts": {
+			"Flashed": 66,
+			"2nd try": 12,
+			"3rd try": 11,
+			"more than 3 tries": 11
+		}
 	},
 	{
 		"name": "MEAN PINBALL 25",
@@ -4218,7 +5199,7 @@
 		"setby": "Chalkdust66",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 588,
+		"repeats": 589,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -4298,8 +5279,32 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 395311,
 		"dateInserted": "2021-03-10T16:47:57.17",
-		"dateUpdated": "2023-01-12T23:53:11.82",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T10:17:28.917",
+		"dateDeleted": null,
+		"userGrades": {
+			"8B+": 1,
+			"6C+": 1,
+			"6C": 1,
+			"6B+": 34,
+			"6B": 518,
+			"6A+": 26,
+			"6A": 3,
+			"5+": 5
+		},
+		"userStars": {
+			"5": 273,
+			"4": 230,
+			"3": 55,
+			"2": 24,
+			"1": 4,
+			"0": 3
+		},
+		"userAttempts": {
+			"Flashed": 63,
+			"2nd try": 20,
+			"3rd try": 9,
+			"more than 3 tries": 8
+		}
 	},
 	{
 		"name": "COUCH LIFE 25",
@@ -4407,7 +5412,26 @@
 		"apiId": 395317,
 		"dateInserted": "2021-03-10T17:26:50.007",
 		"dateUpdated": "2023-01-13T16:54:51.05",
-		"dateDeleted": null
+		"dateDeleted": null,
+		"userGrades": {
+			"7A": 18,
+			"6C+": 176,
+			"6C": 11,
+			"6B+": 2
+		},
+		"userStars": {
+			"5": 118,
+			"4": 62,
+			"3": 19,
+			"2": 6,
+			"1": 2
+		},
+		"userAttempts": {
+			"Flashed": 41,
+			"2nd try": 21,
+			"3rd try": 18,
+			"more than 3 tries": 20
+		}
 	},
 	{
 		"name": "THINK ON FEET 25\u00b0",
@@ -4498,7 +5522,28 @@
 		"apiId": 395596,
 		"dateInserted": "2021-03-13T16:30:30.69",
 		"dateUpdated": "2023-01-13T16:08:45.04",
-		"dateDeleted": null
+		"dateDeleted": null,
+		"userGrades": {
+			"7A+": 8,
+			"7A": 184,
+			"6C+": 20,
+			"6C": 4,
+			"6B+": 1
+		},
+		"userStars": {
+			"5": 102,
+			"4": 85,
+			"3": 20,
+			"2": 8,
+			"1": 1,
+			"0": 1
+		},
+		"userAttempts": {
+			"Flashed": 38,
+			"2nd try": 23,
+			"3rd try": 15,
+			"more than 3 tries": 24
+		}
 	},
 	{
 		"name": "PARAPARA-VAR 25",
@@ -4508,7 +5553,7 @@
 		"setby": "Chalkdust66",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 263,
+		"repeats": 264,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -4589,8 +5634,28 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 395685,
 		"dateInserted": "2021-03-14T17:12:15.01",
-		"dateUpdated": "2023-01-12T02:43:49.773",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T16:50:24.96",
+		"dateDeleted": null,
+		"userGrades": {
+			"7A+": 11,
+			"7A": 222,
+			"6C+": 22,
+			"6C": 7,
+			"6B+": 2
+		},
+		"userStars": {
+			"5": 135,
+			"4": 101,
+			"3": 22,
+			"2": 4,
+			"1": 2
+		},
+		"userAttempts": {
+			"Flashed": 50,
+			"2nd try": 21,
+			"3rd try": 7,
+			"more than 3 tries": 21
+		}
 	},
 	{
 		"name": "DRAMATICALLY WARM 25\u00b0",
@@ -4600,7 +5665,7 @@
 		"setby": "Adrian Landreth",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 854,
+		"repeats": 858,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -4681,8 +5746,29 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 397774,
 		"dateInserted": "2021-03-28T04:33:21.4",
-		"dateUpdated": "2023-01-13T13:42:23.607",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T16:12:01.103",
+		"dateDeleted": null,
+		"userGrades": {
+			"6B+": 6,
+			"6B": 12,
+			"6A+": 734,
+			"6A": 83,
+			"5+": 23
+		},
+		"userStars": {
+			"5": 340,
+			"4": 386,
+			"3": 87,
+			"2": 35,
+			"1": 2,
+			"0": 8
+		},
+		"userAttempts": {
+			"Flashed": 81,
+			"2nd try": 11,
+			"3rd try": 4,
+			"more than 3 tries": 4
+		}
 	},
 	{
 		"name": "NUGGET PRESSURE 25\u00b0",
@@ -4692,7 +5778,7 @@
 		"setby": "Adrian Landreth",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 715,
+		"repeats": 716,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -4778,8 +5864,29 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 397775,
 		"dateInserted": "2021-03-28T04:35:21.01",
-		"dateUpdated": "2023-01-13T13:37:10.817",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T16:03:14.71",
+		"dateDeleted": null,
+		"userGrades": {
+			"6B+": 19,
+			"6B": 31,
+			"6A+": 619,
+			"6A": 34,
+			"5+": 13
+		},
+		"userStars": {
+			"5": 313,
+			"4": 284,
+			"3": 77,
+			"2": 32,
+			"1": 5,
+			"0": 5
+		},
+		"userAttempts": {
+			"Flashed": 71,
+			"2nd try": 15,
+			"3rd try": 7,
+			"more than 3 tries": 8
+		}
 	},
 	{
 		"name": "TUCK-IN 25\u00b0",
@@ -4789,7 +5896,7 @@
 		"setby": "Adrian Landreth",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 149,
+		"repeats": 151,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -4852,8 +5959,26 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 402100,
 		"dateInserted": "2021-05-08T01:46:41.083",
-		"dateUpdated": "2023-01-13T19:44:45.243",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T15:31:05.883",
+		"dateDeleted": null,
+		"userGrades": {
+			"6C+": 3,
+			"6C": 105,
+			"6B+": 35,
+			"6B": 8
+		},
+		"userStars": {
+			"5": 55,
+			"4": 76,
+			"3": 19,
+			"2": 1
+		},
+		"userAttempts": {
+			"Flashed": 81,
+			"2nd try": 13,
+			"3rd try": 5,
+			"more than 3 tries": 1
+		}
 	},
 	{
 		"name": "LES BOR\u00c9ADES 25\u00b0",
@@ -4863,7 +5988,7 @@
 		"setby": "Adrian Landreth",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 352,
+		"repeats": 355,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -4938,8 +6063,29 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 402673,
 		"dateInserted": "2021-05-15T21:59:40.823",
-		"dateUpdated": "2023-01-13T18:39:45.14",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T16:16:59.117",
+		"dateDeleted": null,
+		"userGrades": {
+			"6C+": 8,
+			"6C": 280,
+			"6B+": 57,
+			"6B": 5,
+			"6A+": 2,
+			"5+": 3
+		},
+		"userStars": {
+			"5": 184,
+			"4": 126,
+			"3": 37,
+			"2": 7,
+			"0": 1
+		},
+		"userAttempts": {
+			"Flashed": 77,
+			"2nd try": 14,
+			"3rd try": 5,
+			"more than 3 tries": 5
+		}
 	},
 	{
 		"name": "M&Y 1",
@@ -4949,7 +6095,7 @@
 		"setby": "Yann",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 120,
+		"repeats": 121,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -5041,7 +6187,27 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 412565,
 		"dateInserted": "2021-08-22T18:03:48.663",
-		"dateUpdated": "2023-01-13T17:13:50.743",
-		"dateDeleted": null
+		"dateUpdated": "2023-01-14T15:27:28.627",
+		"dateDeleted": null,
+		"userGrades": {
+			"7A": 2,
+			"6C+": 6,
+			"6C": 106,
+			"6B+": 5,
+			"6B": 2
+		},
+		"userStars": {
+			"5": 73,
+			"4": 37,
+			"3": 9,
+			"2": 1,
+			"0": 1
+		},
+		"userAttempts": {
+			"Flashed": 64,
+			"2nd try": 18,
+			"3rd try": 14,
+			"more than 3 tries": 4
+		}
 	}
 ]

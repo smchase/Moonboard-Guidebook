@@ -3,10 +3,10 @@
 		"name": "WITNESS THE SOFTNESS",
 		"setter": "Austin hoyt",
 		"official_grade": 1,
-		"user_grade": 1.0199600798403194,
-		"user_stars": 4.122,
+		"user_grade": 1.0198807157057654,
+		"user_stars": 4.123505976095617,
 		"user_attempts": 1.32,
-		"repeats": 501,
+		"repeats": 503,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -34,9 +34,9 @@
 			]
 		},
 		"user_grade_breakdown": {
-			"0": 34,
+			"0": 35,
 			"1": 433,
-			"2": 29,
+			"2": 30,
 			"3": 0,
 			"4": 5,
 			"5": 0,
@@ -58,8 +58,8 @@
 			"1": 27,
 			"2": 11,
 			"3": 17,
-			"4": 239,
-			"5": 201
+			"4": 240,
+			"5": 202
 		},
 		"user_attempts_breakdown": {
 			"1": 80,
@@ -72,10 +72,10 @@
 		"name": "THE MASTER",
 		"setter": "Alx Ts",
 		"official_grade": 1,
-		"user_grade": 1.0840236686390532,
-		"user_stars": 4.075236966824645,
+		"user_grade": 1.0839739798935542,
+		"user_stars": 4.075192421551214,
 		"user_attempts": 1.47,
-		"repeats": 1690,
+		"repeats": 1691,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -101,7 +101,7 @@
 		},
 		"user_grade_breakdown": {
 			"0": 33,
-			"1": 1531,
+			"1": 1532,
 			"2": 101,
 			"3": 14,
 			"4": 8,
@@ -124,7 +124,7 @@
 			"1": 44,
 			"2": 18,
 			"3": 67,
-			"4": 822,
+			"4": 823,
 			"5": 662
 		},
 		"user_attempts_breakdown": {
@@ -204,10 +204,10 @@
 		"name": "SCORPION",
 		"setter": "Jules",
 		"official_grade": 0,
-		"user_grade": 0.10924164837844429,
-		"user_stars": 4.0351476690261165,
+		"user_grade": 0.10937880633373934,
+		"user_stars": 4.033894172153134,
 		"user_attempts": 1.1919191919191918,
-		"repeats": 4101,
+		"repeats": 4105,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -232,8 +232,8 @@
 			]
 		},
 		"user_grade_breakdown": {
-			"0": 3824,
-			"1": 124,
+			"0": 3827,
+			"1": 125,
 			"2": 149,
 			"3": 2,
 			"4": 1,
@@ -252,12 +252,12 @@
 			"17": 0
 		},
 		"user_star_breakdown": {
-			"0": 259,
+			"0": 260,
 			"1": 49,
-			"2": 54,
+			"2": 55,
 			"3": 174,
-			"4": 1952,
-			"5": 1609
+			"4": 1953,
+			"5": 1610
 		},
 		"user_attempts_breakdown": {
 			"1": 87,
@@ -726,10 +726,10 @@
 		"name": "STUPID THINGS",
 		"setter": "Harrison",
 		"official_grade": 1,
-		"user_grade": 1.0168381665107578,
-		"user_stars": 3.9522024367385193,
+		"user_grade": 1.0158878504672897,
+		"user_stars": 3.953183520599251,
 		"user_attempts": 1.2828282828282829,
-		"repeats": 1069,
+		"repeats": 1070,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -754,7 +754,7 @@
 			]
 		},
 		"user_grade_breakdown": {
-			"0": 128,
+			"0": 129,
 			"1": 847,
 			"2": 45,
 			"3": 46,
@@ -779,7 +779,7 @@
 			"2": 16,
 			"3": 17,
 			"4": 432,
-			"5": 473
+			"5": 474
 		},
 		"user_attempts_breakdown": {
 			"1": 80,
@@ -1113,10 +1113,10 @@
 		"name": "RED REDEMPTION",
 		"setter": "Liam Knapper",
 		"official_grade": 2,
-		"user_grade": 1.9907872696817421,
-		"user_stars": 4.20452640402347,
+		"user_grade": 1.9907949790794979,
+		"user_stars": 4.205192629815746,
 		"user_attempts": 1.52,
-		"repeats": 1194,
+		"repeats": 1195,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -1144,7 +1144,7 @@
 		"user_grade_breakdown": {
 			"0": 16,
 			"1": 54,
-			"2": 1067,
+			"2": 1068,
 			"3": 42,
 			"4": 13,
 			"5": 1,
@@ -1167,7 +1167,7 @@
 			"2": 16,
 			"3": 38,
 			"4": 564,
-			"5": 515
+			"5": 516
 		},
 		"user_attempts_breakdown": {
 			"1": 70,
@@ -1246,10 +1246,10 @@
 		"name": "MORNINGWOOD RIGHT",
 		"setter": "silven ",
 		"official_grade": 6,
-		"user_grade": 5.908045977011494,
-		"user_stars": 4.375478927203065,
-		"user_attempts": 1.93,
-		"repeats": 261,
+		"user_grade": 5.912213740458015,
+		"user_stars": 4.377862595419847,
+		"user_attempts": 1.9393939393939394,
+		"repeats": 262,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -1281,7 +1281,7 @@
 			"4": 6,
 			"5": 13,
 			"6": 228,
-			"7": 11,
+			"7": 12,
 			"8": 1,
 			"9": 0,
 			"10": 0,
@@ -1299,10 +1299,10 @@
 			"2": 1,
 			"3": 9,
 			"4": 111,
-			"5": 133
+			"5": 134
 		},
 		"user_attempts_breakdown": {
-			"1": 54,
+			"1": 53,
 			"2": 17,
 			"3": 11,
 			"4": 18
@@ -1701,10 +1701,10 @@
 		"name": "WARM UP B1",
 		"setter": "Ben Moon",
 		"official_grade": 0,
-		"user_grade": 0.0440359127832407,
-		"user_stars": 3.996578272027374,
+		"user_grade": 0.04422132023071993,
+		"user_stars": 3.9957255823893996,
 		"user_attempts": 1.2178217821782178,
-		"repeats": 4678,
+		"repeats": 4681,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -1728,8 +1728,8 @@
 			]
 		},
 		"user_grade_breakdown": {
-			"0": 4525,
-			"1": 106,
+			"0": 4527,
+			"1": 107,
 			"2": 44,
 			"3": 1,
 			"4": 1,
@@ -1748,11 +1748,11 @@
 			"17": 0
 		},
 		"user_star_breakdown": {
-			"0": 314,
+			"0": 315,
 			"1": 74,
 			"2": 73,
 			"3": 195,
-			"4": 2217,
+			"4": 2219,
 			"5": 1803
 		},
 		"user_attempts_breakdown": {
@@ -1833,10 +1833,10 @@
 		"name": "WARM UP B3",
 		"setter": "Ben Moon",
 		"official_grade": 0,
-		"user_grade": 0.11092918542775276,
-		"user_stars": 3.932841932841933,
+		"user_grade": 0.11129296235679215,
+		"user_stars": 3.9332787556283257,
 		"user_attempts": 1.45,
-		"repeats": 2443,
+		"repeats": 2444,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -1861,7 +1861,7 @@
 		},
 		"user_grade_breakdown": {
 			"0": 2258,
-			"1": 123,
+			"1": 124,
 			"2": 58,
 			"3": 0,
 			"4": 1,
@@ -1885,7 +1885,7 @@
 			"2": 46,
 			"3": 103,
 			"4": 1202,
-			"5": 863
+			"5": 864
 		},
 		"user_attempts_breakdown": {
 			"1": 74,
@@ -2225,10 +2225,10 @@
 		"name": "IN ON THE ACTION",
 		"setter": "Fox",
 		"official_grade": 0,
-		"user_grade": 0.06846399432422845,
-		"user_stars": 4.000709471443774,
+		"user_grade": 0.0684154555122297,
+		"user_stars": 4.001063452676356,
 		"user_attempts": 1.19,
-		"repeats": 2819,
+		"repeats": 2821,
 		"upgraded": true,
 		"downgraded": false,
 		"holdsets": [
@@ -2251,7 +2251,7 @@
 			]
 		},
 		"user_grade_breakdown": {
-			"0": 2666,
+			"0": 2668,
 			"1": 117,
 			"2": 34,
 			"3": 0,
@@ -2275,8 +2275,8 @@
 			"1": 54,
 			"2": 44,
 			"3": 116,
-			"4": 1397,
-			"5": 1040
+			"4": 1398,
+			"5": 1041
 		},
 		"user_attempts_breakdown": {
 			"1": 88,
@@ -2355,10 +2355,10 @@
 		"name": "ALLEZ IN WONDERLAND 25\u00b0",
 		"setter": "Ben Moon",
 		"official_grade": 2,
-		"user_grade": 1.9666666666666666,
-		"user_stars": 4.309729418537708,
+		"user_grade": 1.9666858127512923,
+		"user_stars": 4.310126582278481,
 		"user_attempts": 1.44,
-		"repeats": 1740,
+		"repeats": 1741,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -2384,7 +2384,7 @@
 		"user_grade_breakdown": {
 			"0": 19,
 			"1": 87,
-			"2": 1581,
+			"2": 1582,
 			"3": 42,
 			"4": 10,
 			"5": 0,
@@ -2407,7 +2407,7 @@
 			"2": 20,
 			"3": 59,
 			"4": 823,
-			"5": 793
+			"5": 794
 		},
 		"user_attempts_breakdown": {
 			"1": 73,
@@ -2616,10 +2616,10 @@
 		"name": "ON A PALE HORSE 25\u00b0",
 		"setter": "Ben Moon",
 		"official_grade": 2,
-		"user_grade": 2.102064220183486,
-		"user_stars": 4.157290470723306,
+		"user_grade": 2.1019473081328752,
+		"user_stars": 4.158256880733945,
 		"user_attempts": 1.62,
-		"repeats": 872,
+		"repeats": 873,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -2645,7 +2645,7 @@
 		"user_grade_breakdown": {
 			"0": 11,
 			"1": 16,
-			"2": 757,
+			"2": 758,
 			"3": 54,
 			"4": 32,
 			"5": 0,
@@ -2668,7 +2668,7 @@
 			"2": 13,
 			"3": 42,
 			"4": 408,
-			"5": 360
+			"5": 361
 		},
 		"user_attempts_breakdown": {
 			"1": 65,
@@ -3071,10 +3071,10 @@
 		"name": "ABIT CRIMPY",
 		"setter": "lucy",
 		"official_grade": 7,
-		"user_grade": 6.7570194384449245,
-		"user_stars": 4.327213822894168,
-		"user_attempts": 1.55,
-		"repeats": 926,
+		"user_grade": 6.757281553398058,
+		"user_stars": 4.327939590075513,
+		"user_attempts": 1.5555555555555556,
+		"repeats": 927,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -3106,7 +3106,7 @@
 			"4": 6,
 			"5": 45,
 			"6": 114,
-			"7": 754,
+			"7": 755,
 			"8": 5,
 			"9": 0,
 			"10": 0,
@@ -3124,10 +3124,10 @@
 			"2": 12,
 			"3": 65,
 			"4": 364,
-			"5": 466
+			"5": 467
 		},
 		"user_attempts_breakdown": {
-			"1": 70,
+			"1": 69,
 			"2": 14,
 			"3": 7,
 			"4": 9
@@ -3205,10 +3205,10 @@
 		"name": "CRIMPS",
 		"setter": "jackmcc",
 		"official_grade": 4,
-		"user_grade": 3.9558823529411766,
-		"user_stars": 4.2923875432525955,
-		"user_attempts": 1.613861386138614,
-		"repeats": 1156,
+		"user_grade": 3.9559585492227978,
+		"user_stars": 4.29188255613126,
+		"user_attempts": 1.62,
+		"repeats": 1158,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -3236,7 +3236,7 @@
 			"1": 3,
 			"2": 23,
 			"3": 49,
-			"4": 1023,
+			"4": 1025,
 			"5": 35,
 			"6": 16,
 			"7": 2,
@@ -3256,11 +3256,11 @@
 			"1": 17,
 			"2": 18,
 			"3": 35,
-			"4": 476,
+			"4": 478,
 			"5": 580
 		},
 		"user_attempts_breakdown": {
-			"1": 68,
+			"1": 67,
 			"2": 15,
 			"3": 7,
 			"4": 11
@@ -3536,10 +3536,10 @@
 		"name": "TICKY TACKY 25 GRADI",
 		"setter": "clemente pozzi",
 		"official_grade": 2,
-		"user_grade": 1.9729011689691818,
-		"user_stars": 4.203407880724175,
+		"user_grade": 1.972915560276155,
+		"user_stars": 4.203831825439063,
 		"user_attempts": 1.46,
-		"repeats": 1882,
+		"repeats": 1883,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -3566,7 +3566,7 @@
 		"user_grade_breakdown": {
 			"0": 23,
 			"1": 102,
-			"2": 1682,
+			"2": 1683,
 			"3": 54,
 			"4": 20,
 			"5": 1,
@@ -3589,7 +3589,7 @@
 			"2": 22,
 			"3": 95,
 			"4": 916,
-			"5": 775
+			"5": 776
 		},
 		"user_attempts_breakdown": {
 			"1": 73,
@@ -3735,10 +3735,10 @@
 		"name": "WOODY'S TAIL",
 		"setter": "#dirtygirlchronicles ",
 		"official_grade": 0,
-		"user_grade": 0.02542841348811498,
-		"user_stars": 3.883665191740413,
+		"user_grade": 0.025777941447247283,
+		"user_stars": 3.8839351510685334,
 		"user_attempts": 1.12,
-		"repeats": 5427,
+		"repeats": 5431,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -3761,9 +3761,9 @@
 			]
 		},
 		"user_grade_breakdown": {
-			"0": 5326,
+			"0": 5329,
 			"1": 83,
-			"2": 13,
+			"2": 14,
 			"3": 1,
 			"4": 3,
 			"5": 0,
@@ -3784,9 +3784,9 @@
 			"0": 422,
 			"1": 112,
 			"2": 110,
-			"3": 276,
-			"4": 2615,
-			"5": 1889
+			"3": 277,
+			"4": 2616,
+			"5": 1891
 		},
 		"user_attempts_breakdown": {
 			"1": 92,
@@ -3926,10 +3926,10 @@
 		"name": "SPANNY IN THE WORKS",
 		"setter": "Scriv",
 		"official_grade": 3,
-		"user_grade": 2.9356458238247374,
-		"user_stars": 4.142138939670932,
+		"user_grade": 2.9356751824817517,
+		"user_stars": 4.142074006395615,
 		"user_attempts": 1.495049504950495,
-		"repeats": 2191,
+		"repeats": 2192,
 		"upgraded": false,
 		"downgraded": true,
 		"holdsets": [
@@ -3958,7 +3958,7 @@
 			"0": 11,
 			"1": 21,
 			"2": 152,
-			"3": 1936,
+			"3": 1937,
 			"4": 60,
 			"5": 7,
 			"6": 4,
@@ -3979,7 +3979,7 @@
 			"1": 31,
 			"2": 39,
 			"3": 84,
-			"4": 1063,
+			"4": 1064,
 			"5": 890
 		},
 		"user_attempts_breakdown": {
@@ -4125,10 +4125,10 @@
 		"name": "DONNER KEBAB",
 		"setter": "DonnyDawes",
 		"official_grade": 1,
-		"user_grade": 1.031549295774648,
-		"user_stars": 4.187253243090806,
+		"user_grade": 1.0315315315315314,
+		"user_stars": 4.187711386696731,
 		"user_attempts": 1.4,
-		"repeats": 1775,
+		"repeats": 1776,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -4154,7 +4154,7 @@
 		},
 		"user_grade_breakdown": {
 			"0": 64,
-			"1": 1614,
+			"1": 1615,
 			"2": 80,
 			"3": 13,
 			"4": 3,
@@ -4178,7 +4178,7 @@
 			"2": 22,
 			"3": 68,
 			"4": 902,
-			"5": 708
+			"5": 709
 		},
 		"user_attempts_breakdown": {
 			"1": 74,
@@ -4321,10 +4321,10 @@
 		"name": "BOTTLE A BUCKIE?",
 		"setter": "DonnyDawes",
 		"official_grade": 2,
-		"user_grade": 2.024296675191816,
-		"user_stars": 4.23943661971831,
+		"user_grade": 2.024203821656051,
+		"user_stars": 4.24234693877551,
 		"user_attempts": 1.5,
-		"repeats": 782,
+		"repeats": 785,
 		"upgraded": false,
 		"downgraded": true,
 		"holdsets": [
@@ -4350,7 +4350,7 @@
 		"user_grade_breakdown": {
 			"0": 14,
 			"1": 30,
-			"2": 677,
+			"2": 680,
 			"3": 47,
 			"4": 12,
 			"5": 2,
@@ -4373,7 +4373,7 @@
 			"2": 8,
 			"3": 36,
 			"4": 391,
-			"5": 321
+			"5": 324
 		},
 		"user_attempts_breakdown": {
 			"1": 73,
@@ -4451,10 +4451,10 @@
 		"name": "JAY VAN DEN HOVEN",
 		"setter": "DonnyDawes",
 		"official_grade": 3,
-		"user_grade": 3.0008291873963517,
-		"user_stars": 4.282392026578073,
+		"user_grade": 3.0008285004142503,
+		"user_stars": 4.282157676348548,
 		"user_attempts": 1.45,
-		"repeats": 1206,
+		"repeats": 1207,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -4480,7 +4480,7 @@
 			"0": 4,
 			"1": 5,
 			"2": 53,
-			"3": 1085,
+			"3": 1086,
 			"4": 48,
 			"5": 5,
 			"6": 6,
@@ -4501,7 +4501,7 @@
 			"1": 21,
 			"2": 21,
 			"3": 39,
-			"4": 539,
+			"4": 540,
 			"5": 564
 		},
 		"user_attempts_breakdown": {
@@ -5032,10 +5032,10 @@
 		"name": "Zero Hour Hard 25\u00b0",
 		"setter": "Ben Moon",
 		"official_grade": 7,
-		"user_grade": 6.8274470232088795,
-		"user_stars": 4.265656565656566,
+		"user_grade": 6.826612903225806,
+		"user_stars": 4.265388496468214,
 		"user_attempts": 2.12,
-		"repeats": 991,
+		"repeats": 992,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -5063,7 +5063,7 @@
 			"3": 3,
 			"4": 6,
 			"5": 30,
-			"6": 69,
+			"6": 70,
 			"7": 853,
 			"8": 23,
 			"9": 1,
@@ -5081,7 +5081,7 @@
 			"1": 22,
 			"2": 10,
 			"3": 53,
-			"4": 428,
+			"4": 429,
 			"5": 462
 		},
 		"user_attempts_breakdown": {
@@ -5229,10 +5229,10 @@
 		"name": "DA TING GOES SKRRAA",
 		"setter": "Alex",
 		"official_grade": 5,
-		"user_grade": 4.968215158924205,
-		"user_stars": 4.358190709046455,
+		"user_grade": 4.96829268292683,
+		"user_stars": 4.3585365853658535,
 		"user_attempts": 1.69,
-		"repeats": 818,
+		"repeats": 820,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -5265,7 +5265,7 @@
 			"2": 1,
 			"3": 6,
 			"4": 37,
-			"5": 745,
+			"5": 747,
 			"6": 25,
 			"7": 3,
 			"8": 0,
@@ -5284,8 +5284,8 @@
 			"1": 8,
 			"2": 10,
 			"3": 33,
-			"4": 367,
-			"5": 394
+			"4": 368,
+			"5": 395
 		},
 		"user_attempts_breakdown": {
 			"1": 60,
@@ -5364,10 +5364,10 @@
 		"name": "VANILLA CAKE",
 		"setter": "#dirtygirlchronicles ",
 		"official_grade": 0,
-		"user_grade": 0.11440677966101695,
-		"user_stars": 4.194915254237288,
+		"user_grade": 0.11392405063291139,
+		"user_stars": 4.19620253164557,
 		"user_attempts": 1.17,
-		"repeats": 472,
+		"repeats": 474,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -5390,7 +5390,7 @@
 			]
 		},
 		"user_grade_breakdown": {
-			"0": 428,
+			"0": 430,
 			"1": 34,
 			"2": 10,
 			"3": 0,
@@ -5414,8 +5414,8 @@
 			"1": 2,
 			"2": 6,
 			"3": 31,
-			"4": 227,
-			"5": 193
+			"4": 228,
+			"5": 194
 		},
 		"user_attempts_breakdown": {
 			"1": 89,
@@ -5826,10 +5826,10 @@
 		"name": "WHELLOW 25",
 		"setter": "Christophe Paquot",
 		"official_grade": 5,
-		"user_grade": 4.971751412429379,
-		"user_stars": 4.342749529190207,
+		"user_grade": 4.971857410881801,
+		"user_stars": 4.345215759849906,
 		"user_attempts": 1.54,
-		"repeats": 531,
+		"repeats": 533,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -5858,7 +5858,7 @@
 			"2": 1,
 			"3": 4,
 			"4": 22,
-			"5": 483,
+			"5": 485,
 			"6": 17,
 			"7": 3,
 			"8": 0,
@@ -5878,7 +5878,7 @@
 			"2": 13,
 			"3": 34,
 			"4": 209,
-			"5": 268
+			"5": 270
 		},
 		"user_attempts_breakdown": {
 			"1": 69,
@@ -6478,10 +6478,10 @@
 		"name": "POGO",
 		"setter": "kasperg ",
 		"official_grade": 1,
-		"user_grade": 1.0853658536585367,
-		"user_stars": 4.133037694013304,
+		"user_grade": 1.0852713178294573,
+		"user_stars": 4.133997785160576,
 		"user_attempts": 1.58,
-		"repeats": 902,
+		"repeats": 903,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -6505,7 +6505,7 @@
 		},
 		"user_grade_breakdown": {
 			"0": 17,
-			"1": 813,
+			"1": 814,
 			"2": 57,
 			"3": 8,
 			"4": 7,
@@ -6529,7 +6529,7 @@
 			"2": 16,
 			"3": 49,
 			"4": 494,
-			"5": 308
+			"5": 309
 		},
 		"user_attempts_breakdown": {
 			"1": 66,
@@ -6739,10 +6739,10 @@
 		"name": "THE CROSSOVER",
 		"setter": "Christy",
 		"official_grade": 6,
-		"user_grade": 5.778231292517007,
-		"user_stars": 4.241144414168938,
+		"user_grade": 5.778833107191316,
+		"user_stars": 4.240489130434782,
 		"user_attempts": 1.68,
-		"repeats": 735,
+		"repeats": 737,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -6773,7 +6773,7 @@
 			"3": 2,
 			"4": 21,
 			"5": 96,
-			"6": 610,
+			"6": 612,
 			"7": 1,
 			"8": 0,
 			"9": 0,
@@ -6791,7 +6791,7 @@
 			"1": 7,
 			"2": 14,
 			"3": 48,
-			"4": 331,
+			"4": 333,
 			"5": 322
 		},
 		"user_attempts_breakdown": {
@@ -6871,10 +6871,10 @@
 		"name": "MR. STRETCH",
 		"setter": "Christy",
 		"official_grade": 2,
-		"user_grade": 1.9140684410646387,
-		"user_stars": 4.198019801980198,
+		"user_grade": 1.9141337386018238,
+		"user_stars": 4.197869101978691,
 		"user_attempts": 1.52,
-		"repeats": 1315,
+		"repeats": 1316,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -6899,7 +6899,7 @@
 		"user_grade_breakdown": {
 			"0": 21,
 			"1": 99,
-			"2": 1170,
+			"2": 1171,
 			"3": 22,
 			"4": 3,
 			"5": 0,
@@ -6921,7 +6921,7 @@
 			"1": 35,
 			"2": 24,
 			"3": 59,
-			"4": 688,
+			"4": 689,
 			"5": 500
 		},
 		"user_attempts_breakdown": {
@@ -6935,10 +6935,10 @@
 		"name": "COMMIT!",
 		"setter": "Christy",
 		"official_grade": 2,
-		"user_grade": 2.012326656394453,
-		"user_stars": 4.288135593220339,
+		"user_grade": 2.0123076923076924,
+		"user_stars": 4.28923076923077,
 		"user_attempts": 1.53,
-		"repeats": 649,
+		"repeats": 650,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -6966,7 +6966,7 @@
 		"user_grade_breakdown": {
 			"0": 4,
 			"1": 21,
-			"2": 592,
+			"2": 593,
 			"3": 28,
 			"4": 3,
 			"5": 1,
@@ -6989,7 +6989,7 @@
 			"2": 9,
 			"3": 42,
 			"4": 304,
-			"5": 283
+			"5": 284
 		},
 		"user_attempts_breakdown": {
 			"1": 69,
@@ -7002,10 +7002,10 @@
 		"name": "HIGH-STEP",
 		"setter": "Christy",
 		"official_grade": 4,
-		"user_grade": 3.8629482071713146,
-		"user_stars": 4.241434262948207,
+		"user_grade": 3.8630573248407645,
+		"user_stars": 4.24124203821656,
 		"user_attempts": 1.494949494949495,
-		"repeats": 1255,
+		"repeats": 1256,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -7033,7 +7033,7 @@
 			"1": 8,
 			"2": 27,
 			"3": 101,
-			"4": 1096,
+			"4": 1097,
 			"5": 16,
 			"6": 2,
 			"7": 1,
@@ -7053,7 +7053,7 @@
 			"1": 13,
 			"2": 28,
 			"3": 50,
-			"4": 656,
+			"4": 657,
 			"5": 496
 		},
 		"user_attempts_breakdown": {
@@ -7330,10 +7330,10 @@
 		"name": "NO PROBLEM",
 		"setter": "Spurrelli",
 		"official_grade": 5,
-		"user_grade": 4.927495291902072,
-		"user_stars": 4.209981167608286,
+		"user_grade": 4.927563499529633,
+		"user_stars": 4.209783631232361,
 		"user_attempts": 1.73,
-		"repeats": 1062,
+		"repeats": 1063,
 		"upgraded": false,
 		"downgraded": true,
 		"holdsets": [
@@ -7363,7 +7363,7 @@
 			"2": 2,
 			"3": 14,
 			"4": 78,
-			"5": 926,
+			"5": 927,
 			"6": 22,
 			"7": 16,
 			"8": 0,
@@ -7382,7 +7382,7 @@
 			"1": 19,
 			"2": 18,
 			"3": 37,
-			"4": 495,
+			"4": 496,
 			"5": 465
 		},
 		"user_attempts_breakdown": {
@@ -7597,10 +7597,10 @@
 		"name": "SQUIRTLE 25\u00b0",
 		"setter": "Ben Moon",
 		"official_grade": 0,
-		"user_grade": 0.07625649913344887,
-		"user_stars": 4.111496244945118,
+		"user_grade": 0.07621247113163972,
+		"user_stars": 4.112009237875289,
 		"user_attempts": 1.27,
-		"repeats": 1731,
+		"repeats": 1732,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -7626,7 +7626,7 @@
 			]
 		},
 		"user_grade_breakdown": {
-			"0": 1627,
+			"0": 1628,
 			"1": 82,
 			"2": 19,
 			"3": 0,
@@ -7651,7 +7651,7 @@
 			"2": 22,
 			"3": 68,
 			"4": 833,
-			"5": 701
+			"5": 702
 		},
 		"user_attempts_breakdown": {
 			"1": 83,
@@ -7795,10 +7795,10 @@
 		"name": "MOUNTAIN GOAT 25\u00b0",
 		"setter": "Ben Moon",
 		"official_grade": 1,
-		"user_grade": 0.9890995260663508,
-		"user_stars": 4.244191559981034,
+		"user_grade": 0.9891046897205116,
+		"user_stars": 4.244549763033175,
 		"user_attempts": 1.43,
-		"repeats": 2110,
+		"repeats": 2111,
 		"upgraded": true,
 		"downgraded": false,
 		"holdsets": [
@@ -7825,7 +7825,7 @@
 		},
 		"user_grade_breakdown": {
 			"0": 214,
-			"1": 1743,
+			"1": 1744,
 			"2": 130,
 			"3": 9,
 			"4": 13,
@@ -7849,7 +7849,7 @@
 			"2": 32,
 			"3": 70,
 			"4": 1009,
-			"5": 923
+			"5": 924
 		},
 		"user_attempts_breakdown": {
 			"1": 74,
@@ -7862,10 +7862,10 @@
 		"name": "THE BIG CROSS 25\u00b0",
 		"setter": "Ben Moon",
 		"official_grade": 1,
-		"user_grade": 1.0223880597014925,
-		"user_stars": 4.212347354138399,
+		"user_grade": 1.023680649526387,
+		"user_stars": 4.214479025710419,
 		"user_attempts": 1.504950495049505,
-		"repeats": 1474,
+		"repeats": 1478,
 		"upgraded": true,
 		"downgraded": false,
 		"holdsets": [
@@ -7890,8 +7890,8 @@
 		},
 		"user_grade_breakdown": {
 			"0": 206,
-			"1": 1083,
-			"2": 148,
+			"1": 1085,
+			"2": 150,
 			"3": 21,
 			"4": 15,
 			"5": 1,
@@ -7914,7 +7914,7 @@
 			"2": 24,
 			"3": 57,
 			"4": 681,
-			"5": 646
+			"5": 650
 		},
 		"user_attempts_breakdown": {
 			"1": 72,
@@ -7927,10 +7927,10 @@
 		"name": "BLACK TIP 25\u00b0",
 		"setter": "Ben Moon",
 		"official_grade": 0,
-		"user_grade": 0.0517718715393134,
-		"user_stars": 4.01301578510108,
+		"user_grade": 0.05201992252351965,
+		"user_stars": 4.013008580127318,
 		"user_attempts": 1.28,
-		"repeats": 3612,
+		"repeats": 3614,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -7954,8 +7954,8 @@
 			]
 		},
 		"user_grade_breakdown": {
-			"0": 3470,
-			"1": 109,
+			"0": 3471,
+			"1": 110,
 			"2": 29,
 			"3": 0,
 			"4": 2,
@@ -7978,7 +7978,7 @@
 			"1": 64,
 			"2": 54,
 			"3": 133,
-			"4": 1785,
+			"4": 1787,
 			"5": 1356
 		},
 		"user_attempts_breakdown": {
@@ -7992,10 +7992,10 @@
 		"name": "HENNE WALK 25\u00b0",
 		"setter": "Ben Moon",
 		"official_grade": 0,
-		"user_grade": 0.10153336096145876,
-		"user_stars": 4.0742430526752385,
+		"user_grade": 0.10149130074565037,
+		"user_stars": 4.074626865671642,
 		"user_attempts": 1.393939393939394,
-		"repeats": 2413,
+		"repeats": 2414,
 		"upgraded": true,
 		"downgraded": false,
 		"holdsets": [
@@ -8018,7 +8018,7 @@
 			]
 		},
 		"user_grade_breakdown": {
-			"0": 2228,
+			"0": 2229,
 			"1": 142,
 			"2": 40,
 			"3": 1,
@@ -8043,7 +8043,7 @@
 			"2": 33,
 			"3": 93,
 			"4": 1217,
-			"5": 912
+			"5": 913
 		},
 		"user_attempts_breakdown": {
 			"1": 76,
@@ -8056,10 +8056,10 @@
 		"name": "RED ONE 25\u00b0",
 		"setter": "Ben Moon",
 		"official_grade": 0,
-		"user_grade": 0.06170926930028402,
-		"user_stars": 4.03308348410442,
+		"user_grade": 0.06162970603403816,
+		"user_stars": 4.0325245224574084,
 		"user_attempts": 1.32,
-		"repeats": 3873,
+		"repeats": 3878,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -8082,7 +8082,7 @@
 			]
 		},
 		"user_grade_breakdown": {
-			"0": 3687,
+			"0": 3692,
 			"1": 135,
 			"2": 50,
 			"3": 0,
@@ -8102,12 +8102,12 @@
 			"17": 0
 		},
 		"user_star_breakdown": {
-			"0": 234,
+			"0": 235,
 			"1": 61,
 			"2": 57,
 			"3": 149,
-			"4": 1858,
-			"5": 1510
+			"4": 1860,
+			"5": 1512
 		},
 		"user_attempts_breakdown": {
 			"1": 81,
@@ -8250,10 +8250,10 @@
 		"name": "BILDER IM KOF 25\u00b0",
 		"setter": "Ben Moon",
 		"official_grade": 3,
-		"user_grade": 3.096359743040685,
-		"user_stars": 4.167023554603855,
-		"user_attempts": 1.7777777777777777,
-		"repeats": 467,
+		"user_grade": 3.0982905982905984,
+		"user_stars": 4.168803418803419,
+		"user_attempts": 1.78,
+		"repeats": 468,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -8279,7 +8279,7 @@
 			"1": 6,
 			"2": 53,
 			"3": 320,
-			"4": 54,
+			"4": 55,
 			"5": 18,
 			"6": 9,
 			"7": 2,
@@ -8300,11 +8300,11 @@
 			"2": 9,
 			"3": 17,
 			"4": 217,
-			"5": 197
+			"5": 198
 		},
 		"user_attempts_breakdown": {
 			"1": 58,
-			"2": 19,
+			"2": 20,
 			"3": 8,
 			"4": 14
 		}
@@ -8313,10 +8313,10 @@
 		"name": "VECTOR 25\u00b0",
 		"setter": "Ben Moon",
 		"official_grade": 2,
-		"user_grade": 2.0300230946882216,
-		"user_stars": 4.259481961147086,
+		"user_grade": 2.0300092336103415,
+		"user_stars": 4.259824318076745,
 		"user_attempts": 1.63,
-		"repeats": 2165,
+		"repeats": 2166,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -8342,7 +8342,7 @@
 		"user_grade_breakdown": {
 			"0": 21,
 			"1": 71,
-			"2": 1932,
+			"2": 1933,
 			"3": 110,
 			"4": 28,
 			"5": 1,
@@ -8365,7 +8365,7 @@
 			"2": 40,
 			"3": 91,
 			"4": 979,
-			"5": 981
+			"5": 982
 		},
 		"user_attempts_breakdown": {
 			"1": 66,
@@ -8378,10 +8378,10 @@
 		"name": "PILLAR OF FIRE 25\u00b0",
 		"setter": "Ben Moon",
 		"official_grade": 2,
-		"user_grade": 2.3833049403747872,
-		"user_stars": 4.146507666098808,
-		"user_attempts": 1.9,
-		"repeats": 587,
+		"user_grade": 2.3860544217687076,
+		"user_stars": 4.1479591836734695,
+		"user_attempts": 1.88,
+		"repeats": 588,
 		"upgraded": true,
 		"downgraded": false,
 		"holdsets": [
@@ -8407,7 +8407,7 @@
 			"1": 5,
 			"2": 419,
 			"3": 88,
-			"4": 56,
+			"4": 57,
 			"5": 6,
 			"6": 4,
 			"7": 2,
@@ -8428,13 +8428,13 @@
 			"2": 17,
 			"3": 21,
 			"4": 267,
-			"5": 248
+			"5": 249
 		},
 		"user_attempts_breakdown": {
 			"1": 56,
-			"2": 16,
+			"2": 17,
 			"3": 10,
-			"4": 18
+			"4": 17
 		}
 	},
 	{
@@ -8574,10 +8574,10 @@
 		"name": "MITCH MASTER HARD 25\u00b0",
 		"setter": "Ben Moon",
 		"official_grade": 3,
-		"user_grade": 3.0668073136427565,
-		"user_stars": 4.250704225352113,
+		"user_grade": 3.0667134831460676,
+		"user_stars": 4.251054852320675,
 		"user_attempts": 1.61,
-		"repeats": 1422,
+		"repeats": 1424,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -8606,7 +8606,7 @@
 			"0": 9,
 			"1": 6,
 			"2": 33,
-			"3": 1261,
+			"3": 1263,
 			"4": 83,
 			"5": 8,
 			"6": 21,
@@ -8627,8 +8627,8 @@
 			"1": 25,
 			"2": 17,
 			"3": 49,
-			"4": 660,
-			"5": 638
+			"4": 661,
+			"5": 639
 		},
 		"user_attempts_breakdown": {
 			"1": 65,
@@ -8710,10 +8710,10 @@
 		"name": "GENESIS TRAIN 25\u00b0",
 		"setter": "Ben Moon",
 		"official_grade": 3,
-		"user_grade": 2.967945048654837,
-		"user_stars": 4.233676975945017,
-		"user_attempts": 1.505050505050505,
-		"repeats": 1747,
+		"user_grade": 2.9679817038307603,
+		"user_stars": 4.232837528604119,
+		"user_attempts": 1.51,
+		"repeats": 1749,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -8745,7 +8745,7 @@
 			"0": 8,
 			"1": 9,
 			"2": 87,
-			"3": 1590,
+			"3": 1592,
 			"4": 43,
 			"5": 2,
 			"6": 7,
@@ -8765,13 +8765,13 @@
 			"0": 52,
 			"1": 22,
 			"2": 23,
-			"3": 51,
-			"4": 819,
+			"3": 52,
+			"4": 820,
 			"5": 779
 		},
 		"user_attempts_breakdown": {
 			"1": 70,
-			"2": 15,
+			"2": 16,
 			"3": 7,
 			"4": 7
 		}
@@ -8844,10 +8844,10 @@
 		"name": "FROM SCOTLAND WITH LOVE",
 		"setter": "Eric",
 		"official_grade": 4,
-		"user_grade": 4.0911492734478205,
-		"user_stars": 4.277410832232497,
-		"user_attempts": 1.62,
-		"repeats": 757,
+		"user_grade": 4.092348284960422,
+		"user_stars": 4.277044854881266,
+		"user_attempts": 1.63,
+		"repeats": 758,
 		"upgraded": false,
 		"downgraded": true,
 		"holdsets": [
@@ -8879,7 +8879,7 @@
 			"2": 5,
 			"3": 26,
 			"4": 658,
-			"5": 34,
+			"5": 35,
 			"6": 25,
 			"7": 8,
 			"8": 0,
@@ -8898,12 +8898,12 @@
 			"1": 17,
 			"2": 11,
 			"3": 18,
-			"4": 355,
+			"4": 356,
 			"5": 345
 		},
 		"user_attempts_breakdown": {
-			"1": 65,
-			"2": 16,
+			"1": 64,
+			"2": 17,
 			"3": 11,
 			"4": 8
 		}
@@ -8912,10 +8912,10 @@
 		"name": "DEEP BLUE SEA",
 		"setter": "Christy",
 		"official_grade": 2,
-		"user_grade": 1.8415147265077139,
-		"user_stars": 4.182841068917019,
+		"user_grade": 1.8389355742296918,
+		"user_stars": 4.183988764044944,
 		"user_attempts": 1.35,
-		"repeats": 713,
+		"repeats": 714,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -8940,7 +8940,7 @@
 			]
 		},
 		"user_grade_breakdown": {
-			"0": 22,
+			"0": 23,
 			"1": 87,
 			"2": 591,
 			"3": 10,
@@ -8965,7 +8965,7 @@
 			"2": 12,
 			"3": 21,
 			"4": 340,
-			"5": 301
+			"5": 302
 		},
 		"user_attempts_breakdown": {
 			"1": 78,
@@ -8978,10 +8978,10 @@
 		"name": "DIRT BURGLAR",
 		"setter": "House",
 		"official_grade": 6,
-		"user_grade": 5.944444444444445,
-		"user_stars": 4.365451388888889,
+		"user_grade": 5.944492627927146,
+		"user_stars": 4.365134431916739,
 		"user_attempts": 1.54,
-		"repeats": 1152,
+		"repeats": 1153,
 		"upgraded": false,
 		"downgraded": true,
 		"holdsets": [
@@ -9011,7 +9011,7 @@
 			"3": 5,
 			"4": 26,
 			"5": 108,
-			"6": 896,
+			"6": 897,
 			"7": 104,
 			"8": 9,
 			"9": 1,
@@ -9029,7 +9029,7 @@
 			"1": 6,
 			"2": 15,
 			"3": 47,
-			"4": 503,
+			"4": 504,
 			"5": 568
 		},
 		"user_attempts_breakdown": {
@@ -9043,10 +9043,10 @@
 		"name": "DON\u2019T BE SUBTLE",
 		"setter": "Drama",
 		"official_grade": 5,
-		"user_grade": 4.7713467048710605,
-		"user_stars": 4.224641833810888,
+		"user_grade": 4.770904925544101,
+		"user_stars": 4.225085910652921,
 		"user_attempts": 1.606060606060606,
-		"repeats": 1745,
+		"repeats": 1746,
 		"upgraded": false,
 		"downgraded": true,
 		"holdsets": [
@@ -9076,7 +9076,7 @@
 			"1": 6,
 			"2": 19,
 			"3": 60,
-			"4": 230,
+			"4": 231,
 			"5": 1379,
 			"6": 36,
 			"7": 9,
@@ -9097,7 +9097,7 @@
 			"2": 27,
 			"3": 78,
 			"4": 848,
-			"5": 733
+			"5": 734
 		},
 		"user_attempts_breakdown": {
 			"1": 65,
@@ -9177,10 +9177,10 @@
 		"name": "CLALEXIA",
 		"setter": "Bella ciao ",
 		"official_grade": 0,
-		"user_grade": 0.008141112618724558,
-		"user_stars": 4.064676616915423,
+		"user_grade": 0.0081374321880651,
+		"user_stars": 4.0650994575045205,
 		"user_attempts": 1.0808080808080809,
-		"repeats": 2211,
+		"repeats": 2212,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -9208,7 +9208,7 @@
 			]
 		},
 		"user_grade_breakdown": {
-			"0": 2197,
+			"0": 2198,
 			"1": 10,
 			"2": 4,
 			"3": 0,
@@ -9233,7 +9233,7 @@
 			"2": 43,
 			"3": 133,
 			"4": 1335,
-			"5": 620
+			"5": 621
 		},
 		"user_attempts_breakdown": {
 			"1": 94,
@@ -9446,10 +9446,10 @@
 		"name": "KLIVRE",
 		"setter": "PaniX",
 		"official_grade": 0,
-		"user_grade": 0.04046242774566474,
-		"user_stars": 4.037159372419488,
+		"user_grade": 0.04044572843582336,
+		"user_stars": 4.037556747833264,
 		"user_attempts": 1.2277227722772277,
-		"repeats": 2422,
+		"repeats": 2423,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -9478,7 +9478,7 @@
 			]
 		},
 		"user_grade_breakdown": {
-			"0": 2345,
+			"0": 2346,
 			"1": 60,
 			"2": 15,
 			"3": 0,
@@ -9503,7 +9503,7 @@
 			"2": 46,
 			"3": 89,
 			"4": 1239,
-			"5": 879
+			"5": 880
 		},
 		"user_attempts_breakdown": {
 			"1": 87,
@@ -9580,10 +9580,10 @@
 		"name": "BEULLERS DAY OFF 2",
 		"setter": "Jon B",
 		"official_grade": 7,
-		"user_grade": 6.85054945054945,
-		"user_stars": 4.334801762114537,
+		"user_grade": 6.850877192982456,
+		"user_stars": 4.327472527472527,
 		"user_attempts": 2.01980198019802,
-		"repeats": 455,
+		"repeats": 456,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -9617,7 +9617,7 @@
 			"4": 0,
 			"5": 16,
 			"6": 38,
-			"7": 391,
+			"7": 392,
 			"8": 9,
 			"9": 0,
 			"10": 0,
@@ -9631,7 +9631,7 @@
 		},
 		"user_star_breakdown": {
 			"0": 5,
-			"1": 2,
+			"1": 3,
 			"2": 10,
 			"3": 40,
 			"4": 159,
@@ -9648,10 +9648,10 @@
 		"name": "CPLT1.1",
 		"setter": "catt",
 		"official_grade": 4,
-		"user_grade": 3.8763736263736264,
-		"user_stars": 4.201101928374656,
+		"user_grade": 3.8767123287671232,
+		"user_stars": 4.2032967032967035,
 		"user_attempts": 1.43,
-		"repeats": 364,
+		"repeats": 365,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -9680,7 +9680,7 @@
 			"1": 1,
 			"2": 3,
 			"3": 38,
-			"4": 311,
+			"4": 312,
 			"5": 8,
 			"6": 1,
 			"7": 0,
@@ -9701,7 +9701,7 @@
 			"2": 12,
 			"3": 44,
 			"4": 140,
-			"5": 161
+			"5": 162
 		},
 		"user_attempts_breakdown": {
 			"1": 72,
@@ -9714,10 +9714,10 @@
 		"name": "HIAS",
 		"setter": "hias",
 		"official_grade": 1,
-		"user_grade": 1.0123787219805955,
-		"user_stars": 4.064613324405758,
+		"user_grade": 1.0127047810096959,
+		"user_stars": 4.064570090331214,
 		"user_attempts": 1.27,
-		"repeats": 2989,
+		"repeats": 2991,
 		"upgraded": false,
 		"downgraded": true,
 		"holdsets": [
@@ -9741,8 +9741,8 @@
 		},
 		"user_grade_breakdown": {
 			"0": 171,
-			"1": 2641,
-			"2": 165,
+			"1": 2642,
+			"2": 166,
 			"3": 7,
 			"4": 3,
 			"5": 0,
@@ -9763,9 +9763,9 @@
 			"0": 66,
 			"1": 98,
 			"2": 62,
-			"3": 135,
+			"3": 136,
 			"4": 1616,
-			"5": 1010
+			"5": 1011
 		},
 		"user_attempts_breakdown": {
 			"1": 83,
@@ -9778,10 +9778,10 @@
 		"name": "GISLESPROBLEM",
 		"setter": "lars2re",
 		"official_grade": 0,
-		"user_grade": 0.08761528326745718,
-		"user_stars": 4.075098814229249,
+		"user_grade": 0.0881578947368421,
+		"user_stars": 4.076315789473684,
 		"user_attempts": 1.4,
-		"repeats": 1518,
+		"repeats": 1520,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -9809,8 +9809,8 @@
 			]
 		},
 		"user_grade_breakdown": {
-			"0": 1415,
-			"1": 77,
+			"0": 1416,
+			"1": 78,
 			"2": 24,
 			"3": 0,
 			"4": 2,
@@ -9834,7 +9834,7 @@
 			"2": 32,
 			"3": 97,
 			"4": 893,
-			"5": 443
+			"5": 445
 		},
 		"user_attempts_breakdown": {
 			"1": 76,
@@ -9977,10 +9977,10 @@
 		"name": "FRENCH FRIES",
 		"setter": "ClimbEpic",
 		"official_grade": 2,
-		"user_grade": 1.8938258847842935,
-		"user_stars": 4.094364012409514,
+		"user_grade": 1.893853305785124,
+		"user_stars": 4.094598087361075,
 		"user_attempts": 1.306930693069307,
-		"repeats": 3871,
+		"repeats": 3872,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -10010,7 +10010,7 @@
 		"user_grade_breakdown": {
 			"0": 81,
 			"1": 347,
-			"2": 3381,
+			"2": 3382,
 			"3": 41,
 			"4": 18,
 			"5": 1,
@@ -10033,7 +10033,7 @@
 			"2": 63,
 			"3": 163,
 			"4": 1953,
-			"5": 1473
+			"5": 1474
 		},
 		"user_attempts_breakdown": {
 			"1": 82,
@@ -10046,10 +10046,10 @@
 		"name": "FLAWLESS",
 		"setter": "RJtrials",
 		"official_grade": 3,
-		"user_grade": 2.9022403258655802,
-		"user_stars": 4.2304554724677095,
+		"user_grade": 2.9019341703427215,
+		"user_stars": 4.230716955487598,
 		"user_attempts": 1.42,
-		"repeats": 2946,
+		"repeats": 2947,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -10079,7 +10079,7 @@
 		"user_grade_breakdown": {
 			"0": 19,
 			"1": 41,
-			"2": 221,
+			"2": 222,
 			"3": 2605,
 			"4": 53,
 			"5": 3,
@@ -10102,7 +10102,7 @@
 			"2": 45,
 			"3": 158,
 			"4": 1423,
-			"5": 1232
+			"5": 1233
 		},
 		"user_attempts_breakdown": {
 			"1": 75,
@@ -10247,10 +10247,10 @@
 		"name": "DAHL MAKHANI",
 		"setter": "Garethbrooks_",
 		"official_grade": 1,
-		"user_grade": 0.8362032759344813,
-		"user_stars": 4.010926665265812,
+		"user_grade": 0.8363407469576164,
+		"user_stars": 4.010077682133109,
 		"user_attempts": 1.202020202020202,
-		"repeats": 4762,
+		"repeats": 4766,
 		"upgraded": false,
 		"downgraded": true,
 		"holdsets": [
@@ -10276,7 +10276,7 @@
 		},
 		"user_grade_breakdown": {
 			"0": 894,
-			"1": 3759,
+			"1": 3763,
 			"2": 106,
 			"3": 1,
 			"4": 2,
@@ -10295,11 +10295,11 @@
 			"17": 0
 		},
 		"user_star_breakdown": {
-			"0": 172,
+			"0": 173,
 			"1": 113,
 			"2": 87,
 			"3": 227,
-			"4": 2680,
+			"4": 2683,
 			"5": 1480
 		},
 		"user_attempts_breakdown": {
@@ -10507,10 +10507,10 @@
 		"name": "SIDESWIPE",
 		"setter": "Sandy Britain",
 		"official_grade": 0,
-		"user_grade": 0.25949774629748873,
-		"user_stars": 4.15260785576304,
+		"user_grade": 0.25933075933075933,
+		"user_stars": 4.153153153153153,
 		"user_attempts": 1.48,
-		"repeats": 1553,
+		"repeats": 1554,
 		"upgraded": true,
 		"downgraded": false,
 		"holdsets": [
@@ -10534,7 +10534,7 @@
 			]
 		},
 		"user_grade_breakdown": {
-			"0": 1262,
+			"0": 1263,
 			"1": 204,
 			"2": 80,
 			"3": 1,
@@ -10559,7 +10559,7 @@
 			"2": 32,
 			"3": 79,
 			"4": 915,
-			"5": 493
+			"5": 494
 		},
 		"user_attempts_breakdown": {
 			"1": 72,
@@ -10572,10 +10572,10 @@
 		"name": "THE NEW VERSION",
 		"setter": "DREUX JEREMY",
 		"official_grade": 0,
-		"user_grade": 0.025556471558120363,
-		"user_stars": 4.01456844420011,
+		"user_grade": 0.02580999450851181,
+		"user_stars": 4.015105740181269,
 		"user_attempts": 1.188118811881188,
-		"repeats": 3639,
+		"repeats": 3642,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -10601,8 +10601,8 @@
 			]
 		},
 		"user_grade_breakdown": {
-			"0": 3568,
-			"1": 51,
+			"0": 3570,
+			"1": 52,
 			"2": 19,
 			"3": 0,
 			"4": 1,
@@ -10625,8 +10625,8 @@
 			"1": 71,
 			"2": 66,
 			"3": 172,
-			"4": 2064,
-			"5": 1126
+			"4": 2065,
+			"5": 1128
 		},
 		"user_attempts_breakdown": {
 			"1": 89,
@@ -10639,10 +10639,10 @@
 		"name": "SWOOP",
 		"setter": "RJtrials",
 		"official_grade": 3,
-		"user_grade": 3.060968320382546,
-		"user_stars": 4.316576900059845,
+		"user_grade": 3.060859188544153,
+		"user_stars": 4.317204301075269,
 		"user_attempts": 1.75,
-		"repeats": 1673,
+		"repeats": 1676,
 		"upgraded": true,
 		"downgraded": false,
 		"holdsets": [
@@ -10672,7 +10672,7 @@
 			"0": 7,
 			"1": 6,
 			"2": 50,
-			"3": 1477,
+			"3": 1480,
 			"4": 103,
 			"5": 13,
 			"6": 15,
@@ -10693,8 +10693,8 @@
 			"1": 26,
 			"2": 18,
 			"3": 52,
-			"4": 735,
-			"5": 811
+			"4": 736,
+			"5": 813
 		},
 		"user_attempts_breakdown": {
 			"1": 59,
@@ -10707,10 +10707,10 @@
 		"name": "TACOS PASTOR",
 		"setter": "RJtrials",
 		"official_grade": 1,
-		"user_grade": 1.0287018917155903,
-		"user_stars": 4.1827676240208875,
+		"user_grade": 1.0286831812255541,
+		"user_stars": 4.183300717547293,
 		"user_attempts": 1.31,
-		"repeats": 1533,
+		"repeats": 1534,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -10738,7 +10738,7 @@
 		},
 		"user_grade_breakdown": {
 			"0": 20,
-			"1": 1455,
+			"1": 1456,
 			"2": 53,
 			"3": 4,
 			"4": 1,
@@ -10762,7 +10762,7 @@
 			"2": 24,
 			"3": 83,
 			"4": 883,
-			"5": 513
+			"5": 514
 		},
 		"user_attempts_breakdown": {
 			"1": 80,
@@ -10775,10 +10775,10 @@
 		"name": "SINCH YOUR CORSET",
 		"setter": "Mikala",
 		"official_grade": 1,
-		"user_grade": 0.9648375066595631,
-		"user_stars": 4.114727854855923,
+		"user_grade": 0.9648562300319489,
+		"user_stars": 4.1152,
 		"user_attempts": 1.24,
-		"repeats": 1877,
+		"repeats": 1878,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -10806,7 +10806,7 @@
 		},
 		"user_grade_breakdown": {
 			"0": 109,
-			"1": 1729,
+			"1": 1730,
 			"2": 36,
 			"3": 2,
 			"4": 1,
@@ -10830,7 +10830,7 @@
 			"2": 32,
 			"3": 118,
 			"4": 1092,
-			"5": 576
+			"5": 577
 		},
 		"user_attempts_breakdown": {
 			"1": 84,
@@ -10908,10 +10908,10 @@
 		"name": "MOJO SPRING",
 		"setter": "Michael O'Donnell",
 		"official_grade": 0,
-		"user_grade": 0.026783346592415803,
-		"user_stars": 4.049097664543525,
+		"user_grade": 0.02726310217046056,
+		"user_stars": 4.049801324503311,
 		"user_attempts": 1.1717171717171717,
-		"repeats": 3771,
+		"repeats": 3778,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -10935,8 +10935,8 @@
 			]
 		},
 		"user_grade_breakdown": {
-			"0": 3692,
-			"1": 61,
+			"0": 3697,
+			"1": 63,
 			"2": 17,
 			"3": 0,
 			"4": 0,
@@ -10959,8 +10959,8 @@
 			"1": 83,
 			"2": 65,
 			"3": 169,
-			"4": 1978,
-			"5": 1325
+			"4": 1982,
+			"5": 1328
 		},
 		"user_attempts_breakdown": {
 			"1": 88,
@@ -10973,10 +10973,10 @@
 		"name": "DYNO TO THE TOP",
 		"setter": "Daan",
 		"official_grade": 1,
-		"user_grade": 0.8766283524904215,
-		"user_stars": 4.0886075949367084,
+		"user_grade": 0.8767228177641654,
+		"user_stars": 4.08853967037179,
 		"user_attempts": 1.21,
-		"repeats": 2610,
+		"repeats": 2612,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -11003,7 +11003,7 @@
 		},
 		"user_grade_breakdown": {
 			"0": 369,
-			"1": 2197,
+			"1": 2199,
 			"2": 41,
 			"3": 3,
 			"4": 0,
@@ -11026,7 +11026,7 @@
 			"1": 60,
 			"2": 67,
 			"3": 158,
-			"4": 1494,
+			"4": 1496,
 			"5": 803
 		},
 		"user_attempts_breakdown": {
@@ -11040,10 +11040,10 @@
 		"name": "MOONBOARD LEGENDS",
 		"setter": "JK",
 		"official_grade": 5,
-		"user_grade": 4.937756497948016,
-		"user_stars": 4.298630136986302,
+		"user_grade": 4.937799043062201,
+		"user_stars": 4.298425735797399,
 		"user_attempts": 1.66,
-		"repeats": 1462,
+		"repeats": 1463,
 		"upgraded": false,
 		"downgraded": true,
 		"holdsets": [
@@ -11072,7 +11072,7 @@
 			"2": 2,
 			"3": 21,
 			"4": 91,
-			"5": 1291,
+			"5": 1292,
 			"6": 52,
 			"7": 3,
 			"8": 0,
@@ -11091,7 +11091,7 @@
 			"1": 7,
 			"2": 22,
 			"3": 57,
-			"4": 691,
+			"4": 692,
 			"5": 658
 		},
 		"user_attempts_breakdown": {
@@ -11105,10 +11105,10 @@
 		"name": "BLACK AND ONE WHITE 2",
 		"setter": "Alex LaChapelle ",
 		"official_grade": 0,
-		"user_grade": 0.1537958115183246,
-		"user_stars": 4.159239842726081,
+		"user_grade": 0.15434924787442772,
+		"user_stars": 4.159790438768828,
 		"user_attempts": 1.4554455445544554,
-		"repeats": 1527,
+		"repeats": 1529,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -11133,7 +11133,7 @@
 		},
 		"user_grade_breakdown": {
 			"0": 1359,
-			"1": 114,
+			"1": 115,
 			"2": 48,
 			"3": 3,
 			"4": 4,
@@ -11157,7 +11157,7 @@
 			"2": 23,
 			"3": 85,
 			"4": 890,
-			"5": 491
+			"5": 492
 		},
 		"user_attempts_breakdown": {
 			"1": 74,
@@ -11170,10 +11170,10 @@
 		"name": "BLACK AND ONE WHITE 3",
 		"setter": "Alex LaChapelle ",
 		"official_grade": 0,
-		"user_grade": 0.06060606060606061,
-		"user_stars": 4.099500713266762,
+		"user_grade": 0.060562878517990734,
+		"user_stars": 4.099786172487526,
 		"user_attempts": 1.27,
-		"repeats": 2805,
+		"repeats": 2807,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -11198,7 +11198,7 @@
 			]
 		},
 		"user_grade_breakdown": {
-			"0": 2685,
+			"0": 2687,
 			"1": 79,
 			"2": 38,
 			"3": 1,
@@ -11222,8 +11222,8 @@
 			"1": 23,
 			"2": 52,
 			"3": 143,
-			"4": 1656,
-			"5": 863
+			"4": 1657,
+			"5": 864
 		},
 		"user_attempts_breakdown": {
 			"1": 83,
@@ -11304,10 +11304,10 @@
 		"name": "THE JAPANESE",
 		"setter": "DonnyDawes",
 		"official_grade": 5,
-		"user_grade": 4.863498483316481,
-		"user_stars": 4.238866396761134,
-		"user_attempts": 1.7,
-		"repeats": 989,
+		"user_grade": 4.862764883955601,
+		"user_stars": 4.239393939393939,
+		"user_attempts": 1.6868686868686869,
+		"repeats": 991,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -11336,8 +11336,8 @@
 			"1": 0,
 			"2": 1,
 			"3": 18,
-			"4": 91,
-			"5": 860,
+			"4": 92,
+			"5": 861,
 			"6": 15,
 			"7": 0,
 			"8": 0,
@@ -11356,13 +11356,13 @@
 			"1": 14,
 			"2": 22,
 			"3": 71,
-			"4": 458,
-			"5": 417
+			"4": 459,
+			"5": 418
 		},
 		"user_attempts_breakdown": {
 			"1": 61,
 			"2": 17,
-			"3": 13,
+			"3": 12,
 			"4": 9
 		}
 	},
@@ -11370,10 +11370,10 @@
 		"name": "WINKERFLEISCH",
 		"setter": "nils",
 		"official_grade": 0,
-		"user_grade": 0.3036779324055666,
-		"user_stars": 3.9855721393034824,
+		"user_grade": 0.3035270740188773,
+		"user_stars": 3.9850820487319742,
 		"user_attempts": 1.53,
-		"repeats": 2012,
+		"repeats": 2013,
 		"upgraded": true,
 		"downgraded": false,
 		"holdsets": [
@@ -11399,7 +11399,7 @@
 			]
 		},
 		"user_grade_breakdown": {
-			"0": 1587,
+			"0": 1588,
 			"1": 280,
 			"2": 126,
 			"3": 12,
@@ -11422,7 +11422,7 @@
 			"0": 41,
 			"1": 92,
 			"2": 40,
-			"3": 94,
+			"3": 95,
 			"4": 1158,
 			"5": 585
 		},
@@ -11578,10 +11578,10 @@
 		"name": "UNO",
 		"setter": "Ben",
 		"official_grade": 1,
-		"user_grade": 0.9625935162094763,
-		"user_stars": 4.123025768911056,
+		"user_grade": 0.9634854771784233,
+		"user_stars": 4.123651452282157,
 		"user_attempts": 1.22,
-		"repeats": 1203,
+		"repeats": 1205,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -11609,8 +11609,8 @@
 		},
 		"user_grade_breakdown": {
 			"0": 70,
-			"1": 1114,
-			"2": 18,
+			"1": 1115,
+			"2": 19,
 			"3": 0,
 			"4": 0,
 			"5": 0,
@@ -11632,8 +11632,8 @@
 			"1": 14,
 			"2": 17,
 			"3": 101,
-			"4": 706,
-			"5": 357
+			"4": 707,
+			"5": 358
 		},
 		"user_attempts_breakdown": {
 			"1": 86,
@@ -11719,10 +11719,10 @@
 		"name": "CAN MERCADER E19",
 		"setter": "xavighervas",
 		"official_grade": 3,
-		"user_grade": 2.9752761704366124,
-		"user_stars": 4.217482885729331,
+		"user_grade": 2.97531512605042,
+		"user_stars": 4.218191377497371,
 		"user_attempts": 1.4242424242424243,
-		"repeats": 1901,
+		"repeats": 1904,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -11749,7 +11749,7 @@
 			"0": 8,
 			"1": 11,
 			"2": 82,
-			"3": 1734,
+			"3": 1737,
 			"4": 58,
 			"5": 1,
 			"6": 7,
@@ -11770,8 +11770,8 @@
 			"1": 17,
 			"2": 35,
 			"3": 93,
-			"4": 1012,
-			"5": 719
+			"4": 1013,
+			"5": 721
 		},
 		"user_attempts_breakdown": {
 			"1": 73,
@@ -11853,10 +11853,10 @@
 		"name": "BIRRA",
 		"setter": "Olly",
 		"official_grade": 5,
-		"user_grade": 4.834454912516824,
-		"user_stars": 4.255720053835801,
+		"user_grade": 4.835120643431635,
+		"user_stars": 4.254691689008043,
 		"user_attempts": 1.61,
-		"repeats": 743,
+		"repeats": 746,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -11888,7 +11888,7 @@
 			"2": 6,
 			"3": 17,
 			"4": 72,
-			"5": 634,
+			"5": 637,
 			"6": 9,
 			"7": 2,
 			"8": 0,
@@ -11906,9 +11906,9 @@
 			"0": 4,
 			"1": 7,
 			"2": 19,
-			"3": 46,
-			"4": 356,
-			"5": 311
+			"3": 47,
+			"4": 357,
+			"5": 312
 		},
 		"user_attempts_breakdown": {
 			"1": 65,
@@ -11921,10 +11921,10 @@
 		"name": "CALDO",
 		"setter": "martino.tito",
 		"official_grade": 3,
-		"user_grade": 2.9731774415405776,
-		"user_stars": 4.207988980716253,
+		"user_grade": 2.9732326698695952,
+		"user_stars": 4.2082474226804125,
 		"user_attempts": 1.5252525252525253,
-		"repeats": 1454,
+		"repeats": 1457,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -11951,7 +11951,7 @@
 			"0": 7,
 			"1": 11,
 			"2": 61,
-			"3": 1321,
+			"3": 1324,
 			"4": 48,
 			"5": 1,
 			"6": 5,
@@ -11972,8 +11972,8 @@
 			"1": 22,
 			"2": 28,
 			"3": 85,
-			"4": 763,
-			"5": 545
+			"4": 765,
+			"5": 546
 		},
 		"user_attempts_breakdown": {
 			"1": 69,
@@ -12053,10 +12053,10 @@
 		"name": "VRTW 2 25",
 		"setter": "RJtrials",
 		"official_grade": 1,
-		"user_grade": 0.9387696709585122,
-		"user_stars": 4.118202633085289,
+		"user_grade": 0.938822184105203,
+		"user_stars": 4.118673148412926,
 		"user_attempts": 1.2,
-		"repeats": 3495,
+		"repeats": 3498,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -12080,9 +12080,9 @@
 			]
 		},
 		"user_grade_breakdown": {
-			"0": 309,
-			"1": 3103,
-			"2": 76,
+			"0": 310,
+			"1": 3104,
+			"2": 77,
 			"3": 2,
 			"4": 5,
 			"5": 0,
@@ -12104,8 +12104,8 @@
 			"1": 43,
 			"2": 73,
 			"3": 204,
-			"4": 2072,
-			"5": 1060
+			"4": 2073,
+			"5": 1062
 		},
 		"user_attempts_breakdown": {
 			"1": 87,
@@ -12319,10 +12319,10 @@
 		"name": "QUIET REDS",
 		"setter": "Chalkdust66",
 		"official_grade": 4,
-		"user_grade": 4.049808429118774,
-		"user_stars": 4.316091954022989,
+		"user_grade": 4.049713193116634,
+		"user_stars": 4.317399617590822,
 		"user_attempts": 1.8080808080808082,
-		"repeats": 522,
+		"repeats": 523,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -12351,7 +12351,7 @@
 			"1": 0,
 			"2": 2,
 			"3": 18,
-			"4": 469,
+			"4": 470,
 			"5": 18,
 			"6": 15,
 			"7": 0,
@@ -12372,7 +12372,7 @@
 			"2": 10,
 			"3": 31,
 			"4": 233,
-			"5": 240
+			"5": 241
 		},
 		"user_attempts_breakdown": {
 			"1": 56,
@@ -12385,10 +12385,10 @@
 		"name": "HOT SOSS#",
 		"setter": "Chalkdust66",
 		"official_grade": 3,
-		"user_grade": 2.937352245862884,
-		"user_stars": 4.173827355143871,
+		"user_grade": 2.9374015748031495,
+		"user_stars": 4.174084285151634,
 		"user_attempts": 1.45,
-		"repeats": 2538,
+		"repeats": 2540,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -12417,7 +12417,7 @@
 			"0": 7,
 			"1": 26,
 			"2": 172,
-			"3": 2275,
+			"3": 2277,
 			"4": 50,
 			"5": 4,
 			"6": 2,
@@ -12438,8 +12438,8 @@
 			"1": 28,
 			"2": 52,
 			"3": 163,
-			"4": 1407,
-			"5": 868
+			"4": 1408,
+			"5": 869
 		},
 		"user_attempts_breakdown": {
 			"1": 73,
@@ -12452,10 +12452,10 @@
 		"name": "FKJ [DK]",
 		"setter": "FantaFrede",
 		"official_grade": 1,
-		"user_grade": 1.141914191419142,
-		"user_stars": 4.1001100110011,
-		"user_attempts": 1.396039603960396,
-		"repeats": 909,
+		"user_grade": 1.1417582417582417,
+		"user_stars": 4.101098901098901,
+		"user_attempts": 1.4,
+		"repeats": 910,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -12483,7 +12483,7 @@
 		},
 		"user_grade_breakdown": {
 			"0": 30,
-			"1": 755,
+			"1": 756,
 			"2": 99,
 			"3": 15,
 			"4": 10,
@@ -12507,10 +12507,10 @@
 			"2": 38,
 			"3": 111,
 			"4": 373,
-			"5": 362
+			"5": 363
 		},
 		"user_attempts_breakdown": {
-			"1": 77,
+			"1": 76,
 			"2": 13,
 			"3": 6,
 			"4": 5
@@ -12719,10 +12719,10 @@
 		"name": "BD BOMBARDER 029",
 		"setter": "BLOCK_DOCK",
 		"official_grade": 8,
-		"user_grade": 7.622065727699531,
-		"user_stars": 4.471830985915493,
+		"user_grade": 7.622950819672131,
+		"user_stars": 4.473067915690867,
 		"user_attempts": 1.78,
-		"repeats": 426,
+		"repeats": 427,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -12757,7 +12757,7 @@
 			"5": 5,
 			"6": 27,
 			"7": 76,
-			"8": 314,
+			"8": 315,
 			"9": 0,
 			"10": 0,
 			"11": 0,
@@ -12774,7 +12774,7 @@
 			"2": 5,
 			"3": 32,
 			"4": 138,
-			"5": 249
+			"5": 250
 		},
 		"user_attempts_breakdown": {
 			"1": 59,
@@ -13184,10 +13184,10 @@
 		"name": "THE GATEWAY",
 		"setter": "Kate Prideaux ",
 		"official_grade": 0,
-		"user_grade": 0.47706422018348627,
-		"user_stars": 4.339449541284404,
-		"user_attempts": 1.2574257425742574,
-		"repeats": 109,
+		"user_grade": 0.46956521739130436,
+		"user_stars": 4.356521739130435,
+		"user_attempts": 1.2673267326732673,
+		"repeats": 115,
 		"upgraded": false,
 		"downgraded": false,
 		"holdsets": [
@@ -13211,8 +13211,8 @@
 			]
 		},
 		"user_grade_breakdown": {
-			"0": 66,
-			"1": 34,
+			"0": 70,
+			"1": 36,
 			"2": 9,
 			"3": 0,
 			"4": 0,
@@ -13235,13 +13235,13 @@
 			"1": 0,
 			"2": 3,
 			"3": 12,
-			"4": 39,
-			"5": 55
+			"4": 41,
+			"5": 59
 		},
 		"user_attempts_breakdown": {
 			"1": 83,
-			"2": 13,
-			"3": 2,
+			"2": 12,
+			"3": 3,
 			"4": 3
 		}
 	}

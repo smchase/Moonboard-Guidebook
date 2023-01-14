@@ -2,9 +2,9 @@ import requests, json
 from bs4 import BeautifulSoup
 from mb_types import mb_types
 
-for holdset, angle in mb_types:
-	print(f"Augmenting {holdset}-{angle} benchmarks...")
-	with open(f"data/benchmarks-{holdset}-{angle}.json", 'r') as rfile:
+for mb in mb_types:
+	print(f"Augmenting {mb} benchmarks...")
+	with open(f"data/raw_{mb}.json", 'r') as rfile:
 		benchmarks = json.load(rfile)
 		for climb in benchmarks:
 			# load page
@@ -55,5 +55,5 @@ for holdset, angle in mb_types:
 			climb['userGrades'] = grade_map
 			climb['userStars'] = star_map
 			climb['userAttempts'] = attempt_map
-		with open(f"data/a_benchmarks-{holdset}-{angle}.json", 'w') as wfile:
+		with open(f"data/augmented_{mb}.json", 'w') as wfile:
 			json.dump(benchmarks, wfile, indent='\t')

@@ -28,9 +28,10 @@ enumerate_attempts = {
 	'more than 3 tries': 4,
 }
 
-for holdset, angle in mb_types:
+for mb in mb_types:
+	print(f'Processing {mb} benchmarks...')
 	p_benchmarks = [] 
-	with open(f"data/a_benchmarks-{holdset}-{angle}.json", 'r') as rfile:
+	with open(f"data/augmented_{mb}.json", 'r') as rfile:
 		benchmarks = json.load(rfile)
 		for climb in benchmarks:
 			user_grade_sum = 0
@@ -122,5 +123,5 @@ for holdset, angle in mb_types:
 				'user_attempts_breakdown': user_attempts_breakdown
 			}
 			p_benchmarks.append(p_climb)
-	with open(f"data/p_benchmarks-{holdset}-{angle}.json", 'w') as wfile:
+	with open(f"data/processed_{mb}.json", 'w') as wfile:
 		json.dump(p_benchmarks, wfile, indent='\t')
