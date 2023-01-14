@@ -34,5 +34,5 @@ for holdset, angle in mb_types:
 	for climb in problems:
 		if climb['isBenchmark']:
 			benchmarks.append(climb)
-	with open(f"data/benchmarks-{holdset}-{angle}.json", 'w') as file:
-		json.dump(benchmarks, file, indent='\t')
+	with open(f"data/benchmarks-{holdset}-{angle}.json", 'w') as wfile:
+		json.dump(benchmarks, wfile, indent='\t')

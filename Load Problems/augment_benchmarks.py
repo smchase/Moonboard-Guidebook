@@ -4,8 +4,8 @@ from mb_types import mb_types
 
 for holdset, angle in mb_types:
 	print(f"Augmenting {holdset}-{angle} benchmarks...")
-	with open(f"data/benchmarks-{holdset}-{angle}.json", 'r') as file:
-		benchmarks = json.load(file)
+	with open(f"data/benchmarks-{holdset}-{angle}.json", 'r') as rfile:
+		benchmarks = json.load(rfile)
 		for climb in benchmarks:
 			# load page
 			apiId = climb['apiId']
@@ -55,5 +55,5 @@ for holdset, angle in mb_types:
 			climb['userGrades'] = grade_map
 			climb['userStars'] = star_map
 			climb['userAttempts'] = attempt_map
-		with open(f"data/a_benchmarks-{holdset}-{angle}.json", 'w') as file:
-			json.dump(benchmarks, file, indent='\t')
+		with open(f"data/a_benchmarks-{holdset}-{angle}.json", 'w') as wfile:
+			json.dump(benchmarks, wfile, indent='\t')

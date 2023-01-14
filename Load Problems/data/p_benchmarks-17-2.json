@@ -1,0 +1,3689 @@
+[
+	{
+		"name": "CHRISTMAS DROP",
+		"setter": "kasperg ",
+		"official_grade": 1,
+		"user_grade": 1.0276134122287968,
+		"user_stars": 4.227810650887574,
+		"user_attempts": 1.41,
+		"repeats": 1014,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Hold Set A",
+			"Wooden Holds B",
+			"Wooden Holds C"
+		],
+		"date_created": "2019-12-24T12:29:05.79",
+		"holds": {
+			"start": [
+				"A4",
+				"B5"
+			],
+			"mid": [
+				"A9",
+				"H6",
+				"E10",
+				"C14",
+				"F15",
+				"F14",
+				"J15"
+			],
+			"end": [
+				"J18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 50,
+			"1": 907,
+			"2": 45,
+			"3": 3,
+			"4": 9,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 12,
+			"1": 3,
+			"2": 33,
+			"3": 87,
+			"4": 438,
+			"5": 441
+		},
+		"user_attempts_breakdown": {
+			"1": 76,
+			"2": 12,
+			"3": 7,
+			"4": 5
+		}
+	},
+	{
+		"name": "DUCK WINGS",
+		"setter": "kasperg ",
+		"official_grade": 1,
+		"user_grade": 1.07875,
+		"user_stars": 4.008771929824562,
+		"user_attempts": 1.55,
+		"repeats": 800,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Hold Set A",
+			"Wooden Holds B",
+			"Wooden Holds C"
+		],
+		"date_created": "2019-12-24T12:38:45.803",
+		"holds": {
+			"start": [
+				"D5",
+				"G5"
+			],
+			"mid": [
+				"E10",
+				"F10",
+				"C14",
+				"F14"
+			],
+			"end": [
+				"D18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 30,
+			"1": 699,
+			"2": 58,
+			"3": 4,
+			"4": 9,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 4,
+			"1": 25,
+			"2": 42,
+			"3": 79,
+			"4": 387,
+			"5": 261
+		},
+		"user_attempts_breakdown": {
+			"1": 69,
+			"2": 15,
+			"3": 8,
+			"4": 8
+		}
+	},
+	{
+		"name": "BRUNE KARTOFLER",
+		"setter": "kasperg ",
+		"official_grade": 0,
+		"user_grade": 0.04138950480413895,
+		"user_stars": 4.122041420118343,
+		"user_attempts": 1.22,
+		"repeats": 1353,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Hold Set A",
+			"Hold Set B",
+			"Wooden Holds B",
+			"Wooden Holds C"
+		],
+		"date_created": "2019-12-24T13:06:18.24",
+		"holds": {
+			"start": [
+				"A5",
+				"D3"
+			],
+			"mid": [
+				"B8",
+				"A9",
+				"E11",
+				"C14",
+				"D15"
+			],
+			"end": [
+				"D18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 1316,
+			"1": 19,
+			"2": 17,
+			"3": 1,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 19,
+			"1": 2,
+			"2": 55,
+			"3": 134,
+			"4": 651,
+			"5": 491
+		},
+		"user_attempts_breakdown": {
+			"1": 87,
+			"2": 7,
+			"3": 3,
+			"4": 3
+		}
+	},
+	{
+		"name": "MOONLANDING",
+		"setter": "Angus Harrison-smart",
+		"official_grade": 4,
+		"user_grade": 3.5035885167464116,
+		"user_stars": 4.216507177033493,
+		"user_attempts": 1.31,
+		"repeats": 836,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Hold Set A",
+			"Wooden Holds B",
+			"Wooden Holds C"
+		],
+		"date_created": "2020-02-11T18:52:23.487",
+		"holds": {
+			"start": [
+				"G5",
+				"J3"
+			],
+			"mid": [
+				"H9",
+				"F10",
+				"F14",
+				"C17"
+			],
+			"end": [
+				"D18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 8,
+			"1": 12,
+			"2": 99,
+			"3": 150,
+			"4": 566,
+			"5": 1,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 5,
+			"1": 5,
+			"2": 25,
+			"3": 85,
+			"4": 365,
+			"5": 351
+		},
+		"user_attempts_breakdown": {
+			"1": 80,
+			"2": 12,
+			"3": 5,
+			"4": 3
+		}
+	},
+	{
+		"name": "SIDE FOOL",
+		"setter": "Angus Harrison-smart",
+		"official_grade": 5,
+		"user_grade": 4.7727272727272725,
+		"user_stars": 4.194805194805195,
+		"user_attempts": 1.5445544554455446,
+		"repeats": 462,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Wooden Holds",
+			"Wooden Holds B",
+			"Wooden Holds C"
+		],
+		"date_created": "2020-02-11T18:58:08.597",
+		"holds": {
+			"start": [
+				"D5",
+				"G5"
+			],
+			"mid": [
+				"H15",
+				"C14",
+				"E10",
+				"J10"
+			],
+			"end": [
+				"G18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 3,
+			"1": 0,
+			"2": 3,
+			"3": 10,
+			"4": 66,
+			"5": 375,
+			"6": 5,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 3,
+			"1": 4,
+			"2": 17,
+			"3": 48,
+			"4": 194,
+			"5": 196
+		},
+		"user_attempts_breakdown": {
+			"1": 68,
+			"2": 17,
+			"3": 10,
+			"4": 6
+		}
+	},
+	{
+		"name": "BIG BAD BOUNCE",
+		"setter": "Angus Harrison-smart",
+		"official_grade": 6,
+		"user_grade": 5.88646288209607,
+		"user_stars": 4.362445414847161,
+		"user_attempts": 2.0303030303030303,
+		"repeats": 229,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Wooden Holds",
+			"Wooden Holds B",
+			"Wooden Holds C"
+		],
+		"date_created": "2020-02-11T20:00:16.277",
+		"holds": {
+			"start": [
+				"J5",
+				"I4"
+			],
+			"mid": [
+				"H10",
+				"C14",
+				"F9",
+				"E16"
+			],
+			"end": [
+				"B18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 0,
+			"1": 0,
+			"2": 0,
+			"3": 1,
+			"4": 7,
+			"5": 17,
+			"6": 196,
+			"7": 8,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 0,
+			"1": 2,
+			"2": 6,
+			"3": 18,
+			"4": 84,
+			"5": 119
+		},
+		"user_attempts_breakdown": {
+			"1": 46,
+			"2": 19,
+			"3": 19,
+			"4": 15
+		}
+	},
+	{
+		"name": "MO\u2019D\u2019S IMMUNITY BOOSTER",
+		"setter": "Vizual Pupil",
+		"official_grade": 0,
+		"user_grade": 0.1589627959413754,
+		"user_stars": 4.111612175873732,
+		"user_attempts": 1.4,
+		"repeats": 887,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Hold Set A",
+			"Hold Set B"
+		],
+		"date_created": "2020-03-14T15:38:25.62",
+		"holds": {
+			"start": [
+				"F4",
+				"H4"
+			],
+			"mid": [
+				"G9",
+				"C8",
+				"E12",
+				"G15"
+			],
+			"end": [
+				"D18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 791,
+			"1": 56,
+			"2": 38,
+			"3": 1,
+			"4": 0,
+			"5": 0,
+			"6": 1,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 6,
+			"1": 10,
+			"2": 29,
+			"3": 101,
+			"4": 429,
+			"5": 312
+		},
+		"user_attempts_breakdown": {
+			"1": 76,
+			"2": 13,
+			"3": 6,
+			"4": 5
+		}
+	},
+	{
+		"name": "OPEN BOARDERS",
+		"setter": "Vizual Pupil",
+		"official_grade": 6,
+		"user_grade": 5.848214285714286,
+		"user_stars": 4.303571428571429,
+		"user_attempts": 1.85,
+		"repeats": 224,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Hold Set A",
+			"Hold Set B",
+			"Wooden Holds"
+		],
+		"date_created": "2020-03-14T16:15:15.767",
+		"holds": {
+			"start": [
+				"F4"
+			],
+			"mid": [
+				"J6",
+				"I7",
+				"K11",
+				"H14",
+				"G15",
+				"E9"
+			],
+			"end": [
+				"C18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 0,
+			"1": 0,
+			"2": 0,
+			"3": 0,
+			"4": 12,
+			"5": 16,
+			"6": 190,
+			"7": 6,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 0,
+			"1": 1,
+			"2": 9,
+			"3": 18,
+			"4": 89,
+			"5": 107
+		},
+		"user_attempts_breakdown": {
+			"1": 56,
+			"2": 17,
+			"3": 13,
+			"4": 14
+		}
+	},
+	{
+		"name": "ABUNDANCE OF CAUTION",
+		"setter": "Michael O'Donnell",
+		"official_grade": 2,
+		"user_grade": 1.8633257403189065,
+		"user_stars": 4.184510250569476,
+		"user_attempts": 1.31,
+		"repeats": 878,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Hold Set A",
+			"Hold Set B"
+		],
+		"date_created": "2020-03-14T16:19:01.757",
+		"holds": {
+			"start": [
+				"F4"
+			],
+			"mid": [
+				"A6",
+				"F8",
+				"G10",
+				"C12",
+				"E14",
+				"B16"
+			],
+			"end": [
+				"C18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 32,
+			"1": 76,
+			"2": 756,
+			"3": 8,
+			"4": 6,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 7,
+			"1": 9,
+			"2": 24,
+			"3": 81,
+			"4": 411,
+			"5": 346
+		},
+		"user_attempts_breakdown": {
+			"1": 80,
+			"2": 12,
+			"3": 5,
+			"4": 3
+		}
+	},
+	{
+		"name": "TWO PLY",
+		"setter": "Chloe Krueger",
+		"official_grade": 2,
+		"user_grade": 1.8811659192825112,
+		"user_stars": 4.085201793721973,
+		"user_attempts": 1.37,
+		"repeats": 892,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Hold Set A",
+			"Hold Set B",
+			"Wooden Holds"
+		],
+		"date_created": "2020-03-14T17:20:55.08",
+		"holds": {
+			"start": [
+				"C5",
+				"F2"
+			],
+			"mid": [
+				"F8",
+				"C10",
+				"G11",
+				"E14",
+				"H16"
+			],
+			"end": [
+				"H18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 33,
+			"1": 62,
+			"2": 781,
+			"3": 10,
+			"4": 6,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 11,
+			"1": 12,
+			"2": 32,
+			"3": 89,
+			"4": 439,
+			"5": 309
+		},
+		"user_attempts_breakdown": {
+			"1": 78,
+			"2": 12,
+			"3": 5,
+			"4": 5
+		}
+	},
+	{
+		"name": "CORONATION",
+		"setter": "Chloe Krueger",
+		"official_grade": 0,
+		"user_grade": 0.18689320388349515,
+		"user_stars": 4.121359223300971,
+		"user_attempts": 1.3267326732673268,
+		"repeats": 824,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Hold Set A",
+			"Hold Set B"
+		],
+		"date_created": "2020-03-14T17:29:13.78",
+		"holds": {
+			"start": [
+				"H5",
+				"K4"
+			],
+			"mid": [
+				"K9",
+				"G10",
+				"H12",
+				"E14",
+				"H16"
+			],
+			"end": [
+				"D18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 718,
+			"1": 65,
+			"2": 37,
+			"3": 1,
+			"4": 3,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 12,
+			"1": 9,
+			"2": 27,
+			"3": 75,
+			"4": 397,
+			"5": 304
+		},
+		"user_attempts_breakdown": {
+			"1": 82,
+			"2": 10,
+			"3": 4,
+			"4": 5
+		}
+	},
+	{
+		"name": "SICK BRAH",
+		"setter": "Chloe Krueger",
+		"official_grade": 4,
+		"user_grade": 3.8762886597938144,
+		"user_stars": 4.167525773195877,
+		"user_attempts": 1.68,
+		"repeats": 388,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Hold Set A",
+			"Hold Set B"
+		],
+		"date_created": "2020-03-14T17:53:37.163",
+		"holds": {
+			"start": [
+				"E3",
+				"H3"
+			],
+			"mid": [
+				"F6",
+				"D8",
+				"G11",
+				"E14",
+				"G17"
+			],
+			"end": [
+				"D18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 3,
+			"1": 1,
+			"2": 13,
+			"3": 25,
+			"4": 330,
+			"5": 14,
+			"6": 2,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 3,
+			"1": 5,
+			"2": 22,
+			"3": 34,
+			"4": 154,
+			"5": 170
+		},
+		"user_attempts_breakdown": {
+			"1": 61,
+			"2": 19,
+			"3": 11,
+			"4": 9
+		}
+	},
+	{
+		"name": "SOCIAL DISTANCING",
+		"setter": "Erika Eliz",
+		"official_grade": 4,
+		"user_grade": 3.80253164556962,
+		"user_stars": 4.1265822784810124,
+		"user_attempts": 1.62,
+		"repeats": 395,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Hold Set A",
+			"Hold Set B"
+		],
+		"date_created": "2020-03-15T17:03:57.527",
+		"holds": {
+			"start": [
+				"F4",
+				"H4"
+			],
+			"mid": [
+				"G9",
+				"I15"
+			],
+			"end": [
+				"D18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 4,
+			"1": 3,
+			"2": 16,
+			"3": 43,
+			"4": 316,
+			"5": 6,
+			"6": 5,
+			"7": 2,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 0,
+			"1": 7,
+			"2": 25,
+			"3": 36,
+			"4": 170,
+			"5": 157
+		},
+		"user_attempts_breakdown": {
+			"1": 67,
+			"2": 13,
+			"3": 11,
+			"4": 9
+		}
+	},
+	{
+		"name": "DON\u2019T COVID THY NEIGHBOR",
+		"setter": "Erika Eliz",
+		"official_grade": 2,
+		"user_grade": 2.264775413711584,
+		"user_stars": 4.037825059101655,
+		"user_attempts": 1.87,
+		"repeats": 423,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Hold Set A",
+			"Hold Set B"
+		],
+		"date_created": "2020-03-15T18:39:59.107",
+		"holds": {
+			"start": [
+				"H4"
+			],
+			"mid": [
+				"F6",
+				"E11",
+				"C13",
+				"C8",
+				"B16"
+			],
+			"end": [
+				"A18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 5,
+			"1": 8,
+			"2": 323,
+			"3": 49,
+			"4": 35,
+			"5": 1,
+			"6": 2,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 3,
+			"1": 13,
+			"2": 20,
+			"3": 44,
+			"4": 192,
+			"5": 151
+		},
+		"user_attempts_breakdown": {
+			"1": 56,
+			"2": 16,
+			"3": 13,
+			"4": 15
+		}
+	},
+	{
+		"name": "DAYSHIFT",
+		"setter": "Chalkdust66",
+		"official_grade": 0,
+		"user_grade": 0.22748375116063138,
+		"user_stars": 4.003714020427112,
+		"user_attempts": 1.5,
+		"repeats": 1077,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Hold Set A"
+		],
+		"date_created": "2020-03-21T15:50:42.863",
+		"holds": {
+			"start": [
+				"H4"
+			],
+			"mid": [
+				"H16",
+				"H12",
+				"D10",
+				"F8"
+			],
+			"end": [
+				"I18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 903,
+			"1": 110,
+			"2": 59,
+			"3": 3,
+			"4": 2,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 8,
+			"1": 18,
+			"2": 47,
+			"3": 137,
+			"4": 546,
+			"5": 321
+		},
+		"user_attempts_breakdown": {
+			"1": 73,
+			"2": 12,
+			"3": 7,
+			"4": 8
+		}
+	},
+	{
+		"name": "T REX 25",
+		"setter": "Chalkdust66",
+		"official_grade": 2,
+		"user_grade": 1.9823008849557522,
+		"user_stars": 4.176991150442478,
+		"user_attempts": 1.494949494949495,
+		"repeats": 452,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Hold Set A",
+			"Hold Set B",
+			"Wooden Holds B"
+		],
+		"date_created": "2020-03-22T15:25:01.04",
+		"holds": {
+			"start": [
+				"I5",
+				"K4"
+			],
+			"mid": [
+				"H9",
+				"D8",
+				"E11",
+				"C13",
+				"F16"
+			],
+			"end": [
+				"D18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 11,
+			"1": 18,
+			"2": 401,
+			"3": 12,
+			"4": 10,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 4,
+			"1": 3,
+			"2": 24,
+			"3": 43,
+			"4": 182,
+			"5": 196
+		},
+		"user_attempts_breakdown": {
+			"1": 72,
+			"2": 13,
+			"3": 6,
+			"4": 8
+		}
+	},
+	{
+		"name": "COVID HAIR",
+		"setter": "Chalkdust66",
+		"official_grade": 5,
+		"user_grade": 4.992592592592593,
+		"user_stars": 4.292592592592593,
+		"user_attempts": 1.82,
+		"repeats": 270,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Hold Set A",
+			"Hold Set B",
+			"Wooden Holds C"
+		],
+		"date_created": "2020-03-25T17:21:48.343",
+		"holds": {
+			"start": [
+				"D2",
+				"G3"
+			],
+			"mid": [
+				"F6",
+				"G10",
+				"H11",
+				"I15",
+				"D16",
+				"F16"
+			],
+			"end": [
+				"A18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 2,
+			"1": 0,
+			"2": 0,
+			"3": 2,
+			"4": 10,
+			"5": 238,
+			"6": 14,
+			"7": 4,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 0,
+			"1": 3,
+			"2": 7,
+			"3": 21,
+			"4": 116,
+			"5": 123
+		},
+		"user_attempts_breakdown": {
+			"1": 56,
+			"2": 20,
+			"3": 10,
+			"4": 14
+		}
+	},
+	{
+		"name": "PUG IN A RUG 25 DEG",
+		"setter": "Erika Eliz",
+		"official_grade": 3,
+		"user_grade": 2.8494475138121547,
+		"user_stars": 4.117403314917127,
+		"user_attempts": 1.4059405940594059,
+		"repeats": 724,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Hold Set B"
+		],
+		"date_created": "2020-03-31T23:50:06.647",
+		"holds": {
+			"start": [
+				"F5"
+			],
+			"mid": [
+				"D8",
+				"E11",
+				"E14",
+				"G17"
+			],
+			"end": [
+				"C18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 8,
+			"1": 8,
+			"2": 86,
+			"3": 609,
+			"4": 11,
+			"5": 0,
+			"6": 2,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 10,
+			"1": 6,
+			"2": 28,
+			"3": 68,
+			"4": 345,
+			"5": 267
+		},
+		"user_attempts_breakdown": {
+			"1": 78,
+			"2": 11,
+			"3": 6,
+			"4": 6
+		}
+	},
+	{
+		"name": "NO MATCH FOR YOU",
+		"setter": "Chalkdust66",
+		"official_grade": 1,
+		"user_grade": 1.2122905027932962,
+		"user_stars": 4.111731843575419,
+		"user_attempts": 1.58,
+		"repeats": 537,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Hold Set A",
+			"Hold Set B",
+			"Wooden Holds",
+			"Wooden Holds B",
+			"Wooden Holds C"
+		],
+		"date_created": "2020-04-19T17:00:37.55",
+		"holds": {
+			"start": [
+				"A4",
+				"F2"
+			],
+			"mid": [
+				"E7",
+				"D6",
+				"E10",
+				"B12",
+				"F13",
+				"C15",
+				"H16"
+			],
+			"end": [
+				"J18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 14,
+			"1": 441,
+			"2": 54,
+			"3": 11,
+			"4": 16,
+			"5": 1,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 2,
+			"1": 4,
+			"2": 28,
+			"3": 69,
+			"4": 229,
+			"5": 205
+		},
+		"user_attempts_breakdown": {
+			"1": 68,
+			"2": 15,
+			"3": 8,
+			"4": 9
+		}
+	},
+	{
+		"name": "SNART",
+		"setter": "Allison Stowers",
+		"official_grade": 2,
+		"user_grade": 1.8969298245614035,
+		"user_stars": 4.302631578947368,
+		"user_attempts": 1.33,
+		"repeats": 456,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Hold Set A",
+			"Hold Set B",
+			"Wooden Holds"
+		],
+		"date_created": "2020-04-19T19:12:26.873",
+		"holds": {
+			"start": [
+				"D3",
+				"G4"
+			],
+			"mid": [
+				"G9",
+				"C12",
+				"F16",
+				"F13"
+			],
+			"end": [
+				"D18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 15,
+			"1": 34,
+			"2": 396,
+			"3": 5,
+			"4": 6,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 2,
+			"1": 1,
+			"2": 8,
+			"3": 49,
+			"4": 182,
+			"5": 214
+		},
+		"user_attempts_breakdown": {
+			"1": 80,
+			"2": 11,
+			"3": 5,
+			"4": 4
+		}
+	},
+	{
+		"name": "BROWNTOWN BOMBER 25",
+		"setter": "Vizual Pupil",
+		"official_grade": 7,
+		"user_grade": 6.945833333333334,
+		"user_stars": 4.25,
+		"user_attempts": 2.42,
+		"repeats": 240,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Hold Set B",
+			"Wooden Holds"
+		],
+		"date_created": "2020-04-25T18:24:15.36",
+		"holds": {
+			"start": [
+				"I5"
+			],
+			"mid": [
+				"K8",
+				"E9",
+				"I11",
+				"F13",
+				"B12",
+				"B15",
+				"B17"
+			],
+			"end": [
+				"A18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 0,
+			"1": 0,
+			"2": 0,
+			"3": 0,
+			"4": 1,
+			"5": 5,
+			"6": 13,
+			"7": 210,
+			"8": 10,
+			"9": 0,
+			"10": 1,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 1,
+			"1": 5,
+			"2": 8,
+			"3": 22,
+			"4": 87,
+			"5": 117
+		},
+		"user_attempts_breakdown": {
+			"1": 35,
+			"2": 17,
+			"3": 19,
+			"4": 29
+		}
+	},
+	{
+		"name": "SUMMER REIGN",
+		"setter": "Chalkdust66",
+		"official_grade": 5,
+		"user_grade": 4.993670886075949,
+		"user_stars": 4.281645569620253,
+		"user_attempts": 1.9207920792079207,
+		"repeats": 316,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Hold Set A",
+			"Hold Set B",
+			"Wooden Holds",
+			"Wooden Holds B"
+		],
+		"date_created": "2020-04-26T17:11:00.263",
+		"holds": {
+			"start": [
+				"A4",
+				"A6"
+			],
+			"mid": [
+				"K3",
+				"F8",
+				"G9",
+				"K12",
+				"G11",
+				"J15",
+				"G16",
+				"F16"
+			],
+			"end": [
+				"B18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 1,
+			"1": 0,
+			"2": 0,
+			"3": 1,
+			"4": 14,
+			"5": 284,
+			"6": 13,
+			"7": 3,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 2,
+			"1": 4,
+			"2": 7,
+			"3": 28,
+			"4": 124,
+			"5": 151
+		},
+		"user_attempts_breakdown": {
+			"1": 52,
+			"2": 21,
+			"3": 12,
+			"4": 16
+		}
+	},
+	{
+		"name": "SHORT BACK AND SIDES",
+		"setter": "Chalkdust66",
+		"official_grade": 3,
+		"user_grade": 2.8729603729603728,
+		"user_stars": 4.25990675990676,
+		"user_attempts": 1.4455445544554455,
+		"repeats": 858,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Hold Set A",
+			"Hold Set B",
+			"Wooden Holds",
+			"Wooden Holds B",
+			"Wooden Holds C"
+		],
+		"date_created": "2020-05-10T15:58:45.42",
+		"holds": {
+			"start": [
+				"I4",
+				"D5"
+			],
+			"mid": [
+				"G9",
+				"E11",
+				"A10",
+				"B14",
+				"F16",
+				"E16"
+			],
+			"end": [
+				"J18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 11,
+			"1": 8,
+			"2": 82,
+			"3": 740,
+			"4": 14,
+			"5": 1,
+			"6": 2,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 7,
+			"1": 8,
+			"2": 15,
+			"3": 88,
+			"4": 347,
+			"5": 393
+		},
+		"user_attempts_breakdown": {
+			"1": 72,
+			"2": 17,
+			"3": 8,
+			"4": 4
+		}
+	},
+	{
+		"name": "HEARTBREAK CROSS",
+		"setter": "Chalkdust66",
+		"official_grade": 4,
+		"user_grade": 3.8594059405940593,
+		"user_stars": 4.186138613861386,
+		"user_attempts": 1.7821782178217822,
+		"repeats": 505,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Hold Set B",
+			"Wooden Holds",
+			"Wooden Holds B"
+		],
+		"date_created": "2020-05-13T15:27:22.58",
+		"holds": {
+			"start": [
+				"D5",
+				"G4"
+			],
+			"mid": [
+				"B4",
+				"C10",
+				"F9",
+				"F13",
+				"G15"
+			],
+			"end": [
+				"J18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 3,
+			"1": 0,
+			"2": 16,
+			"3": 38,
+			"4": 438,
+			"5": 9,
+			"6": 1,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 7,
+			"1": 5,
+			"2": 17,
+			"3": 37,
+			"4": 231,
+			"5": 208
+		},
+		"user_attempts_breakdown": {
+			"1": 58,
+			"2": 20,
+			"3": 10,
+			"4": 13
+		}
+	},
+	{
+		"name": "M\u0141ODY SYNEK",
+		"setter": "saymix",
+		"official_grade": 7,
+		"user_grade": 6.965174129353234,
+		"user_stars": 4.189054726368159,
+		"user_attempts": 2.515151515151515,
+		"repeats": 201,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Hold Set A",
+			"Wooden Holds",
+			"Wooden Holds B",
+			"Wooden Holds C"
+		],
+		"date_created": "2020-05-22T16:34:23.213",
+		"holds": {
+			"start": [
+				"J3",
+				"F3"
+			],
+			"mid": [
+				"G8",
+				"E10",
+				"B13",
+				"F15"
+			],
+			"end": [
+				"G18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 0,
+			"1": 0,
+			"2": 0,
+			"3": 0,
+			"4": 0,
+			"5": 2,
+			"6": 9,
+			"7": 184,
+			"8": 6,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 1,
+			"1": 5,
+			"2": 7,
+			"3": 22,
+			"4": 73,
+			"5": 93
+		},
+		"user_attempts_breakdown": {
+			"1": 29,
+			"2": 17,
+			"3": 26,
+			"4": 27
+		}
+	},
+	{
+		"name": "SATAY",
+		"setter": "Chalkdust66",
+		"official_grade": 4,
+		"user_grade": 3.875,
+		"user_stars": 4.138636363636364,
+		"user_attempts": 1.52,
+		"repeats": 440,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Hold Set A",
+			"Wooden Holds",
+			"Wooden Holds B"
+		],
+		"date_created": "2020-05-23T16:39:23.29",
+		"holds": {
+			"start": [
+				"D1",
+				"A4"
+			],
+			"mid": [
+				"E7",
+				"C10",
+				"G12",
+				"E16"
+			],
+			"end": [
+				"I18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 4,
+			"1": 2,
+			"2": 6,
+			"3": 32,
+			"4": 388,
+			"5": 5,
+			"6": 3,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 4,
+			"1": 4,
+			"2": 13,
+			"3": 40,
+			"4": 224,
+			"5": 155
+		},
+		"user_attempts_breakdown": {
+			"1": 67,
+			"2": 20,
+			"3": 7,
+			"4": 6
+		}
+	},
+	{
+		"name": "ASZYNBECHER",
+		"setter": "simon",
+		"official_grade": 7,
+		"user_grade": 6.898989898989899,
+		"user_stars": 4.277777777777778,
+		"user_attempts": 2.15,
+		"repeats": 198,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Hold Set A",
+			"Wooden Holds",
+			"Wooden Holds B",
+			"Wooden Holds C"
+		],
+		"date_created": "2020-06-04T22:23:19.573",
+		"holds": {
+			"start": [
+				"J3",
+				"H6"
+			],
+			"mid": [
+				"I6",
+				"F10",
+				"E10",
+				"C14",
+				"H15"
+			],
+			"end": [
+				"I18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 0,
+			"1": 0,
+			"2": 0,
+			"3": 0,
+			"4": 1,
+			"5": 4,
+			"6": 19,
+			"7": 164,
+			"8": 10,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 0,
+			"1": 3,
+			"2": 5,
+			"3": 17,
+			"4": 82,
+			"5": 91
+		},
+		"user_attempts_breakdown": {
+			"1": 46,
+			"2": 15,
+			"3": 17,
+			"4": 22
+		}
+	},
+	{
+		"name": "MORE PROBS 5",
+		"setter": "Colin Bauer",
+		"official_grade": 9,
+		"user_grade": 8.766666666666667,
+		"user_stars": 4.416666666666667,
+		"user_attempts": 2.4,
+		"repeats": 120,
+		"upgraded": true,
+		"downgraded": false,
+		"holdsets": [
+			"Hold Set A",
+			"Hold Set B",
+			"Wooden Holds",
+			"Wooden Holds C"
+		],
+		"date_created": "2020-07-07T19:36:52.923",
+		"holds": {
+			"start": [
+				"D3",
+				"H5"
+			],
+			"mid": [
+				"J13",
+				"E15",
+				"I9"
+			],
+			"end": [
+				"D18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 0,
+			"1": 0,
+			"2": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 1,
+			"7": 3,
+			"8": 22,
+			"9": 91,
+			"10": 3,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 1,
+			"1": 0,
+			"2": 2,
+			"3": 14,
+			"4": 31,
+			"5": 72
+		},
+		"user_attempts_breakdown": {
+			"1": 38,
+			"2": 14,
+			"3": 18,
+			"4": 30
+		}
+	},
+	{
+		"name": "SUMMER VIBE",
+		"setter": "Yann",
+		"official_grade": 4,
+		"user_grade": 3.8636363636363638,
+		"user_stars": 4.221590909090909,
+		"user_attempts": 1.37,
+		"repeats": 176,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Hold Set A",
+			"Hold Set B",
+			"Wooden Holds",
+			"Wooden Holds B"
+		],
+		"date_created": "2020-07-12T11:01:11.557",
+		"holds": {
+			"start": [
+				"F3",
+				"I4"
+			],
+			"mid": [
+				"F8",
+				"I6",
+				"I11",
+				"E13",
+				"G15"
+			],
+			"end": [
+				"D18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 0,
+			"1": 0,
+			"2": 8,
+			"3": 16,
+			"4": 146,
+			"5": 4,
+			"6": 2,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 0,
+			"1": 1,
+			"2": 3,
+			"3": 23,
+			"4": 78,
+			"5": 71
+		},
+		"user_attempts_breakdown": {
+			"1": 75,
+			"2": 15,
+			"3": 8,
+			"4": 2
+		}
+	},
+	{
+		"name": "SUZUKI",
+		"setter": "Reinjong",
+		"official_grade": 6,
+		"user_grade": 5.832191780821918,
+		"user_stars": 4.239726027397261,
+		"user_attempts": 1.8686868686868687,
+		"repeats": 292,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Hold Set A",
+			"Wooden Holds",
+			"Wooden Holds B",
+			"Wooden Holds C"
+		],
+		"date_created": "2020-07-22T17:14:52.107",
+		"holds": {
+			"start": [
+				"B3",
+				"D4"
+			],
+			"mid": [
+				"A11",
+				"F14",
+				"E7"
+			],
+			"end": [
+				"E18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 0,
+			"1": 0,
+			"2": 0,
+			"3": 3,
+			"4": 10,
+			"5": 23,
+			"6": 253,
+			"7": 3,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 2,
+			"1": 3,
+			"2": 13,
+			"3": 25,
+			"4": 111,
+			"5": 138
+		},
+		"user_attempts_breakdown": {
+			"1": 54,
+			"2": 18,
+			"3": 13,
+			"4": 14
+		}
+	},
+	{
+		"name": "VILLE PREND 2 AILES",
+		"setter": "Raphaa",
+		"official_grade": 3,
+		"user_grade": 3.1416666666666666,
+		"user_stars": 4.183333333333334,
+		"user_attempts": 1.64,
+		"repeats": 360,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Wooden Holds B",
+			"Wooden Holds C"
+		],
+		"date_created": "2020-07-25T20:10:10.197",
+		"holds": {
+			"start": [
+				"C3"
+			],
+			"mid": [
+				"B8",
+				"F10",
+				"G13",
+				"J15"
+			],
+			"end": [
+				"J18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 3,
+			"1": 2,
+			"2": 9,
+			"3": 293,
+			"4": 42,
+			"5": 4,
+			"6": 6,
+			"7": 0,
+			"8": 1,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 2,
+			"1": 10,
+			"2": 7,
+			"3": 42,
+			"4": 139,
+			"5": 160
+		},
+		"user_attempts_breakdown": {
+			"1": 63,
+			"2": 19,
+			"3": 9,
+			"4": 9
+		}
+	},
+	{
+		"name": "PEAR, BOAT AND STOMACH",
+		"setter": "Raphaa",
+		"official_grade": 8,
+		"user_grade": 7.855769230769231,
+		"user_stars": 4.355769230769231,
+		"user_attempts": 2.28,
+		"repeats": 104,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Hold Set B",
+			"Wooden Holds",
+			"Wooden Holds C"
+		],
+		"date_created": "2020-07-28T15:38:30.77",
+		"holds": {
+			"start": [
+				"C3"
+			],
+			"mid": [
+				"E5",
+				"J5",
+				"K1",
+				"H11",
+				"F14"
+			],
+			"end": [
+				"G18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 0,
+			"1": 0,
+			"2": 0,
+			"3": 1,
+			"4": 0,
+			"5": 0,
+			"6": 3,
+			"7": 11,
+			"8": 84,
+			"9": 3,
+			"10": 2,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 1,
+			"1": 1,
+			"2": 3,
+			"3": 8,
+			"4": 33,
+			"5": 58
+		},
+		"user_attempts_breakdown": {
+			"1": 40,
+			"2": 15,
+			"3": 22,
+			"4": 23
+		}
+	},
+	{
+		"name": "NAZGUL 5",
+		"setter": "Ludozen",
+		"official_grade": 1,
+		"user_grade": 1.1019830028328612,
+		"user_stars": 4.075070821529745,
+		"user_attempts": 1.5,
+		"repeats": 706,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Wooden Holds B",
+			"Wooden Holds C"
+		],
+		"date_created": "2020-07-30T12:19:22.16",
+		"holds": {
+			"start": [
+				"C3",
+				"G5"
+			],
+			"mid": [
+				"D9",
+				"G12",
+				"E15"
+			],
+			"end": [
+				"F18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 36,
+			"1": 604,
+			"2": 47,
+			"3": 8,
+			"4": 10,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 1,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 5,
+			"1": 8,
+			"2": 33,
+			"3": 79,
+			"4": 339,
+			"5": 242
+		},
+		"user_attempts_breakdown": {
+			"1": 71,
+			"2": 15,
+			"3": 7,
+			"4": 7
+		}
+	},
+	{
+		"name": "EASY START",
+		"setter": "Mikkelfb",
+		"official_grade": 0,
+		"user_grade": 0.06431159420289854,
+		"user_stars": 4.056159420289855,
+		"user_attempts": 1.4059405940594059,
+		"repeats": 1104,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Hold Set A",
+			"Wooden Holds B",
+			"Wooden Holds C"
+		],
+		"date_created": "2020-08-01T07:12:52.067",
+		"holds": {
+			"start": [
+				"A5",
+				"D3"
+			],
+			"mid": [
+				"E10",
+				"C14",
+				"B8",
+				"A11",
+				"F15"
+			],
+			"end": [
+				"D18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 1053,
+			"1": 31,
+			"2": 20,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 12,
+			"1": 18,
+			"2": 39,
+			"3": 134,
+			"4": 525,
+			"5": 376
+		},
+		"user_attempts_breakdown": {
+			"1": 77,
+			"2": 13,
+			"3": 5,
+			"4": 6
+		}
+	},
+	{
+		"name": "INGEN REPSKET",
+		"setter": "Malthe J\u00f8rgensen",
+		"official_grade": 4,
+		"user_grade": 3.9604863221884496,
+		"user_stars": 4.243161094224924,
+		"user_attempts": 1.9,
+		"repeats": 329,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Hold Set A",
+			"Hold Set B",
+			"Wooden Holds B"
+		],
+		"date_created": "2020-08-03T19:09:46.727",
+		"holds": {
+			"start": [
+				"C2",
+				"G3"
+			],
+			"mid": [
+				"D5",
+				"G9",
+				"E12",
+				"H15",
+				"K11"
+			],
+			"end": [
+				"H18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 3,
+			"1": 1,
+			"2": 5,
+			"3": 17,
+			"4": 278,
+			"5": 21,
+			"6": 4,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 0,
+			"1": 6,
+			"2": 12,
+			"3": 32,
+			"4": 125,
+			"5": 154
+		},
+		"user_attempts_breakdown": {
+			"1": 52,
+			"2": 19,
+			"3": 16,
+			"4": 13
+		}
+	},
+	{
+		"name": "KNEE SLAPPER",
+		"setter": "maurits enserink",
+		"official_grade": 0,
+		"user_grade": 0.11276223776223776,
+		"user_stars": 4.081293706293707,
+		"user_attempts": 1.37,
+		"repeats": 1144,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Hold Set A",
+			"Hold Set B",
+			"Wooden Holds B"
+		],
+		"date_created": "2020-08-09T13:15:13.173",
+		"holds": {
+			"start": [
+				"B5"
+			],
+			"mid": [
+				"E7",
+				"A9",
+				"E11",
+				"C14",
+				"H16"
+			],
+			"end": [
+				"H18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 1049,
+			"1": 62,
+			"2": 32,
+			"3": 1,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 17,
+			"1": 5,
+			"2": 35,
+			"3": 143,
+			"4": 555,
+			"5": 389
+		},
+		"user_attempts_breakdown": {
+			"1": 79,
+			"2": 11,
+			"3": 4,
+			"4": 6
+		}
+	},
+	{
+		"name": "BIG BOX SMALL BOX",
+		"setter": "Frankenator",
+		"official_grade": 7,
+		"user_grade": 6.846534653465347,
+		"user_stars": 4.425742574257426,
+		"user_attempts": 2.0792079207920793,
+		"repeats": 404,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Wooden Holds",
+			"Wooden Holds B"
+		],
+		"date_created": "2020-08-24T14:53:20.393",
+		"holds": {
+			"start": [
+				"I6",
+				"I4"
+			],
+			"mid": [
+				"C9",
+				"F11",
+				"B13",
+				"D7",
+				"E16",
+				"G14"
+			],
+			"end": [
+				"J18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 0,
+			"1": 0,
+			"2": 0,
+			"3": 0,
+			"4": 4,
+			"5": 9,
+			"6": 37,
+			"7": 349,
+			"8": 5,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 0,
+			"1": 2,
+			"2": 9,
+			"3": 28,
+			"4": 141,
+			"5": 224
+		},
+		"user_attempts_breakdown": {
+			"1": 45,
+			"2": 22,
+			"3": 15,
+			"4": 19
+		}
+	},
+	{
+		"name": "EM SCHW\u00dcGGLIGI HOOKTOPIA",
+		"setter": "Rymeee",
+		"official_grade": 3,
+		"user_grade": 3.0099403578528827,
+		"user_stars": 4.174950298210735,
+		"user_attempts": 1.54,
+		"repeats": 503,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Hold Set A",
+			"Hold Set B",
+			"Wooden Holds",
+			"Wooden Holds B",
+			"Wooden Holds C"
+		],
+		"date_created": "2020-09-04T10:55:46.297",
+		"holds": {
+			"start": [
+				"A5",
+				"E5"
+			],
+			"mid": [
+				"H4",
+				"H11",
+				"D9",
+				"E13",
+				"H16"
+			],
+			"end": [
+				"G18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 5,
+			"1": 3,
+			"2": 23,
+			"3": 431,
+			"4": 37,
+			"5": 0,
+			"6": 4,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 3,
+			"1": 6,
+			"2": 20,
+			"3": 47,
+			"4": 222,
+			"5": 205
+		},
+		"user_attempts_breakdown": {
+			"1": 68,
+			"2": 17,
+			"3": 8,
+			"4": 7
+		}
+	},
+	{
+		"name": "TRY HARD :)",
+		"setter": "Lach",
+		"official_grade": 7,
+		"user_grade": 6.859756097560975,
+		"user_stars": 4.335365853658536,
+		"user_attempts": 2.13,
+		"repeats": 328,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Hold Set A",
+			"Hold Set B",
+			"Wooden Holds B",
+			"Wooden Holds C"
+		],
+		"date_created": "2020-09-27T09:50:02.237",
+		"holds": {
+			"start": [
+				"H5",
+				"K2"
+			],
+			"mid": [
+				"C3",
+				"A10",
+				"F8",
+				"F14"
+			],
+			"end": [
+				"D18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 0,
+			"1": 0,
+			"2": 1,
+			"3": 0,
+			"4": 2,
+			"5": 8,
+			"6": 29,
+			"7": 278,
+			"8": 10,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 1,
+			"1": 4,
+			"2": 10,
+			"3": 23,
+			"4": 121,
+			"5": 169
+		},
+		"user_attempts_breakdown": {
+			"1": 45,
+			"2": 17,
+			"3": 18,
+			"4": 20
+		}
+	},
+	{
+		"name": "ONLY LITTLE WOOD",
+		"setter": "Violett",
+		"official_grade": 6,
+		"user_grade": 5.9479768786127165,
+		"user_stars": 4.300578034682081,
+		"user_attempts": 2.08,
+		"repeats": 173,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Wooden Holds"
+		],
+		"date_created": "2020-11-14T01:09:05.19",
+		"holds": {
+			"start": [
+				"I4",
+				"E4"
+			],
+			"mid": [
+				"F9",
+				"F11",
+				"B13",
+				"E16"
+			],
+			"end": [
+				"E18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 0,
+			"1": 0,
+			"2": 0,
+			"3": 0,
+			"4": 8,
+			"5": 7,
+			"6": 148,
+			"7": 8,
+			"8": 1,
+			"9": 0,
+			"10": 1,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 0,
+			"1": 1,
+			"2": 5,
+			"3": 24,
+			"4": 54,
+			"5": 89
+		},
+		"user_attempts_breakdown": {
+			"1": 49,
+			"2": 14,
+			"3": 17,
+			"4": 20
+		}
+	},
+	{
+		"name": "SUGAR",
+		"setter": "claud.ini",
+		"official_grade": 1,
+		"user_grade": 1.2942430703624734,
+		"user_stars": 4.0341151385927505,
+		"user_attempts": 1.76,
+		"repeats": 469,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Hold Set B",
+			"Wooden Holds",
+			"Wooden Holds C"
+		],
+		"date_created": "2021-01-19T14:41:29.3",
+		"holds": {
+			"start": [
+				"F5"
+			],
+			"mid": [
+				"D8",
+				"E10",
+				"D13",
+				"G14",
+				"G17"
+			],
+			"end": [
+				"H18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 7,
+			"1": 361,
+			"2": 74,
+			"3": 10,
+			"4": 17,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 3,
+			"1": 8,
+			"2": 19,
+			"3": 61,
+			"4": 227,
+			"5": 151
+		},
+		"user_attempts_breakdown": {
+			"1": 59,
+			"2": 19,
+			"3": 9,
+			"4": 13
+		}
+	},
+	{
+		"name": "TOEPRESS 25\u2019",
+		"setter": "Chalkdust66",
+		"official_grade": 5,
+		"user_grade": 4.826086956521739,
+		"user_stars": 4.312629399585921,
+		"user_attempts": 1.6666666666666667,
+		"repeats": 483,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Hold Set B",
+			"Wooden Holds",
+			"Wooden Holds B",
+			"Wooden Holds C"
+		],
+		"date_created": "2021-03-07T21:56:36.71",
+		"holds": {
+			"start": [
+				"F4"
+			],
+			"mid": [
+				"K8",
+				"H11",
+				"I14",
+				"E14",
+				"E16"
+			],
+			"end": [
+				"B18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 3,
+			"1": 1,
+			"2": 3,
+			"3": 10,
+			"4": 44,
+			"5": 416,
+			"6": 4,
+			"7": 2,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 2,
+			"1": 4,
+			"2": 16,
+			"3": 36,
+			"4": 186,
+			"5": 239
+		},
+		"user_attempts_breakdown": {
+			"1": 62,
+			"2": 19,
+			"3": 7,
+			"4": 11
+		}
+	},
+	{
+		"name": "THE  25\u2019 SURPRISE",
+		"setter": "Chalkdust66",
+		"official_grade": 8,
+		"user_grade": 7.770370370370371,
+		"user_stars": 4.2592592592592595,
+		"user_attempts": 2.090909090909091,
+		"repeats": 135,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Wooden Holds",
+			"Wooden Holds B",
+			"Wooden Holds C"
+		],
+		"date_created": "2021-03-08T17:56:19.843",
+		"holds": {
+			"start": [
+				"J5"
+			],
+			"mid": [
+				"F9",
+				"F11",
+				"B13",
+				"E16",
+				"F18"
+			],
+			"end": [
+				"J18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 0,
+			"1": 0,
+			"2": 0,
+			"3": 0,
+			"4": 0,
+			"5": 1,
+			"6": 6,
+			"7": 19,
+			"8": 107,
+			"9": 1,
+			"10": 1,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 0,
+			"1": 0,
+			"2": 7,
+			"3": 16,
+			"4": 47,
+			"5": 65
+		},
+		"user_attempts_breakdown": {
+			"1": 48,
+			"2": 16,
+			"3": 13,
+			"4": 22
+		}
+	},
+	{
+		"name": "FINGER JUGS",
+		"setter": "Ullie",
+		"official_grade": 8,
+		"user_grade": 7.786802030456853,
+		"user_stars": 4.365482233502538,
+		"user_attempts": 2.15,
+		"repeats": 197,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Wooden Holds",
+			"Wooden Holds B"
+		],
+		"date_created": "2021-03-10T10:56:32.8",
+		"holds": {
+			"start": [
+				"B4",
+				"C4"
+			],
+			"mid": [
+				"G4",
+				"I10",
+				"E13",
+				"G7",
+				"D14",
+				"C16"
+			],
+			"end": [
+				"F18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 0,
+			"1": 0,
+			"2": 0,
+			"3": 0,
+			"4": 0,
+			"5": 2,
+			"6": 4,
+			"7": 30,
+			"8": 159,
+			"9": 2,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 0,
+			"1": 2,
+			"2": 2,
+			"3": 20,
+			"4": 71,
+			"5": 102
+		},
+		"user_attempts_breakdown": {
+			"1": 46,
+			"2": 16,
+			"3": 15,
+			"4": 23
+		}
+	},
+	{
+		"name": "CYPHER 25",
+		"setter": "Chalkdust66",
+		"official_grade": 5,
+		"user_grade": 4.99388379204893,
+		"user_stars": 4.241590214067278,
+		"user_attempts": 1.77,
+		"repeats": 327,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Hold Set A",
+			"Hold Set B",
+			"Wooden Holds B",
+			"Wooden Holds C"
+		],
+		"date_created": "2021-03-10T16:13:33.48",
+		"holds": {
+			"start": [
+				"I5",
+				"D4"
+			],
+			"mid": [
+				"F8",
+				"H11",
+				"E14",
+				"H15",
+				"B17"
+			],
+			"end": [
+				"A18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 2,
+			"1": 0,
+			"2": 0,
+			"3": 1,
+			"4": 14,
+			"5": 287,
+			"6": 22,
+			"7": 1,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 0,
+			"1": 4,
+			"2": 16,
+			"3": 27,
+			"4": 130,
+			"5": 150
+		},
+		"user_attempts_breakdown": {
+			"1": 59,
+			"2": 18,
+			"3": 10,
+			"4": 13
+		}
+	},
+	{
+		"name": "ZIPPY PUGUA",
+		"setter": "Chalkdust66",
+		"official_grade": 2,
+		"user_grade": 2.135135135135135,
+		"user_stars": 4.013513513513513,
+		"user_attempts": 1.67,
+		"repeats": 370,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Hold Set A",
+			"Wooden Holds"
+		],
+		"date_created": "2021-03-10T16:29:26.667",
+		"holds": {
+			"start": [
+				"D3",
+				"H4"
+			],
+			"mid": [
+				"F9",
+				"E14",
+				"H12"
+			],
+			"end": [
+				"D18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 7,
+			"1": 9,
+			"2": 300,
+			"3": 36,
+			"4": 17,
+			"5": 1,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 6,
+			"1": 10,
+			"2": 22,
+			"3": 36,
+			"4": 157,
+			"5": 139
+		},
+		"user_attempts_breakdown": {
+			"1": 66,
+			"2": 12,
+			"3": 11,
+			"4": 11
+		}
+	},
+	{
+		"name": "MEAN PINBALL 25",
+		"setter": "Chalkdust66",
+		"official_grade": 3,
+		"user_grade": 3.008503401360544,
+		"user_stars": 4.2482993197278915,
+		"user_attempts": 1.62,
+		"repeats": 588,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Hold Set B",
+			"Wooden Holds B",
+			"Wooden Holds C"
+		],
+		"date_created": "2021-03-10T16:47:57.17",
+		"holds": {
+			"start": [
+				"I5",
+				"F6"
+			],
+			"mid": [
+				"H10",
+				"E14",
+				"E15",
+				"A12"
+			],
+			"end": [
+				"B18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 5,
+			"1": 3,
+			"2": 26,
+			"3": 517,
+			"4": 34,
+			"5": 1,
+			"6": 1,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 1,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 3,
+			"1": 4,
+			"2": 24,
+			"3": 55,
+			"4": 229,
+			"5": 273
+		},
+		"user_attempts_breakdown": {
+			"1": 63,
+			"2": 20,
+			"3": 9,
+			"4": 8
+		}
+	},
+	{
+		"name": "COUCH LIFE 25",
+		"setter": "Chalkdust66",
+		"official_grade": 6,
+		"user_grade": 6.0144927536231885,
+		"user_stars": 4.391304347826087,
+		"user_attempts": 2.17,
+		"repeats": 207,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Hold Set A",
+			"Hold Set B",
+			"Wooden Holds",
+			"Wooden Holds B"
+		],
+		"date_created": "2021-03-10T17:26:50.007",
+		"holds": {
+			"start": [
+				"A4",
+				"D3"
+			],
+			"mid": [
+				"C8",
+				"E9",
+				"B15",
+				"F16",
+				"G18",
+				"F13"
+			],
+			"end": [
+				"J18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 0,
+			"1": 0,
+			"2": 0,
+			"3": 0,
+			"4": 2,
+			"5": 11,
+			"6": 176,
+			"7": 18,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 0,
+			"1": 2,
+			"2": 6,
+			"3": 19,
+			"4": 62,
+			"5": 118
+		},
+		"user_attempts_breakdown": {
+			"1": 41,
+			"2": 21,
+			"3": 18,
+			"4": 20
+		}
+	},
+	{
+		"name": "THINK ON FEET 25\u00b0",
+		"setter": "Chalkdust66",
+		"official_grade": 7,
+		"user_grade": 6.894009216589862,
+		"user_stars": 4.271889400921659,
+		"user_attempts": 2.25,
+		"repeats": 217,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Hold Set A",
+			"Hold Set B",
+			"Wooden Holds"
+		],
+		"date_created": "2021-03-13T16:30:30.69",
+		"holds": {
+			"start": [
+				"K3",
+				"J6"
+			],
+			"mid": [
+				"H8",
+				"G15",
+				"E14",
+				"F11"
+			],
+			"end": [
+				"I18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 0,
+			"1": 0,
+			"2": 0,
+			"3": 0,
+			"4": 1,
+			"5": 4,
+			"6": 20,
+			"7": 184,
+			"8": 8,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 1,
+			"1": 1,
+			"2": 8,
+			"3": 20,
+			"4": 85,
+			"5": 102
+		},
+		"user_attempts_breakdown": {
+			"1": 38,
+			"2": 23,
+			"3": 15,
+			"4": 24
+		}
+	},
+	{
+		"name": "PARAPARA-VAR 25",
+		"setter": "Chalkdust66",
+		"official_grade": 7,
+		"user_grade": 6.88212927756654,
+		"user_stars": 4.3726235741444865,
+		"user_attempts": 1.9898989898989898,
+		"repeats": 263,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Wooden Holds B",
+			"Wooden Holds C"
+		],
+		"date_created": "2021-03-14T17:12:15.01",
+		"holds": {
+			"start": [
+				"A5"
+			],
+			"mid": [
+				"G7",
+				"D6",
+				"D12",
+				"D11",
+				"I14",
+				"H17"
+			],
+			"end": [
+				"K18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 0,
+			"1": 0,
+			"2": 0,
+			"3": 0,
+			"4": 2,
+			"5": 7,
+			"6": 22,
+			"7": 221,
+			"8": 11,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 0,
+			"1": 2,
+			"2": 4,
+			"3": 22,
+			"4": 101,
+			"5": 134
+		},
+		"user_attempts_breakdown": {
+			"1": 50,
+			"2": 21,
+			"3": 7,
+			"4": 21
+		}
+	},
+	{
+		"name": "DRAMATICALLY WARM 25\u00b0",
+		"setter": "Adrian Landreth",
+		"official_grade": 2,
+		"user_grade": 1.8770491803278688,
+		"user_stars": 4.168618266978923,
+		"user_attempts": 1.31,
+		"repeats": 854,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Hold Set A",
+			"Hold Set B",
+			"Wooden Holds B"
+		],
+		"date_created": "2021-03-28T04:33:21.4",
+		"holds": {
+			"start": [
+				"G6",
+				"J4"
+			],
+			"mid": [
+				"K9",
+				"F10",
+				"G12",
+				"C14",
+				"F16"
+			],
+			"end": [
+				"B18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 23,
+			"1": 83,
+			"2": 730,
+			"3": 12,
+			"4": 6,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 8,
+			"1": 2,
+			"2": 35,
+			"3": 87,
+			"4": 383,
+			"5": 339
+		},
+		"user_attempts_breakdown": {
+			"1": 81,
+			"2": 11,
+			"3": 4,
+			"4": 4
+		}
+	},
+	{
+		"name": "NUGGET PRESSURE 25\u00b0",
+		"setter": "Adrian Landreth",
+		"official_grade": 2,
+		"user_grade": 2.0125874125874126,
+		"user_stars": 4.19020979020979,
+		"user_attempts": 1.5247524752475248,
+		"repeats": 715,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Hold Set A",
+			"Hold Set B",
+			"Wooden Holds B",
+			"Wooden Holds C"
+		],
+		"date_created": "2021-03-28T04:35:21.01",
+		"holds": {
+			"start": [
+				"F4",
+				"J4"
+			],
+			"mid": [
+				"G9",
+				"D10",
+				"A11",
+				"A14",
+				"A15"
+			],
+			"end": [
+				"D18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 13,
+			"1": 34,
+			"2": 618,
+			"3": 31,
+			"4": 19,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 5,
+			"1": 5,
+			"2": 32,
+			"3": 77,
+			"4": 284,
+			"5": 312
+		},
+		"user_attempts_breakdown": {
+			"1": 71,
+			"2": 15,
+			"3": 7,
+			"4": 8
+		}
+	},
+	{
+		"name": "TUCK-IN 25\u00b0",
+		"setter": "Adrian Landreth",
+		"official_grade": 5,
+		"user_grade": 4.684563758389261,
+		"user_stars": 4.221476510067114,
+		"user_attempts": 1.26,
+		"repeats": 149,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Hold Set A",
+			"Hold Set B"
+		],
+		"date_created": "2021-05-08T01:46:41.083",
+		"holds": {
+			"start": [
+				"F5"
+			],
+			"mid": [
+				"G9",
+				"C13",
+				"E14"
+			],
+			"end": [
+				"D18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 0,
+			"1": 0,
+			"2": 0,
+			"3": 8,
+			"4": 34,
+			"5": 104,
+			"6": 3,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 0,
+			"1": 0,
+			"2": 1,
+			"3": 19,
+			"4": 75,
+			"5": 54
+		},
+		"user_attempts_breakdown": {
+			"1": 81,
+			"2": 13,
+			"3": 5,
+			"4": 1
+		}
+	},
+	{
+		"name": "LES BOR\u00c9ADES 25\u00b0",
+		"setter": "Adrian Landreth",
+		"official_grade": 5,
+		"user_grade": 4.7727272727272725,
+		"user_stars": 4.360795454545454,
+		"user_attempts": 1.39,
+		"repeats": 352,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Hold Set A",
+			"Wooden Holds",
+			"Wooden Holds C"
+		],
+		"date_created": "2021-05-15T21:59:40.823",
+		"holds": {
+			"start": [
+				"H4"
+			],
+			"mid": [
+				"E8",
+				"I10",
+				"E12",
+				"F13",
+				"B14"
+			],
+			"end": [
+				"D18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 3,
+			"1": 0,
+			"2": 2,
+			"3": 5,
+			"4": 57,
+			"5": 277,
+			"6": 8,
+			"7": 0,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 1,
+			"1": 0,
+			"2": 7,
+			"3": 37,
+			"4": 125,
+			"5": 182
+		},
+		"user_attempts_breakdown": {
+			"1": 76,
+			"2": 14,
+			"3": 5,
+			"4": 5
+		}
+	},
+	{
+		"name": "M&Y 1",
+		"setter": "Yann",
+		"official_grade": 5,
+		"user_grade": 5.008333333333334,
+		"user_stars": 4.475,
+		"user_attempts": 1.5858585858585859,
+		"repeats": 120,
+		"upgraded": false,
+		"downgraded": false,
+		"holdsets": [
+			"Original School Holds",
+			"Hold Set A",
+			"Hold Set B",
+			"Wooden Holds C"
+		],
+		"date_created": "2021-08-22T18:03:48.663",
+		"holds": {
+			"start": [
+				"H4",
+				"C3"
+			],
+			"mid": [
+				"A2",
+				"G7",
+				"F12",
+				"D11",
+				"A15",
+				"D16"
+			],
+			"end": [
+				"C18"
+			]
+		},
+		"user_grade_breakdown": {
+			"0": 0,
+			"1": 0,
+			"2": 0,
+			"3": 2,
+			"4": 5,
+			"5": 105,
+			"6": 6,
+			"7": 2,
+			"8": 0,
+			"9": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0
+		},
+		"user_star_breakdown": {
+			"0": 1,
+			"1": 0,
+			"2": 1,
+			"3": 9,
+			"4": 37,
+			"5": 72
+		},
+		"user_attempts_breakdown": {
+			"1": 63,
+			"2": 18,
+			"3": 14,
+			"4": 4
+		}
+	}
+]
