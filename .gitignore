@@ -1,3 +1,5 @@
 .DS_Store
 secret.py
 __pycache__
+node_modules
+.vscode
