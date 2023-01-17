@@ -1,4 +1,4 @@
-const Pool = require('pg').Pool;
+const Pool = require('pg/lib').Pool;
 const pool = new Pool({
 	user: 'me',
 	host: 'localhost',
