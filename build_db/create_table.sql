@@ -1,5 +1,6 @@
-CREATE TABLE benchmarks_201640 (
+CREATE TABLE benchmarks (
 	ID serial primary key,
+	mb_type integer,
 	name varchar(100),
 	setter varchar(100),
 	official_grade integer,
@@ -9,6 +10,6 @@ CREATE TABLE benchmarks_201640 (
 	repeats integer,
 	upgraded boolean,
 	downgraded boolean,
-	holdsets varchar(100)[],
+	holdsets integer[],
 	date_created timestamp
 );

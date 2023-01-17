@@ -27,6 +27,23 @@ enumerate_attempts = {
 	'3rd try': 3,
 	'more than 3 tries': 4,
 }
+enumerate_mb = {
+	'2016-40': 0,
+	'2017-25': 1,
+	'2017-40': 2,
+	'2019-25': 3,
+	'2019-40': 4,
+	'2020-40': 5,
+}
+enumerate_holdsets = {
+	'Original School Holds': 0,
+	'Hold Set A': 1,
+	'Hold Set B': 2,
+	'Hold Set C': 3,
+	'Wooden Holds': 4,
+	'Wooden Holds B': 5,
+	'Wooden Holds C': 6,
+}
 
 for mb in mb_types:
 	print(f'Processing {mb} benchmarks...')
@@ -88,7 +105,7 @@ for mb in mb_types:
 
 			holdsets = []
 			for hs in climb['holdsets']:
-				holdsets.append(hs['description'])
+				holdsets.append(enumerate_holdsets[hs['description']])
 			
 			start_holds = []
 			mid_holds = []
@@ -101,26 +118,30 @@ for mb in mb_types:
 				else:
 					mid_holds.append(hold['description'])
 
+			date = climb['dateInserted'][:19]
+			date = date.replace('T', ' ')
+
 			p_climb = {
+				'mb_type': enumerate_mb[mb],
 				'name': climb['name'],
 				'setter': climb['setby'],
 				'official_grade': enumerate_grades[climb['grade']],
-				'user_grade': avg_user_grade,
-				'user_stars': avg_user_star,
-				'user_attempts': avg_user_attempts,
+				'user_grade': round(avg_user_grade, 3),
+				'user_stars': round(avg_user_star, 3),
+				'user_attempts': round(avg_user_attempts, 3),
 				'repeats': climb['repeats'],
 				'upgraded': climb['upgraded'],
 				'downgraded': climb['downgraded'],
 				'holdsets': holdsets,
-				'date_created': climb['dateInserted'],
-				'holds': {
-					'start': start_holds,
-					'mid': mid_holds,
-					'end': end_holds,
-				},
-				'user_grade_breakdown': user_grade_breakdown,
-				'user_star_breakdown': user_star_breakdown,
-				'user_attempts_breakdown': user_attempts_breakdown
+				'date_created': date,
+			#	'holds': {
+			#		'start': start_holds,
+			#		'mid': mid_holds,
+			#		'end': end_holds,
+			#	},
+			#	'user_grade_breakdown': user_grade_breakdown,
+			#	'user_star_breakdown': user_star_breakdown,
+			#	'user_attempts_breakdown': user_attempts_breakdown
 			}
 			p_benchmarks.append(p_climb)
 	with open(f"data/processed_{mb}.json", 'w') as wfile:
