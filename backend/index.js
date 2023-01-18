@@ -8,14 +8,13 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.route('/benchmarks')
+	.get(db.getBenchmarks)
 	.post(db.createBenchmark);
 
-app.route('/benchmarks/:mb_type')
-	.get(db.getBenchmarks);
-
 app.route('/benchmarks/:id')
-	//.get(db.getBenchmarkById)
-	.delete(db.deleteBenchmark);
+	.get(db.getBenchmarkById)
+	.put(db.updateBenchmarkById)
+	.delete(db.deleteBenchmarkById);
 
 app.listen(port, () => {
 	console.log(`App running on port ${port}.`)
