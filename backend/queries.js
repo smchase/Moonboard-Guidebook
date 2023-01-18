@@ -8,7 +8,9 @@ const pool = new Pool({
 });
 
 const getBenchmarks = (request, response) => {
-	pool.query('SELECT * FROM benchmarks ORDER BY id ASC', (error, results) => {
+	const mb_type = parseInt(request.params.mb_type);
+
+	pool.query('SELECT * FROM benchmarks WHERE mb_type = $1 ORDER BY id ASC', [mb_type], (error, results) => {
 		if (error) {
 			throw error;
 		}
@@ -38,18 +40,6 @@ const createBenchmark = (request, response) => {
 	});
 };
 
-const updateBenchmark = (request, response) => {
-	const id = parseInt(request.params.id);
-	const { mb_type, name, setter, official_grade, user_grade, user_stars, user_attempts, repeats, upgraded, downgraded, holdsets, date_created } = request.body;
-
-	pool.query('UPDATE benchmarks SET mb_type = $2, name = $3, setter = $4, official_grade = $5, user_grade = $6, user_stars = $7, user_attempts = $8, repeats = $9, upgraded = $10, downgraded = $11, holdsets = $12, date_created = $13 WHERE id = $1', [id, mb_type, name, setter, official_grade, user_grade, user_stars, user_attempts, repeats, upgraded, downgraded, holdsets, date_created], (error, results) => {
-		if (error) {
-			throw error;
-		}
-		response.status(200).send(`Benchmark modified with ID: ${id}`);
-	});
-};
-
 const deleteBenchmark = (request, response) => {
 	const id = parseInt(request.params.id);
 
@@ -65,6 +55,5 @@ module.exports = {
 	getBenchmarks,
 	getBenchmarkById,
 	createBenchmark,
-	updateBenchmark,
 	deleteBenchmark,
 };

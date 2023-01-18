@@ -1,42 +1,27 @@
-import './App.css';
-import Table from 'react-bootstrap/Table';
+import React, { useState, useEffect } from "react";
 
-function App() {
+export default function App() {
+	const [data, setData] = useState(null);
+	const [loading, setLoading] = useState(true);
+	const [error, setError] = useState(null);
+
+	useEffect(() => {
+		fetch("http://localhost:3001/benchmarks")
+			.then((response) => response.json())
+			.then((actualData) => {
+				setData(actualData);
+				console.log(actualData);
+				setLoading(false);
+			})
+			.catch((err) => {
+				setError(err);
+				setLoading(false);
+			});
+	}, []);
+
 	return (
-		<div className="App">
-			<header className="App-header">
-				<Table striped bordered hover>
-					<thead>
-						<tr>
-							<th>#</th>
-							<th>First Name</th>
-							<th>Last Name</th>
-							<th>Username</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>1</td>
-							<td>Mark</td>
-							<td>Otto</td>
-							<td>@mdo</td>
-						</tr>
-						<tr>
-							<td>2</td>
-							<td>Jacob</td>
-							<td>Thornton</td>
-							<td>@fat</td>
-						</tr>
-						<tr>
-							<td>3</td>
-							<td colSpan={2}>Larry the Bird</td>
-							<td>@twitter</td>
-						</tr>
-					</tbody>
-				</Table>
-			</header>
+		<div>
+			{loading ? <p>Loading...</p> : <p>Data Loaded</p>}
 		</div>
 	);
 }
-
-export default App;
