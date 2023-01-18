@@ -10,7 +10,7 @@ const pool = new Pool({
 const getBenchmarks = (request, response) => {
 	const mb_type = request.query.mb_type ? (' AND mb_type = ' + request.query.mb_type) : '';
 	const official_grade = request.query.official_grade ? (' AND official_grade = ' + request.query.official_grade) : '';
-	const query = 'SELECT * FROM benchmarks WHERE true ' + mb_type + official_grade + ' ORDER BY id ASC';
+	const query = 'SELECT * FROM benchmarks WHERE true' + mb_type + official_grade + ' ORDER BY id ASC';
 
 	pool.query(query, (error, results) => {
 		if (error) {
