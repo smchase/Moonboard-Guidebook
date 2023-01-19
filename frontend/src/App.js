@@ -78,6 +78,7 @@ export default function App() {
 					<span className="visually-hidden">Loading...</span>
 				</Spinner></center></div>}
 				{data && (
+					<><div><p>Found {data.length} benchmarks.</p></div>
 					<Table striped bordered hover>
 						<thead>
 							<tr>
@@ -115,7 +116,7 @@ export default function App() {
 								</tr>
 							))}
 						</tbody>
-					</Table>
+					</Table></>
 				)}
 			</Container>
 
