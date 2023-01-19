@@ -5,7 +5,6 @@ import { Table, Container, Row, Nav, Navbar, NavDropdown } from 'react-bootstrap
 
 export default function App() {
 	const [data, setData] = useState(null);
-	const [loading, setLoading] = useState(true);
 	const [error, setError] = useState(null);
 
 	const urlBase = 'http://localhost:3001/benchmarks?';
@@ -19,8 +18,6 @@ export default function App() {
 			} catch (err) {
 				setError(err.message);
 				setData(null);
-			} finally {
-				setLoading(false);
 			}
 		}
 		getData();
@@ -70,7 +67,6 @@ export default function App() {
 			</Navbar>
 
 			<Container className='mt-4'>
-				{loading && <div>Loading...</div>}
 				{error && <div>Error: {error}</div>}
 				{data && (
 					<Table striped bordered hover>
