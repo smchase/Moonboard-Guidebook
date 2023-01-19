@@ -1,15 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Table, Container, Row, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Table, Container, Nav, Navbar, Spinner } from 'react-bootstrap';
+import ScrollToTop from 'react-scroll-up';
+import { FaGithub } from 'react-icons/fa';
 
 export default function App() {
 	const [data, setData] = useState(null);
+	const [loading, setLoading] = useState(true);
 	const [error, setError] = useState(null);
 
 	const urlBase = 'http://localhost:3001/benchmarks?';
 	const [query, setQuery] = useState('mb_type=0');
 	useEffect(() => {
+		setLoading(true);
 		const getData = async () => {
 			try {
 				const response = await axios.get(urlBase + query);
@@ -18,6 +22,8 @@ export default function App() {
 			} catch (err) {
 				setError(err.message);
 				setData(null);
+			} finally {
+				setLoading(false);
 			}
 		}
 		getData();
@@ -44,7 +50,7 @@ export default function App() {
 		17: '8C (V15)',
 	}
 	return (
-		<div className='app'>
+		<div className='app d-flex flex-column' style={{minHeight: '100vh'}}>
 			<Navbar bg='dark' variant='dark'>
 				<Container>
 					<Navbar.Brand>
@@ -56,18 +62,21 @@ export default function App() {
 						/>&nbsp;
 						Moonboard Guidebook</Navbar.Brand>
 					<Nav defaultActiveKey='201640'>
-						<Nav.Link onClick={() => {setQuery('mb_type=0')}} eventKey='201640'>2016 40°</Nav.Link>
-						<Nav.Link onClick={() => {setQuery('mb_type=1')}} eventKey='201725'>2017 25°</Nav.Link>
-						<Nav.Link onClick={() => {setQuery('mb_type=2')}} eventKey='201740'>2017 40°</Nav.Link>
-						<Nav.Link onClick={() => {setQuery('mb_type=3')}} eventKey='201925'>2019 25°</Nav.Link>
-						<Nav.Link onClick={() => {setQuery('mb_type=4')}} eventKey='201940'>2019 40°</Nav.Link>
-						<Nav.Link onClick={() => {setQuery('mb_type=5')}} eventKey='202040'>2020 40°</Nav.Link>
+						<Nav.Link onClick={() => { setQuery('mb_type=0') }} eventKey='201640'>2016 40°</Nav.Link>
+						<Nav.Link onClick={() => { setQuery('mb_type=1') }} eventKey='201725'>2017 25°</Nav.Link>
+						<Nav.Link onClick={() => { setQuery('mb_type=2') }} eventKey='201740'>2017 40°</Nav.Link>
+						<Nav.Link onClick={() => { setQuery('mb_type=3') }} eventKey='201925'>2019 25°</Nav.Link>
+						<Nav.Link onClick={() => { setQuery('mb_type=4') }} eventKey='201940'>2019 40°</Nav.Link>
+						<Nav.Link onClick={() => { setQuery('mb_type=5') }} eventKey='202040'>2020 40°</Nav.Link>
 					</Nav>
 				</Container>
 			</Navbar>
 
-			<Container className='mt-4'>
+			<Container className='mt-4 flex-1'>
 				{error && <div>Error: {error}</div>}
+				{loading && <div><center><Spinner animation="border" role="status">
+					<span className="visually-hidden">Loading...</span>
+				</Spinner></center></div>}
 				{data && (
 					<Table striped bordered hover>
 						<thead>
@@ -94,9 +103,13 @@ export default function App() {
 									<td>{row.user_stars}</td>
 									<td>{row.user_attempts}</td>
 									<td>
-										{row.holdsets.includes(1) ? <img src='white-hold.png'></img> : null}
-										{row.holdsets.includes(2) ? <img src='black-hold.png'></img> : null}
-										{row.holdsets.includes(0) ? <img src='yellow-hold.png'></img> : null}
+										{row.holdsets.includes(1) ? <img alt='White Hold' src='white-hold.png'></img> : null}
+										{row.holdsets.includes(2) ? <img alt='Black Hold' src='black-hold.png'></img> : null}
+										{row.holdsets.includes(0) ? <img alt='Yellow Hold' src='yellow-hold.png'></img> : null}
+										{row.holdsets.includes(3) ? <img alt='Red Hold' src='red-hold.png'></img> : null}
+										{row.holdsets.includes(4) ? <img alt='Wooden A Hold' src='woodenA-hold.png'></img> : null}
+										{row.holdsets.includes(5) ? <img alt='Wooden B Hold' src='woodenB-hold.png'></img> : null}
+										{row.holdsets.includes(6) ? <img alt='Wooden C Hold' src='woodenC-hold.png'></img> : null}
 									</td>
 									<td>{row.date_created.substring(0, 10).split('-').join('/')}</td>
 								</tr>
@@ -105,6 +118,18 @@ export default function App() {
 					</Table>
 				)}
 			</Container>
+
+			<ScrollToTop showUnder={100}>
+				<img src='up-button.png' width='50' height='50' />
+			</ScrollToTop>
+
+			<footer className='footer mt-auto'>
+				<Container className='pt-3'>
+				<center>
+					<p>© 2023 Simon Chase | <a href='github.com'>View on GitHub</a></p>
+				</center>
+			</Container>
+			</footer>
 		</div>
 	);
 }
