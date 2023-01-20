@@ -191,12 +191,12 @@ export default function App() {
 					<Row className='mb-3'>
 						<Form.Group as={Col}>
 							<Form.Label>Climb Name</Form.Label>
-							<Form.Control type='name' placeHolder='Search for a climb' />
+							<Form.Control type='name' placeHolder='All' />
 						</Form.Group>
 
 						<Form.Group as={Col}>
 							<Form.Label>Setter</Form.Label>
-							<Form.Control type='setter' placeholder='Search for a setter' />
+							<Form.Control type='setter' placeholder='All' />
 						</Form.Group>
 					</Row>
 					<Row className='mb-3'>
@@ -342,7 +342,7 @@ export default function App() {
 						<Col className="d-flex justify-content-end">
 							<div>
 							<Button variant='primary' type='submit'>
-								Submit
+								Filter
 							</Button>
 							</div>
 						</Col>
