@@ -3,6 +3,10 @@ import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Table, Container, Nav, Navbar, Spinner, Form, ToggleButton, Collapse, Row, Col, Tooltip, OverlayTrigger } from 'react-bootstrap';
 import ScrollToTop from 'react-scroll-up';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircleQuestion } from '@fortawesome/free-regular-svg-icons'
+import { faArrowUp, faArrowDown, faCircleChevronUp, faCircleUp, faCircleDown } from '@fortawesome/free-solid-svg-icons'
+
 
 export default function App() {
 	const [data, setData] = useState(null);
@@ -347,7 +351,7 @@ export default function App() {
 									delay={{ show: 250, hide: 400 }}
 									overlay={<Tooltip>Font or V Grade</Tooltip>}
 								>
-									<img src='info.png' width='15' alt='Info' className='mx-1 mb-1' />
+									<FontAwesomeIcon className='mx-1' style={{color: 'grey'}} icon={faCircleQuestion} />
 								</OverlayTrigger>
 							</Form.Label>
 
@@ -366,7 +370,7 @@ export default function App() {
 									delay={{ show: 250, hide: 400 }}
 									overlay={<Tooltip>Based on user grades, negative means soft, positive means hard</Tooltip>}
 								>
-									<img src='info.png' width='15' alt='Info' className='mx-1 mb-1' />
+									<FontAwesomeIcon className='mx-1' style={{color: 'grey'}} icon={faCircleQuestion} />
 								</OverlayTrigger>
 							</Form.Label>
 							<span className='d-flex flex-row'>
@@ -384,7 +388,7 @@ export default function App() {
 									delay={{ show: 250, hide: 400 }}
 									overlay={<Tooltip>Number of users who have logged a send</Tooltip>}
 								>
-									<img src='info.png' width='15' alt='Info' className='mx-1 mb-1' />
+									<FontAwesomeIcon className='mx-1' style={{color: 'grey'}} icon={faCircleQuestion} />
 								</OverlayTrigger>
 							</Form.Label>
 							<span className='d-flex flex-row'>
@@ -402,7 +406,7 @@ export default function App() {
 									delay={{ show: 250, hide: 400 }}
 									overlay={<Tooltip>Average user star rating</Tooltip>}
 								>
-									<img src='info.png' width='15' alt='Info' className='mx-1 mb-1' />
+									<FontAwesomeIcon className='mx-1' style={{color: 'grey'}} icon={faCircleQuestion} />
 								</OverlayTrigger>
 							</Form.Label>
 							<span className='d-flex flex-row'>
@@ -421,7 +425,7 @@ export default function App() {
 									delay={{ show: 250, hide: 400 }}
 									overlay={<Tooltip>Calculations count "more than 3 tries" as 4</Tooltip>}
 								>
-									<img src='info.png' width='15' alt='Info' className='mx-1 mb-1' />
+									<FontAwesomeIcon className='mx-1' style={{color: 'grey'}} icon={faCircleQuestion} />
 								</OverlayTrigger>
 							</Form.Label>
 							<span className='d-flex flex-row'>
@@ -440,7 +444,7 @@ export default function App() {
 									delay={{ show: 250, hide: 400 }}
 									overlay={<Tooltip>YYYY/MM/DD</Tooltip>}
 								>
-									<img src='info.png' width='15' alt='Info' className='mx-1 mb-1' />
+									<FontAwesomeIcon className='mx-1' style={{color: 'grey'}} icon={faCircleQuestion} />
 								</OverlayTrigger>
 							</Form.Label>
 							<span className='d-flex flex-row'>
@@ -456,9 +460,9 @@ export default function App() {
 								<OverlayTrigger
 									placement='right'
 									delay={{ show: 250, hide: 400 }}
-									overlay={<Tooltip>Which hold sets climbs can include</Tooltip>}
+									overlay={<Tooltip>Which hold sets climbs can include, hover over holds below for names</Tooltip>}
 								>
-									<img src='info.png' width='15' alt='Info' className='mx-1 mb-1' />
+									<FontAwesomeIcon className='mx-1' style={{color: 'grey'}} icon={faCircleQuestion} />
 								</OverlayTrigger>
 							</Form.Label>
 							<div className='mb-3'>
@@ -566,7 +570,7 @@ export default function App() {
 									delay={{ show: 250, hide: 400 }}
 									overlay={<Tooltip>Enter as a list of coordinates according to board layout</Tooltip>}
 								>
-									<img src='info.png' width='15' alt='Info' className='mx-1 mb-1' />
+									<FontAwesomeIcon className='mx-1' style={{color: 'grey'}} icon={faCircleQuestion} />
 								</OverlayTrigger>
 							</Form.Label>
 							<Form.Control type='text' placeholder='All' value={filter.included} onChange={(e) => setFilter({ ...filter, included: e.target.value })} />
@@ -580,7 +584,7 @@ export default function App() {
 									delay={{ show: 250, hide: 400 }}
 									overlay={<Tooltip>Enter as a list of coordinates according to board layout</Tooltip>}
 								>
-									<img src='info.png' width='15' alt='Info' className='mx-1 mb-1' />
+									<FontAwesomeIcon className='mx-1' style={{color: 'grey'}} icon={faCircleQuestion} />
 								</OverlayTrigger>
 							</Form.Label>
 							<Form.Control type='text' placeholder='None' value={filter.excluded} onChange={(e) => setFilter({ ...filter, excluded: e.target.value })} />
@@ -631,35 +635,35 @@ export default function App() {
 								<tr>
 									<th>
 										<u style={{ cursor: 'pointer' }} onClick={() => handleSort('name')}>Climb Name</u>
-										{sort.column === 'name' ? (sort.order === 'asc' ? ' \u2193' : ' \u2191') : null}
+										{sort.column === 'name' ? (sort.order === 'asc' ? <FontAwesomeIcon className='mx-1' icon={faArrowDown} /> : <FontAwesomeIcon className='mx-1' icon={faArrowUp} />) : null}
 									</th>
 									<th>
 										<u style={{ cursor: 'pointer' }} onClick={() => handleSort('setter')}>Setter</u>
-										{sort.column === 'setter' ? (sort.order === 'asc' ? ' \u2193' : ' \u2191') : null}
+										{sort.column === 'setter' ? (sort.order === 'asc' ? <FontAwesomeIcon className='mx-1' icon={faArrowDown} /> : <FontAwesomeIcon className='mx-1' icon={faArrowUp} />) : null}
 									</th>
 									<th>
 										<u style={{ cursor: 'pointer' }} onClick={() => handleSort('grade')}>Grade</u>
-										{sort.column === 'grade' ? (sort.order === 'asc' ? ' \u2193' : ' \u2191') : null}
+										{sort.column === 'grade' ? (sort.order === 'asc' ? <FontAwesomeIcon className='mx-1' icon={faArrowDown} /> : <FontAwesomeIcon className='mx-1' icon={faArrowUp} />) : null}
 									</th>
 									<th>
 										<u style={{ cursor: 'pointer' }} onClick={() => handleSort('sandbag_score')}>Sandbag Score</u>
-										{sort.column === 'sandbag_score' ? (sort.order === 'asc' ? ' \u2193' : ' \u2191') : null}
+										{sort.column === 'sandbag_score' ? (sort.order === 'asc' ? <FontAwesomeIcon className='mx-1' icon={faArrowDown} /> : <FontAwesomeIcon className='mx-1' icon={faArrowUp} />) : null}
 									</th>
 									<th>
 										<u style={{ cursor: 'pointer' }} onClick={() => handleSort('repeats')}>Repeats</u>
-										{sort.column === 'repeats' ? (sort.order === 'asc' ? ' \u2193' : ' \u2191') : null}
+										{sort.column === 'repeats' ? (sort.order === 'asc' ? <FontAwesomeIcon className='mx-1' icon={faArrowDown} /> : <FontAwesomeIcon className='mx-1' icon={faArrowUp} />) : null}
 									</th>
 									<th>
 										<u style={{ cursor: 'pointer' }} onClick={() => handleSort('avg_user_stars')}>Stars</u>
-										{sort.column === 'avg_user_stars' ? (sort.order === 'asc' ? ' \u2193' : ' \u2191') : null}
+										{sort.column === 'avg_user_stars' ? (sort.order === 'asc' ? <FontAwesomeIcon className='mx-1' icon={faArrowDown} /> : <FontAwesomeIcon className='mx-1' icon={faArrowUp} />) : null}
 									</th>
 									<th>
 										<u style={{ cursor: 'pointer' }} onClick={() => handleSort('avg_user_attempts')}>Average Attempts</u>
-										{sort.column === 'avg_user_attempts' ? (sort.order === 'asc' ? ' \u2193' : ' \u2191') : null}
+										{sort.column === 'avg_user_attempts' ? (sort.order === 'asc' ? <FontAwesomeIcon className='mx-1' icon={faArrowDown} /> : <FontAwesomeIcon className='mx-1' icon={faArrowUp} />) : null}
 									</th>
 									<th>
 										<u style={{ cursor: 'pointer' }} onClick={() => handleSort('date_created')}>Date Created</u>
-										{sort.column === 'date_created' ? (sort.order === 'asc' ? ' \u2193' : ' \u2191') : null}
+										{sort.column === 'date_created' ? (sort.order === 'asc' ? <FontAwesomeIcon className='mx-1' icon={faArrowDown} /> : <FontAwesomeIcon className='mx-1' icon={faArrowUp} />) : null}
 									</th>
 									<th>
 										Hold Sets
@@ -671,7 +675,7 @@ export default function App() {
 									<tr key={row.id}>
 										<td>{row.name}</td>
 										<td>{row.setter}</td>
-										<td>{mapGrades[row.grade]}{row.upgraded ? ' \u2B06' : null} {row.downgraded ? ' \u2B07' : null}</td>
+										<td>{mapGrades[row.grade]}{' '}{row.upgraded ? <FontAwesomeIcon icon={faCircleUp}></FontAwesomeIcon> : null} {row.downgraded ? <FontAwesomeIcon icon={faCircleDown}></FontAwesomeIcon> : null}</td>
 										<td style={{ color: row.sandbag_score > 1 ? 'red' : row.sandbag_score < 1 ? 'green' : 'black' }}>{Math.round(row.sandbag_score * 1000) / 1000}</td>
 										<td>{row.repeats}</td>
 										<td>{row.avg_user_stars}</td>
@@ -695,7 +699,7 @@ export default function App() {
 			</Container>
 
 			<ScrollToTop showUnder={600}>
-				<img src='up-button.png' alt='UP' width='50' height='50' />
+				<FontAwesomeIcon size='3x' style={{color:'grey'}} icon={faCircleChevronUp} />
 			</ScrollToTop>
 
 			<footer className='footer mt-auto'>
