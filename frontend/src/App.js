@@ -676,7 +676,7 @@ export default function App() {
 										<td>{row.name}</td>
 										<td>{row.setter}</td>
 										<td>{mapGrades[row.grade]}{' '}{row.upgraded ? <FontAwesomeIcon icon={faCircleUp}></FontAwesomeIcon> : null} {row.downgraded ? <FontAwesomeIcon icon={faCircleDown}></FontAwesomeIcon> : null}</td>
-										<td style={{ color: row.sandbag_score > 1 ? 'red' : row.sandbag_score < 1 ? 'green' : 'black' }}>{Math.round(row.sandbag_score * 1000) / 1000}</td>
+										<td style={{ color: row.sandbag_score > 1 ? 'red' : row.sandbag_score < -1 ? 'green' : 'black' }}>{Math.round(row.sandbag_score * 1000) / 1000}</td>
 										<td>{row.repeats}</td>
 										<td>{row.avg_user_stars}</td>
 										<td>{row.avg_user_attempts}</td>
