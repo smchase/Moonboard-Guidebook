@@ -16,7 +16,7 @@ CREATE TABLE benchmarks (
 	end_holds varchar(3)[],
 
 	avg_user_grade real,
-	sandbag_score real GENERATED ALWAYS AS (avg_user_grade - grade) STORED,
+	sandbag_score real GENERATED ALWAYS AS ((avg_user_grade - grade) * 10) STORED,
 	user_grade_breakdown integer[],
 
 	avg_user_stars real,

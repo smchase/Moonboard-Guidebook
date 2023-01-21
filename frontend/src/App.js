@@ -6,10 +6,10 @@ import ScrollToTop from 'react-scroll-up';
 
 export default function App() {
 	const [data, setData] = useState(null);
-	const [loading, setLoading] = useState(true);
-	const [error, setError] = useState(null);
-	const [open, setOpen] = useState(false);
-	const [sort, setSort] = useState({ column: 'date', order: 'asc' });
+	const [loadingData, setLoadingData] = useState(true);
+	const [errorLoadingData, setErrorLoadingData] = useState(null);
+	const [showLayout, setShowLayout] = useState(false); // 
+	const [sort, setSort] = useState({ column: 'date_created', order: 'asc' });
 	const [mbtype, setMbtype] = useState(0);
 	const [filter, setFilter] = useState({
 		name: null,
@@ -39,18 +39,18 @@ export default function App() {
 
 	const urlBase = 'http://localhost:3001/benchmarks/mb_type/';
 	useEffect(() => {
-		setLoading(true);
+		setLoadingData(true);
 		setSort({ column: null, order: null });
 		const getData = async () => {
 			try {
 				const response = await axios.get(urlBase + mbtype);
 				setData(response.data);
-				setError(null);
+				setErrorLoadingData(null);
 			} catch (err) {
-				setError(err.message);
+				setErrorLoadingData(err.message);
 				setData(null);
 			} finally {
-				setLoading(false);
+				setLoadingData(false);
 			}
 		}
 		getData();
@@ -87,30 +87,30 @@ export default function App() {
 				return 0;
 			} else if (column === 'grade') {
 				if (order === 'asc') {
-					if (a['official_grade'] < b['official_grade']) return -1;
-					if (a['official_grade'] > b['official_grade']) return 1;
-					if (a['user_grade'] < b['user_grade']) return -1;
-					if (a['user_grade'] > b['user_grade']) return 1;
+					if (a['grade'] < b['grade']) return -1;
+					if (a['grade'] > b['grade']) return 1;
+					if (a['avg_user_grade'] < b['avg_user_grade']) return -1;
+					if (a['avg_user_grade'] > b['avg_user_grade']) return 1;
 					if (a['name'].toLowerCase() < b['name'].toLowerCase()) return -1;
 					if (a['name'].toLowerCase() > b['name'].toLowerCase()) return 1;
 				} else {
-					if (a['official_grade'] < b['official_grade']) return 1;
-					if (a['official_grade'] > b['official_grade']) return -1;
-					if (a['user_grade'] < b['user_grade']) return 1;
-					if (a['user_grade'] > b['user_grade']) return -1;
+					if (a['grade'] < b['grade']) return 1;
+					if (a['grade'] > b['grade']) return -1;
+					if (a['avg_user_grade'] < b['avg_user_grade']) return 1;
+					if (a['avg_user_grade'] > b['avg_user_grade']) return -1;
 					if (a['name'].toLowerCase() < b['name'].toLowerCase()) return 1;
 					if (a['name'].toLowerCase() > b['name'].toLowerCase()) return -1;
 				}
 				return 0;
-			} else if (column === 'sandbag') {
+			} else if (column === 'sandbag_score') {
 				if (order === 'asc') {
-					if (a['user_grade'] - a['official_grade'] < b['user_grade'] - b['official_grade']) return -1;
-					if (a['user_grade'] - a['official_grade'] > b['user_grade'] - b['official_grade']) return 1;
+					if (a['sandbag_score'] < b['sandbag_score']) return -1;
+					if (a['sandbag_score'] > b['sandbag_score']) return 1;
 					if (a['name'].toLowerCase() < b['name'].toLowerCase()) return -1;
 					if (a['name'].toLowerCase() > b['name'].toLowerCase()) return 1;
 				} else {
-					if (a['user_grade'] - a['official_grade'] < b['user_grade'] - b['official_grade']) return 1;
-					if (a['user_grade'] - a['official_grade'] > b['user_grade'] - b['official_grade']) return -1;
+					if (a['sandbag_score'] < b['sandbag_score']) return 1;
+					if (a['sandbag_score'] > b['sandbag_score']) return -1;
 					if (a['name'].toLowerCase() < b['name'].toLowerCase()) return 1;
 					if (a['name'].toLowerCase() > b['name'].toLowerCase()) return -1;
 				}
@@ -128,33 +128,33 @@ export default function App() {
 					if (a['name'].toLowerCase() > b['name'].toLowerCase()) return -1;
 				}
 				return 0;
-			} else if (column === 'stars') {
+			} else if (column === 'avg_user_stars') {
 				if (order === 'asc') {
-					if (a['user_stars'] < b['user_stars']) return -1;
-					if (a['user_stars'] > b['user_stars']) return 1;
+					if (a['avg_user_stars'] < b['avg_user_stars']) return -1;
+					if (a['avg_user_stars'] > b['avg_user_stars']) return 1;
 					if (a['name'].toLowerCase() < b['name'].toLowerCase()) return -1;
 					if (a['name'].toLowerCase() > b['name'].toLowerCase()) return 1;
 				} else {
-					if (a['user_stars'] < b['user_stars']) return 1;
-					if (a['user_stars'] > b['user_stars']) return -1;
+					if (a['avg_user_stars'] < b['avg_user_stars']) return 1;
+					if (a['avg_user_stars'] > b['avg_user_stars']) return -1;
 					if (a['name'].toLowerCase() < b['name'].toLowerCase()) return 1;
 					if (a['name'].toLowerCase() > b['name'].toLowerCase()) return -1;
 				}
 				return 0;
-			} else if (column === 'attempts') {
+			} else if (column === 'avg_user_attempts') {
 				if (order === 'asc') {
-					if (a['user_attempts'] < b['user_attempts']) return -1;
-					if (a['user_attempts'] > b['user_attempts']) return 1;
+					if (a['avg_user_attempts'] < b['avg_user_attempts']) return -1;
+					if (a['avg_user_attempts'] > b['avg_user_attempts']) return 1;
 					if (a['name'].toLowerCase() < b['name'].toLowerCase()) return -1;
 					if (a['name'].toLowerCase() > b['name'].toLowerCase()) return 1;
 				} else {
-					if (a['user_attempts'] < b['user_attempts']) return 1;
-					if (a['user_attempts'] > b['user_attempts']) return -1;
+					if (a['avg_user_attempts'] < b['avg_user_attempts']) return 1;
+					if (a['avg_user_attempts'] > b['avg_user_attempts']) return -1;
 					if (a['name'].toLowerCase() < b['name'].toLowerCase()) return 1;
 					if (a['name'].toLowerCase() > b['name'].toLowerCase()) return -1;
 				}
 				return 0;
-			} else if (column === 'date') {
+			} else if (column === 'date_created') {
 				if (order === 'asc') {
 					if (a['id'] < b['id']) return -1;
 					if (a['id'] > b['id']) return 1;
@@ -206,7 +206,7 @@ export default function App() {
 				'V14': 16,
 				'V15': 17,
 			}
-			if (minMap[filter.gradeMin.toUpperCase()] > row.official_grade) return false;
+			if (minMap[filter.gradeMin.toUpperCase()] > row.grade) return false;
 		}
 		if (filter.gradeMax) {
 			const maxMap = {
@@ -245,22 +245,22 @@ export default function App() {
 				'V14': 16,
 				'V15': 17,
 			}
-			if (maxMap[filter.gradeMax.toUpperCase()] < row.official_grade) return false;
+			if (maxMap[filter.gradeMax.toUpperCase()] < row.grade) return false;
 		}
-		if (filter.sandbagMin && filter.sandbagMin > (row.user_grade - row.official_grade)) return false;
-		if (filter.sandbagMax && filter.sandbagMax < (row.user_grade - row.official_grade)) return false;
+		if (filter.sandbagMin && filter.sandbagMin > row.sandbag_score) return false;
+		if (filter.sandbagMax && filter.sandbagMax < row.sandbag_score) return false;
 		if (filter.repeatsMin && filter.repeatsMin > row.repeats) return false;
 		if (filter.repeatsMax && filter.repeatsMax < row.repeats) return false;
-		if (filter.starsMin && filter.starsMin > row.user_stars) return false;
-		if (filter.starsMax && filter.starsMax < row.user_stars) return false;
-		if (filter.attemptsMin && filter.attemptsMin > row.user_attempts) return false;
-		if (filter.attemptsMax && filter.attemptsMax < row.user_attempts) return false;
+		if (filter.starsMin && filter.starsMin > row.avg_user_stars) return false;
+		if (filter.starsMax && filter.starsMax < row.avg_user_stars) return false;
+		if (filter.attemptsMin && filter.attemptsMin > row.avg_user_attempts) return false;
+		if (filter.attemptsMax && filter.attemptsMax < row.avg_user_attempts) return false;
 		if (filter.dateMin && filter.dateMin > row.date_created.substring(0, 10).split('-').join('/')) return false;
 		if (filter.dateMax && filter.dateMax < row.date_created.substring(0, 10).split('-').join('/')) return false;
+		if (!filter.osh && row.holdsets.includes(0)) return false;
 		if (!filter.hsa && row.holdsets.includes(1)) return false;
 		if (!filter.hsb && row.holdsets.includes(2)) return false;
 		if (!filter.hsc && row.holdsets.includes(3)) return false;
-		if (!filter.osh && row.holdsets.includes(0)) return false;
 		if (!filter.wha && row.holdsets.includes(4)) return false;
 		if (!filter.whb && row.holdsets.includes(5)) return false;
 		if (!filter.whc && row.holdsets.includes(6)) return false;
@@ -582,12 +582,12 @@ export default function App() {
 								id='toggle-check'
 								type='checkbox'
 								variant='outline-secondary'
-								checked={open}
-								onChange={(e) => setOpen(e.currentTarget.checked)}
+								checked={showLayout}
+								onChange={(e) => setShowLayout(e.currentTarget.checked)}
 							>
 								Show Board Layout
 							</ToggleButton>
-							<Collapse in={open}>
+							<Collapse in={showLayout}>
 								<div>
 									<img src={
 										mbtype === 0 ? '2016.png' : ((mbtype === 1 || mbtype === 2) ? '2017.png' : ((mbtype === 3 || mbtype === 4) ? '2019.png' : '2020.png'))
@@ -608,8 +608,8 @@ export default function App() {
 
 			{/* Table */}
 			<Container className='flex-1'>
-				{error && <div>Error: {error}</div>}
-				{loading && <div><center><Spinner animation='border' role='status'>
+				{errorLoadingData && <div>Error: {errorLoadingData}</div>}
+				{loadingData && <div><center><Spinner animation='border' role='status'>
 					<span className='visually-hidden'>Loading...</span>
 				</Spinner></center></div>}
 				{data && (
@@ -630,24 +630,24 @@ export default function App() {
 										{sort.column === 'grade' ? (sort.order === 'asc' ? ' \u2193' : ' \u2191') : null}
 									</th>
 									<th>
-										<u style={{ cursor: 'pointer' }} onClick={() => handleSort('sandbag')}>Sandbag Score</u>
-										{sort.column === 'sandbag' ? (sort.order === 'asc' ? ' \u2193' : ' \u2191') : null}
+										<u style={{ cursor: 'pointer' }} onClick={() => handleSort('sandbag_score')}>Sandbag Score</u>
+										{sort.column === 'sandbag_score' ? (sort.order === 'asc' ? ' \u2193' : ' \u2191') : null}
 									</th>
 									<th>
 										<u style={{ cursor: 'pointer' }} onClick={() => handleSort('repeats')}>Repeats</u>
 										{sort.column === 'repeats' ? (sort.order === 'asc' ? ' \u2193' : ' \u2191') : null}
 									</th>
 									<th>
-										<u style={{ cursor: 'pointer' }} onClick={() => handleSort('stars')}>Stars</u>
-										{sort.column === 'stars' ? (sort.order === 'asc' ? ' \u2193' : ' \u2191') : null}
+										<u style={{ cursor: 'pointer' }} onClick={() => handleSort('avg_user_stars')}>Stars</u>
+										{sort.column === 'avg_user_stars' ? (sort.order === 'asc' ? ' \u2193' : ' \u2191') : null}
 									</th>
 									<th>
-										<u style={{ cursor: 'pointer' }} onClick={() => handleSort('attempts')}>Average Attempts</u>
-										{sort.column === 'attempts' ? (sort.order === 'asc' ? ' \u2193' : ' \u2191') : null}
+										<u style={{ cursor: 'pointer' }} onClick={() => handleSort('avg_user_attempts')}>Average Attempts</u>
+										{sort.column === 'avg_user_attempts' ? (sort.order === 'asc' ? ' \u2193' : ' \u2191') : null}
 									</th>
 									<th>
-										<u style={{ cursor: 'pointer' }} onClick={() => handleSort('date')}>Date Created</u>
-										{sort.column === 'date' ? (sort.order === 'asc' ? ' \u2193' : ' \u2191') : null}
+										<u style={{ cursor: 'pointer' }} onClick={() => handleSort('date_created')}>Date Created</u>
+										{sort.column === 'date_created' ? (sort.order === 'asc' ? ' \u2193' : ' \u2191') : null}
 									</th>
 									<th>
 										Hold Sets
@@ -659,11 +659,11 @@ export default function App() {
 									<tr key={row.id}>
 										<td>{row.name}</td>
 										<td>{row.setter}</td>
-										<td>{mapGrades[row.official_grade]}{row.upgraded ? ' \u2B06' : null} {row.downgraded ? ' \u2B07' : null}</td>
-										<td style={{ color: row.user_grade > row.official_grade + 0.1 ? 'red' : row.user_grade < row.official_grade - 0.1 ? 'green' : 'black' }}>{Math.round((row.user_grade - row.official_grade) * 1000) / 100}</td>
+										<td>{mapGrades[row.grade]}{row.upgraded ? ' \u2B06' : null} {row.downgraded ? ' \u2B07' : null}</td>
+										<td style={{ color: row.sandbag_score > 1 ? 'red' : row.sandbag_score < 1 ? 'green' : 'black' }}>{Math.round(row.sandbag_score * 1000) / 1000}</td>
 										<td>{row.repeats}</td>
-										<td>{row.user_stars}</td>
-										<td>{row.user_attempts}</td>
+										<td>{row.avg_user_stars}</td>
+										<td>{row.avg_user_attempts}</td>
 										<td>{row.date_created.substring(0, 10).split('-').join('/')}</td>
 										<td>
 											{row.holdsets.includes(1) ? <img alt='White Hold' src='white-hold.png'></img> : null}
