@@ -1,339 +1,1280 @@
 [
 	{
+		"id": 358895,
 		"mb_type": 3,
 		"name": "CHRISTMAS DROP",
 		"setter": "kasperg ",
-		"official_grade": 1,
-		"user_grade": 1.027,
-		"user_stars": 4.226,
-		"user_attempts": 1.41,
-		"repeats": 1016,
+		"grade": 1,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 1033,
+		"date_created": "2019-12-24 12:29:05",
 		"holdsets": [
 			1,
 			5,
 			6
 		],
-		"date_created": "2019-12-24 12:29:05"
+		"start_holds": [
+			"A4",
+			"B5"
+		],
+		"mid_holds": [
+			"A9",
+			"H6",
+			"E10",
+			"C14",
+			"F15",
+			"F14",
+			"J15"
+		],
+		"end_holds": [
+			"J18"
+		],
+		"avg_user_grade": 1.0261,
+		"user_grade_breakdown": [
+			51,
+			925,
+			45,
+			3,
+			9,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.226,
+		"user_star_breakdown": [
+			12,
+			3,
+			34,
+			90,
+			446,
+			448
+		],
+		"avg_user_attempts": 1.41,
+		"user_attempts_breakdown": [
+			76,
+			12,
+			7,
+			5
+		]
 	},
 	{
+		"id": 358899,
 		"mb_type": 3,
 		"name": "DUCK WINGS",
 		"setter": "kasperg ",
-		"official_grade": 1,
-		"user_grade": 1.079,
-		"user_stars": 4.009,
-		"user_attempts": 1.55,
-		"repeats": 800,
+		"grade": 1,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 812,
+		"date_created": "2019-12-24 12:38:45",
 		"holdsets": [
 			1,
 			5,
 			6
 		],
-		"date_created": "2019-12-24 12:38:45"
+		"start_holds": [
+			"D5",
+			"G5"
+		],
+		"mid_holds": [
+			"E10",
+			"F10",
+			"C14",
+			"F14"
+		],
+		"end_holds": [
+			"D18"
+		],
+		"avg_user_grade": 1.0764,
+		"user_grade_breakdown": [
+			32,
+			708,
+			59,
+			4,
+			9,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.01,
+		"user_star_breakdown": [
+			4,
+			25,
+			42,
+			81,
+			394,
+			264
+		],
+		"avg_user_attempts": 1.55,
+		"user_attempts_breakdown": [
+			69,
+			15,
+			8,
+			8
+		]
 	},
 	{
+		"id": 358907,
 		"mb_type": 3,
 		"name": "BRUNE KARTOFLER",
 		"setter": "kasperg ",
-		"official_grade": 0,
-		"user_grade": 0.041,
-		"user_stars": 4.121,
-		"user_attempts": 1.22,
-		"repeats": 1360,
+		"grade": 0,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 1381,
+		"date_created": "2019-12-24 13:06:18",
 		"holdsets": [
 			1,
 			2,
 			5,
 			6
 		],
-		"date_created": "2019-12-24 13:06:18"
+		"start_holds": [
+			"A5",
+			"D3"
+		],
+		"mid_holds": [
+			"B8",
+			"A9",
+			"E11",
+			"C14",
+			"D15"
+		],
+		"end_holds": [
+			"D18"
+		],
+		"avg_user_grade": 0.0413,
+		"user_grade_breakdown": [
+			1343,
+			20,
+			17,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.13,
+		"user_star_breakdown": [
+			18,
+			2,
+			55,
+			137,
+			663,
+			505
+		],
+		"avg_user_attempts": 1.22,
+		"user_attempts_breakdown": [
+			87,
+			7,
+			3,
+			3
+		]
 	},
 	{
+		"id": 362869,
 		"mb_type": 3,
 		"name": "MOONLANDING",
 		"setter": "Angus Harrison-smart",
-		"official_grade": 4,
-		"user_grade": 3.504,
-		"user_stars": 4.217,
-		"user_attempts": 1.31,
-		"repeats": 836,
+		"grade": 4,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 845,
+		"date_created": "2020-02-11 18:52:23",
 		"holdsets": [
 			1,
 			5,
 			6
 		],
-		"date_created": "2020-02-11 18:52:23"
+		"start_holds": [
+			"G5",
+			"J3"
+		],
+		"mid_holds": [
+			"H9",
+			"F10",
+			"F14",
+			"C17"
+		],
+		"end_holds": [
+			"D18"
+		],
+		"avg_user_grade": 3.4994,
+		"user_grade_breakdown": [
+			8,
+			12,
+			101,
+			154,
+			569,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.222,
+		"user_star_breakdown": [
+			5,
+			5,
+			25,
+			85,
+			367,
+			358
+		],
+		"avg_user_attempts": 1.31,
+		"user_attempts_breakdown": [
+			80,
+			12,
+			5,
+			3
+		]
 	},
 	{
+		"id": 362870,
 		"mb_type": 3,
 		"name": "SIDE FOOL",
 		"setter": "Angus Harrison-smart",
-		"official_grade": 5,
-		"user_grade": 4.773,
-		"user_stars": 4.195,
-		"user_attempts": 1.545,
-		"repeats": 462,
+		"grade": 5,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 464,
+		"date_created": "2020-02-11 18:58:08",
 		"holdsets": [
 			0,
 			4,
 			5,
 			6
 		],
-		"date_created": "2020-02-11 18:58:08"
+		"start_holds": [
+			"D5",
+			"G5"
+		],
+		"mid_holds": [
+			"H15",
+			"C14",
+			"E10",
+			"J10"
+		],
+		"end_holds": [
+			"G18"
+		],
+		"avg_user_grade": 4.7716,
+		"user_grade_breakdown": [
+			3,
+			0,
+			3,
+			10,
+			67,
+			376,
+			5,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.19,
+		"user_star_breakdown": [
+			3,
+			4,
+			18,
+			48,
+			195,
+			196
+		],
+		"avg_user_attempts": 1.55,
+		"user_attempts_breakdown": [
+			67,
+			17,
+			10,
+			6
+		]
 	},
 	{
+		"id": 362881,
 		"mb_type": 3,
 		"name": "BIG BAD BOUNCE",
 		"setter": "Angus Harrison-smart",
-		"official_grade": 6,
-		"user_grade": 5.879,
-		"user_stars": 4.355,
-		"user_attempts": 2.05,
-		"repeats": 231,
+		"grade": 6,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 232,
+		"date_created": "2020-02-11 20:00:16",
 		"holdsets": [
 			4,
 			5,
 			6
 		],
-		"date_created": "2020-02-11 20:00:16"
+		"start_holds": [
+			"J5",
+			"I4"
+		],
+		"mid_holds": [
+			"H10",
+			"C14",
+			"F9",
+			"E16"
+		],
+		"end_holds": [
+			"B18"
+		],
+		"avg_user_grade": 5.8793,
+		"user_grade_breakdown": [
+			0,
+			0,
+			0,
+			1,
+			7,
+			19,
+			197,
+			8,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.353,
+		"user_star_breakdown": [
+			0,
+			2,
+			6,
+			19,
+			86,
+			119
+		],
+		"avg_user_attempts": 2.05,
+		"user_attempts_breakdown": [
+			46,
+			19,
+			19,
+			16
+		]
 	},
 	{
+		"id": 365729,
 		"mb_type": 3,
 		"name": "MO\u2019D\u2019S IMMUNITY BOOSTER",
 		"setter": "Vizual Pupil",
-		"official_grade": 0,
-		"user_grade": 0.16,
-		"user_stars": 4.111,
-		"user_attempts": 1.4,
-		"repeats": 889,
+		"grade": 0,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 903,
+		"date_created": "2020-03-14 15:38:25",
 		"holdsets": [
 			1,
 			2
 		],
-		"date_created": "2020-03-14 15:38:25"
+		"start_holds": [
+			"F4",
+			"H4"
+		],
+		"mid_holds": [
+			"G9",
+			"C8",
+			"E12",
+			"G15"
+		],
+		"end_holds": [
+			"D18"
+		],
+		"avg_user_grade": 0.1595,
+		"user_grade_breakdown": [
+			804,
+			59,
+			38,
+			1,
+			0,
+			0,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.113,
+		"user_star_breakdown": [
+			6,
+			10,
+			29,
+			106,
+			432,
+			320
+		],
+		"avg_user_attempts": 1.404,
+		"user_attempts_breakdown": [
+			75,
+			13,
+			6,
+			5
+		]
 	},
 	{
+		"id": 365733,
 		"mb_type": 3,
 		"name": "OPEN BOARDERS",
 		"setter": "Vizual Pupil",
-		"official_grade": 6,
-		"user_grade": 5.849,
-		"user_stars": 4.298,
-		"user_attempts": 1.85,
-		"repeats": 225,
+		"grade": 6,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 227,
+		"date_created": "2020-03-14 16:15:15",
 		"holdsets": [
 			0,
 			1,
 			2,
 			4
 		],
-		"date_created": "2020-03-14 16:15:15"
+		"start_holds": [
+			"F4"
+		],
+		"mid_holds": [
+			"J6",
+			"I7",
+			"K11",
+			"H14",
+			"G15",
+			"E9"
+		],
+		"end_holds": [
+			"C18"
+		],
+		"avg_user_grade": 5.8502,
+		"user_grade_breakdown": [
+			0,
+			0,
+			0,
+			0,
+			12,
+			16,
+			193,
+			6,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.3,
+		"user_star_breakdown": [
+			0,
+			1,
+			9,
+			19,
+			90,
+			108
+		],
+		"avg_user_attempts": 1.85,
+		"user_attempts_breakdown": [
+			56,
+			17,
+			13,
+			14
+		]
 	},
 	{
+		"id": 365734,
 		"mb_type": 3,
 		"name": "ABUNDANCE OF CAUTION",
 		"setter": "Michael O'Donnell",
-		"official_grade": 2,
-		"user_grade": 1.863,
-		"user_stars": 4.184,
-		"user_attempts": 1.31,
-		"repeats": 879,
+		"grade": 2,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 895,
+		"date_created": "2020-03-14 16:19:01",
 		"holdsets": [
 			0,
 			1,
 			2
 		],
-		"date_created": "2020-03-14 16:19:01"
+		"start_holds": [
+			"F4"
+		],
+		"mid_holds": [
+			"A6",
+			"F8",
+			"G10",
+			"C12",
+			"E14",
+			"B16"
+		],
+		"end_holds": [
+			"C18"
+		],
+		"avg_user_grade": 1.8615,
+		"user_grade_breakdown": [
+			32,
+			81,
+			767,
+			9,
+			6,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.183,
+		"user_star_breakdown": [
+			7,
+			9,
+			25,
+			82,
+			421,
+			351
+		],
+		"avg_user_attempts": 1.313,
+		"user_attempts_breakdown": [
+			79,
+			12,
+			5,
+			3
+		]
 	},
 	{
+		"id": 365745,
 		"mb_type": 3,
 		"name": "TWO PLY",
 		"setter": "Chloe Krueger",
-		"official_grade": 2,
-		"user_grade": 1.881,
-		"user_stars": 4.085,
-		"user_attempts": 1.37,
-		"repeats": 893,
+		"grade": 2,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 907,
+		"date_created": "2020-03-14 17:20:55",
 		"holdsets": [
 			0,
 			1,
 			2,
 			4
 		],
-		"date_created": "2020-03-14 17:20:55"
+		"start_holds": [
+			"C5",
+			"F2"
+		],
+		"mid_holds": [
+			"F8",
+			"C10",
+			"G11",
+			"E14",
+			"H16"
+		],
+		"end_holds": [
+			"H18"
+		],
+		"avg_user_grade": 1.88,
+		"user_grade_breakdown": [
+			34,
+			65,
+			792,
+			10,
+			7,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.086,
+		"user_star_breakdown": [
+			11,
+			12,
+			33,
+			89,
+			450,
+			313
+		],
+		"avg_user_attempts": 1.37,
+		"user_attempts_breakdown": [
+			78,
+			12,
+			5,
+			5
+		]
 	},
 	{
+		"id": 365747,
 		"mb_type": 3,
 		"name": "CORONATION",
 		"setter": "Chloe Krueger",
-		"official_grade": 0,
-		"user_grade": 0.187,
-		"user_stars": 4.122,
-		"user_attempts": 1.327,
-		"repeats": 825,
+		"grade": 0,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 836,
+		"date_created": "2020-03-14 17:29:13",
 		"holdsets": [
 			0,
 			1,
 			2
 		],
-		"date_created": "2020-03-14 17:29:13"
+		"start_holds": [
+			"H5",
+			"K4"
+		],
+		"mid_holds": [
+			"K9",
+			"G10",
+			"H12",
+			"E14",
+			"H16"
+		],
+		"end_holds": [
+			"D18"
+		],
+		"avg_user_grade": 0.1854,
+		"user_grade_breakdown": [
+			729,
+			66,
+			37,
+			1,
+			3,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.122,
+		"user_star_breakdown": [
+			12,
+			9,
+			28,
+			76,
+			402,
+			309
+		],
+		"avg_user_attempts": 1.33,
+		"user_attempts_breakdown": [
+			81,
+			10,
+			4,
+			5
+		]
 	},
 	{
+		"id": 365753,
 		"mb_type": 3,
 		"name": "SICK BRAH",
 		"setter": "Chloe Krueger",
-		"official_grade": 4,
-		"user_grade": 3.874,
-		"user_stars": 4.167,
-		"user_attempts": 1.68,
-		"repeats": 389,
+		"grade": 4,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 392,
+		"date_created": "2020-03-14 17:53:37",
 		"holdsets": [
 			0,
 			1,
 			2
 		],
-		"date_created": "2020-03-14 17:53:37"
+		"start_holds": [
+			"E3",
+			"H3"
+		],
+		"mid_holds": [
+			"F6",
+			"D8",
+			"G11",
+			"E14",
+			"G17"
+		],
+		"end_holds": [
+			"D18"
+		],
+		"avg_user_grade": 3.875,
+		"user_grade_breakdown": [
+			3,
+			1,
+			13,
+			26,
+			333,
+			14,
+			2,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.166,
+		"user_star_breakdown": [
+			3,
+			5,
+			23,
+			34,
+			155,
+			172
+		],
+		"avg_user_attempts": 1.68,
+		"user_attempts_breakdown": [
+			61,
+			19,
+			11,
+			9
+		]
 	},
 	{
+		"id": 365754,
+		"mb_type": 3,
+		"name": "UNDA CLANK CROSS",
+		"setter": "Chloe Krueger",
+		"grade": 4,
+		"upgraded": false,
+		"downgraded": false,
+		"repeats": 124,
+		"date_created": "2020-03-14 17:58:09",
+		"holdsets": [
+			0,
+			1,
+			2,
+			4
+		],
+		"start_holds": [
+			"K4",
+			"F3"
+		],
+		"mid_holds": [
+			"G11",
+			"F6",
+			"I10",
+			"J13",
+			"J6",
+			"G15",
+			"B16"
+		],
+		"end_holds": [
+			"D18"
+		],
+		"avg_user_grade": 3.9274,
+		"user_grade_breakdown": [
+			0,
+			0,
+			3,
+			8,
+			110,
+			1,
+			2,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.306,
+		"user_star_breakdown": [
+			0,
+			4,
+			1,
+			10,
+			47,
+			62
+		],
+		"avg_user_attempts": 1.65,
+		"user_attempts_breakdown": [
+			63,
+			15,
+			16,
+			6
+		]
+	},
+	{
+		"id": 365836,
 		"mb_type": 3,
 		"name": "SOCIAL DISTANCING",
 		"setter": "Erika Eliz",
-		"official_grade": 4,
-		"user_grade": 3.803,
-		"user_stars": 4.127,
-		"user_attempts": 1.62,
-		"repeats": 395,
+		"grade": 4,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 399,
+		"date_created": "2020-03-15 17:03:57",
 		"holdsets": [
 			1,
 			2
 		],
-		"date_created": "2020-03-15 17:03:57"
+		"start_holds": [
+			"F4",
+			"H4"
+		],
+		"mid_holds": [
+			"G9",
+			"I15"
+		],
+		"end_holds": [
+			"D18"
+		],
+		"avg_user_grade": 3.797,
+		"user_grade_breakdown": [
+			4,
+			3,
+			17,
+			44,
+			318,
+			6,
+			5,
+			2,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.12,
+		"user_star_breakdown": [
+			0,
+			7,
+			26,
+			37,
+			171,
+			158
+		],
+		"avg_user_attempts": 1.62,
+		"user_attempts_breakdown": [
+			67,
+			13,
+			11,
+			9
+		]
 	},
 	{
+		"id": 365856,
 		"mb_type": 3,
 		"name": "DON\u2019T COVID THY NEIGHBOR",
 		"setter": "Erika Eliz",
-		"official_grade": 2,
-		"user_grade": 2.266,
-		"user_stars": 4.035,
-		"user_attempts": 1.87,
-		"repeats": 425,
+		"grade": 2,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 430,
+		"date_created": "2020-03-15 18:39:59",
 		"holdsets": [
 			1,
 			2
 		],
-		"date_created": "2020-03-15 18:39:59"
+		"start_holds": [
+			"H4"
+		],
+		"mid_holds": [
+			"F6",
+			"E11",
+			"C13",
+			"C8",
+			"B16"
+		],
+		"end_holds": [
+			"A18"
+		],
+		"avg_user_grade": 2.2651,
+		"user_grade_breakdown": [
+			5,
+			9,
+			327,
+			50,
+			36,
+			1,
+			2,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.026,
+		"user_star_breakdown": [
+			3,
+			14,
+			21,
+			45,
+			195,
+			152
+		],
+		"avg_user_attempts": 1.87,
+		"user_attempts_breakdown": [
+			56,
+			16,
+			13,
+			15
+		]
 	},
 	{
+		"id": 366173,
 		"mb_type": 3,
 		"name": "DAYSHIFT",
 		"setter": "Chalkdust66",
-		"official_grade": 0,
-		"user_grade": 0.227,
-		"user_stars": 4.005,
-		"user_attempts": 1.5,
-		"repeats": 1078,
+		"grade": 0,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 1095,
+		"date_created": "2020-03-21 15:50:42",
 		"holdsets": [
 			1
 		],
-		"date_created": "2020-03-21 15:50:42"
+		"start_holds": [
+			"H4"
+		],
+		"mid_holds": [
+			"H16",
+			"H12",
+			"D10",
+			"F8"
+		],
+		"end_holds": [
+			"I18"
+		],
+		"avg_user_grade": 0.2256,
+		"user_grade_breakdown": [
+			919,
+			112,
+			59,
+			3,
+			2,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.005,
+		"user_star_breakdown": [
+			8,
+			18,
+			48,
+			140,
+			553,
+			328
+		],
+		"avg_user_attempts": 1.5,
+		"user_attempts_breakdown": [
+			73,
+			12,
+			7,
+			8
+		]
 	},
 	{
+		"id": 366249,
 		"mb_type": 3,
 		"name": "T REX 25",
 		"setter": "Chalkdust66",
-		"official_grade": 2,
-		"user_grade": 1.98,
-		"user_stars": 4.177,
-		"user_attempts": 1.495,
-		"repeats": 453,
+		"grade": 2,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 456,
+		"date_created": "2020-03-22 15:25:01",
 		"holdsets": [
 			0,
 			1,
 			2,
 			5
 		],
-		"date_created": "2020-03-22 15:25:01"
+		"start_holds": [
+			"I5",
+			"K4"
+		],
+		"mid_holds": [
+			"H9",
+			"D8",
+			"E11",
+			"C13",
+			"F16"
+		],
+		"end_holds": [
+			"D18"
+		],
+		"avg_user_grade": 1.9803,
+		"user_grade_breakdown": [
+			11,
+			19,
+			404,
+			12,
+			10,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.178,
+		"user_star_breakdown": [
+			4,
+			3,
+			24,
+			44,
+			183,
+			198
+		],
+		"avg_user_attempts": 1.49,
+		"user_attempts_breakdown": [
+			73,
+			13,
+			6,
+			8
+		]
 	},
 	{
+		"id": 366406,
 		"mb_type": 3,
 		"name": "COVID HAIR",
 		"setter": "Chalkdust66",
-		"official_grade": 5,
-		"user_grade": 4.993,
-		"user_stars": 4.293,
-		"user_attempts": 1.82,
-		"repeats": 270,
+		"grade": 5,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 273,
+		"date_created": "2020-03-25 17:21:48",
 		"holdsets": [
 			0,
 			1,
 			2,
 			6
 		],
-		"date_created": "2020-03-25 17:21:48"
+		"start_holds": [
+			"D2",
+			"G3"
+		],
+		"mid_holds": [
+			"F6",
+			"G10",
+			"H11",
+			"I15",
+			"D16",
+			"F16"
+		],
+		"end_holds": [
+			"A18"
+		],
+		"avg_user_grade": 4.9927,
+		"user_grade_breakdown": [
+			2,
+			0,
+			0,
+			2,
+			10,
+			241,
+			14,
+			4,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.293,
+		"user_star_breakdown": [
+			0,
+			3,
+			7,
+			21,
+			118,
+			124
+		],
+		"avg_user_attempts": 1.82,
+		"user_attempts_breakdown": [
+			56,
+			20,
+			10,
+			14
+		]
 	},
 	{
+		"id": 366741,
 		"mb_type": 3,
 		"name": "PUG IN A RUG 25 DEG",
 		"setter": "Erika Eliz",
-		"official_grade": 3,
-		"user_grade": 2.849,
-		"user_stars": 4.117,
-		"user_attempts": 1.406,
-		"repeats": 724,
+		"grade": 3,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 735,
+		"date_created": "2020-03-31 23:50:06",
 		"holdsets": [
 			0,
 			2
 		],
-		"date_created": "2020-03-31 23:50:06"
+		"start_holds": [
+			"F5"
+		],
+		"mid_holds": [
+			"D8",
+			"E11",
+			"E14",
+			"G17"
+		],
+		"end_holds": [
+			"C18"
+		],
+		"avg_user_grade": 2.8503,
+		"user_grade_breakdown": [
+			8,
+			8,
+			88,
+			617,
+			12,
+			0,
+			2,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.118,
+		"user_star_breakdown": [
+			10,
+			6,
+			29,
+			70,
+			347,
+			273
+		],
+		"avg_user_attempts": 1.406,
+		"user_attempts_breakdown": [
+			78,
+			11,
+			6,
+			6
+		]
 	},
 	{
+		"id": 367750,
 		"mb_type": 3,
 		"name": "NO MATCH FOR YOU",
 		"setter": "Chalkdust66",
-		"official_grade": 1,
-		"user_grade": 1.212,
-		"user_stars": 4.112,
-		"user_attempts": 1.58,
-		"repeats": 538,
+		"grade": 1,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 543,
+		"date_created": "2020-04-19 17:00:37",
 		"holdsets": [
 			0,
 			1,
@@ -342,56 +1283,205 @@
 			5,
 			6
 		],
-		"date_created": "2020-04-19 17:00:37"
+		"start_holds": [
+			"A4",
+			"F2"
+		],
+		"mid_holds": [
+			"E7",
+			"D6",
+			"E10",
+			"B12",
+			"F13",
+			"C15",
+			"H16"
+		],
+		"end_holds": [
+			"J18"
+		],
+		"avg_user_grade": 1.2155,
+		"user_grade_breakdown": [
+			14,
+			444,
+			57,
+			11,
+			16,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.116,
+		"user_star_breakdown": [
+			2,
+			4,
+			28,
+			69,
+			232,
+			208
+		],
+		"avg_user_attempts": 1.58,
+		"user_attempts_breakdown": [
+			68,
+			15,
+			8,
+			9
+		]
 	},
 	{
+		"id": 367762,
 		"mb_type": 3,
 		"name": "SNART",
 		"setter": "Allison Stowers",
-		"official_grade": 2,
-		"user_grade": 1.897,
-		"user_stars": 4.303,
-		"user_attempts": 1.33,
-		"repeats": 456,
+		"grade": 2,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 463,
+		"date_created": "2020-04-19 19:12:26",
 		"holdsets": [
 			0,
 			1,
 			2,
 			4
 		],
-		"date_created": "2020-04-19 19:12:26"
+		"start_holds": [
+			"D3",
+			"G4"
+		],
+		"mid_holds": [
+			"G9",
+			"C12",
+			"F16",
+			"F13"
+		],
+		"end_holds": [
+			"D18"
+		],
+		"avg_user_grade": 1.8985,
+		"user_grade_breakdown": [
+			15,
+			34,
+			403,
+			5,
+			6,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.296,
+		"user_star_breakdown": [
+			2,
+			1,
+			9,
+			50,
+			185,
+			216
+		],
+		"avg_user_attempts": 1.303,
+		"user_attempts_breakdown": [
+			80,
+			11,
+			5,
+			3
+		]
 	},
 	{
+		"id": 368073,
 		"mb_type": 3,
 		"name": "BROWNTOWN BOMBER 25",
 		"setter": "Vizual Pupil",
-		"official_grade": 7,
-		"user_grade": 6.942,
-		"user_stars": 4.245,
-		"user_attempts": 2.416,
-		"repeats": 241,
+		"grade": 7,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 244,
+		"date_created": "2020-04-25 18:24:15",
 		"holdsets": [
 			0,
 			2,
 			4
 		],
-		"date_created": "2020-04-25 18:24:15"
+		"start_holds": [
+			"I5"
+		],
+		"mid_holds": [
+			"K8",
+			"E9",
+			"I11",
+			"F13",
+			"B12",
+			"B15",
+			"B17"
+		],
+		"end_holds": [
+			"A18"
+		],
+		"avg_user_grade": 6.9426,
+		"user_grade_breakdown": [
+			0,
+			0,
+			0,
+			0,
+			1,
+			5,
+			14,
+			213,
+			10,
+			0,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.246,
+		"user_star_breakdown": [
+			1,
+			5,
+			8,
+			23,
+			89,
+			118
+		],
+		"avg_user_attempts": 2.436,
+		"user_attempts_breakdown": [
+			34,
+			18,
+			20,
+			29
+		]
 	},
 	{
+		"id": 368139,
 		"mb_type": 3,
 		"name": "SUMMER REIGN",
 		"setter": "Chalkdust66",
-		"official_grade": 5,
-		"user_grade": 4.994,
-		"user_stars": 4.282,
-		"user_attempts": 1.921,
-		"repeats": 316,
+		"grade": 5,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 322,
+		"date_created": "2020-04-26 17:11:00",
 		"holdsets": [
 			0,
 			1,
@@ -399,19 +1489,71 @@
 			4,
 			5
 		],
-		"date_created": "2020-04-26 17:11:00"
+		"start_holds": [
+			"A4",
+			"A6"
+		],
+		"mid_holds": [
+			"K3",
+			"F8",
+			"G9",
+			"K12",
+			"G11",
+			"J15",
+			"G16",
+			"F16"
+		],
+		"end_holds": [
+			"B18"
+		],
+		"avg_user_grade": 4.9969,
+		"user_grade_breakdown": [
+			1,
+			0,
+			0,
+			1,
+			15,
+			288,
+			13,
+			4,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.28,
+		"user_star_breakdown": [
+			2,
+			4,
+			7,
+			29,
+			127,
+			153
+		],
+		"avg_user_attempts": 1.93,
+		"user_attempts_breakdown": [
+			51,
+			21,
+			12,
+			16
+		]
 	},
 	{
+		"id": 368719,
 		"mb_type": 3,
 		"name": "SHORT BACK AND SIDES",
 		"setter": "Chalkdust66",
-		"official_grade": 3,
-		"user_grade": 2.874,
-		"user_stars": 4.26,
-		"user_attempts": 1.45,
-		"repeats": 859,
+		"grade": 3,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 864,
+		"date_created": "2020-05-10 15:58:45",
 		"holdsets": [
 			1,
 			2,
@@ -419,277 +1561,1069 @@
 			5,
 			6
 		],
-		"date_created": "2020-05-10 15:58:45"
+		"start_holds": [
+			"I4",
+			"D5"
+		],
+		"mid_holds": [
+			"G9",
+			"E11",
+			"A10",
+			"B14",
+			"F16",
+			"E16"
+		],
+		"end_holds": [
+			"J18"
+		],
+		"avg_user_grade": 2.875,
+		"user_grade_breakdown": [
+			11,
+			8,
+			82,
+			745,
+			15,
+			1,
+			2,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.26,
+		"user_star_breakdown": [
+			7,
+			8,
+			15,
+			89,
+			349,
+			396
+		],
+		"avg_user_attempts": 1.446,
+		"user_attempts_breakdown": [
+			72,
+			17,
+			8,
+			4
+		]
 	},
 	{
+		"id": 368854,
 		"mb_type": 3,
 		"name": "HEARTBREAK CROSS",
 		"setter": "Chalkdust66",
-		"official_grade": 4,
-		"user_grade": 3.858,
-		"user_stars": 4.186,
-		"user_attempts": 1.77,
-		"repeats": 506,
+		"grade": 4,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 510,
+		"date_created": "2020-05-13 15:27:22",
 		"holdsets": [
 			0,
 			2,
 			4,
 			5
 		],
-		"date_created": "2020-05-13 15:27:22"
+		"start_holds": [
+			"D5",
+			"G4"
+		],
+		"mid_holds": [
+			"B4",
+			"C10",
+			"F9",
+			"F13",
+			"G15"
+		],
+		"end_holds": [
+			"J18"
+		],
+		"avg_user_grade": 3.8588,
+		"user_grade_breakdown": [
+			3,
+			0,
+			16,
+			39,
+			442,
+			9,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.182,
+		"user_star_breakdown": [
+			7,
+			5,
+			17,
+			39,
+			233,
+			209
+		],
+		"avg_user_attempts": 1.782,
+		"user_attempts_breakdown": [
+			58,
+			20,
+			10,
+			13
+		]
 	},
 	{
+		"id": 369215,
 		"mb_type": 3,
 		"name": "M\u0141ODY SYNEK",
 		"setter": "saymix",
-		"official_grade": 7,
-		"user_grade": 6.965,
-		"user_stars": 4.189,
-		"user_attempts": 2.515,
-		"repeats": 201,
+		"grade": 7,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 202,
+		"date_created": "2020-05-22 16:34:23",
 		"holdsets": [
 			1,
 			4,
 			5,
 			6
 		],
-		"date_created": "2020-05-22 16:34:23"
+		"start_holds": [
+			"J3",
+			"F3"
+		],
+		"mid_holds": [
+			"G8",
+			"E10",
+			"B13",
+			"F15"
+		],
+		"end_holds": [
+			"G18"
+		],
+		"avg_user_grade": 6.9653,
+		"user_grade_breakdown": [
+			0,
+			0,
+			0,
+			0,
+			0,
+			2,
+			9,
+			185,
+			6,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.183,
+		"user_star_breakdown": [
+			1,
+			5,
+			7,
+			23,
+			73,
+			93
+		],
+		"avg_user_attempts": 2.515,
+		"user_attempts_breakdown": [
+			29,
+			17,
+			26,
+			27
+		]
 	},
 	{
+		"id": 369247,
 		"mb_type": 3,
 		"name": "SATAY",
 		"setter": "Chalkdust66",
-		"official_grade": 4,
-		"user_grade": 3.876,
-		"user_stars": 4.136,
-		"user_attempts": 1.52,
-		"repeats": 442,
+		"grade": 4,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 446,
+		"date_created": "2020-05-23 16:39:23",
 		"holdsets": [
 			1,
 			4,
 			5
 		],
-		"date_created": "2020-05-23 16:39:23"
+		"start_holds": [
+			"D1",
+			"A4"
+		],
+		"mid_holds": [
+			"E7",
+			"C10",
+			"G12",
+			"E16"
+		],
+		"end_holds": [
+			"I18"
+		],
+		"avg_user_grade": 3.8767,
+		"user_grade_breakdown": [
+			4,
+			2,
+			6,
+			32,
+			394,
+			5,
+			3,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.137,
+		"user_star_breakdown": [
+			4,
+			4,
+			13,
+			42,
+			226,
+			157
+		],
+		"avg_user_attempts": 1.545,
+		"user_attempts_breakdown": [
+			67,
+			20,
+			7,
+			7
+		]
 	},
 	{
+		"id": 369766,
 		"mb_type": 3,
 		"name": "ASZYNBECHER",
 		"setter": "simon",
-		"official_grade": 7,
-		"user_grade": 6.899,
-		"user_stars": 4.278,
-		"user_attempts": 2.15,
-		"repeats": 198,
+		"grade": 7,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 202,
+		"date_created": "2020-06-04 22:23:19",
 		"holdsets": [
 			1,
 			4,
 			5,
 			6
 		],
-		"date_created": "2020-06-04 22:23:19"
+		"start_holds": [
+			"J3",
+			"H6"
+		],
+		"mid_holds": [
+			"I6",
+			"F10",
+			"E10",
+			"C14",
+			"H15"
+		],
+		"end_holds": [
+			"I18"
+		],
+		"avg_user_grade": 6.901,
+		"user_grade_breakdown": [
+			0,
+			0,
+			0,
+			0,
+			1,
+			4,
+			19,
+			168,
+			10,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.287,
+		"user_star_breakdown": [
+			0,
+			3,
+			5,
+			17,
+			83,
+			94
+		],
+		"avg_user_attempts": 2.13,
+		"user_attempts_breakdown": [
+			46,
+			16,
+			17,
+			21
+		]
 	},
 	{
+		"id": 371532,
+		"mb_type": 3,
+		"name": "POST HYPOXIC MYOCLONUS",
+		"setter": "Allison Stowers",
+		"grade": 0,
+		"upgraded": false,
+		"downgraded": false,
+		"repeats": 247,
+		"date_created": "2020-07-06 20:56:00",
+		"holdsets": [
+			1,
+			2,
+			4,
+			5
+		],
+		"start_holds": [
+			"F4"
+		],
+		"mid_holds": [
+			"I6",
+			"G9",
+			"G12",
+			"C14",
+			"F17"
+		],
+		"end_holds": [
+			"D18"
+		],
+		"avg_user_grade": 0.1053,
+		"user_grade_breakdown": [
+			229,
+			10,
+			8,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.239,
+		"user_star_breakdown": [
+			0,
+			2,
+			6,
+			20,
+			122,
+			97
+		],
+		"avg_user_attempts": 1.228,
+		"user_attempts_breakdown": [
+			87,
+			8,
+			3,
+			3
+		]
+	},
+	{
+		"id": 371617,
 		"mb_type": 3,
 		"name": "MORE PROBS 5",
 		"setter": "Colin Bauer",
-		"official_grade": 9,
-		"user_grade": 8.769,
-		"user_stars": 4.413,
-		"user_attempts": 2.41,
-		"repeats": 121,
+		"grade": 9,
 		"upgraded": true,
 		"downgraded": false,
+		"repeats": 121,
+		"date_created": "2020-07-07 19:36:52",
 		"holdsets": [
 			1,
 			2,
 			4,
 			6
 		],
-		"date_created": "2020-07-07 19:36:52"
+		"start_holds": [
+			"D3",
+			"H5"
+		],
+		"mid_holds": [
+			"J13",
+			"E15",
+			"I9"
+		],
+		"end_holds": [
+			"D18"
+		],
+		"avg_user_grade": 8.7686,
+		"user_grade_breakdown": [
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			1,
+			3,
+			22,
+			92,
+			3,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.413,
+		"user_star_breakdown": [
+			1,
+			0,
+			2,
+			14,
+			32,
+			72
+		],
+		"avg_user_attempts": 2.41,
+		"user_attempts_breakdown": [
+			38,
+			14,
+			17,
+			31
+		]
 	},
 	{
+		"id": 371946,
 		"mb_type": 3,
 		"name": "SUMMER VIBE",
 		"setter": "Yann",
-		"official_grade": 4,
-		"user_grade": 3.864,
-		"user_stars": 4.222,
-		"user_attempts": 1.37,
-		"repeats": 176,
+		"grade": 4,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 180,
+		"date_created": "2020-07-12 11:01:11",
 		"holdsets": [
 			1,
 			2,
 			4,
 			5
 		],
-		"date_created": "2020-07-12 11:01:11"
+		"start_holds": [
+			"F3",
+			"I4"
+		],
+		"mid_holds": [
+			"F8",
+			"I6",
+			"I11",
+			"E13",
+			"G15"
+		],
+		"end_holds": [
+			"D18"
+		],
+		"avg_user_grade": 3.8667,
+		"user_grade_breakdown": [
+			0,
+			0,
+			8,
+			16,
+			150,
+			4,
+			2,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.228,
+		"user_star_breakdown": [
+			0,
+			1,
+			3,
+			24,
+			78,
+			74
+		],
+		"avg_user_attempts": 1.38,
+		"user_attempts_breakdown": [
+			74,
+			16,
+			8,
+			2
+		]
 	},
 	{
+		"id": 372710,
 		"mb_type": 3,
 		"name": "SUZUKI",
 		"setter": "Reinjong",
-		"official_grade": 6,
-		"user_grade": 5.832,
-		"user_stars": 4.24,
-		"user_attempts": 1.869,
-		"repeats": 292,
+		"grade": 6,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 296,
+		"date_created": "2020-07-22 17:14:52",
 		"holdsets": [
 			1,
 			4,
 			5,
 			6
 		],
-		"date_created": "2020-07-22 17:14:52"
+		"start_holds": [
+			"B3",
+			"D4"
+		],
+		"mid_holds": [
+			"A11",
+			"F14",
+			"E7"
+		],
+		"end_holds": [
+			"E18"
+		],
+		"avg_user_grade": 5.8345,
+		"user_grade_breakdown": [
+			0,
+			0,
+			0,
+			3,
+			10,
+			23,
+			257,
+			3,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.243,
+		"user_star_breakdown": [
+			2,
+			3,
+			13,
+			25,
+			113,
+			140
+		],
+		"avg_user_attempts": 1.89,
+		"user_attempts_breakdown": [
+			54,
+			18,
+			13,
+			15
+		]
 	},
 	{
+		"id": 372946,
 		"mb_type": 3,
 		"name": "VILLE PREND 2 AILES",
 		"setter": "Raphaa",
-		"official_grade": 3,
-		"user_grade": 3.142,
-		"user_stars": 4.183,
-		"user_attempts": 1.64,
-		"repeats": 360,
+		"grade": 3,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 364,
+		"date_created": "2020-07-25 20:10:10",
 		"holdsets": [
 			5,
 			6
 		],
-		"date_created": "2020-07-25 20:10:10"
+		"start_holds": [
+			"C3"
+		],
+		"mid_holds": [
+			"B8",
+			"F10",
+			"G13",
+			"J15"
+		],
+		"end_holds": [
+			"J18"
+		],
+		"avg_user_grade": 3.1401,
+		"user_grade_breakdown": [
+			3,
+			2,
+			9,
+			297,
+			42,
+			4,
+			6,
+			0,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.184,
+		"user_star_breakdown": [
+			2,
+			10,
+			7,
+			43,
+			140,
+			162
+		],
+		"avg_user_attempts": 1.64,
+		"user_attempts_breakdown": [
+			63,
+			19,
+			9,
+			9
+		]
 	},
 	{
+		"id": 373120,
 		"mb_type": 3,
 		"name": "PEAR, BOAT AND STOMACH",
 		"setter": "Raphaa",
-		"official_grade": 8,
-		"user_grade": 7.856,
-		"user_stars": 4.356,
-		"user_attempts": 2.28,
-		"repeats": 104,
+		"grade": 8,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 106,
+		"date_created": "2020-07-28 15:38:30",
 		"holdsets": [
 			0,
 			2,
 			4,
 			6
 		],
-		"date_created": "2020-07-28 15:38:30"
+		"start_holds": [
+			"C3"
+		],
+		"mid_holds": [
+			"E5",
+			"J5",
+			"K1",
+			"H11",
+			"F14"
+		],
+		"end_holds": [
+			"G18"
+		],
+		"avg_user_grade": 7.8585,
+		"user_grade_breakdown": [
+			0,
+			0,
+			0,
+			1,
+			0,
+			0,
+			3,
+			11,
+			86,
+			3,
+			2,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.358,
+		"user_star_breakdown": [
+			1,
+			1,
+			3,
+			8,
+			34,
+			59
+		],
+		"avg_user_attempts": 2.293,
+		"user_attempts_breakdown": [
+			39,
+			15,
+			22,
+			23
+		]
 	},
 	{
+		"id": 373264,
 		"mb_type": 3,
 		"name": "NAZGUL 5",
 		"setter": "Ludozen",
-		"official_grade": 1,
-		"user_grade": 1.102,
-		"user_stars": 4.075,
-		"user_attempts": 1.5,
-		"repeats": 707,
+		"grade": 1,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 716,
+		"date_created": "2020-07-30 12:19:22",
 		"holdsets": [
 			0,
 			5,
 			6
 		],
-		"date_created": "2020-07-30 12:19:22"
+		"start_holds": [
+			"C3",
+			"G5"
+		],
+		"mid_holds": [
+			"D9",
+			"G12",
+			"E15"
+		],
+		"end_holds": [
+			"F18"
+		],
+		"avg_user_grade": 1.102,
+		"user_grade_breakdown": [
+			37,
+			612,
+			47,
+			9,
+			10,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			1,
+			0
+		],
+		"avg_user_stars": 4.074,
+		"user_star_breakdown": [
+			5,
+			8,
+			35,
+			79,
+			343,
+			246
+		],
+		"avg_user_attempts": 1.5,
+		"user_attempts_breakdown": [
+			71,
+			15,
+			7,
+			7
+		]
 	},
 	{
+		"id": 373387,
 		"mb_type": 3,
 		"name": "EASY START",
 		"setter": "Mikkelfb",
-		"official_grade": 0,
-		"user_grade": 0.065,
-		"user_stars": 4.058,
-		"user_attempts": 1.38,
-		"repeats": 1109,
+		"grade": 0,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 1126,
+		"date_created": "2020-08-01 07:12:52",
 		"holdsets": [
 			1,
 			5,
 			6
 		],
-		"date_created": "2020-08-01 07:12:52"
+		"start_holds": [
+			"A5",
+			"D3"
+		],
+		"mid_holds": [
+			"E10",
+			"C14",
+			"B8",
+			"A11",
+			"F15"
+		],
+		"end_holds": [
+			"D18"
+		],
+		"avg_user_grade": 0.0639,
+		"user_grade_breakdown": [
+			1074,
+			32,
+			20,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.065,
+		"user_star_breakdown": [
+			12,
+			18,
+			39,
+			136,
+			532,
+			389
+		],
+		"avg_user_attempts": 1.38,
+		"user_attempts_breakdown": [
+			77,
+			13,
+			5,
+			5
+		]
 	},
 	{
+		"id": 373590,
 		"mb_type": 3,
 		"name": "INGEN REPSKET",
 		"setter": "Malthe J\u00f8rgensen",
-		"official_grade": 4,
-		"user_grade": 3.96,
-		"user_stars": 4.243,
-		"user_attempts": 1.9,
-		"repeats": 329,
+		"grade": 4,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 334,
+		"date_created": "2020-08-03 19:09:46",
 		"holdsets": [
 			0,
 			1,
 			2,
 			5
 		],
-		"date_created": "2020-08-03 19:09:46"
+		"start_holds": [
+			"C2",
+			"G3"
+		],
+		"mid_holds": [
+			"D5",
+			"G9",
+			"E12",
+			"H15",
+			"K11"
+		],
+		"end_holds": [
+			"H18"
+		],
+		"avg_user_grade": 3.9611,
+		"user_grade_breakdown": [
+			3,
+			1,
+			5,
+			17,
+			283,
+			21,
+			4,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.246,
+		"user_star_breakdown": [
+			0,
+			6,
+			12,
+			33,
+			126,
+			157
+		],
+		"avg_user_attempts": 1.901,
+		"user_attempts_breakdown": [
+			52,
+			20,
+			16,
+			13
+		]
 	},
 	{
+		"id": 374058,
 		"mb_type": 3,
 		"name": "KNEE SLAPPER",
 		"setter": "maurits enserink",
-		"official_grade": 0,
-		"user_grade": 0.112,
-		"user_stars": 4.083,
-		"user_attempts": 1.37,
-		"repeats": 1151,
+		"grade": 0,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 1167,
+		"date_created": "2020-08-09 13:15:13",
 		"holdsets": [
 			1,
 			2,
 			5
 		],
-		"date_created": "2020-08-09 13:15:13"
+		"start_holds": [
+			"B5"
+		],
+		"mid_holds": [
+			"E7",
+			"A9",
+			"E11",
+			"C14",
+			"H16"
+		],
+		"end_holds": [
+			"H18"
+		],
+		"avg_user_grade": 0.1131,
+		"user_grade_breakdown": [
+			1070,
+			63,
+			33,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.082,
+		"user_star_breakdown": [
+			17,
+			5,
+			35,
+			148,
+			565,
+			397
+		],
+		"avg_user_attempts": 1.37,
+		"user_attempts_breakdown": [
+			79,
+			11,
+			4,
+			6
+		]
 	},
 	{
+		"id": 375024,
 		"mb_type": 3,
 		"name": "BIG BOX SMALL BOX",
 		"setter": "Frankenator",
-		"official_grade": 7,
-		"user_grade": 6.847,
-		"user_stars": 4.419,
-		"user_attempts": 2.09,
-		"repeats": 406,
+		"grade": 7,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 411,
+		"date_created": "2020-08-24 14:53:20",
 		"holdsets": [
 			4,
 			5
 		],
-		"date_created": "2020-08-24 14:53:20"
+		"start_holds": [
+			"I6",
+			"I4"
+		],
+		"mid_holds": [
+			"C9",
+			"F11",
+			"B13",
+			"D7",
+			"E16",
+			"G14"
+		],
+		"end_holds": [
+			"J18"
+		],
+		"avg_user_grade": 6.8491,
+		"user_grade_breakdown": [
+			0,
+			0,
+			0,
+			0,
+			4,
+			9,
+			37,
+			356,
+			5,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.418,
+		"user_star_breakdown": [
+			0,
+			2,
+			10,
+			28,
+			145,
+			226
+		],
+		"avg_user_attempts": 2.09,
+		"user_attempts_breakdown": [
+			44,
+			22,
+			15,
+			19
+		]
 	},
 	{
+		"id": 375854,
 		"mb_type": 3,
 		"name": "EM SCHW\u00dcGGLIGI HOOKTOPIA",
 		"setter": "Rymeee",
-		"official_grade": 3,
-		"user_grade": 3.01,
-		"user_stars": 4.175,
-		"user_attempts": 1.54,
-		"repeats": 503,
+		"grade": 3,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 507,
+		"date_created": "2020-09-04 10:55:46",
 		"holdsets": [
 			1,
 			2,
@@ -697,73 +2631,266 @@
 			5,
 			6
 		],
-		"date_created": "2020-09-04 10:55:46"
+		"start_holds": [
+			"A5",
+			"E5"
+		],
+		"mid_holds": [
+			"H4",
+			"H11",
+			"D9",
+			"E13",
+			"H16"
+		],
+		"end_holds": [
+			"G18"
+		],
+		"avg_user_grade": 3.0099,
+		"user_grade_breakdown": [
+			5,
+			3,
+			23,
+			435,
+			37,
+			0,
+			4,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.174,
+		"user_star_breakdown": [
+			3,
+			6,
+			20,
+			48,
+			224,
+			206
+		],
+		"avg_user_attempts": 1.54,
+		"user_attempts_breakdown": [
+			68,
+			17,
+			8,
+			7
+		]
 	},
 	{
+		"id": 377574,
 		"mb_type": 3,
 		"name": "TRY HARD :)",
 		"setter": "Lach",
-		"official_grade": 7,
-		"user_grade": 6.86,
-		"user_stars": 4.334,
-		"user_attempts": 2.13,
-		"repeats": 329,
+		"grade": 7,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 331,
+		"date_created": "2020-09-27 09:50:02",
 		"holdsets": [
 			1,
 			2,
 			5,
 			6
 		],
-		"date_created": "2020-09-27 09:50:02"
+		"start_holds": [
+			"H5",
+			"K2"
+		],
+		"mid_holds": [
+			"C3",
+			"A10",
+			"F8",
+			"F14"
+		],
+		"end_holds": [
+			"D18"
+		],
+		"avg_user_grade": 6.861,
+		"user_grade_breakdown": [
+			0,
+			0,
+			1,
+			0,
+			2,
+			8,
+			29,
+			281,
+			10,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.332,
+		"user_star_breakdown": [
+			1,
+			4,
+			10,
+			23,
+			124,
+			169
+		],
+		"avg_user_attempts": 2.13,
+		"user_attempts_breakdown": [
+			45,
+			17,
+			18,
+			20
+		]
 	},
 	{
+		"id": 381654,
 		"mb_type": 3,
 		"name": "ONLY LITTLE WOOD",
 		"setter": "Violett",
-		"official_grade": 6,
-		"user_grade": 5.948,
-		"user_stars": 4.301,
-		"user_attempts": 2.08,
-		"repeats": 173,
+		"grade": 6,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 174,
+		"date_created": "2020-11-14 01:09:05",
 		"holdsets": [
 			4
 		],
-		"date_created": "2020-11-14 01:09:05"
+		"start_holds": [
+			"I4",
+			"E4"
+		],
+		"mid_holds": [
+			"F9",
+			"F11",
+			"B13",
+			"E16"
+		],
+		"end_holds": [
+			"E18"
+		],
+		"avg_user_grade": 5.9483,
+		"user_grade_breakdown": [
+			0,
+			0,
+			0,
+			0,
+			8,
+			7,
+			149,
+			8,
+			1,
+			0,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.305,
+		"user_star_breakdown": [
+			0,
+			1,
+			5,
+			24,
+			54,
+			90
+		],
+		"avg_user_attempts": 2.099,
+		"user_attempts_breakdown": [
+			49,
+			14,
+			17,
+			21
+		]
 	},
 	{
+		"id": 387798,
 		"mb_type": 3,
 		"name": "SUGAR",
 		"setter": "claud.ini",
-		"official_grade": 1,
-		"user_grade": 1.296,
-		"user_stars": 4.036,
-		"user_attempts": 1.782,
-		"repeats": 470,
+		"grade": 1,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 473,
+		"date_created": "2021-01-19 14:41:29",
 		"holdsets": [
 			0,
 			2,
 			4,
 			6
 		],
-		"date_created": "2021-01-19 14:41:29"
+		"start_holds": [
+			"F5"
+		],
+		"mid_holds": [
+			"D8",
+			"E10",
+			"D13",
+			"G14",
+			"G17"
+		],
+		"end_holds": [
+			"H18"
+		],
+		"avg_user_grade": 1.2939,
+		"user_grade_breakdown": [
+			7,
+			364,
+			75,
+			10,
+			17,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.04,
+		"user_star_breakdown": [
+			3,
+			8,
+			19,
+			61,
+			228,
+			154
+		],
+		"avg_user_attempts": 1.782,
+		"user_attempts_breakdown": [
+			59,
+			19,
+			9,
+			14
+		]
 	},
 	{
+		"id": 395024,
 		"mb_type": 3,
 		"name": "TOEPRESS 25\u2019",
 		"setter": "Chalkdust66",
-		"official_grade": 5,
-		"user_grade": 4.826,
-		"user_stars": 4.308,
-		"user_attempts": 1.667,
-		"repeats": 484,
+		"grade": 5,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 490,
+		"date_created": "2021-03-07 21:56:36",
 		"holdsets": [
 			0,
 			2,
@@ -771,56 +2898,202 @@
 			5,
 			6
 		],
-		"date_created": "2021-03-07 21:56:36"
+		"start_holds": [
+			"F4"
+		],
+		"mid_holds": [
+			"K8",
+			"H11",
+			"I14",
+			"E14",
+			"E16"
+		],
+		"end_holds": [
+			"B18"
+		],
+		"avg_user_grade": 4.8286,
+		"user_grade_breakdown": [
+			3,
+			1,
+			3,
+			10,
+			45,
+			421,
+			5,
+			2,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.306,
+		"user_star_breakdown": [
+			2,
+			4,
+			17,
+			37,
+			189,
+			241
+		],
+		"avg_user_attempts": 1.69,
+		"user_attempts_breakdown": [
+			62,
+			19,
+			7,
+			12
+		]
 	},
 	{
+		"id": 395086,
 		"mb_type": 3,
 		"name": "THE  25\u2019 SURPRISE",
 		"setter": "Chalkdust66",
-		"official_grade": 8,
-		"user_grade": 7.765,
-		"user_stars": 4.25,
-		"user_attempts": 2.08,
-		"repeats": 136,
+		"grade": 8,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 136,
+		"date_created": "2021-03-08 17:56:19",
 		"holdsets": [
 			0,
 			4,
 			5,
 			6
 		],
-		"date_created": "2021-03-08 17:56:19"
+		"start_holds": [
+			"J5"
+		],
+		"mid_holds": [
+			"F9",
+			"F11",
+			"B13",
+			"E16",
+			"F18"
+		],
+		"end_holds": [
+			"J18"
+		],
+		"avg_user_grade": 7.7647,
+		"user_grade_breakdown": [
+			0,
+			0,
+			0,
+			0,
+			0,
+			1,
+			6,
+			20,
+			107,
+			1,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.25,
+		"user_star_breakdown": [
+			0,
+			0,
+			7,
+			17,
+			47,
+			65
+		],
+		"avg_user_attempts": 2.08,
+		"user_attempts_breakdown": [
+			49,
+			16,
+			13,
+			22
+		]
 	},
 	{
+		"id": 395281,
 		"mb_type": 3,
 		"name": "FINGER JUGS",
 		"setter": "Ullie",
-		"official_grade": 8,
-		"user_grade": 7.787,
-		"user_stars": 4.365,
-		"user_attempts": 2.15,
-		"repeats": 197,
+		"grade": 8,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 199,
+		"date_created": "2021-03-10 10:56:32",
 		"holdsets": [
 			0,
 			4,
 			5
 		],
-		"date_created": "2021-03-10 10:56:32"
+		"start_holds": [
+			"B4",
+			"C4"
+		],
+		"mid_holds": [
+			"G4",
+			"I10",
+			"E13",
+			"G7",
+			"D14",
+			"C16"
+		],
+		"end_holds": [
+			"F18"
+		],
+		"avg_user_grade": 7.7839,
+		"user_grade_breakdown": [
+			0,
+			0,
+			0,
+			0,
+			0,
+			2,
+			4,
+			31,
+			160,
+			2,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.362,
+		"user_star_breakdown": [
+			0,
+			2,
+			2,
+			20,
+			73,
+			102
+		],
+		"avg_user_attempts": 2.15,
+		"user_attempts_breakdown": [
+			46,
+			16,
+			15,
+			23
+		]
 	},
 	{
+		"id": 395305,
 		"mb_type": 3,
 		"name": "CYPHER 25",
 		"setter": "Chalkdust66",
-		"official_grade": 5,
-		"user_grade": 4.994,
-		"user_stars": 4.242,
-		"user_attempts": 1.77,
-		"repeats": 327,
+		"grade": 5,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 329,
+		"date_created": "2021-03-10 16:13:33",
 		"holdsets": [
 			0,
 			1,
@@ -828,56 +3101,200 @@
 			5,
 			6
 		],
-		"date_created": "2021-03-10 16:13:33"
+		"start_holds": [
+			"I5",
+			"D4"
+		],
+		"mid_holds": [
+			"F8",
+			"H11",
+			"E14",
+			"H15",
+			"B17"
+		],
+		"end_holds": [
+			"A18"
+		],
+		"avg_user_grade": 4.997,
+		"user_grade_breakdown": [
+			2,
+			0,
+			0,
+			1,
+			14,
+			288,
+			23,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.243,
+		"user_star_breakdown": [
+			0,
+			4,
+			16,
+			27,
+			131,
+			151
+		],
+		"avg_user_attempts": 1.747,
+		"user_attempts_breakdown": [
+			59,
+			18,
+			10,
+			12
+		]
 	},
 	{
+		"id": 395307,
 		"mb_type": 3,
 		"name": "ZIPPY PUGUA",
 		"setter": "Chalkdust66",
-		"official_grade": 2,
-		"user_grade": 2.135,
-		"user_stars": 4.014,
-		"user_attempts": 1.67,
-		"repeats": 370,
+		"grade": 2,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 378,
+		"date_created": "2021-03-10 16:29:26",
 		"holdsets": [
 			0,
 			1,
 			4
 		],
-		"date_created": "2021-03-10 16:29:26"
+		"start_holds": [
+			"D3",
+			"H4"
+		],
+		"mid_holds": [
+			"F9",
+			"E14",
+			"H12"
+		],
+		"end_holds": [
+			"D18"
+		],
+		"avg_user_grade": 2.1349,
+		"user_grade_breakdown": [
+			7,
+			10,
+			305,
+			38,
+			17,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.021,
+		"user_star_breakdown": [
+			6,
+			10,
+			22,
+			37,
+			160,
+			143
+		],
+		"avg_user_attempts": 1.7,
+		"user_attempts_breakdown": [
+			65,
+			12,
+			11,
+			12
+		]
 	},
 	{
+		"id": 395311,
 		"mb_type": 3,
 		"name": "MEAN PINBALL 25",
 		"setter": "Chalkdust66",
-		"official_grade": 3,
-		"user_grade": 3.008,
-		"user_stars": 4.248,
-		"user_attempts": 1.62,
-		"repeats": 589,
+		"grade": 3,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 598,
+		"date_created": "2021-03-10 16:47:57",
 		"holdsets": [
 			0,
 			2,
 			5,
 			6
 		],
-		"date_created": "2021-03-10 16:47:57"
+		"start_holds": [
+			"I5",
+			"F6"
+		],
+		"mid_holds": [
+			"H10",
+			"E14",
+			"E15",
+			"A12"
+		],
+		"end_holds": [
+			"B18"
+		],
+		"avg_user_grade": 3.0084,
+		"user_grade_breakdown": [
+			5,
+			3,
+			26,
+			527,
+			34,
+			1,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			1,
+			0
+		],
+		"avg_user_stars": 4.253,
+		"user_star_breakdown": [
+			3,
+			4,
+			24,
+			56,
+			232,
+			279
+		],
+		"avg_user_attempts": 1.63,
+		"user_attempts_breakdown": [
+			63,
+			19,
+			10,
+			8
+		]
 	},
 	{
+		"id": 395317,
 		"mb_type": 3,
 		"name": "COUCH LIFE 25",
 		"setter": "Chalkdust66",
-		"official_grade": 6,
-		"user_grade": 6.014,
-		"user_stars": 4.391,
-		"user_attempts": 2.17,
-		"repeats": 207,
+		"grade": 6,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 209,
+		"date_created": "2021-03-10 17:26:50",
 		"holdsets": [
 			0,
 			1,
@@ -885,135 +3302,525 @@
 			4,
 			5
 		],
-		"date_created": "2021-03-10 17:26:50"
+		"start_holds": [
+			"A4",
+			"D3"
+		],
+		"mid_holds": [
+			"C8",
+			"E9",
+			"B15",
+			"F16",
+			"G18",
+			"F13"
+		],
+		"end_holds": [
+			"J18"
+		],
+		"avg_user_grade": 6.0239,
+		"user_grade_breakdown": [
+			0,
+			0,
+			0,
+			0,
+			2,
+			11,
+			177,
+			18,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.388,
+		"user_star_breakdown": [
+			0,
+			2,
+			6,
+			19,
+			64,
+			118
+		],
+		"avg_user_attempts": 2.17,
+		"user_attempts_breakdown": [
+			41,
+			21,
+			18,
+			20
+		]
 	},
 	{
+		"id": 395596,
 		"mb_type": 3,
 		"name": "THINK ON FEET 25\u00b0",
 		"setter": "Chalkdust66",
-		"official_grade": 7,
-		"user_grade": 6.894,
-		"user_stars": 4.272,
-		"user_attempts": 2.25,
-		"repeats": 217,
+		"grade": 7,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 221,
+		"date_created": "2021-03-13 16:30:30",
 		"holdsets": [
 			0,
 			1,
 			2,
 			4
 		],
-		"date_created": "2021-03-13 16:30:30"
+		"start_holds": [
+			"K3",
+			"J6"
+		],
+		"mid_holds": [
+			"H8",
+			"G15",
+			"E14",
+			"F11"
+		],
+		"end_holds": [
+			"I18"
+		],
+		"avg_user_grade": 6.8959,
+		"user_grade_breakdown": [
+			0,
+			0,
+			0,
+			0,
+			1,
+			4,
+			20,
+			188,
+			8,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.271,
+		"user_star_breakdown": [
+			1,
+			1,
+			8,
+			21,
+			86,
+			104
+		],
+		"avg_user_attempts": 2.257,
+		"user_attempts_breakdown": [
+			38,
+			23,
+			16,
+			24
+		]
 	},
 	{
+		"id": 395685,
 		"mb_type": 3,
 		"name": "PARAPARA-VAR 25",
 		"setter": "Chalkdust66",
-		"official_grade": 7,
-		"user_grade": 6.883,
-		"user_stars": 4.375,
-		"user_attempts": 1.99,
-		"repeats": 264,
+		"grade": 7,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 266,
+		"date_created": "2021-03-14 17:12:15",
 		"holdsets": [
 			0,
 			5,
 			6
 		],
-		"date_created": "2021-03-14 17:12:15"
+		"start_holds": [
+			"A5"
+		],
+		"mid_holds": [
+			"G7",
+			"D6",
+			"D12",
+			"D11",
+			"I14",
+			"H17"
+		],
+		"end_holds": [
+			"K18"
+		],
+		"avg_user_grade": 6.8835,
+		"user_grade_breakdown": [
+			0,
+			0,
+			0,
+			0,
+			2,
+			7,
+			22,
+			224,
+			11,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.372,
+		"user_star_breakdown": [
+			0,
+			2,
+			4,
+			22,
+			103,
+			135
+		],
+		"avg_user_attempts": 1.99,
+		"user_attempts_breakdown": [
+			50,
+			21,
+			7,
+			21
+		]
 	},
 	{
+		"id": 397774,
 		"mb_type": 3,
 		"name": "DRAMATICALLY WARM 25\u00b0",
 		"setter": "Adrian Landreth",
-		"official_grade": 2,
-		"user_grade": 1.878,
-		"user_stars": 4.169,
-		"user_attempts": 1.31,
-		"repeats": 858,
+		"grade": 2,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 872,
+		"date_created": "2021-03-28 04:33:21",
 		"holdsets": [
 			1,
 			2,
 			5
 		],
-		"date_created": "2021-03-28 04:33:21"
+		"start_holds": [
+			"G6",
+			"J4"
+		],
+		"mid_holds": [
+			"K9",
+			"F10",
+			"G12",
+			"C14",
+			"F16"
+		],
+		"end_holds": [
+			"B18"
+		],
+		"avg_user_grade": 1.8807,
+		"user_grade_breakdown": [
+			23,
+			83,
+			747,
+			13,
+			6,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.173,
+		"user_star_breakdown": [
+			8,
+			2,
+			35,
+			89,
+			390,
+			348
+		],
+		"avg_user_attempts": 1.307,
+		"user_attempts_breakdown": [
+			82,
+			11,
+			4,
+			4
+		]
 	},
 	{
+		"id": 397775,
 		"mb_type": 3,
 		"name": "NUGGET PRESSURE 25\u00b0",
 		"setter": "Adrian Landreth",
-		"official_grade": 2,
-		"user_grade": 2.013,
-		"user_stars": 4.191,
-		"user_attempts": 1.525,
-		"repeats": 716,
+		"grade": 2,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 724,
+		"date_created": "2021-03-28 04:35:21",
 		"holdsets": [
 			1,
 			2,
 			5,
 			6
 		],
-		"date_created": "2021-03-28 04:35:21"
+		"start_holds": [
+			"F4",
+			"J4"
+		],
+		"mid_holds": [
+			"G9",
+			"D10",
+			"A11",
+			"A14",
+			"A15"
+		],
+		"end_holds": [
+			"D18"
+		],
+		"avg_user_grade": 2.0152,
+		"user_grade_breakdown": [
+			13,
+			34,
+			626,
+			31,
+			20,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.188,
+		"user_star_breakdown": [
+			5,
+			5,
+			32,
+			80,
+			287,
+			315
+		],
+		"avg_user_attempts": 1.52,
+		"user_attempts_breakdown": [
+			71,
+			14,
+			7,
+			8
+		]
 	},
 	{
+		"id": 402100,
 		"mb_type": 3,
 		"name": "TUCK-IN 25\u00b0",
 		"setter": "Adrian Landreth",
-		"official_grade": 5,
-		"user_grade": 4.682,
-		"user_stars": 4.225,
-		"user_attempts": 1.26,
-		"repeats": 151,
+		"grade": 5,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 161,
+		"date_created": "2021-05-08 01:46:41",
 		"holdsets": [
 			0,
 			1,
 			2
 		],
-		"date_created": "2021-05-08 01:46:41"
+		"start_holds": [
+			"F5"
+		],
+		"mid_holds": [
+			"G9",
+			"C13",
+			"E14"
+		],
+		"end_holds": [
+			"D18"
+		],
+		"avg_user_grade": 4.6646,
+		"user_grade_breakdown": [
+			0,
+			0,
+			0,
+			10,
+			37,
+			111,
+			3,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.199,
+		"user_star_breakdown": [
+			0,
+			0,
+			2,
+			22,
+			79,
+			58
+		],
+		"avg_user_attempts": 1.28,
+		"user_attempts_breakdown": [
+			81,
+			12,
+			5,
+			2
+		]
 	},
 	{
+		"id": 402673,
 		"mb_type": 3,
 		"name": "LES BOR\u00c9ADES 25\u00b0",
 		"setter": "Adrian Landreth",
-		"official_grade": 5,
-		"user_grade": 4.775,
-		"user_stars": 4.363,
-		"user_attempts": 1.386,
-		"repeats": 355,
+		"grade": 5,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 359,
+		"date_created": "2021-05-15 21:59:40",
 		"holdsets": [
 			1,
 			4,
 			6
 		],
-		"date_created": "2021-05-15 21:59:40"
+		"start_holds": [
+			"H4"
+		],
+		"mid_holds": [
+			"E8",
+			"I10",
+			"E12",
+			"F13",
+			"B14"
+		],
+		"end_holds": [
+			"D18"
+		],
+		"avg_user_grade": 4.7772,
+		"user_grade_breakdown": [
+			3,
+			0,
+			2,
+			5,
+			57,
+			284,
+			8,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.365,
+		"user_star_breakdown": [
+			1,
+			0,
+			7,
+			37,
+			128,
+			186
+		],
+		"avg_user_attempts": 1.364,
+		"user_attempts_breakdown": [
+			77,
+			13,
+			4,
+			5
+		]
 	},
 	{
+		"id": 412565,
 		"mb_type": 3,
 		"name": "M&Y 1",
 		"setter": "Yann",
-		"official_grade": 5,
-		"user_grade": 5.008,
-		"user_stars": 4.479,
-		"user_attempts": 1.58,
-		"repeats": 121,
+		"grade": 5,
 		"upgraded": false,
 		"downgraded": false,
+		"repeats": 126,
+		"date_created": "2021-08-22 18:03:48",
 		"holdsets": [
 			0,
 			1,
 			2,
 			6
 		],
-		"date_created": "2021-08-22 18:03:48"
+		"start_holds": [
+			"H4",
+			"C3"
+		],
+		"mid_holds": [
+			"A2",
+			"G7",
+			"F12",
+			"D11",
+			"A15",
+			"D16"
+		],
+		"end_holds": [
+			"C18"
+		],
+		"avg_user_grade": 4.9921,
+		"user_grade_breakdown": [
+			0,
+			0,
+			0,
+			3,
+			5,
+			110,
+			6,
+			2,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.476,
+		"user_star_breakdown": [
+			1,
+			0,
+			1,
+			10,
+			38,
+			76
+		],
+		"avg_user_attempts": 1.616,
+		"user_attempts_breakdown": [
+			63,
+			17,
+			13,
+			6
+		]
 	}
 ]

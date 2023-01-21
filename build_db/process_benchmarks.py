@@ -22,10 +22,10 @@ enumerate_grades = {
 	'8C': 17,
 }
 enumerate_attempts = {
-	'Flashed': 1,
-	'2nd try': 2,
-	'3rd try': 3,
-	'more than 3 tries': 4,
+	'Flashed': 0,
+	'2nd try': 1,
+	'3rd try': 2,
+	'more than 3 tries': 3,
 }
 enumerate_mb = {
 	'2016-40': 0,
@@ -52,54 +52,23 @@ for mb in mb_types:
 		benchmarks = json.load(rfile)
 		for climb in benchmarks:
 			user_grade_sum = 0
-			user_grade_breakdown = {
-				0: 0,
-				1: 0,
-				2: 0,
-				3: 0,
-				4: 0,
-				5: 0,
-				6: 0,
-				7: 0,
-				8: 0,
-				9: 0,
-				10: 0,
-				11: 0,
-				12: 0,
-				13: 0,
-				14: 0,
-				15: 0,
-				16: 0,
-				17: 0
-			}
+			user_grade_breakdown = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 			for grade in climb['userGrades']:
 				user_grade_sum += climb['userGrades'][grade] * enumerate_grades[grade]
 				user_grade_breakdown[enumerate_grades[grade]] = climb['userGrades'][grade]
 			avg_user_grade = user_grade_sum / sum(climb['userGrades'].values())
 
 			user_star_sum = 0
-			user_star_breakdown = {
-				0: 0,
-				1: 0,
-				2: 0,
-				3: 0,
-				4: 0,
-				5: 0
-			}
+			user_star_breakdown = [0, 0, 0, 0, 0, 0]
 			for star in climb['userStars']:
 				user_star_sum += climb['userStars'][star] * int(star)
 				user_star_breakdown[int(star)] = climb['userStars'][star]
 			avg_user_star = user_star_sum / sum(climb['userStars'].values())
 
 			user_attempts_sum = 0
-			user_attempts_breakdown = {
-				1: 0,
-				2: 0,
-				3: 0,
-				4: 0
-			}
+			user_attempts_breakdown = [0, 0, 0, 0]
 			for attempts in climb['userAttempts']:
-				user_attempts_sum += climb['userAttempts'][attempts] * enumerate_attempts[attempts]
+				user_attempts_sum += climb['userAttempts'][attempts] * (enumerate_attempts[attempts]+1)
 				user_attempts_breakdown[enumerate_attempts[attempts]] = climb['userAttempts'][attempts]
 			avg_user_attempts = user_attempts_sum / sum(climb['userAttempts'].values())
 
@@ -122,26 +91,30 @@ for mb in mb_types:
 			date = date.replace('T', ' ')
 
 			p_climb = {
+				'id': climb['apiId'],
 				'mb_type': enumerate_mb[mb],
+
 				'name': climb['name'],
 				'setter': climb['setby'],
-				'official_grade': enumerate_grades[climb['grade']],
-				'user_grade': round(avg_user_grade, 3),
-				'user_stars': round(avg_user_star, 3),
-				'user_attempts': round(avg_user_attempts, 3),
-				'repeats': climb['repeats'],
+				'grade': enumerate_grades[climb['grade']],
 				'upgraded': climb['upgraded'],
 				'downgraded': climb['downgraded'],
-				'holdsets': holdsets,
+				'repeats': climb['repeats'],
 				'date_created': date,
-			#	'holds': {
-			#		'start': start_holds,
-			#		'mid': mid_holds,
-			#		'end': end_holds,
-			#	},
-			#	'user_grade_breakdown': user_grade_breakdown,
-			#	'user_star_breakdown': user_star_breakdown,
-			#	'user_attempts_breakdown': user_attempts_breakdown
+
+				'holdsets': holdsets,
+				'start_holds': start_holds,
+				'mid_holds': mid_holds,
+				'end_holds': end_holds,
+
+				'avg_user_grade': round(avg_user_grade, 4),
+				'user_grade_breakdown': user_grade_breakdown,
+
+				'avg_user_stars': round(avg_user_star, 3),
+				'user_star_breakdown': user_star_breakdown,
+
+				'avg_user_attempts': round(avg_user_attempts, 3),
+				'user_attempts_breakdown': user_attempts_breakdown,
 			}
 			p_benchmarks.append(p_climb)
 	with open(f"data/processed_{mb}.json", 'w') as wfile:

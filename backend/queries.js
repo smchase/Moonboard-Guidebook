@@ -7,12 +7,19 @@ const pool = new Pool({
 	port: 5432,
 });
 
-const getBenchmarks = (request, response) => {
-	const mb_type = request.query.mb_type ? (' AND mb_type = ' + request.query.mb_type) : '';
-	const official_grade = request.query.official_grade ? (' AND official_grade = ' + request.query.official_grade) : '';
-	const query = 'SELECT * FROM benchmarks WHERE true' + mb_type + official_grade + ' ORDER BY id ASC';
+const getAllBenchmarks = (request, response) => {
+	pool.query('SELECT * FROM benchmarks ORDER BY id ASC', (error, results) => {
+		if (error) {
+			throw error;
+		}
+		response.status(200).json(results.rows);
+	});
+};
 
-	pool.query(query, (error, results) => {
+const getBenchmarksByType = (request, response) => {
+	const type = parseInt(request.params.type);
+
+	pool.query('SELECT * FROM benchmarks WHERE mb_type = $1', [type], (error, results) => {
 		if (error) {
 			throw error;
 		}
@@ -32,21 +39,40 @@ const getBenchmarkById = (request, response) => {
 };
 
 const createBenchmark = (request, response) => {
-	const { mb_type, name, setter, official_grade, user_grade, user_stars, user_attempts, repeats, upgraded, downgraded, holdsets, date_created } = request.body;
+	const { id, mb_type, name, setter, grade, upgraded, downgraded, repeats, date_created, holdsets, start_holds, mid_holds, end_holds, avg_user_grade, user_grade_breakdown, avg_user_stars, user_stars_breakdown, avg_user_attempts, user_attempts_breakdown } = request.body;
 
-	pool.query('INSERT INTO benchmarks (mb_type, name, setter, official_grade, user_grade, user_stars, user_attempts, repeats, upgraded, downgraded, holdsets, date_created) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING id', [mb_type, name, setter, official_grade, user_grade, user_stars, user_attempts, repeats, upgraded, downgraded, holdsets, date_created], (error, results) => {
+	pool.query('INSERT INTO benchmarks (id, mb_type, name, setter, grade, upgraded, downgraded, repeats, date_created, holdsets, start_holds, mid_holds, end_holds, avg_user_grade, user_grade_breakdown, avg_user_stars, user_stars_breakdown, avg_user_attempts, user_attempts_breakdown) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19)', [id, mb_type, name, setter, grade, upgraded, downgraded, repeats, date_created, holdsets, start_holds, mid_holds, end_holds, avg_user_grade, user_grade_breakdown, avg_user_stars, user_stars_breakdown, avg_user_attempts, user_attempts_breakdown], (error, results) => {
 		if (error) {
 			throw error;
 		}
-		response.status(201).send(`Benchmark added with ID: ${results.rows[0].id}`);
+		response.status(201).send(`Benchmark added with ID: ${id}`);
 	});
 };
 
 const updateBenchmarkById = (request, response) => {
 	const id = parseInt(request.params.id);
-	const { user_grade, user_stars, user_attempts, repeats } = request.body;
+	const { mb_type, name, setter, grade, upgraded, downgraded, repeats, date_created, holdsets, start_holds, mid_holds, end_holds, avg_user_grade, user_grade_breakdown, avg_user_stars, user_stars_breakdown, avg_user_attempts, user_attempts_breakdown } = request.body;
 
-	pool.query('UPDATE benchmarks SET user_grade = $1, user_stars = $2, user_attempts = $3, repeats = $4 WHERE id = $5', [user_grade, user_stars, user_attempts, repeats, id], (error, results) => {
+	pool.query(`UPDATE benchmarks SET
+    mb_type = COALESCE($1, mb_type),
+    name = COALESCE($2, name),
+    setter = COALESCE($3, setter),
+    grade = COALESCE($4, grade),
+    upgraded = COALESCE($5, upgraded),
+    downgraded = COALESCE($6, downgraded),
+    repeats = COALESCE($7, repeats),
+    date_created = COALESCE($8, date_created),
+    holdsets = COALESCE($9, holdsets),
+    start_holds = COALESCE($10, start_holds),
+    mid_holds = COALESCE($11, mid_holds),
+    end_holds = COALESCE($12, end_holds),
+    avg_user_grade = COALESCE($13, avg_user_grade),
+    user_grade_breakdown = COALESCE($14, user_grade_breakdown),
+    avg_user_stars = COALESCE($15, avg_user_stars),
+    user_stars_breakdown = COALESCE($16, user_stars_breakdown),
+    avg_user_attempts = COALESCE($17, avg_user_attempts),
+    user_attempts_breakdown = COALESCE($18, user_attempts_breakdown)
+WHERE id = $19`, [mb_type, name, setter, grade, upgraded, downgraded, repeats, date_created, holdsets, start_holds, mid_holds, end_holds, avg_user_grade, user_grade_breakdown, avg_user_stars, user_stars_breakdown, avg_user_attempts, user_attempts_breakdown, id], (error, results) => {
 		if (error) {
 			throw error;
 		}
@@ -65,8 +91,10 @@ const deleteBenchmarkById = (request, response) => {
 	});
 };
 
+
 module.exports = {
-	getBenchmarks,
+	getAllBenchmarks,
+	getBenchmarksByType,
 	getBenchmarkById,
 	createBenchmark,
 	updateBenchmarkById,
