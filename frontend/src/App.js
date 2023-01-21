@@ -460,7 +460,7 @@ export default function App() {
 								<OverlayTrigger
 									placement='right'
 									delay={{ show: 250, hide: 400 }}
-									overlay={<Tooltip>Which hold sets climbs can include, hover over holds below for names</Tooltip>}
+									overlay={<Tooltip>Which hold sets climbs can use, hover over holds below for names</Tooltip>}
 								>
 									<FontAwesomeIcon className='mx-1' style={{color: 'grey'}} icon={faCircleQuestion} />
 								</OverlayTrigger>
@@ -614,7 +614,7 @@ export default function App() {
 						<Col className='d-flex justify-content-end'>
 							<div className='align-self-end'>
 								<Form.Text className="text-muted">
-									Start typing to filter.
+								<FontAwesomeIcon icon={faCircleUp}></FontAwesomeIcon> Upgraded<br></br><FontAwesomeIcon icon={faCircleDown}></FontAwesomeIcon> Downgraded
 								</Form.Text>
 							</div>
 						</Col>
@@ -699,7 +699,7 @@ export default function App() {
 			</Container>
 
 			<ScrollToTop showUnder={600}>
-				<FontAwesomeIcon size='3x' style={{color:'grey'}} icon={faCircleChevronUp} />
+				<FontAwesomeIcon size='3x' style={{color:'#fdba22'}} icon={faCircleChevronUp} />
 			</ScrollToTop>
 
 			<footer className='footer mt-auto'>
