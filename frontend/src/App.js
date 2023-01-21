@@ -12,20 +12,20 @@ export default function App() {
 	const [sort, setSort] = useState({ column: 'date_created', order: 'asc' });
 	const [mbtype, setMbtype] = useState(0);
 	const [filter, setFilter] = useState({
-		name: null,
-		setter: null,
-		gradeMin: null,
-		gradeMax: null,
-		sandbagMin: null,
-		sandbagMax: null,
-		repeatsMin: null,
-		repeatsMax: null,
-		starsMin: null,
-		starsMax: null,
-		attemptsMin: null,
-		attemptsMax: null,
-		dateMin: null,
-		dateMax: null,
+		name: '',
+		setter: '',
+		gradeMin: '',
+		gradeMax: '',
+		sandbagMin: '',
+		sandbagMax: '',
+		repeatsMin: '',
+		repeatsMax: '',
+		starsMin: '',
+		starsMax: '',
+		attemptsMin: '',
+		attemptsMax: '',
+		dateMin: '',
+		dateMax: '',
 		hsa: true,
 		hsb: true,
 		hsc: true,
@@ -33,8 +33,8 @@ export default function App() {
 		wha: true,
 		whb: true,
 		whc: true,
-		included: null,
-		excluded: null,
+		included: '',
+		excluded: '',
 	});
 
 	const urlBase = 'http://localhost:3001/benchmarks/mb_type/';
@@ -264,6 +264,18 @@ export default function App() {
 		if (!filter.wha && row.holdsets.includes(4)) return false;
 		if (!filter.whb && row.holdsets.includes(5)) return false;
 		if (!filter.whc && row.holdsets.includes(6)) return false;
+		if (filter.included) {
+			const included_holds = filter.included.toUpperCase().trim().replace(/^[,.;]+|[,.;]+$/g, "").split(/[,.;\s]+/);
+			for (let i = 0; i < included_holds.length; i++) {
+				if (!(row.start_holds.includes(included_holds[i]) || row.mid_holds.includes(included_holds[i]) || row.end_holds.includes(included_holds[i]))) return false;
+			}
+		}
+		if (filter.excluded) {
+			const excluded_holds = filter.excluded.toUpperCase().trim().replace(/^[,.;]+|[,.;]+$/g, "").split(/[,.;\s]+/);
+			for (let i = 0; i < excluded_holds.length; i++) {
+				if (row.start_holds.includes(excluded_holds[i]) || row.mid_holds.includes(excluded_holds[i]) || row.end_holds.includes(excluded_holds[i])) return false;
+			}
+		}
 		return true;
 	}
 
@@ -318,7 +330,7 @@ export default function App() {
 					<Row className='mb-3'>
 						<Form.Group as={Col}>
 							<Form.Label>Climb Name</Form.Label>
-							<Form.Control type='text' placeHolder='All' value={filter.name} onChange={(e) => setFilter({ ...filter, name: e.target.value })} />
+							<Form.Control type='text' placeholder='All' value={filter.name} onChange={(e) => setFilter({ ...filter, name: e.target.value })} />
 						</Form.Group>
 
 						<Form.Group as={Col}>
@@ -557,7 +569,7 @@ export default function App() {
 									<img src='info.png' width='15' alt='Info' className='mx-1 mb-1' />
 								</OverlayTrigger>
 							</Form.Label>
-							<Form.Control type='text' placeHolder='All' />
+							<Form.Control type='text' placeholder='All' value={filter.included} onChange={(e) => setFilter({ ...filter, included: e.target.value })} />
 						</Form.Group>
 
 						<Form.Group as={Col}>
@@ -571,7 +583,7 @@ export default function App() {
 									<img src='info.png' width='15' alt='Info' className='mx-1 mb-1' />
 								</OverlayTrigger>
 							</Form.Label>
-							<Form.Control type='text' placeholder='None' />
+							<Form.Control type='text' placeholder='None' value={filter.excluded} onChange={(e) => setFilter({ ...filter, excluded: e.target.value })} />
 						</Form.Group>
 					</Row>
 
