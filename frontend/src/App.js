@@ -37,7 +37,7 @@ export default function App() {
 		excluded: null,
 	});
 
-	const urlBase = 'http://localhost:3001/benchmarks/';
+	const urlBase = 'http://localhost:3001/benchmarks/id/';
 	useEffect(() => {
 		setLoading(true);
 		setSort({ column: null, order: null });
