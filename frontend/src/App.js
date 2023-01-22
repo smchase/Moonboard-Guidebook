@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Table, Container, Nav, Navbar, Spinner, Form, ToggleButton, Collapse, Row, Col, Tooltip, OverlayTrigger } from 'react-bootstrap';
+import { Table, Container, Nav, Navbar, Spinner, Form, ToggleButton, Button, Collapse, Row, Col, Modal, Tooltip, OverlayTrigger } from 'react-bootstrap';
 import ScrollToTop from 'react-scroll-up';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleQuestion } from '@fortawesome/free-regular-svg-icons'
@@ -40,6 +40,13 @@ export default function App() {
 		included: '',
 		excluded: '',
 	});
+	const [showPopup, setShowPopup] = useState(false);
+	const [popupClimb, setPopupClimb] = useState({});
+	const closePopup = () => setShowPopup(false);
+	const openPopup = (row) => {
+		setShowPopup(true);
+		setPopupClimb(row);
+	}
 
 	const urlBase = 'http://localhost:3001/benchmarks/mb_type/';
 	useEffect(() => {
@@ -59,6 +66,69 @@ export default function App() {
 		}
 		getData();
 	}, [mbtype]);
+
+	useEffect(() => {
+		if (!showPopup) {
+			return;
+		}
+		const canvas = document.getElementById('circles-canvas');
+		const ctx = canvas.getContext('2d');
+		ctx.clearRect(0, 0, canvas.width, canvas.height);
+		for (let x = 0; x < 11; x++) {
+			const xMap = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K'];
+			if (mbtype !== 5) {
+				for (let y = 0; y < 18; y++) {
+					const yPos = 18 - y;
+					if (popupClimb.start_holds.includes(xMap[x] + yPos)) {
+						ctx.beginPath();
+						ctx.lineWidth = 4;
+						ctx.arc(65 + x * 34.6, 60 + y * 34.6, 18, 0, 2 * Math.PI);
+						ctx.strokeStyle = 'limegreen';
+						ctx.stroke();
+					}
+					if (popupClimb.mid_holds.includes(xMap[x] + yPos)) {
+						ctx.beginPath();
+						ctx.lineWidth = 4;
+						ctx.arc(65 + x * 34.6, 60 + y * 34.6, 18, 0, 2 * Math.PI);
+						ctx.strokeStyle = 'blue';
+						ctx.stroke();
+					}
+					if (popupClimb.end_holds.includes(xMap[x] + yPos)) {
+						ctx.beginPath();
+						ctx.lineWidth = 4;
+						ctx.arc(65 + x * 34.6, 60 + y * 34.6, 18, 0, 2 * Math.PI);
+						ctx.strokeStyle = 'red';
+						ctx.stroke();
+					}
+				}
+			} else {
+				for (let y = 0; y < 12; y++) {
+					const yPos = 12 - y;
+					if (popupClimb.start_holds.includes(xMap[x] + yPos)) {
+						ctx.beginPath();
+						ctx.lineWidth = 4;
+						ctx.arc(65 + x * 34.6, 60 + y * 34.6, 18, 0, 2 * Math.PI);
+						ctx.strokeStyle = 'limegreen';
+						ctx.stroke();
+					}
+					if (popupClimb.mid_holds.includes(xMap[x] + yPos)) {
+						ctx.beginPath();
+						ctx.lineWidth = 4;
+						ctx.arc(65 + x * 34.6, 60 + y * 34.6, 18, 0, 2 * Math.PI);
+						ctx.strokeStyle = 'blue';
+						ctx.stroke();
+					}
+					if (popupClimb.end_holds.includes(xMap[x] + yPos)) {
+						ctx.beginPath();
+						ctx.lineWidth = 4;
+						ctx.arc(65 + x * 34.6, 60 + y * 34.6, 18, 0, 2 * Math.PI);
+						ctx.strokeStyle = 'red';
+						ctx.stroke();
+					}
+				}
+			}
+		}
+	}, [showPopup, popupClimb]);
 
 	function handleSort(column) {
 		const order = sort.column === column && sort.order === 'asc' ? 'desc' : 'asc';
@@ -269,13 +339,13 @@ export default function App() {
 		if (!filter.whb && row.holdsets.includes(5)) return false;
 		if (!filter.whc && row.holdsets.includes(6)) return false;
 		if (filter.included) {
-			const included_holds = filter.included.toUpperCase().trim().replace(/^[,.;]+|[,.;]+$/g, "").split(/[,.;\s]+/);
+			const included_holds = filter.included.toUpperCase().trim().replace(/^[,.;]+|[,.;]+$/g, '').split(/[,.;\s]+/);
 			for (let i = 0; i < included_holds.length; i++) {
 				if (!(row.start_holds.includes(included_holds[i]) || row.mid_holds.includes(included_holds[i]) || row.end_holds.includes(included_holds[i]))) return false;
 			}
 		}
 		if (filter.excluded) {
-			const excluded_holds = filter.excluded.toUpperCase().trim().replace(/^[,.;]+|[,.;]+$/g, "").split(/[,.;\s]+/);
+			const excluded_holds = filter.excluded.toUpperCase().trim().replace(/^[,.;]+|[,.;]+$/g, '').split(/[,.;\s]+/);
 			for (let i = 0; i < excluded_holds.length; i++) {
 				if (row.start_holds.includes(excluded_holds[i]) || row.mid_holds.includes(excluded_holds[i]) || row.end_holds.includes(excluded_holds[i])) return false;
 			}
@@ -351,7 +421,7 @@ export default function App() {
 									delay={{ show: 250, hide: 400 }}
 									overlay={<Tooltip>Font or V Grade</Tooltip>}
 								>
-									<FontAwesomeIcon className='mx-1' style={{color: 'grey'}} icon={faCircleQuestion} />
+									<FontAwesomeIcon className='mx-1' style={{ color: 'grey' }} icon={faCircleQuestion} />
 								</OverlayTrigger>
 							</Form.Label>
 
@@ -370,7 +440,7 @@ export default function App() {
 									delay={{ show: 250, hide: 400 }}
 									overlay={<Tooltip>Based on user grades, negative means soft, positive means hard</Tooltip>}
 								>
-									<FontAwesomeIcon className='mx-1' style={{color: 'grey'}} icon={faCircleQuestion} />
+									<FontAwesomeIcon className='mx-1' style={{ color: 'grey' }} icon={faCircleQuestion} />
 								</OverlayTrigger>
 							</Form.Label>
 							<span className='d-flex flex-row'>
@@ -388,7 +458,7 @@ export default function App() {
 									delay={{ show: 250, hide: 400 }}
 									overlay={<Tooltip>Number of users who have logged a send</Tooltip>}
 								>
-									<FontAwesomeIcon className='mx-1' style={{color: 'grey'}} icon={faCircleQuestion} />
+									<FontAwesomeIcon className='mx-1' style={{ color: 'grey' }} icon={faCircleQuestion} />
 								</OverlayTrigger>
 							</Form.Label>
 							<span className='d-flex flex-row'>
@@ -406,7 +476,7 @@ export default function App() {
 									delay={{ show: 250, hide: 400 }}
 									overlay={<Tooltip>Average user star rating</Tooltip>}
 								>
-									<FontAwesomeIcon className='mx-1' style={{color: 'grey'}} icon={faCircleQuestion} />
+									<FontAwesomeIcon className='mx-1' style={{ color: 'grey' }} icon={faCircleQuestion} />
 								</OverlayTrigger>
 							</Form.Label>
 							<span className='d-flex flex-row'>
@@ -423,9 +493,9 @@ export default function App() {
 								<OverlayTrigger
 									placement='right'
 									delay={{ show: 250, hide: 400 }}
-									overlay={<Tooltip>Calculations count "more than 3 tries" as 4</Tooltip>}
+									overlay={<Tooltip>Calculations count 'more than 3 tries' as 4</Tooltip>}
 								>
-									<FontAwesomeIcon className='mx-1' style={{color: 'grey'}} icon={faCircleQuestion} />
+									<FontAwesomeIcon className='mx-1' style={{ color: 'grey' }} icon={faCircleQuestion} />
 								</OverlayTrigger>
 							</Form.Label>
 							<span className='d-flex flex-row'>
@@ -444,7 +514,7 @@ export default function App() {
 									delay={{ show: 250, hide: 400 }}
 									overlay={<Tooltip>YYYY/MM/DD</Tooltip>}
 								>
-									<FontAwesomeIcon className='mx-1' style={{color: 'grey'}} icon={faCircleQuestion} />
+									<FontAwesomeIcon className='mx-1' style={{ color: 'grey' }} icon={faCircleQuestion} />
 								</OverlayTrigger>
 							</Form.Label>
 							<span className='d-flex flex-row'>
@@ -462,7 +532,7 @@ export default function App() {
 									delay={{ show: 250, hide: 400 }}
 									overlay={<Tooltip>Which hold sets climbs can use, hover over holds below for names</Tooltip>}
 								>
-									<FontAwesomeIcon className='mx-1' style={{color: 'grey'}} icon={faCircleQuestion} />
+									<FontAwesomeIcon className='mx-1' style={{ color: 'grey' }} icon={faCircleQuestion} />
 								</OverlayTrigger>
 							</Form.Label>
 							<div className='mb-3'>
@@ -472,7 +542,7 @@ export default function App() {
 									value={filter.hsa}
 									onChange={(e) => setFilter({ ...filter, hsa: e.target.checked })}
 									label={<OverlayTrigger
-										placement="right"
+										placement='right'
 										delay={{ show: 250, hide: 400 }}
 										overlay={<Tooltip>Hold Set A</Tooltip>}
 									>
@@ -485,7 +555,7 @@ export default function App() {
 									value={filter.hsb}
 									onChange={(e) => setFilter({ ...filter, hsb: e.target.checked })}
 									label={<OverlayTrigger
-										placement="right"
+										placement='right'
 										delay={{ show: 250, hide: 400 }}
 										overlay={<Tooltip>Hold Set B</Tooltip>}
 									>
@@ -498,7 +568,7 @@ export default function App() {
 									value={filter.osh}
 									onChange={(e) => setFilter({ ...filter, osh: e.target.checked })}
 									label={<OverlayTrigger
-										placement="right"
+										placement='right'
 										delay={{ show: 250, hide: 400 }}
 										overlay={<Tooltip>Original School Holds</Tooltip>}
 									>
@@ -511,7 +581,7 @@ export default function App() {
 									value={filter.hsc}
 									onChange={(e) => setFilter({ ...filter, hsc: e.target.checked })}
 									label={<OverlayTrigger
-										placement="right"
+										placement='right'
 										delay={{ show: 250, hide: 400 }}
 										overlay={<Tooltip>Hold Set C</Tooltip>}
 									>
@@ -524,7 +594,7 @@ export default function App() {
 									value={filter.wha}
 									onChange={(e) => setFilter({ ...filter, wha: e.target.checked })}
 									label={<OverlayTrigger
-										placement="right"
+										placement='right'
 										delay={{ show: 250, hide: 400 }}
 										overlay={<Tooltip>Wood Holds A</Tooltip>}
 									>
@@ -537,7 +607,7 @@ export default function App() {
 									value={filter.whb}
 									onChange={(e) => setFilter({ ...filter, whb: e.target.checked })}
 									label={<OverlayTrigger
-										placement="right"
+										placement='right'
 										delay={{ show: 250, hide: 400 }}
 										overlay={<Tooltip>Wood Holds B</Tooltip>}
 									>
@@ -550,7 +620,7 @@ export default function App() {
 									value={filter.whc}
 									onChange={(e) => setFilter({ ...filter, whc: e.target.checked })}
 									label={<OverlayTrigger
-										placement="right"
+										placement='right'
 										delay={{ show: 250, hide: 400 }}
 										overlay={<Tooltip>Wood Holds C</Tooltip>}
 									>
@@ -570,7 +640,7 @@ export default function App() {
 									delay={{ show: 250, hide: 400 }}
 									overlay={<Tooltip>Enter as a list of coordinates according to board layout</Tooltip>}
 								>
-									<FontAwesomeIcon className='mx-1' style={{color: 'grey'}} icon={faCircleQuestion} />
+									<FontAwesomeIcon className='mx-1' style={{ color: 'grey' }} icon={faCircleQuestion} />
 								</OverlayTrigger>
 							</Form.Label>
 							<Form.Control type='text' placeholder='All' value={filter.included} onChange={(e) => setFilter({ ...filter, included: e.target.value })} />
@@ -584,7 +654,7 @@ export default function App() {
 									delay={{ show: 250, hide: 400 }}
 									overlay={<Tooltip>Enter as a list of coordinates according to board layout</Tooltip>}
 								>
-									<FontAwesomeIcon className='mx-1' style={{color: 'grey'}} icon={faCircleQuestion} />
+									<FontAwesomeIcon className='mx-1' style={{ color: 'grey' }} icon={faCircleQuestion} />
 								</OverlayTrigger>
 							</Form.Label>
 							<Form.Control type='text' placeholder='None' value={filter.excluded} onChange={(e) => setFilter({ ...filter, excluded: e.target.value })} />
@@ -594,7 +664,6 @@ export default function App() {
 					<Row>
 						<Col>
 							<ToggleButton
-								className='mb-2'
 								id='toggle-check'
 								type='checkbox'
 								variant='outline-secondary'
@@ -607,14 +676,18 @@ export default function App() {
 								<div>
 									<img src={
 										mbtype === 0 ? '2016.png' : ((mbtype === 1 || mbtype === 2) ? '2017.png' : ((mbtype === 3 || mbtype === 4) ? '2019.png' : '2020.png'))
-									} alt='2016 Layout'></img>
+									} alt={
+										mbtype === 0 ? '2016 Layout' : ((mbtype === 1 || mbtype === 2) ? '2017 Layout' : ((mbtype === 3 || mbtype === 4) ? '2019 Layout' : '2020 Layout'))
+									} className='mt-2'></img>
 								</div>
 							</Collapse>
 						</Col>
 						<Col className='d-flex justify-content-end'>
-							<div className='align-self-end'>
-								<Form.Text className="text-muted">
-								<FontAwesomeIcon icon={faCircleUp}></FontAwesomeIcon> Upgraded<br></br><FontAwesomeIcon icon={faCircleDown}></FontAwesomeIcon> Downgraded
+							<div>
+								<Form.Text className='text-muted'>
+									<FontAwesomeIcon icon={faCircleUp}></FontAwesomeIcon> Upgraded
+									&nbsp;&nbsp;&nbsp;
+									<FontAwesomeIcon icon={faCircleDown}></FontAwesomeIcon> Downgraded
 								</Form.Text>
 							</div>
 						</Col>
@@ -673,7 +746,7 @@ export default function App() {
 							<tbody>
 								{data.filter(row => filterRow(row)).map((row) => (
 									<tr key={row.id}>
-										<td>{row.name}</td>
+										<td><u style={{ cursor: 'pointer' }} onClick={() => openPopup(row)}>{row.name}</u></td>
 										<td>{row.setter}</td>
 										<td>{mapGrades[row.grade]}{' '}{row.upgraded ? <FontAwesomeIcon icon={faCircleUp}></FontAwesomeIcon> : null} {row.downgraded ? <FontAwesomeIcon icon={faCircleDown}></FontAwesomeIcon> : null}</td>
 										<td style={{ color: row.sandbag_score > 1 ? 'red' : row.sandbag_score < -1 ? 'green' : 'black' }}>{Math.round(row.sandbag_score * 1000) / 1000}</td>
@@ -699,8 +772,18 @@ export default function App() {
 			</Container>
 
 			<ScrollToTop showUnder={600}>
-				<FontAwesomeIcon size='3x' style={{color:'#fdba22'}} icon={faCircleChevronUp} />
+				<FontAwesomeIcon size='3x' style={{ color: '#fdba22' }} icon={faCircleChevronUp} />
 			</ScrollToTop>
+
+			{/* popup */}
+			<Modal show={showPopup} onHide={closePopup}>
+				<Modal.Header closeButton>
+					<Modal.Title>{popupClimb.name}</Modal.Title>
+				</Modal.Header>
+				<Modal.Body>
+					<canvas id='circles-canvas' style={{ background: `url(${mbtype === 0 ? '2016.png' : ((mbtype === 1 || mbtype === 2) ? '2017.png' : ((mbtype === 3 || mbtype === 4) ? '2019.png' : '2020.png'))})` }} width='450' height={mbtype === 5 ? 485 : 692} />
+				</Modal.Body>
+			</Modal>
 
 			<footer className='footer mt-auto'>
 				<Container className='pt-3'>
