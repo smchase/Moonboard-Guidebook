@@ -1,14 +1,57 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Table, Container, Nav, Navbar, Spinner, Form, ToggleButton, Button, Collapse, Row, Col, Modal, Tooltip, OverlayTrigger } from 'react-bootstrap';
+import { Table, Container, Nav, Navbar, Button, Spinner, Form, ToggleButton, Collapse, Row, Col, Modal, Tooltip, OverlayTrigger } from 'react-bootstrap';
 import ScrollToTop from 'react-scroll-up';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleQuestion } from '@fortawesome/free-regular-svg-icons'
-import { faArrowUp, faArrowDown, faCircleChevronUp, faCircleUp, faCircleDown } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircleQuestion } from '@fortawesome/free-regular-svg-icons';
+import { faArrowUp, faArrowDown, faCircleChevronUp, faCircleUp, faCircleDown } from '@fortawesome/free-solid-svg-icons';
+import './App.css';
+
 
 
 export default function App() {
+	const mapGrades = {
+		0: '5+ (V2)',
+		1: '6A (V3)',
+		2: '6A+ (V3)',
+		3: '6B (V4)',
+		4: '6B+ (V4)',
+		5: '6C (V5)',
+		6: '6C+ (V5)',
+		7: '7A (V6)',
+		8: '7A+ (V7)',
+		9: '7B (V8)',
+		10: '7B+ (V8)',
+		11: '7C (V9)',
+		12: '7C+ (V10)',
+		13: '8A (V11)',
+		14: '8A+ (V12)',
+		15: '8B (V13)',
+		16: '8B+ (V14)',
+		17: '8C (V15)',
+	}
+	const urlGradeMap = {
+		0: '5%2B+V2',
+		1: '6A+V3',
+		2: '6A%2B+V3',
+		3: '6B+V4',
+		4: '6B%2B+V4',
+		5: '6C+V5',
+		6: '6C%2B+V5',
+		7: '7A+V6',
+		8: '7A%2B+V7',
+		9: '7B+V8',
+		10: '7B%2B+V8',
+		11: '7C+V9',
+		12: '7C%2B+V10',
+		13: '8A+V11',
+		14: '8A%2B+V12',
+		15: '8B+V13',
+		16: '8B%2B+V14',
+		17: '8C+V15',
+	}
+
 	const [data, setData] = useState(null);
 	const [loadingData, setLoadingData] = useState(true);
 	const [errorLoadingData, setErrorLoadingData] = useState(null);
@@ -41,14 +84,15 @@ export default function App() {
 		excluded: '',
 	});
 	const [showPopup, setShowPopup] = useState(false);
-	const [popupClimb, setPopupClimb] = useState({});
+	const [popupClimb, setPopupClimb] = useState({ name: '', grade: 0 });
 	const closePopup = () => setShowPopup(false);
 	const openPopup = (row) => {
 		setShowPopup(true);
 		setPopupClimb(row);
 	}
+	const canvasRef = useRef(null);
 
-	const urlBase = 'http://localhost:3001/benchmarks/mb_type/';
+	const urlBase = 'http://192.168.0.2:3001/benchmarks/mb_type/';
 	useEffect(() => {
 		setLoadingData(true);
 		setSort({ column: null, order: null });
@@ -67,11 +111,12 @@ export default function App() {
 		getData();
 	}, [mbtype]);
 
+	// render mb
 	useEffect(() => {
 		if (!showPopup) {
 			return;
 		}
-		const canvas = document.getElementById('circles-canvas');
+		const canvas = canvasRef.current;
 		const ctx = canvas.getContext('2d');
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
 		for (let x = 0; x < 11; x++) {
@@ -128,7 +173,7 @@ export default function App() {
 				}
 			}
 		}
-	}, [showPopup, popupClimb]);
+	}, [showPopup, mbtype, popupClimb]);
 
 	function handleSort(column) {
 		const order = sort.column === column && sort.order === 'asc' ? 'desc' : 'asc';
@@ -353,26 +398,6 @@ export default function App() {
 		return true;
 	}
 
-	const mapGrades = {
-		0: '5+ (V2)',
-		1: '6A (V3)',
-		2: '6A+ (V3)',
-		3: '6B (V4)',
-		4: '6B+ (V4)',
-		5: '6C (V5)',
-		6: '6C+ (V5)',
-		7: '7A (V6)',
-		8: '7A+ (V7)',
-		9: '7B (V8)',
-		10: '7B+ (V8)',
-		11: '7C (V9)',
-		12: '7C+ (V10)',
-		13: '8A (V11)',
-		14: '8A+ (V12)',
-		15: '8B (V13)',
-		16: '8B+ (V14)',
-		17: '8C (V15)',
-	}
 	return (
 		<div className='app d-flex flex-column' style={{ minHeight: '100vh' }}>
 			{/* Navbar */}
@@ -775,13 +800,27 @@ export default function App() {
 				<FontAwesomeIcon size='3x' style={{ color: '#fdba22' }} icon={faCircleChevronUp} />
 			</ScrollToTop>
 
+
 			{/* popup */}
 			<Modal show={showPopup} onHide={closePopup}>
 				<Modal.Header closeButton>
-					<Modal.Title>{popupClimb.name}</Modal.Title>
+					<Modal.Title>{popupClimb.name}, {mapGrades[popupClimb.grade]}</Modal.Title>
 				</Modal.Header>
-				<Modal.Body>
-					<canvas id='circles-canvas' style={{ background: `url(${mbtype === 0 ? '2016.png' : ((mbtype === 1 || mbtype === 2) ? '2017.png' : ((mbtype === 3 || mbtype === 4) ? '2019.png' : '2020.png'))})` }} width='450' height={mbtype === 5 ? 485 : 692} />
+				<Modal.Body >
+					<div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+						<canvas ref={canvasRef} id='circles-canvas' style={{ background: `url(${mbtype === 0 ? '2016.png' : ((mbtype === 1 || mbtype === 2) ? '2017.png' : ((mbtype === 3 || mbtype === 4) ? '2019.png' : '2020.png'))})` }} width='450' height={mbtype === 5 ? 485 : 692} />
+					</div>
+
+					<div className='mt-2'>
+						<center>
+							<a href={
+								'https://www.youtube.com/results?search_query=' +
+								popupClimb.name.replace(/ /g, '+') + '+' +
+								urlGradeMap[popupClimb.grade] +
+								'+moonboard+benchmark'
+							} target="_blank" rel="noopener noreferrer">View Beta Videos on YouTube</a>
+						</center>
+					</div>
 				</Modal.Body>
 			</Modal>
 
@@ -792,6 +831,6 @@ export default function App() {
 					</center>
 				</Container>
 			</footer>
-		</div>
+		</div >
 	);
 }
