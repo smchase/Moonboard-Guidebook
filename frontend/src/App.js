@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Table, Container, Nav, Navbar, Button, Spinner, Form, ToggleButton, Collapse, Row, Col, Modal, Tooltip, OverlayTrigger } from 'react-bootstrap';
-import ScrollToTop from 'react-scroll-up';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleQuestion } from '@fortawesome/free-regular-svg-icons';
 import { faArrowUp, faArrowDown, faCircleChevronUp, faCircleUp, faCircleDown } from '@fortawesome/free-solid-svg-icons';
@@ -728,7 +727,7 @@ export default function App() {
 				</Spinner></center></div>}
 				{data && (
 					<><div><p>Found {data.filter(row => filterRow(row)).length} benchmarks.</p></div>
-						<Table striped bordered hover>
+						<Table striped bordered hover responsive>
 							<thead>
 								<tr>
 									<th>
@@ -795,11 +794,6 @@ export default function App() {
 						</Table></>
 				)}
 			</Container>
-
-			<ScrollToTop showUnder={600}>
-				<FontAwesomeIcon size='3x' style={{ color: '#fdba22' }} icon={faCircleChevronUp} />
-			</ScrollToTop>
-
 
 			{/* popup */}
 			<Modal show={showPopup} onHide={closePopup}>
