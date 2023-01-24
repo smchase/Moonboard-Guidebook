@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Table, Container, Nav, Navbar, Button, Spinner, Form, ToggleButton, Collapse, Row, Col, Modal, Tooltip, OverlayTrigger } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleQuestion } from '@fortawesome/free-regular-svg-icons';
-import { faArrowUp, faArrowDown, faCircleChevronUp, faCircleUp, faCircleDown } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUp, faArrowDown, faCircleUp, faCircleDown } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
 
 
@@ -400,7 +400,7 @@ export default function App() {
 	return (
 		<div className='app d-flex flex-column' style={{ minHeight: '100vh' }}>
 			{/* Navbar */}
-			<Navbar bg='dark' variant='dark'>
+			<Navbar bg='dark' collapseOnSelect variant='dark' expand='lg'>
 				<Container>
 					<Navbar.Brand>
 						<img
@@ -411,33 +411,36 @@ export default function App() {
 							className='d-inline-block align-top'
 						/>&nbsp;
 						Moonboard Guidebook</Navbar.Brand>
-					<Nav defaultActiveKey='201640'>
-						<Nav.Link onClick={() => { setMbtype(0) }} eventKey='201640'>2016 40°</Nav.Link>
-						<Nav.Link onClick={() => { setMbtype(1) }} eventKey='201725'>2017 25°</Nav.Link>
-						<Nav.Link onClick={() => { setMbtype(2) }} eventKey='201740'>2017 40°</Nav.Link>
-						<Nav.Link onClick={() => { setMbtype(3) }} eventKey='201925'>2019 25°</Nav.Link>
-						<Nav.Link onClick={() => { setMbtype(4) }} eventKey='201940'>2019 40°</Nav.Link>
-						<Nav.Link onClick={() => { setMbtype(5) }} eventKey='202040'>2020 40°</Nav.Link>
-					</Nav>
+					<Navbar.Toggle aria-controls="responsive-navbar-nav" />
+					<Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
+						<Nav defaultActiveKey='201640'>
+							<Nav.Link onClick={() => { setMbtype(0) }} eventKey='201640'>2016 40°</Nav.Link>
+							<Nav.Link onClick={() => { setMbtype(1) }} eventKey='201725'>2017 25°</Nav.Link>
+							<Nav.Link onClick={() => { setMbtype(2) }} eventKey='201740'>2017 40°</Nav.Link>
+							<Nav.Link onClick={() => { setMbtype(3) }} eventKey='201925'>2019 25°</Nav.Link>
+							<Nav.Link onClick={() => { setMbtype(4) }} eventKey='201940'>2019 40°</Nav.Link>
+							<Nav.Link onClick={() => { setMbtype(5) }} eventKey='202040'>2020 40°</Nav.Link>
+						</Nav>
+					</Navbar.Collapse>
 				</Container>
 			</Navbar>
 
 			{/* Filter */}
 			<Container className='mt-4 mb-4'>
 				<Form className='bg-light p-4 rounded'>
-					<Row className='mb-3'>
-						<Form.Group as={Col}>
+					<Row>
+						<Form.Group as={Col} md className='mb-3'>
 							<Form.Label>Climb Name</Form.Label>
 							<Form.Control type='text' placeholder='All' value={filter.name} onChange={(e) => setFilter({ ...filter, name: e.target.value })} />
 						</Form.Group>
 
-						<Form.Group as={Col}>
+						<Form.Group as={Col} md className='mb-3'>
 							<Form.Label>Setter</Form.Label>
 							<Form.Control type='text' placeholder='All' value={filter.setter} onChange={(e) => setFilter({ ...filter, setter: e.target.value })} />
 						</Form.Group>
 					</Row>
-					<Row className='mb-3'>
-						<Form.Group as={Col}>
+					<Row>
+						<Form.Group as={Col} md className='mb-3'>
 							<Form.Label>
 								Grade
 								<OverlayTrigger
@@ -456,7 +459,7 @@ export default function App() {
 							</span>
 						</Form.Group>
 
-						<Form.Group as={Col}>
+						<Form.Group as={Col} md className='mb-3'>
 							<Form.Label>
 								Sandbag Score
 								<OverlayTrigger
@@ -474,7 +477,7 @@ export default function App() {
 							</span>
 						</Form.Group>
 
-						<Form.Group as={Col}>
+						<Form.Group as={Col} md className='mb-3'>
 							<Form.Label>
 								Repeats
 								<OverlayTrigger
@@ -492,7 +495,7 @@ export default function App() {
 							</span>
 						</Form.Group>
 
-						<Form.Group as={Col}>
+						<Form.Group as={Col} md className='mb-3'>
 							<Form.Label>
 								Stars
 								<OverlayTrigger
@@ -510,8 +513,8 @@ export default function App() {
 							</span>
 						</Form.Group>
 					</Row>
-					<Row className='mb-3'>
-						<Form.Group as={Col}>
+					<Row>
+						<Form.Group as={Col} md={3} className='mb-3'>
 							<Form.Label>
 								Average Attempts
 								<OverlayTrigger
@@ -530,7 +533,7 @@ export default function App() {
 						</Form.Group>
 
 
-						<Form.Group as={Col}>
+						<Form.Group as={Col} md={3} className='mb-3'>
 							<Form.Label>
 								Date Created
 								<OverlayTrigger
@@ -548,7 +551,7 @@ export default function App() {
 							</span>
 						</Form.Group>
 
-						<Form.Group as={Col} xs={6}>
+						<Form.Group as={Col} md={6} className='mb-3'>
 							<Form.Label>
 								Hold Sets
 								<OverlayTrigger
@@ -559,7 +562,7 @@ export default function App() {
 									<FontAwesomeIcon className='mx-1' style={{ color: 'grey' }} icon={faCircleQuestion} />
 								</OverlayTrigger>
 							</Form.Label>
-							<div className='mb-3'>
+							<div>
 								<Form.Check
 									inline
 									defaultChecked
@@ -655,8 +658,8 @@ export default function App() {
 						</Form.Group>
 					</Row>
 
-					<Row className='mb-3'>
-						<Form.Group as={Col}>
+					<Row>
+						<Form.Group as={Col} md className='mb-3'>
 							<Form.Label>
 								Included Holds
 								<OverlayTrigger
@@ -670,7 +673,7 @@ export default function App() {
 							<Form.Control type='text' placeholder='All' value={filter.included} onChange={(e) => setFilter({ ...filter, included: e.target.value })} />
 						</Form.Group>
 
-						<Form.Group as={Col}>
+						<Form.Group as={Col} md className='mb-3'>
 							<Form.Label>
 								Excluded Holds
 								<OverlayTrigger
@@ -685,7 +688,7 @@ export default function App() {
 						</Form.Group>
 					</Row>
 
-					<Row>
+					<Row className='mt-1'>
 						<Col>
 							<ToggleButton
 								id='toggle-check'
@@ -696,25 +699,24 @@ export default function App() {
 							>
 								Show Board Layout
 							</ToggleButton>
-							<Collapse in={showLayout}>
-								<div>
-									<img src={
-										mbtype === 0 ? '2016.png' : ((mbtype === 1 || mbtype === 2) ? '2017.png' : ((mbtype === 3 || mbtype === 4) ? '2019.png' : '2020.png'))
-									} alt={
-										mbtype === 0 ? '2016 Layout' : ((mbtype === 1 || mbtype === 2) ? '2017 Layout' : ((mbtype === 3 || mbtype === 4) ? '2019 Layout' : '2020 Layout'))
-									} className='mt-2'></img>
-								</div>
-							</Collapse>
 						</Col>
-						<Col className='d-flex justify-content-end'>
+						<Col className='ml-auto d-flex justify-content-end'>
+							<Button variant="outline-primary" type="submit">
+								Reset
+							</Button>
+						</Col>
+					</Row>
+
+					<Row>
+						<Collapse in={showLayout}>
 							<div>
-								<Form.Text className='text-muted'>
-									<FontAwesomeIcon icon={faCircleUp}></FontAwesomeIcon> Upgraded
-									&nbsp;&nbsp;&nbsp;
-									<FontAwesomeIcon icon={faCircleDown}></FontAwesomeIcon> Downgraded
-								</Form.Text>
+								<img src={
+									mbtype === 0 ? '2016.png' : ((mbtype === 1 || mbtype === 2) ? '2017.png' : ((mbtype === 3 || mbtype === 4) ? '2019.png' : '2020.png'))
+								} alt={
+									mbtype === 0 ? '2016 Layout' : ((mbtype === 1 || mbtype === 2) ? '2017 Layout' : ((mbtype === 3 || mbtype === 4) ? '2019 Layout' : '2020 Layout'))
+								} className='mt-2' style={{ maxWidth: '100%' }}></img>
 							</div>
-						</Col>
+						</Collapse>
 					</Row>
 				</Form>
 			</Container>
@@ -802,7 +804,7 @@ export default function App() {
 				</Modal.Header>
 				<Modal.Body >
 					<div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-						<canvas ref={canvasRef} id='circles-canvas' style={{ background: `url(${mbtype === 0 ? '2016.png' : ((mbtype === 1 || mbtype === 2) ? '2017.png' : ((mbtype === 3 || mbtype === 4) ? '2019.png' : '2020.png'))})` }} width='450' height={mbtype === 5 ? 485 : 692} />
+						<canvas ref={canvasRef} id='circles-canvas' style={{ maxWidth: '100%', background: `url(${mbtype === 0 ? '2016.png' : ((mbtype === 1 || mbtype === 2) ? '2017.png' : ((mbtype === 3 || mbtype === 4) ? '2019.png' : '2020.png'))})`, backgroundSize: '100%' }} width='450' height={mbtype === 5 ? 485 : 692} />
 					</div>
 
 					<div className='mt-2'>
