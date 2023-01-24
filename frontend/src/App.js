@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Table, Container, Nav, Navbar, Button, Spinner, Form, ToggleButton, Collapse, Row, Col, Modal, Tooltip, OverlayTrigger } from 'react-bootstrap';
+import { Table, Container, Nav, Navbar, Button, Spinner, Form, ToggleButton, Collapse, Row, Col, Modal, Tooltip, OverlayTrigger, Alert } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleQuestion } from '@fortawesome/free-regular-svg-icons';
 import { faArrowUp, faArrowDown, faCircleUp, faCircleDown } from '@fortawesome/free-solid-svg-icons';
@@ -50,21 +50,13 @@ export default function App() {
 		16: '8B%2B+V14',
 		17: '8C+V15',
 	};
-	const mapMbtype = {
-		'2016-40': 0,
-		'2017-25': 1,
-		'2017-40': 2,
-		'2019-25': 3,
-		'2019-40': 4,
-		'2020-40': 5,
-	};
 
 	const [data, setData] = useState(null);
 	const [loadingData, setLoadingData] = useState(true);
 	const [errorLoadingData, setErrorLoadingData] = useState(null);
 	const [showLayout, setShowLayout] = useState(false); // 
 	const [sort, setSort] = useState({ column: 'date_created', order: 'asc' });
-	const [mbtype, setMbtype] = useState(mapMbtype[window.location.pathname.substring(1)] || 0);
+	const [mbtype, setMbtype] = useState(0);
 	const [filter, setFilter] = useState({
 		name: '',
 		setter: '',
@@ -97,6 +89,7 @@ export default function App() {
 		setShowPopup(true);
 		setPopupClimb(row);
 	}
+	const [showLogin, setShowLogin] = useState(false);
 	const canvasRef = useRef(null);
 
 	const urlBase = 'http://192.168.0.2:3001/benchmarks/mb_type/';
@@ -116,7 +109,7 @@ export default function App() {
 			}
 		}
 		getData();
-	}, []);
+	}, [mbtype]);
 
 	// render mb
 	useEffect(() => {
@@ -405,6 +398,11 @@ export default function App() {
 		return true;
 	}
 
+	const submitLogin = (e) => {
+		e.preventDefault();
+		setShowLogin(false);
+	}
+
 	return (
 		<div className='app d-flex flex-column' style={{ minHeight: '100vh' }}>
 			{/* Navbar */}
@@ -422,12 +420,12 @@ export default function App() {
 					<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 					<Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
 						<Nav defaultActiveKey={mbtype}>
-							<Nav.Link href='/2016-40' eventKey='0'>2016 40°</Nav.Link>
-							<Nav.Link href='/2017-25' eventKey='1'>2017 25°</Nav.Link>
-							<Nav.Link href='/2017-40' eventKey='2'>2017 40°</Nav.Link>
-							<Nav.Link href='/2019-25' eventKey='3'>2019 25°</Nav.Link>
-							<Nav.Link href='/2019-40' eventKey='4'>2019 40°</Nav.Link>
-							<Nav.Link href='/2020-40' eventKey='5'>2020 40°</Nav.Link>
+							<Nav.Link onClick={() => setMbtype(0)} eventKey='0'>2016 40°</Nav.Link>
+							<Nav.Link onClick={() => setMbtype(1)} eventKey='1'>2017 25°</Nav.Link>
+							<Nav.Link onClick={() => setMbtype(2)} eventKey='2'>2017 40°</Nav.Link>
+							<Nav.Link onClick={() => setMbtype(3)} eventKey='3'>2019 25°</Nav.Link>
+							<Nav.Link onClick={() => setMbtype(4)} eventKey='4'>2019 40°</Nav.Link>
+							<Nav.Link onClick={() => setMbtype(5)} eventKey='5'>2020 40°</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
 				</Container>
@@ -709,8 +707,8 @@ export default function App() {
 							</ToggleButton>
 						</Col>
 						<Col className='ml-auto d-flex justify-content-end'>
-							<Button variant="outline-primary" onClick={() => window.location.reload()}>
-								Reset
+							<Button variant="primary" onClick={() => setShowLogin(true)}>
+								Connect Logbook
 							</Button>
 						</Col>
 					</Row>
@@ -805,7 +803,7 @@ export default function App() {
 				)}
 			</Container>
 
-			{/* Popup */}
+			{/* Climb Popup */}
 			<Modal show={showPopup} onHide={closePopup}>
 				<Modal.Header closeButton>
 					<Modal.Title>{popupClimb.name}, {mapGrades[popupClimb.grade]}</Modal.Title>
@@ -825,6 +823,36 @@ export default function App() {
 							} target="_blank" rel="noopener noreferrer">View Beta Videos on YouTube</a>
 						</center>
 					</div>
+				</Modal.Body>
+			</Modal>
+
+			{/* Login window */}
+			<Modal show={showLogin} onHide={() => setShowLogin(false)}>
+				<Modal.Header closeButton>
+					<Modal.Title>Moonboard Account Login</Modal.Title>
+				</Modal.Header>
+				<Modal.Body>
+					<Form>
+						<Alert variant='warning'>
+							We won't do anything bad with your login, but this is an unofficial website so use at your own risk.
+						</Alert>
+
+						<Form.Group className="mb-3">
+							<Form.Label>Username</Form.Label>
+							<Form.Control type="email" placeholder="ravioli_biceps" />
+						</Form.Group>
+
+						<Form.Group className="mb-3">
+							<Form.Label>Password</Form.Label>
+							<Form.Control type="password" placeholder="password123" />
+						</Form.Group>
+
+						<div className="d-grid gap-2">
+						<Button variant="primary" type='submit' onClick={submitLogin}>
+							Submit
+						</Button>
+						</div>
+					</Form>
 				</Modal.Body>
 			</Modal>
 
