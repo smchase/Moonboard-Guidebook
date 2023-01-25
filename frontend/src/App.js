@@ -264,7 +264,7 @@ export default function App() {
 							height='30'
 							alt='Moon Logo'
 							className='d-inline-block align-top'
-						/>&nbsp
+						/>&nbsp;
 						Moonboard Guidebook</Navbar.Brand>
 					<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 					<Navbar.Collapse id='responsive-navbar-nav' className='justify-content-end'>
