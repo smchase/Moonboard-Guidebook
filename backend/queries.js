@@ -135,11 +135,9 @@ const getUserLogbook = async (request, response) => {
 		for (let i = 0; i < logbookResponse.data.length; i++) {
 			logbook.push(logbookResponse.data[i].problem.apiId);
 		}
-		console.log(logbook);
 		response.status(200).json(logbook);
 	} catch (err) {
-		console.error(err);
-		response.status(500).json({ error: "Error loggin in" });
+		response.status(500).json({ error: "Error logging in" });
 	}
 };
 

@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleQuestion } from '@fortawesome/free-regular-svg-icons';
 import { faArrowUp, faArrowDown, faCircleUp, faCircleDown, faCheck, faX } from '@fortawesome/free-solid-svg-icons';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
-import './App.css';
 
 
 
@@ -326,9 +325,11 @@ export default function App() {
 			}
 		}
 		if (logbook) {
-			if (filter.logbook === 1) {
-				if (logbook.includes(row.id)) return false;
-			} else if (filter.logbook === 2) {
+			if (filter.logbook === '1') {
+				if (logbook.includes(row.id)) {
+					return false;
+				}
+			} else if (filter.logbook === '2') {
 				if (!logbook.includes(row.id)) return false;
 			}
 		}
@@ -393,8 +394,8 @@ export default function App() {
 							className='d-inline-block align-top'
 						/>&nbsp;
 						Moonboard Guidebook</Navbar.Brand>
-					<Navbar.Toggle aria-controls="responsive-navbar-nav" />
-					<Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
+					<Navbar.Toggle aria-controls='responsive-navbar-nav' />
+					<Navbar.Collapse id='responsive-navbar-nav' className='justify-content-end'>
 						<Nav defaultActiveKey={mbtype}>
 							<Nav.Link onClick={() => setMbtype(0)} eventKey='0'>2016 40°</Nav.Link>
 							<Nav.Link onClick={() => setMbtype(1)} eventKey='1'>2017 25°</Nav.Link>
@@ -709,7 +710,7 @@ export default function App() {
 							</ToggleButton>
 						</Col>
 						<Col className='ml-auto d-flex justify-content-end'>
-							<Button variant="primary" onClick={() => setShowLogin(true)}>
+							<Button variant='primary' onClick={() => setShowLogin(true)}>
 								Load Logbook
 							</Button>
 						</Col>
@@ -781,7 +782,7 @@ export default function App() {
 							<tbody>
 								{data.filter(row => filterRow(row)).map((row) => (
 									<tr key={row.id}>
-										{logbook ? <td><FontAwesomeIcon style={{ color: logbook.includes(row.id) ? 'green' : 'red' }} icon={logbook.includes(row.id) ? faCheck : faX}></FontAwesomeIcon></td> : null}
+										{logbook ? <td><center><FontAwesomeIcon style={{ color: logbook.includes(row.id) ? 'green' : 'red' }} icon={logbook.includes(row.id) ? faCheck : faX}></FontAwesomeIcon></center></td> : null}
 										<td><u style={{ cursor: 'pointer' }} onClick={() => openPopup(row)}>{row.name}</u></td>
 										<td>{row.setter}</td>
 										<td>{mapGrades[row.grade]}{' '}{row.upgraded ? <FontAwesomeIcon icon={faCircleUp}></FontAwesomeIcon> : null} {row.downgraded ? <FontAwesomeIcon icon={faCircleDown}></FontAwesomeIcon> : null}</td>
@@ -813,19 +814,19 @@ export default function App() {
 					<Modal.Title>{popupClimb.name}, {mapGrades[popupClimb.grade]}</Modal.Title>
 				</Modal.Header>
 				<Modal.Body >
-					<div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+					<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 						<canvas ref={canvasRef} id='circles-canvas' style={{ maxWidth: '100%', background: `url(${mbtype === 0 ? '2016.png' : ((mbtype === 1 || mbtype === 2) ? '2017.png' : ((mbtype === 3 || mbtype === 4) ? '2019.png' : '2020.png'))})`, backgroundSize: '100%' }} width='450' height={mbtype === 5 ? 485 : 692} />
 					</div>
 				</Modal.Body>
 				<Modal.Footer className='d-flex justify-content-between'>
-					<Button variant="secondary" onClick={handlePrevious}>Previous</Button>
+					<Button variant='secondary' onClick={handlePrevious}>Previous</Button>
 							<a href={
 								'https://www.youtube.com/results?search_query=' +
 								popupClimb.name.replace(/ /g, '+') + '+' +
 								urlGradeMap[popupClimb.grade] +
 								'+moonboard+benchmark'
-							} target="_blank" rel="noopener noreferrer"><Button variant='outline-primary'><FontAwesomeIcon icon={faYoutube}/> Find Beta Videos</Button></a>
-					<Button variant="secondary" onClick={handleNext}>Next</Button>
+							} target='_blank' rel='noopener noreferrer'><Button variant='outline-primary'><FontAwesomeIcon icon={faYoutube}/> Find Beta Videos</Button></a>
+					<Button variant='secondary' onClick={handleNext}>Next</Button>
 				</Modal.Footer>
 			</Modal>
 
@@ -840,18 +841,18 @@ export default function App() {
 							We won't do anything bad with your login, but we can't guarantee security, so use at your own risk.
 						</Alert>
 
-						<Form.Group className="mb-3">
+						<Form.Group className='mb-3'>
 							<Form.Label>Username</Form.Label>
-							<Form.Control type="text" placeholder="ravioli_biceps" name='username' />
+							<Form.Control type='text' placeholder='ravioli_biceps' name='username' />
 						</Form.Group>
 
-						<Form.Group className="mb-3">
+						<Form.Group className='mb-3'>
 							<Form.Label>Password</Form.Label>
-							<Form.Control type="password" placeholder="password123" name='password' />
+							<Form.Control type='password' placeholder='password123' name='password' />
 						</Form.Group>
 
-						<div className="d-grid gap-2">
-							<Button variant="primary" type='submit'>
+						<div className='d-grid gap-2'>
+							<Button variant='primary' type='submit'>
 								Submit
 							</Button>
 						</div>
