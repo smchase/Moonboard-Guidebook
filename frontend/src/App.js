@@ -1,13 +1,11 @@
-import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { useState, useEffect, useRef } from 'react';
 import { Table, Container, Nav, Navbar, Button, Spinner, Form, ToggleButton, Collapse, Row, Col, Modal, Tooltip, OverlayTrigger, Alert } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleQuestion } from '@fortawesome/free-regular-svg-icons';
 import { faArrowUp, faArrowDown, faCircleUp, faCircleDown, faCheck, faX } from '@fortawesome/free-solid-svg-icons';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
-
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App() {
 	const mapGrades = {
@@ -314,14 +312,14 @@ export default function App() {
 		if (!filter.whc && row.holdsets.includes(6)) return false;
 		if (filter.included) {
 			const included_holds = filter.included.toUpperCase().trim().replace(/^[,.;]+|[,.;]+$/g, '').split(/[,.;\s]+/);
-			for (let i = 0; i < included_holds.length; i++) {
-				if (!(row.start_holds.includes(included_holds[i]) || row.mid_holds.includes(included_holds[i]) || row.end_holds.includes(included_holds[i]))) return false;
+			for (let i of included_holds) {
+				if (!(row.start_holds.includes(i) || row.mid_holds.includes(i) || row.end_holds.includes(i))) return false;
 			}
 		}
 		if (filter.excluded) {
 			const excluded_holds = filter.excluded.toUpperCase().trim().replace(/^[,.;]+|[,.;]+$/g, '').split(/[,.;\s]+/);
-			for (let i = 0; i < excluded_holds.length; i++) {
-				if (row.start_holds.includes(excluded_holds[i]) || row.mid_holds.includes(excluded_holds[i]) || row.end_holds.includes(excluded_holds[i])) return false;
+			for (let i of excluded_holds) {
+				if (row.start_holds.includes(i) || row.mid_holds.includes(i) || row.end_holds.includes(i)) return false;
 			}
 		}
 		if (logbook) {
