@@ -22,6 +22,9 @@ app.route('/benchmarks/id/:id')
 	.delete(db.deleteBenchmarkById)
 	.get(db.getBenchmarkById);
 
+app.route('/getlogbook')
+	.get(db.getUserLogbook);
+
 app.listen(port, () => {
 	console.log(`App running on port ${port}.`)
 });

@@ -4,7 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Table, Container, Nav, Navbar, Button, Spinner, Form, ToggleButton, Collapse, Row, Col, Modal, Tooltip, OverlayTrigger, Alert } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleQuestion } from '@fortawesome/free-regular-svg-icons';
-import { faArrowUp, faArrowDown, faCircleUp, faCircleDown } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUp, faArrowDown, faCircleUp, faCircleDown, faCheck, faX } from '@fortawesome/free-solid-svg-icons';
+import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import './App.css';
 
 
@@ -60,8 +61,8 @@ export default function App() {
 	const [filter, setFilter] = useState({
 		name: '',
 		setter: '',
-		gradeMin: '',
-		gradeMax: '',
+		gradeMin: 0,
+		gradeMax: 17,
 		sandbagMin: '',
 		sandbagMax: '',
 		repeatsMin: '',
@@ -81,6 +82,7 @@ export default function App() {
 		whc: true,
 		included: '',
 		excluded: '',
+		logbook: 0
 	});
 	const [showPopup, setShowPopup] = useState(false);
 	const [popupClimb, setPopupClimb] = useState({ name: '', grade: 0 });
@@ -90,10 +92,14 @@ export default function App() {
 		setPopupClimb(row);
 	}
 	const [showLogin, setShowLogin] = useState(false);
+	const closeLogin = () => {
+		setShowLogin(false);
+		setLoginErr(false);
+	};
 	const canvasRef = useRef(null);
 
-	const urlBase = 'http://192.168.0.2:3001/benchmarks/mb_type/';
 	useEffect(() => {
+		const urlBase = 'http://192.168.0.2:3001/benchmarks/mb_type/';
 		setLoadingData(true);
 		setSort({ column: null, order: null });
 		const getData = async () => {
@@ -288,84 +294,8 @@ export default function App() {
 	function filterRow(row) {
 		if (filter.name && row.name.toLowerCase().indexOf(filter.name.toLowerCase()) === -1) return false;
 		if (filter.setter && row.setter.toLowerCase().indexOf(filter.setter.toLowerCase()) === -1) return false;
-		if (filter.gradeMin) {
-			const minMap = {
-				'5+': 0,
-				'6A': 1,
-				'6A+': 2,
-				'6B': 3,
-				'6B+': 4,
-				'6C': 5,
-				'6C+': 6,
-				'7A': 7,
-				'7A+': 8,
-				'7B': 9,
-				'7B+': 10,
-				'7C': 11,
-				'7C+': 12,
-				'8A': 13,
-				'8A+': 14,
-				'8B': 15,
-				'8B+': 16,
-				'8C': 17,
-				'V0': 0,
-				'V1': 0,
-				'V2': 0,
-				'V3': 1,
-				'V4': 3,
-				'V5': 5,
-				'V6': 7,
-				'V7': 8,
-				'V8': 9,
-				'V9': 11,
-				'V10': 12,
-				'V11': 13,
-				'V12': 14,
-				'V13': 15,
-				'V14': 16,
-				'V15': 17,
-			}
-			if (minMap[filter.gradeMin.toUpperCase()] > row.grade) return false;
-		}
-		if (filter.gradeMax) {
-			const maxMap = {
-				'5+': 0,
-				'6A': 1,
-				'6A+': 2,
-				'6B': 3,
-				'6B+': 4,
-				'6C': 5,
-				'6C+': 6,
-				'7A': 7,
-				'7A+': 8,
-				'7B': 9,
-				'7B+': 10,
-				'7C': 11,
-				'7C+': 12,
-				'8A': 13,
-				'8A+': 14,
-				'8B': 15,
-				'8B+': 16,
-				'8C': 17,
-				'V0': -1,
-				'V1': -1,
-				'V2': 0,
-				'V3': 2,
-				'V4': 4,
-				'V5': 6,
-				'V6': 7,
-				'V7': 8,
-				'V8': 10,
-				'V9': 11,
-				'V10': 12,
-				'V11': 13,
-				'V12': 14,
-				'V13': 15,
-				'V14': 16,
-				'V15': 17,
-			}
-			if (maxMap[filter.gradeMax.toUpperCase()] < row.grade) return false;
-		}
+		if (filter.gradeMin > row.grade) return false;
+		if (filter.gradeMax < row.grade) return false;
 		if (filter.sandbagMin && filter.sandbagMin > row.sandbag_score) return false;
 		if (filter.sandbagMax && filter.sandbagMax < row.sandbag_score) return false;
 		if (filter.repeatsMin && filter.repeatsMin > row.repeats) return false;
@@ -395,12 +325,58 @@ export default function App() {
 				if (row.start_holds.includes(excluded_holds[i]) || row.mid_holds.includes(excluded_holds[i]) || row.end_holds.includes(excluded_holds[i])) return false;
 			}
 		}
+		if (logbook) {
+			if (filter.logbook === 1) {
+				if (logbook.includes(row.id)) return false;
+			} else if (filter.logbook === 2) {
+				if (!logbook.includes(row.id)) return false;
+			}
+		}
 		return true;
 	}
 
-	const submitLogin = (e) => {
+	const handleNext = () => {
+		const tableData = data.filter(row => filterRow(row));
+		if (tableData[tableData.length - 1].id === popupClimb.id) return;
+		for (let i = 0; i < tableData.length; i++) {
+			if (tableData[i].id === popupClimb.id) {
+				setPopupClimb(tableData[i + 1]);
+				break;
+			}
+		}
+	};
+
+	const handlePrevious = () => {
+		const tableData = data.filter(row => filterRow(row));
+		if (tableData[0].id === popupClimb.id) return;
+		for (let i = 0; i < tableData.length; i++) {
+			if (tableData[i].id === popupClimb.id) {
+				setPopupClimb(tableData[i - 1]);
+				break;
+			}
+		}
+	};
+
+	const [logbook, setLogbook] = useState(null);
+	const [username, setUsername] = useState(null);
+	const [loginErr, setLoginErr] = useState(null);
+	function submitLogin(e) {
 		e.preventDefault();
-		setShowLogin(false);
+		setUsername(e.target.username.value);
+		axios({
+			method: 'get',
+			url: 'http://192.168.0.2:3001/getlogbook',
+			params: {
+				username: e.target.username.value,
+				password: e.target.password.value
+			}
+		}).then(result => {
+			setLogbook(result.data);
+			setShowLogin(false);
+			setLoginErr(false);
+		}).catch(err => {
+			setLoginErr(true);
+		});
 	}
 
 	return (
@@ -459,9 +435,17 @@ export default function App() {
 							</Form.Label>
 
 							<span className='d-flex flex-row'>
-								<Form.Control type='text' placeholder='Minimum' value={filter.gradeMin} onChange={(e) => setFilter({ ...filter, gradeMin: e.target.value })} />
+								<Form.Select value={filter.gradeMin} onChange={(e) => setFilter({ ...filter, gradeMin: e.target.value })}>
+									{Object.values(mapGrades).map((grade, index) => (
+										<option value={index}>{grade}</option>
+									))}
+								</Form.Select>
 								<span className='my-auto mx-2'>to</span>
-								<Form.Control type='text' placeholder='Maximum' value={filter.gradeMax} onChange={(e) => setFilter({ ...filter, gradeMax: e.target.value })} />
+								<Form.Select value={filter.gradeMax} onChange={(e) => setFilter({ ...filter, gradeMax: e.target.value })}>
+									{Object.values(mapGrades).map((grade, index) => (
+										<option value={index}>{grade}</option>
+									))}
+								</Form.Select>
 							</span>
 						</Form.Group>
 
@@ -692,6 +676,24 @@ export default function App() {
 							</Form.Label>
 							<Form.Control type='text' placeholder='None' value={filter.excluded} onChange={(e) => setFilter({ ...filter, excluded: e.target.value })} />
 						</Form.Group>
+
+						<Form.Group as={Col} md className='mb-3'>
+							<Form.Label>
+								Logbook Status
+								<OverlayTrigger
+									placement='right'
+									delay={{ show: 250, hide: 400 }}
+									overlay={<Tooltip>You have to load your logbook to use this</Tooltip>}
+								>
+									<FontAwesomeIcon className='mx-1' style={{ color: 'grey' }} icon={faCircleQuestion} />
+								</OverlayTrigger>
+							</Form.Label>
+							<Form.Select value={filter.logbook} disabled={!logbook} onChange={(e) => setFilter({ ...filter, logbook: e.target.value })}>
+								<option value={0}>Any</option>
+								<option value={1}>Exclude my repeats</option>
+								<option value={2}>My repeats only</option>
+							</Form.Select>
+						</Form.Group>
 					</Row>
 
 					<Row className='mt-1'>
@@ -708,7 +710,7 @@ export default function App() {
 						</Col>
 						<Col className='ml-auto d-flex justify-content-end'>
 							<Button variant="primary" onClick={() => setShowLogin(true)}>
-								Connect Logbook
+								Load Logbook
 							</Button>
 						</Col>
 					</Row>
@@ -734,10 +736,11 @@ export default function App() {
 					<span className='visually-hidden'>Loading...</span>
 				</Spinner></center></div>}
 				{data && (
-					<><div><p>Found {data.filter(row => filterRow(row)).length} benchmarks.</p></div>
+					<><div><p>Found {data.filter(row => filterRow(row)).length} benchmark{data.filter(row => filterRow(row)).length === 1 ? null : 's'}.{logbook ? ` Logbook loaded from ${username}.` : ' No logbook loaded.'}</p></div>
 						<Table striped bordered hover responsive>
 							<thead>
 								<tr>
+									{logbook ? <th>Sent</th> : null}
 									<th>
 										<u style={{ cursor: 'pointer' }} onClick={() => handleSort('name')}>Climb Name</u>
 										{sort.column === 'name' ? (sort.order === 'asc' ? <FontAwesomeIcon className='mx-1' icon={faArrowDown} /> : <FontAwesomeIcon className='mx-1' icon={faArrowUp} />) : null}
@@ -778,6 +781,7 @@ export default function App() {
 							<tbody>
 								{data.filter(row => filterRow(row)).map((row) => (
 									<tr key={row.id}>
+										{logbook ? <td><FontAwesomeIcon style={{ color: logbook.includes(row.id) ? 'green' : 'red' }} icon={logbook.includes(row.id) ? faCheck : faX}></FontAwesomeIcon></td> : null}
 										<td><u style={{ cursor: 'pointer' }} onClick={() => openPopup(row)}>{row.name}</u></td>
 										<td>{row.setter}</td>
 										<td>{mapGrades[row.grade]}{' '}{row.upgraded ? <FontAwesomeIcon icon={faCircleUp}></FontAwesomeIcon> : null} {row.downgraded ? <FontAwesomeIcon icon={faCircleDown}></FontAwesomeIcon> : null}</td>
@@ -812,46 +816,47 @@ export default function App() {
 					<div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
 						<canvas ref={canvasRef} id='circles-canvas' style={{ maxWidth: '100%', background: `url(${mbtype === 0 ? '2016.png' : ((mbtype === 1 || mbtype === 2) ? '2017.png' : ((mbtype === 3 || mbtype === 4) ? '2019.png' : '2020.png'))})`, backgroundSize: '100%' }} width='450' height={mbtype === 5 ? 485 : 692} />
 					</div>
-
-					<div className='mt-2'>
-						<center>
+				</Modal.Body>
+				<Modal.Footer className='d-flex justify-content-between'>
+					<Button variant="secondary" onClick={handlePrevious}>Previous</Button>
 							<a href={
 								'https://www.youtube.com/results?search_query=' +
 								popupClimb.name.replace(/ /g, '+') + '+' +
 								urlGradeMap[popupClimb.grade] +
 								'+moonboard+benchmark'
-							} target="_blank" rel="noopener noreferrer">View Beta Videos on YouTube</a>
-						</center>
-					</div>
-				</Modal.Body>
+							} target="_blank" rel="noopener noreferrer"><Button variant='outline-primary'><FontAwesomeIcon icon={faYoutube}/> Find Beta Videos</Button></a>
+					<Button variant="secondary" onClick={handleNext}>Next</Button>
+				</Modal.Footer>
 			</Modal>
 
 			{/* Login window */}
-			<Modal show={showLogin} onHide={() => setShowLogin(false)}>
+			<Modal show={showLogin} onHide={closeLogin}>
 				<Modal.Header closeButton>
 					<Modal.Title>Moonboard Account Login</Modal.Title>
 				</Modal.Header>
 				<Modal.Body>
-					<Form>
+					<Form onSubmit={submitLogin}>
 						<Alert variant='warning'>
-							We won't do anything bad with your login, but this is an unofficial website so use at your own risk.
+							We won't do anything bad with your login, but we can't guarantee security, so use at your own risk.
 						</Alert>
 
 						<Form.Group className="mb-3">
 							<Form.Label>Username</Form.Label>
-							<Form.Control type="email" placeholder="ravioli_biceps" />
+							<Form.Control type="text" placeholder="ravioli_biceps" name='username' />
 						</Form.Group>
 
 						<Form.Group className="mb-3">
 							<Form.Label>Password</Form.Label>
-							<Form.Control type="password" placeholder="password123" />
+							<Form.Control type="password" placeholder="password123" name='password' />
 						</Form.Group>
 
 						<div className="d-grid gap-2">
-						<Button variant="primary" type='submit' onClick={submitLogin}>
-							Submit
-						</Button>
+							<Button variant="primary" type='submit'>
+								Submit
+							</Button>
 						</div>
+
+						{loginErr ? <div className='mt-2'><Form.Text style={{ color: 'red' }}>Error fetching logbook, please check your login info and try again.</Form.Text></div> : null}
 					</Form>
 				</Modal.Body>
 			</Modal>

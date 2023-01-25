@@ -1,3 +1,5 @@
+const axios = require('axios');
+
 const Pool = require('pg/lib').Pool;
 const pool = new Pool({
 	user: 'me',
@@ -91,6 +93,55 @@ const deleteBenchmarkById = (request, response) => {
 	});
 };
 
+const getUserLogbook = async (request, response) => {
+	const username = request.query.username;
+	const password = request.query.password;
+	try {
+		const tokenURL = "https://restapimoonboard.ems-x.com/token";
+		const tokenHeaders = {
+			'accept-encoding': 'gzip',
+			'content-type': 'application/x-www-form-urlencoded',
+			'host': 'restapimoonboard.ems-x.com',
+			'user-agent': 'MoonBoard/1.0',
+		};
+		const data = {
+			'username': username,
+			'password': password,
+			'grant_type': 'password',
+			'client_id': 'com.moonclimbing.mb'
+		};
+		const tokenResponse = await axios({
+			method: 'get',
+			url: tokenURL,
+			headers: tokenHeaders,
+			data: data,
+		});
+		const access_token = tokenResponse.data.access_token;
+
+		const logbookURL = "https://restapimoonboard.ems-x.com/v1/_moonapi/Logbook/0?v=8.3.4";
+		const logbookHeaders = {
+			'accept-encoding': 'gzip, gzip',
+			'authorization': `BEARER ${access_token}`,
+			'host': 'restapimoonboard.ems-x.com',
+			'user-agent': 'MoonBoard/1.0',
+		};
+		const logbookResponse = await axios({
+			method: 'get',
+			url: logbookURL,
+			headers: logbookHeaders,
+		});
+		console.log(logbookResponse.data);
+		let logbook = [];
+		for (let i = 0; i < logbookResponse.data.length; i++) {
+			logbook.push(logbookResponse.data[i].problem.apiId);
+		}
+		console.log(logbook);
+		response.status(200).json(logbook);
+	} catch (err) {
+		console.error(err);
+		response.status(500).json({ error: "Error loggin in" });
+	}
+};
 
 module.exports = {
 	getAllBenchmarks,
@@ -99,4 +150,5 @@ module.exports = {
 	createBenchmark,
 	updateBenchmarkById,
 	deleteBenchmarkById,
+	getUserLogbook
 };
