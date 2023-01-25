@@ -437,13 +437,13 @@ export default function App() {
 							<span className='d-flex flex-row'>
 								<Form.Select value={filter.gradeMin} onChange={(e) => setFilter({ ...filter, gradeMin: e.target.value })}>
 									{Object.values(mapGrades).map((grade, index) => (
-										<option value={index}>{grade}</option>
+										<option value={index} key={index}>{grade}</option>
 									))}
 								</Form.Select>
 								<span className='my-auto mx-2'>to</span>
 								<Form.Select value={filter.gradeMax} onChange={(e) => setFilter({ ...filter, gradeMax: e.target.value })}>
 									{Object.values(mapGrades).map((grade, index) => (
-										<option value={index}>{grade}</option>
+										<option value={index} key={index}>{grade}</option>
 									))}
 								</Form.Select>
 							</span>
