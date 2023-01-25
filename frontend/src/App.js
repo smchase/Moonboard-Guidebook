@@ -1,14 +1,237 @@
-import axios from 'axios';
-import { useState, useEffect, useRef } from 'react';
-import { Table, Container, Nav, Navbar, Button, Spinner, Form, ToggleButton, Collapse, Row, Col, Modal, Tooltip, OverlayTrigger, Alert } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleQuestion } from '@fortawesome/free-regular-svg-icons';
-import { faArrowUp, faArrowDown, faCircleUp, faCircleDown, faCheck, faX } from '@fortawesome/free-solid-svg-icons';
-import { faYoutube } from '@fortawesome/free-brands-svg-icons';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import axios from 'axios'
+import { useState, useEffect, useRef } from 'react'
+import { Table, Container, Nav, Navbar, Button, Spinner, Form, ToggleButton, Collapse, Row, Col, Modal, Tooltip, OverlayTrigger, Alert } from 'react-bootstrap'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircleQuestion } from '@fortawesome/free-regular-svg-icons'
+import { faArrowUp, faArrowDown, faCircleUp, faCircleDown, faCheck, faX } from '@fortawesome/free-solid-svg-icons'
+import { faYoutube } from '@fortawesome/free-brands-svg-icons'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default function App() {
-	const mapGrades = {
+	// data state
+	const [mbtype, setMbtype] = useState(0) // year & angle: 0 = 2016-40, 1 = 2017-25, 2 = 2017-40, 3 = 2019-25, 4 = 2019-40, 5 = 2020-40
+	const [data, setData] = useState(null) // all benchmarks
+	const [sort, setSort] = useState({ column: 'date_created', order: 'asc' })
+	const [filter, setFilter] = useState({
+		name: '',
+		setter: '',
+		gradeMin: 0,
+		gradeMax: 17,
+		sandbagMin: '',
+		sandbagMax: '',
+		repeatsMin: '',
+		repeatsMax: '',
+		starsMin: '',
+		starsMax: '',
+		attemptsMin: '',
+		attemptsMax: '',
+		dateMin: '',
+		dateMax: '',
+		hsa: true, // hold set a, etc
+		hsb: true,
+		hsc: true,
+		osh: true,
+		wha: true,
+		whb: true,
+		whc: true,
+		included: '', // included holds
+		excluded: '',
+		logbook: 0 // logbook status: 0 = all, 1 = not logged, 2 = logged
+	})
+	const [logbook, setLogbook] = useState(null) // user logbook list of ids
+	const [popupClimb, setPopupClimb] = useState({ name: '', grade: 0 }) // which climb in popup
+	const [username, setUsername] = useState(null)
+
+	// display state
+	const [loadingData, setLoadingData] = useState(true) // whether benchmarks are loading from api
+	const [errorLoadingData, setErrorLoadingData] = useState(null) // if there was an error loading them
+	const [showLayout, setShowLayout] = useState(false) // expand/collapse board layout image
+	const [showPopup, setShowPopup] = useState(false) // climb popup show/hide
+	const [showLogin, setShowLogin] = useState(false) // show/hide login popup
+	const [loginErr, setLoginErr] = useState(null) // wrong password etc
+
+
+	// load data from api
+	useEffect(() => {
+		const urlBase = 'http://192.168.0.2:3001/benchmarks/mb_type/'
+		setLoadingData(true)
+		const getData = async () => {
+			try {
+				const response = await axios.get(urlBase + mbtype)
+				setData(response.data)
+				setErrorLoadingData(null)
+			} catch (err) {
+				setErrorLoadingData(err.message)
+				setData(null)
+			} finally {
+				setLoadingData(false)
+			}
+		}
+		getData()
+	}, [mbtype])
+	// render mb in popup
+	useEffect(() => {
+		if (!showPopup) {
+			return
+		}
+		const canvas = canvasRef.current
+		const ctx = canvas.getContext('2d')
+		ctx.clearRect(0, 0, canvas.width, canvas.height)
+		for (let x = 0; x < 11; x++) {
+			const xMap = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K']
+			for (let y = 0; y < (mbtype === 5 ? 12 : 18); y++) {
+				const yPos = (mbtype === 5 ? 12 : 18) - y
+				if (popupClimb.start_holds.includes(xMap[x] + yPos) || popupClimb.mid_holds.includes(xMap[x] + yPos) || popupClimb.end_holds.includes(xMap[x] + yPos)) {
+					if (popupClimb.start_holds.includes(xMap[x] + yPos)) {
+						ctx.strokeStyle = 'limegreen'
+					} else if (popupClimb.mid_holds.includes(xMap[x] + yPos)) {
+						ctx.strokeStyle = 'blue'
+					} else {
+						ctx.strokeStyle = 'red'
+					}
+					ctx.beginPath()
+					ctx.lineWidth = 4
+					ctx.arc(65 + x * 34.6, 60 + y * 34.6, 18, 0, 2 * Math.PI)
+					ctx.stroke()
+				}
+			}
+		}
+	}, [showPopup, mbtype, popupClimb])
+
+
+	// sort data
+	const handleSort = (column) => {
+		const order = sort.column === column && sort.order === 'asc' ? 'desc' : 'asc'
+		setSort({ column, order })
+		data.sort(compare(column, order))
+	}
+	const compare = (column, order) => {
+		return (a, b) => {
+			let valA = column === 'date_created' ? a['id'] : a[column]
+			let valB = column === 'date_created' ? b['id'] : b[column]
+			if (typeof valA === 'string' && typeof valB === 'string') {
+				valA = valA.toLowerCase()
+				valB = valB.toLowerCase()
+			}
+			if (valA < valB) return order === 'asc' ? -1 : 1
+			if (valA > valB) return order === 'asc' ? 1 : -1
+
+			// valA = valB at this point
+			if (column === 'grade') {
+				valA = a['avg_user_grade']
+				valB = b['avg_user_grade']
+				if (valA < valB) return order === 'asc' ? -1 : 1
+				if (valA > valB) return order === 'asc' ? 1 : -1
+			}
+			valA = a['name']
+			valB = b['name']
+			if (valA < valB) return order === 'asc' ? -1 : 1
+			if (valA > valB) return order === 'asc' ? 1 : -1
+
+			return 0
+		}
+	}
+	// true if keep row, false if hide it
+	const filterRow = (row) => {
+		if (filter.name && row.name.toLowerCase().indexOf(filter.name.toLowerCase()) === -1) return false
+		if (filter.setter && row.setter.toLowerCase().indexOf(filter.setter.toLowerCase()) === -1) return false
+		if (filter.gradeMin > row.grade) return false
+		if (filter.gradeMax < row.grade) return false
+		if (filter.sandbagMin && filter.sandbagMin > row.sandbag_score) return false
+		if (filter.sandbagMax && filter.sandbagMax < row.sandbag_score) return false
+		if (filter.repeatsMin && filter.repeatsMin > row.repeats) return false
+		if (filter.repeatsMax && filter.repeatsMax < row.repeats) return false
+		if (filter.starsMin && filter.starsMin > row.avg_user_stars) return false
+		if (filter.starsMax && filter.starsMax < row.avg_user_stars) return false
+		if (filter.attemptsMin && filter.attemptsMin > row.avg_user_attempts) return false
+		if (filter.attemptsMax && filter.attemptsMax < row.avg_user_attempts) return false
+		if (filter.dateMin && filter.dateMin > row.date_created.substring(0, 10).split('-').join('/')) return false
+		if (filter.dateMax && filter.dateMax < row.date_created.substring(0, 10).split('-').join('/')) return false
+		if (!filter.osh && row.holdsets.includes(0)) return false
+		if (!filter.hsa && row.holdsets.includes(1)) return false
+		if (!filter.hsb && row.holdsets.includes(2)) return false
+		if (!filter.hsc && row.holdsets.includes(3)) return false
+		if (!filter.wha && row.holdsets.includes(4)) return false
+		if (!filter.whb && row.holdsets.includes(5)) return false
+		if (!filter.whc && row.holdsets.includes(6)) return false
+		if (filter.included) {
+			const included_holds = filter.included.toUpperCase().trim().replace(/^[,.]+|[,.]+$/g, '').split(/[,.\s]+/)
+			for (let i of included_holds) {
+				if (!(row.start_holds.includes(i) || row.mid_holds.includes(i) || row.end_holds.includes(i))) return false
+			}
+		}
+		if (filter.excluded) {
+			const excluded_holds = filter.excluded.toUpperCase().trim().replace(/^[,.]+|[,.]+$/g, '').split(/[,.\s]+/)
+			for (let i of excluded_holds) {
+				if (row.start_holds.includes(i) || row.mid_holds.includes(i) || row.end_holds.includes(i)) return false
+			}
+		}
+		if (logbook) {
+			if (filter.logbook === '1') {
+				if (logbook.includes(row.id)) {
+					return false
+				}
+			} else if (filter.logbook === '2') {
+				if (!logbook.includes(row.id)) return false
+			}
+		}
+		return true
+	}
+
+	// login popup
+	const closeLogin = () => {
+		setShowLogin(false)
+		setLoginErr(false)
+	}
+	const submitLogin = (e) => {
+		e.preventDefault()
+		setUsername(e.target.username.value)
+		axios({
+			method: 'get',
+			url: 'http://192.168.0.2:3001/getlogbook',
+			params: {
+				username: e.target.username.value,
+				password: e.target.password.value
+			}
+		}).then(result => {
+			setLogbook(result.data)
+			setShowLogin(false)
+			setLoginErr(false)
+		}).catch(err => {
+			setLoginErr(true)
+		})
+	}
+
+	// climb popup
+	const closePopup = () => setShowPopup(false)
+	const openPopup = (row) => {
+		setShowPopup(true)
+		setPopupClimb(row)
+	}
+	const handleNext = () => {
+		const tableData = data.filter(row => filterRow(row))
+		if (tableData[tableData.length - 1].id === popupClimb.id) return
+		for (let i = 0; i < tableData.length; i++) {
+			if (tableData[i].id === popupClimb.id) {
+				setPopupClimb(tableData[i + 1])
+				break
+			}
+		}
+	}
+	const handlePrevious = () => {
+		const tableData = data.filter(row => filterRow(row))
+		if (tableData[0].id === popupClimb.id) return
+		for (let i = 0; i < tableData.length; i++) {
+			if (tableData[i].id === popupClimb.id) {
+				setPopupClimb(tableData[i - 1])
+				break
+			}
+		}
+	}
+
+
+	const canvasRef = useRef(null)
+	const gradeMap = {
 		0: '5+ (V2)',
 		1: '6A (V3)',
 		2: '6A+ (V3)',
@@ -27,355 +250,6 @@ export default function App() {
 		15: '8B (V13)',
 		16: '8B+ (V14)',
 		17: '8C (V15)',
-	};
-	const urlGradeMap = {
-		0: '5%2B+V2',
-		1: '6A+V3',
-		2: '6A%2B+V3',
-		3: '6B+V4',
-		4: '6B%2B+V4',
-		5: '6C+V5',
-		6: '6C%2B+V5',
-		7: '7A+V6',
-		8: '7A%2B+V7',
-		9: '7B+V8',
-		10: '7B%2B+V8',
-		11: '7C+V9',
-		12: '7C%2B+V10',
-		13: '8A+V11',
-		14: '8A%2B+V12',
-		15: '8B+V13',
-		16: '8B%2B+V14',
-		17: '8C+V15',
-	};
-
-	const [data, setData] = useState(null);
-	const [loadingData, setLoadingData] = useState(true);
-	const [errorLoadingData, setErrorLoadingData] = useState(null);
-	const [showLayout, setShowLayout] = useState(false); // 
-	const [sort, setSort] = useState({ column: 'date_created', order: 'asc' });
-	const [mbtype, setMbtype] = useState(0);
-	const [filter, setFilter] = useState({
-		name: '',
-		setter: '',
-		gradeMin: 0,
-		gradeMax: 17,
-		sandbagMin: '',
-		sandbagMax: '',
-		repeatsMin: '',
-		repeatsMax: '',
-		starsMin: '',
-		starsMax: '',
-		attemptsMin: '',
-		attemptsMax: '',
-		dateMin: '',
-		dateMax: '',
-		hsa: true,
-		hsb: true,
-		hsc: true,
-		osh: true,
-		wha: true,
-		whb: true,
-		whc: true,
-		included: '',
-		excluded: '',
-		logbook: 0
-	});
-	const [showPopup, setShowPopup] = useState(false);
-	const [popupClimb, setPopupClimb] = useState({ name: '', grade: 0 });
-	const closePopup = () => setShowPopup(false);
-	const openPopup = (row) => {
-		setShowPopup(true);
-		setPopupClimb(row);
-	}
-	const [showLogin, setShowLogin] = useState(false);
-	const closeLogin = () => {
-		setShowLogin(false);
-		setLoginErr(false);
-	};
-	const canvasRef = useRef(null);
-
-	useEffect(() => {
-		const urlBase = 'http://192.168.0.2:3001/benchmarks/mb_type/';
-		setLoadingData(true);
-		setSort({ column: null, order: null });
-		const getData = async () => {
-			try {
-				const response = await axios.get(urlBase + mbtype);
-				setData(response.data);
-				setErrorLoadingData(null);
-			} catch (err) {
-				setErrorLoadingData(err.message);
-				setData(null);
-			} finally {
-				setLoadingData(false);
-			}
-		}
-		getData();
-	}, [mbtype]);
-
-	// render mb
-	useEffect(() => {
-		if (!showPopup) {
-			return;
-		}
-		const canvas = canvasRef.current;
-		const ctx = canvas.getContext('2d');
-		ctx.clearRect(0, 0, canvas.width, canvas.height);
-		for (let x = 0; x < 11; x++) {
-			const xMap = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K'];
-			if (mbtype !== 5) {
-				for (let y = 0; y < 18; y++) {
-					const yPos = 18 - y;
-					if (popupClimb.start_holds.includes(xMap[x] + yPos)) {
-						ctx.beginPath();
-						ctx.lineWidth = 4;
-						ctx.arc(65 + x * 34.6, 60 + y * 34.6, 18, 0, 2 * Math.PI);
-						ctx.strokeStyle = 'limegreen';
-						ctx.stroke();
-					}
-					if (popupClimb.mid_holds.includes(xMap[x] + yPos)) {
-						ctx.beginPath();
-						ctx.lineWidth = 4;
-						ctx.arc(65 + x * 34.6, 60 + y * 34.6, 18, 0, 2 * Math.PI);
-						ctx.strokeStyle = 'blue';
-						ctx.stroke();
-					}
-					if (popupClimb.end_holds.includes(xMap[x] + yPos)) {
-						ctx.beginPath();
-						ctx.lineWidth = 4;
-						ctx.arc(65 + x * 34.6, 60 + y * 34.6, 18, 0, 2 * Math.PI);
-						ctx.strokeStyle = 'red';
-						ctx.stroke();
-					}
-				}
-			} else {
-				for (let y = 0; y < 12; y++) {
-					const yPos = 12 - y;
-					if (popupClimb.start_holds.includes(xMap[x] + yPos)) {
-						ctx.beginPath();
-						ctx.lineWidth = 4;
-						ctx.arc(65 + x * 34.6, 60 + y * 34.6, 18, 0, 2 * Math.PI);
-						ctx.strokeStyle = 'limegreen';
-						ctx.stroke();
-					}
-					if (popupClimb.mid_holds.includes(xMap[x] + yPos)) {
-						ctx.beginPath();
-						ctx.lineWidth = 4;
-						ctx.arc(65 + x * 34.6, 60 + y * 34.6, 18, 0, 2 * Math.PI);
-						ctx.strokeStyle = 'blue';
-						ctx.stroke();
-					}
-					if (popupClimb.end_holds.includes(xMap[x] + yPos)) {
-						ctx.beginPath();
-						ctx.lineWidth = 4;
-						ctx.arc(65 + x * 34.6, 60 + y * 34.6, 18, 0, 2 * Math.PI);
-						ctx.strokeStyle = 'red';
-						ctx.stroke();
-					}
-				}
-			}
-		}
-	}, [showPopup, mbtype, popupClimb]);
-
-	function handleSort(column) {
-		const order = sort.column === column && sort.order === 'asc' ? 'desc' : 'asc';
-		setSort({ column, order });
-		data.sort(compare(column, order));
-	}
-	function compare(column, order) {
-		return function (a, b) {
-			if (column === 'name') {
-				if (order === 'asc') {
-					if (a['name'].toLowerCase() < b['name'].toLowerCase()) return -1;
-					if (a['name'].toLowerCase() > b['name'].toLowerCase()) return 1;
-				} else {
-					if (a['name'].toLowerCase() < b['name'].toLowerCase()) return 1;
-					if (a['name'].toLowerCase() > b['name'].toLowerCase()) return -1;
-				}
-				return 0;
-			} else if (column === 'setter') {
-				if (order === 'asc') {
-					if (a['setter'].toLowerCase() < b['setter'].toLowerCase()) return -1;
-					if (a['setter'].toLowerCase() > b['setter'].toLowerCase()) return 1;
-					if (a['name'].toLowerCase() < b['name'].toLowerCase()) return -1;
-					if (a['name'].toLowerCase() > b['name'].toLowerCase()) return 1;
-				} else {
-					if (a['setter'].toLowerCase() < b['setter'].toLowerCase()) return 1;
-					if (a['setter'].toLowerCase() > b['setter'].toLowerCase()) return -1;
-					if (a['name'].toLowerCase() < b['name'].toLowerCase()) return 1;
-					if (a['name'].toLowerCase() > b['name'].toLowerCase()) return -1;
-				}
-				return 0;
-			} else if (column === 'grade') {
-				if (order === 'asc') {
-					if (a['grade'] < b['grade']) return -1;
-					if (a['grade'] > b['grade']) return 1;
-					if (a['avg_user_grade'] < b['avg_user_grade']) return -1;
-					if (a['avg_user_grade'] > b['avg_user_grade']) return 1;
-					if (a['name'].toLowerCase() < b['name'].toLowerCase()) return -1;
-					if (a['name'].toLowerCase() > b['name'].toLowerCase()) return 1;
-				} else {
-					if (a['grade'] < b['grade']) return 1;
-					if (a['grade'] > b['grade']) return -1;
-					if (a['avg_user_grade'] < b['avg_user_grade']) return 1;
-					if (a['avg_user_grade'] > b['avg_user_grade']) return -1;
-					if (a['name'].toLowerCase() < b['name'].toLowerCase()) return 1;
-					if (a['name'].toLowerCase() > b['name'].toLowerCase()) return -1;
-				}
-				return 0;
-			} else if (column === 'sandbag_score') {
-				if (order === 'asc') {
-					if (a['sandbag_score'] < b['sandbag_score']) return -1;
-					if (a['sandbag_score'] > b['sandbag_score']) return 1;
-					if (a['name'].toLowerCase() < b['name'].toLowerCase()) return -1;
-					if (a['name'].toLowerCase() > b['name'].toLowerCase()) return 1;
-				} else {
-					if (a['sandbag_score'] < b['sandbag_score']) return 1;
-					if (a['sandbag_score'] > b['sandbag_score']) return -1;
-					if (a['name'].toLowerCase() < b['name'].toLowerCase()) return 1;
-					if (a['name'].toLowerCase() > b['name'].toLowerCase()) return -1;
-				}
-				return 0;
-			} else if (column === 'repeats') {
-				if (order === 'asc') {
-					if (a['repeats'] < b['repeats']) return -1;
-					if (a['repeats'] > b['repeats']) return 1;
-					if (a['name'].toLowerCase() < b['name'].toLowerCase()) return -1;
-					if (a['name'].toLowerCase() > b['name'].toLowerCase()) return 1;
-				} else {
-					if (a['repeats'] < b['repeats']) return 1;
-					if (a['repeats'] > b['repeats']) return -1;
-					if (a['name'].toLowerCase() < b['name'].toLowerCase()) return 1;
-					if (a['name'].toLowerCase() > b['name'].toLowerCase()) return -1;
-				}
-				return 0;
-			} else if (column === 'avg_user_stars') {
-				if (order === 'asc') {
-					if (a['avg_user_stars'] < b['avg_user_stars']) return -1;
-					if (a['avg_user_stars'] > b['avg_user_stars']) return 1;
-					if (a['name'].toLowerCase() < b['name'].toLowerCase()) return -1;
-					if (a['name'].toLowerCase() > b['name'].toLowerCase()) return 1;
-				} else {
-					if (a['avg_user_stars'] < b['avg_user_stars']) return 1;
-					if (a['avg_user_stars'] > b['avg_user_stars']) return -1;
-					if (a['name'].toLowerCase() < b['name'].toLowerCase()) return 1;
-					if (a['name'].toLowerCase() > b['name'].toLowerCase()) return -1;
-				}
-				return 0;
-			} else if (column === 'avg_user_attempts') {
-				if (order === 'asc') {
-					if (a['avg_user_attempts'] < b['avg_user_attempts']) return -1;
-					if (a['avg_user_attempts'] > b['avg_user_attempts']) return 1;
-					if (a['name'].toLowerCase() < b['name'].toLowerCase()) return -1;
-					if (a['name'].toLowerCase() > b['name'].toLowerCase()) return 1;
-				} else {
-					if (a['avg_user_attempts'] < b['avg_user_attempts']) return 1;
-					if (a['avg_user_attempts'] > b['avg_user_attempts']) return -1;
-					if (a['name'].toLowerCase() < b['name'].toLowerCase()) return 1;
-					if (a['name'].toLowerCase() > b['name'].toLowerCase()) return -1;
-				}
-				return 0;
-			} else if (column === 'date_created') {
-				if (order === 'asc') {
-					if (a['id'] < b['id']) return -1;
-					if (a['id'] > b['id']) return 1;
-				} else {
-					if (a['id'] < b['id']) return 1;
-					if (a['id'] > b['id']) return -1;
-				}
-				return 0;
-			}
-		}
-	}
-	function filterRow(row) {
-		if (filter.name && row.name.toLowerCase().indexOf(filter.name.toLowerCase()) === -1) return false;
-		if (filter.setter && row.setter.toLowerCase().indexOf(filter.setter.toLowerCase()) === -1) return false;
-		if (filter.gradeMin > row.grade) return false;
-		if (filter.gradeMax < row.grade) return false;
-		if (filter.sandbagMin && filter.sandbagMin > row.sandbag_score) return false;
-		if (filter.sandbagMax && filter.sandbagMax < row.sandbag_score) return false;
-		if (filter.repeatsMin && filter.repeatsMin > row.repeats) return false;
-		if (filter.repeatsMax && filter.repeatsMax < row.repeats) return false;
-		if (filter.starsMin && filter.starsMin > row.avg_user_stars) return false;
-		if (filter.starsMax && filter.starsMax < row.avg_user_stars) return false;
-		if (filter.attemptsMin && filter.attemptsMin > row.avg_user_attempts) return false;
-		if (filter.attemptsMax && filter.attemptsMax < row.avg_user_attempts) return false;
-		if (filter.dateMin && filter.dateMin > row.date_created.substring(0, 10).split('-').join('/')) return false;
-		if (filter.dateMax && filter.dateMax < row.date_created.substring(0, 10).split('-').join('/')) return false;
-		if (!filter.osh && row.holdsets.includes(0)) return false;
-		if (!filter.hsa && row.holdsets.includes(1)) return false;
-		if (!filter.hsb && row.holdsets.includes(2)) return false;
-		if (!filter.hsc && row.holdsets.includes(3)) return false;
-		if (!filter.wha && row.holdsets.includes(4)) return false;
-		if (!filter.whb && row.holdsets.includes(5)) return false;
-		if (!filter.whc && row.holdsets.includes(6)) return false;
-		if (filter.included) {
-			const included_holds = filter.included.toUpperCase().trim().replace(/^[,.;]+|[,.;]+$/g, '').split(/[,.;\s]+/);
-			for (let i of included_holds) {
-				if (!(row.start_holds.includes(i) || row.mid_holds.includes(i) || row.end_holds.includes(i))) return false;
-			}
-		}
-		if (filter.excluded) {
-			const excluded_holds = filter.excluded.toUpperCase().trim().replace(/^[,.;]+|[,.;]+$/g, '').split(/[,.;\s]+/);
-			for (let i of excluded_holds) {
-				if (row.start_holds.includes(i) || row.mid_holds.includes(i) || row.end_holds.includes(i)) return false;
-			}
-		}
-		if (logbook) {
-			if (filter.logbook === '1') {
-				if (logbook.includes(row.id)) {
-					return false;
-				}
-			} else if (filter.logbook === '2') {
-				if (!logbook.includes(row.id)) return false;
-			}
-		}
-		return true;
-	}
-
-	const handleNext = () => {
-		const tableData = data.filter(row => filterRow(row));
-		if (tableData[tableData.length - 1].id === popupClimb.id) return;
-		for (let i = 0; i < tableData.length; i++) {
-			if (tableData[i].id === popupClimb.id) {
-				setPopupClimb(tableData[i + 1]);
-				break;
-			}
-		}
-	};
-
-	const handlePrevious = () => {
-		const tableData = data.filter(row => filterRow(row));
-		if (tableData[0].id === popupClimb.id) return;
-		for (let i = 0; i < tableData.length; i++) {
-			if (tableData[i].id === popupClimb.id) {
-				setPopupClimb(tableData[i - 1]);
-				break;
-			}
-		}
-	};
-
-	const [logbook, setLogbook] = useState(null);
-	const [username, setUsername] = useState(null);
-	const [loginErr, setLoginErr] = useState(null);
-	function submitLogin(e) {
-		e.preventDefault();
-		setUsername(e.target.username.value);
-		axios({
-			method: 'get',
-			url: 'http://192.168.0.2:3001/getlogbook',
-			params: {
-				username: e.target.username.value,
-				password: e.target.password.value
-			}
-		}).then(result => {
-			setLogbook(result.data);
-			setShowLogin(false);
-			setLoginErr(false);
-		}).catch(err => {
-			setLoginErr(true);
-		});
 	}
 
 	return (
@@ -390,7 +264,7 @@ export default function App() {
 							height='30'
 							alt='Moon Logo'
 							className='d-inline-block align-top'
-						/>&nbsp;
+						/>&nbsp
 						Moonboard Guidebook</Navbar.Brand>
 					<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 					<Navbar.Collapse id='responsive-navbar-nav' className='justify-content-end'>
@@ -435,13 +309,13 @@ export default function App() {
 
 							<span className='d-flex flex-row'>
 								<Form.Select value={filter.gradeMin} onChange={(e) => setFilter({ ...filter, gradeMin: e.target.value })}>
-									{Object.values(mapGrades).map((grade, index) => (
+									{Object.values(gradeMap).map((grade, index) => (
 										<option value={index} key={index}>{grade}</option>
 									))}
 								</Form.Select>
 								<span className='my-auto mx-2'>to</span>
 								<Form.Select value={filter.gradeMax} onChange={(e) => setFilter({ ...filter, gradeMax: e.target.value })}>
-									{Object.values(mapGrades).map((grade, index) => (
+									{Object.values(gradeMap).map((grade, index) => (
 										<option value={index} key={index}>{grade}</option>
 									))}
 								</Form.Select>
@@ -783,7 +657,7 @@ export default function App() {
 										{logbook ? <td><center><FontAwesomeIcon style={{ color: logbook.includes(row.id) ? 'green' : 'red' }} icon={logbook.includes(row.id) ? faCheck : faX}></FontAwesomeIcon></center></td> : null}
 										<td><u style={{ cursor: 'pointer' }} onClick={() => openPopup(row)}>{row.name}</u></td>
 										<td>{row.setter}</td>
-										<td>{mapGrades[row.grade]}{' '}{row.upgraded ? <FontAwesomeIcon icon={faCircleUp}></FontAwesomeIcon> : null} {row.downgraded ? <FontAwesomeIcon icon={faCircleDown}></FontAwesomeIcon> : null}</td>
+										<td>{gradeMap[row.grade]}{' '}{row.upgraded ? <FontAwesomeIcon icon={faCircleUp}></FontAwesomeIcon> : null} {row.downgraded ? <FontAwesomeIcon icon={faCircleDown}></FontAwesomeIcon> : null}</td>
 										<td style={{ color: row.sandbag_score > 1 ? 'red' : row.sandbag_score < -1 ? 'green' : 'black' }}>{Math.round(row.sandbag_score * 1000) / 1000}</td>
 										<td>{row.repeats}</td>
 										<td>{row.avg_user_stars}</td>
@@ -809,7 +683,7 @@ export default function App() {
 			{/* Climb Popup */}
 			<Modal show={showPopup} onHide={closePopup}>
 				<Modal.Header closeButton>
-					<Modal.Title>{popupClimb.name}, {mapGrades[popupClimb.grade]}</Modal.Title>
+					<Modal.Title>{popupClimb.name}, {gradeMap[popupClimb.grade]}</Modal.Title>
 				</Modal.Header>
 				<Modal.Body >
 					<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -818,12 +692,12 @@ export default function App() {
 				</Modal.Body>
 				<Modal.Footer className='d-flex justify-content-between'>
 					<Button variant='secondary' onClick={handlePrevious}>Previous</Button>
-							<a href={
-								'https://www.youtube.com/results?search_query=' +
-								popupClimb.name.replace(/ /g, '+') + '+' +
-								urlGradeMap[popupClimb.grade] +
-								'+moonboard+benchmark'
-							} target='_blank' rel='noopener noreferrer'><Button variant='outline-primary'><FontAwesomeIcon icon={faYoutube}/> Find Beta Videos</Button></a>
+					<a href={
+						'https://www.youtube.com/results?search_query=' +
+						popupClimb.name.replace(/ /g, '+') + '+' +
+						gradeMap[popupClimb.grade].replace('+', '%2B').replace(' ', '+').replace('(', '').replace(')', '') +
+						'+moonboard+benchmark'
+					} target='_blank' rel='noopener noreferrer'><Button variant='outline-primary'><FontAwesomeIcon icon={faYoutube} /> Find Beta Videos</Button></a>
 					<Button variant='secondary' onClick={handleNext}>Next</Button>
 				</Modal.Footer>
 			</Modal>
@@ -869,5 +743,5 @@ export default function App() {
 				</Container>
 			</footer>
 		</div >
-	);
+	)
 }
