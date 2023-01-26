@@ -30,7 +30,7 @@ app.route('/getlogbook')
 	.get(db.getUserLogbook);
 
 app.get('*', (req, res) => {
-	res.sendFile(path.join(__dirname+'/frontend/build/index.html'));
+	res.sendFile(path.join(__dirname, 'frontend/build/index.html'));
 });
 
 app.listen(port, () => {
