@@ -4,19 +4,17 @@ const cors = require('cors');
 const db = require('./queries');
 const app = express();
 const path = require('path');
+const http = require('http');
+const enforce = require('express-sslify');
 const port = process.env.PORT || 3001;
 
+app.use(enforce.HTTPS({ trustProtoHeader: true }));
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 if (process.env.NODE_ENV === 'production') {
-	app.use(() => {
-		if (req.header('x-forwarded-proto') !== 'https')
-			res.redirect(`https://${req.header('host')}${req.url}`);
-		else
-			express.static(path.join(__dirname, 'app/build'));
-	});
+	app.use(express.static(path.join(__dirname, 'app/build')));
 }
 
 app.route('/benchmarks')
