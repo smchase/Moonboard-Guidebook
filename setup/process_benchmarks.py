@@ -111,7 +111,7 @@ for mb in mb_types:
 				'user_grade_breakdown': user_grade_breakdown,
 
 				'avg_user_stars': round(avg_user_star, 3),
-				'user_star_breakdown': user_star_breakdown,
+				'user_stars_breakdown': user_star_breakdown,
 
 				'avg_user_attempts': round(avg_user_attempts, 3),
 				'user_attempts_breakdown': user_attempts_breakdown,

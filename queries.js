@@ -29,7 +29,7 @@ const getAllBenchmarks = (request, response) => {
 const getBenchmarksByType = (request, response) => {
 	const type = parseInt(request.params.type);
 
-	pool.query('SELECT * FROM benchmarks WHERE mb_type = $1', [type], (error, results) => {
+	pool.query('SELECT * FROM benchmarks WHERE mb_type = $1 ORDER BY id ASC', [type], (error, results) => {
 		if (error) {
 			throw error;
 		}
