@@ -53,7 +53,7 @@ export default function App() {
 
 	// load data from api
 	useEffect(() => {
-		const urlBase = 'http://192.168.0.2:3001/benchmarks/mb_type/'
+		const urlBase = '/benchmarks/mb_type/'
 		setLoadingData(true)
 		const getData = async () => {
 			try {
@@ -188,7 +188,7 @@ export default function App() {
 		setUsername(e.target.username.value)
 		axios({
 			method: 'get',
-			url: 'http://192.168.0.2:3001/getlogbook',
+			url: '/getlogbook',
 			params: {
 				username: e.target.username.value,
 				password: e.target.password.value

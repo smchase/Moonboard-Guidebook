@@ -1,13 +1,20 @@
 const axios = require('axios');
-
 const Pool = require('pg/lib').Pool;
-const pool = new Pool({
-	user: 'me',
-	host: 'localhost',
-	database: 'api',
-	password: 'password',
-	port: 5432,
-});
+require('dotenv').config();
+
+const devConfig = {
+	user: process.env.PG_USER,
+	password: process.env.PG_PASSWORD,
+	host: process.env.PG_HOST,
+	database: process.env.PG_DATABASE,
+	port: process.env.PG_PORT,
+};
+
+const proConfig = {
+	connectionString: process.env.DATABASE_URL,
+};
+
+const pool = new Pool(process.env.NODE_ENV === 'production' ? proConfig : devConfig);
 
 const getAllBenchmarks = (request, response) => {
 	pool.query('SELECT * FROM benchmarks ORDER BY id ASC', (error, results) => {

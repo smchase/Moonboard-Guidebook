@@ -3,12 +3,16 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const db = require('./queries');
 const app = express();
-const port = 3001;
+const path = require('path');
+const port = process.env.port || 3001;
 
 app.use(cors());
-
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+
+if (process.env.NODE_ENV === 'production') {
+	app.use(express.static(path.join(__dirname, 'frontend/build')));
+}
 
 app.route('/benchmarks')
 	.get(db.getAllBenchmarks)
@@ -24,6 +28,10 @@ app.route('/benchmarks/id/:id')
 
 app.route('/getlogbook')
 	.get(db.getUserLogbook);
+
+app.get('*', (req, res) => {
+	res.sendFile(path.join(__dirname+'/frontend/build/index.html'));
+});
 
 app.listen(port, () => {
 	console.log(`App running on port ${port}.`)
