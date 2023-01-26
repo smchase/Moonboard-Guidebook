@@ -5,7 +5,7 @@
     {
       "src": "moon-bg-icon.png",
       "type": "image/png",
-      "sizes": "100x100"
+      "sizes": "512x512"
     }
   ],
   "start_url": ".",
