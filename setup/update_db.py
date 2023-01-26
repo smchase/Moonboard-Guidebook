@@ -18,5 +18,5 @@ for mb in mb_types:
 				for field in climb:
 					if climb[field] != response[0][field] and field != 'date_created':
 						# update benchmark
-						print('update', field, climb['name'])
+						# print('update', field, climb['name'])
 						requests.put(f'{URL}/benchmarks/id/{id}', json={field: climb[field]})
