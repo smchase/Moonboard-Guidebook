@@ -1,15 +1,14 @@
 {
-  "short_name": "Moonboard Guidebook",
+  "short_name": "Guidebook",
   "name": "Moonboard Guidebook",
   "icons": [
     {
-      "src": "moon_logo.png",
+      "src": "moon-bg-icon.png",
       "type": "image/png",
-      "sizes": "64x64"
+      "sizes": "100x100"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
   "background_color": "#ffffff"
 }

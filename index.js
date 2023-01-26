@@ -4,7 +4,6 @@ const cors = require('cors');
 const db = require('./queries');
 const app = express();
 const path = require('path');
-const http = require('http');
 const enforce = require('express-sslify');
 const port = process.env.PORT || 3001;
 
