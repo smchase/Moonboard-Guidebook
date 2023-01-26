@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 if (process.env.NODE_ENV === 'production') {
-	app.use(express.static(path.join(__dirname, 'frontend/build')));
+	app.use(express.static(path.join(__dirname, 'app/build')));
 }
 
 app.route('/benchmarks')
@@ -30,7 +30,7 @@ app.route('/getlogbook')
 	.get(db.getUserLogbook);
 
 app.get('*', (req, res) => {
-	res.sendFile(path.join(__dirname, 'frontend/build/index.html'));
+	res.sendFile(path.join(__dirname, 'app/build/index.html'));
 });
 
 app.listen(port, () => {
