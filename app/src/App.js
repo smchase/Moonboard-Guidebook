@@ -564,7 +564,7 @@ export default function App() {
 							<Form.Select value={filter.logbook} disabled={!logbook} onChange={(e) => setFilter({ ...filter, logbook: e.target.value })}>
 								<option value={0}>Any</option>
 								<option value={1}>Exclude my repeats</option>
-								<option value={2}>My repeats only</option>
+								<option value={2}>Only my repeats</option>
 							</Form.Select>
 						</Form.Group>
 					</Row>
@@ -693,8 +693,8 @@ export default function App() {
 				<Modal.Footer className='d-flex justify-content-between'>
 					<Button variant='secondary' onClick={handlePrevious} style={{width: '90px'}}>Previous</Button>
 					<a href={
-						'https://www.youtube.com/results?search_query=' +
-						popupClimb.name.replace(/ /g, '+') + '+' +
+						'https://www.youtube.com/results?search_query="' +
+						popupClimb.name.replace(/ /g, '+') + '"+' +
 						gradeMap[popupClimb.grade].replace('+', '%2B').replace(' ', '+').replace('(', '').replace(')', '') +
 						'+moonboard+benchmark'
 					} target='_blank' rel='noopener noreferrer'><Button variant='outline-primary'><FontAwesomeIcon icon={faYoutube} /> Beta Videos</Button></a>

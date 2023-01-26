@@ -131,7 +131,7 @@
 		"setby": "Alx Ts",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1702,
+		"repeats": 1703,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -206,7 +206,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 309360,
 		"dateInserted": "2017-12-16T17:44:08.027",
-		"dateUpdated": "2023-01-25T21:19:41.58",
+		"dateUpdated": "2023-01-26T10:21:36.343",
 		"dateDeleted": null,
 		"userGrades": {
 			"7C": 1,
@@ -214,11 +214,11 @@
 			"6B+": 8,
 			"6B": 14,
 			"6A+": 101,
-			"6A": 1543,
+			"6A": 1544,
 			"5+": 33
 		},
 		"userStars": {
-			"5": 667,
+			"5": 668,
 			"4": 829,
 			"3": 68,
 			"2": 17,
@@ -240,7 +240,7 @@
 		"setby": "David_climbing0209",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 809,
+		"repeats": 810,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -315,19 +315,19 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 310983,
 		"dateInserted": "2018-01-01T16:08:28.01",
-		"dateUpdated": "2023-01-25T19:47:24.123",
+		"dateUpdated": "2023-01-26T10:26:28.19",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C+": 1,
 			"6C": 1,
 			"6B+": 7,
 			"6B": 15,
-			"6A+": 735,
+			"6A+": 736,
 			"6A": 41,
 			"5+": 9
 		},
 		"userStars": {
-			"5": 290,
+			"5": 291,
 			"4": 435,
 			"3": 34,
 			"2": 12,
@@ -349,7 +349,7 @@
 		"setby": "Jules",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 4153,
+		"repeats": 4156,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -424,7 +424,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 311412,
 		"dateInserted": "2018-01-05T17:27:21.21",
-		"dateUpdated": "2023-01-25T21:16:22.52",
+		"dateUpdated": "2023-01-26T12:28:51.553",
 		"dateDeleted": null,
 		"userGrades": {
 			"8B+": 1,
@@ -432,10 +432,10 @@
 			"6B": 2,
 			"6A+": 150,
 			"6A": 126,
-			"5+": 3873
+			"5+": 3876
 		},
 		"userStars": {
-			"5": 1635,
+			"5": 1638,
 			"4": 1966,
 			"3": 183,
 			"2": 56,
@@ -572,7 +572,7 @@
 		"setby": "Ben Moon",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 742,
+		"repeats": 743,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -637,26 +637,26 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 311527,
 		"dateInserted": "2018-01-06T14:24:48.197",
-		"dateUpdated": "2023-01-24T20:26:37.81",
+		"dateUpdated": "2023-01-26T11:35:29.363",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C+": 1,
 			"6B+": 25,
 			"6B": 56,
-			"6A+": 637,
+			"6A+": 638,
 			"6A": 16,
 			"5+": 7
 		},
 		"userStars": {
 			"5": 353,
 			"4": 321,
-			"3": 30,
+			"3": 31,
 			"2": 10,
 			"1": 16,
 			"0": 11
 		},
 		"userAttempts": {
-			"Flashed": 65,
+			"Flashed": 64,
 			"2nd try": 17,
 			"3rd try": 9,
 			"more than 3 tries": 10
@@ -775,7 +775,7 @@
 		"setby": "Ben Moon",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 332,
+		"repeats": 333,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -834,19 +834,19 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 311531,
 		"dateInserted": "2018-01-06T14:43:29.617",
-		"dateUpdated": "2023-01-11T16:39:53.983",
+		"dateUpdated": "2023-01-26T14:10:01.493",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A": 4,
 			"6C+": 10,
-			"6C": 299,
+			"6C": 300,
 			"6B+": 13,
 			"6B": 3,
 			"6A+": 2,
 			"5+": 1
 		},
 		"userStars": {
-			"5": 172,
+			"5": 173,
 			"4": 142,
 			"3": 10,
 			"2": 2,
@@ -868,7 +868,7 @@
 		"setby": "Ben Moon",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 361,
+		"repeats": 363,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -927,19 +927,19 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 311532,
 		"dateInserted": "2018-01-06T14:44:59.077",
-		"dateUpdated": "2023-01-24T09:34:38.52",
+		"dateUpdated": "2023-01-26T14:13:21.143",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A": 2,
 			"6C+": 15,
-			"6C": 316,
+			"6C": 318,
 			"6B+": 21,
 			"6B": 5,
 			"6A+": 1,
 			"5+": 1
 		},
 		"userStars": {
-			"5": 195,
+			"5": 197,
 			"4": 144,
 			"3": 11,
 			"2": 2,
@@ -1487,7 +1487,7 @@
 		"setby": "Ben Moon",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 171,
+		"repeats": 172,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -1546,25 +1546,25 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 311974,
 		"dateInserted": "2018-01-11T13:13:29.527",
-		"dateUpdated": "2023-01-21T14:44:19.243",
+		"dateUpdated": "2023-01-26T11:03:22.01",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A+": 3,
 			"7A": 22,
-			"6C+": 118,
+			"6C+": 119,
 			"6C": 26,
 			"6B+": 2
 		},
 		"userStars": {
 			"5": 95,
-			"4": 64,
+			"4": 65,
 			"3": 2,
 			"2": 4,
 			"1": 4,
 			"0": 2
 		},
 		"userAttempts": {
-			"Flashed": 43,
+			"Flashed": 42,
 			"2nd try": 18,
 			"3rd try": 17,
 			"more than 3 tries": 23
@@ -1676,7 +1676,7 @@
 		"setby": "Tim Cross",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 331,
+		"repeats": 332,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -1765,17 +1765,17 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 313700,
 		"dateInserted": "2018-01-26T15:52:36.097",
-		"dateUpdated": "2023-01-19T10:30:01.73",
+		"dateUpdated": "2023-01-26T12:42:52.5",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A+": 1,
 			"6C+": 7,
 			"6C": 31,
-			"6B+": 290,
+			"6B+": 291,
 			"6B": 2
 		},
 		"userStars": {
-			"5": 179,
+			"5": 180,
 			"4": 120,
 			"3": 13,
 			"2": 3,
@@ -2134,7 +2134,7 @@
 		"setby": "garynewmey",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 923,
+		"repeats": 924,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -2214,20 +2214,20 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 314578,
 		"dateInserted": "2018-02-01T03:21:12.43",
-		"dateUpdated": "2023-01-25T16:58:21.797",
+		"dateUpdated": "2023-01-26T09:48:25.95",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A": 1,
 			"6C+": 4,
 			"6C": 6,
 			"6B+": 50,
-			"6B": 839,
+			"6B": 840,
 			"6A+": 18,
 			"6A": 3,
 			"5+": 2
 		},
 		"userStars": {
-			"5": 381,
+			"5": 382,
 			"4": 430,
 			"3": 36,
 			"2": 17,
@@ -2565,7 +2565,7 @@
 		"setby": "Diff",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 417,
+		"repeats": 418,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -2630,19 +2630,19 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 314753,
 		"dateInserted": "2018-02-02T19:58:19.74",
-		"dateUpdated": "2023-01-24T11:04:34.88",
+		"dateUpdated": "2023-01-26T14:06:07.367",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A": 1,
 			"6C+": 8,
 			"6C": 15,
-			"6B+": 375,
+			"6B+": 376,
 			"6B": 14,
 			"6A+": 3,
 			"5+": 1
 		},
 		"userStars": {
-			"5": 203,
+			"5": 204,
 			"4": 189,
 			"3": 15,
 			"2": 1,
@@ -2755,7 +2755,7 @@
 		"setby": "Ben Moon",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 4740,
+		"repeats": 4742,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -2825,7 +2825,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 315050,
 		"dateInserted": "2018-02-07T12:26:00.177",
-		"dateUpdated": "2023-01-25T20:49:22.997",
+		"dateUpdated": "2023-01-26T12:26:25.98",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C": 1,
@@ -2833,10 +2833,10 @@
 			"6B": 1,
 			"6A+": 46,
 			"6A": 110,
-			"5+": 4581
+			"5+": 4583
 		},
 		"userStars": {
-			"5": 1826,
+			"5": 1828,
 			"4": 2248,
 			"3": 200,
 			"2": 74,
@@ -2973,7 +2973,7 @@
 		"setby": "Ben Moon",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 2476,
+		"repeats": 2477,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -3044,7 +3044,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 315052,
 		"dateInserted": "2018-02-07T12:33:33.727",
-		"dateUpdated": "2023-01-25T21:17:41.503",
+		"dateUpdated": "2023-01-26T11:57:12.13",
 		"dateDeleted": null,
 		"userGrades": {
 			"8B+": 1,
@@ -3052,10 +3052,10 @@
 			"6B+": 1,
 			"6A+": 58,
 			"6A": 129,
-			"5+": 2285
+			"5+": 2286
 		},
 		"userStars": {
-			"5": 880,
+			"5": 881,
 			"4": 1216,
 			"3": 104,
 			"2": 47,
@@ -3187,7 +3187,7 @@
 		"setby": "Ben Moon",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 339,
+		"repeats": 340,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -3270,19 +3270,19 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 315054,
 		"dateInserted": "2018-02-07T12:51:57.05",
-		"dateUpdated": "2023-01-24T19:36:10.487",
+		"dateUpdated": "2023-01-26T14:20:07.287",
 		"dateDeleted": null,
 		"userGrades": {
 			"8B+": 1,
 			"7A": 2,
 			"6C+": 30,
-			"6C": 51,
+			"6C": 52,
 			"6B+": 196,
 			"6B": 55,
 			"6A+": 4
 		},
 		"userStars": {
-			"5": 172,
+			"5": 173,
 			"4": 137,
 			"3": 11,
 			"2": 4,
@@ -3406,7 +3406,7 @@
 		"setby": "Justin Gress",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 564,
+		"repeats": 565,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -3465,20 +3465,20 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 315402,
 		"dateInserted": "2018-02-13T17:44:06.603",
-		"dateUpdated": "2023-01-24T18:43:52.87",
+		"dateUpdated": "2023-01-26T14:03:25.857",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A+": 1,
 			"7A": 4,
 			"6C+": 56,
-			"6C": 469,
+			"6C": 470,
 			"6B+": 25,
 			"6B": 7,
 			"6A+": 1,
 			"5+": 1
 		},
 		"userStars": {
-			"5": 314,
+			"5": 315,
 			"4": 212,
 			"3": 20,
 			"2": 4,
@@ -3500,7 +3500,7 @@
 		"setby": "Justin Gress",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 463,
+		"repeats": 464,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -3576,17 +3576,17 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 315403,
 		"dateInserted": "2018-02-13T17:53:34.453",
-		"dateUpdated": "2023-01-18T15:18:57.29",
+		"dateUpdated": "2023-01-26T14:01:03.973",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C+": 4,
 			"6C": 12,
-			"6B+": 424,
+			"6B+": 425,
 			"6B": 21,
 			"6A+": 2
 		},
 		"userStars": {
-			"5": 214,
+			"5": 215,
 			"4": 221,
 			"3": 13,
 			"2": 4,
@@ -4120,7 +4120,7 @@
 		"setby": "Ben Moon",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 824,
+		"repeats": 825,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -4195,18 +4195,18 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 315533,
 		"dateInserted": "2018-02-15T12:22:26.5",
-		"dateUpdated": "2023-01-25T17:06:08.32",
+		"dateUpdated": "2023-01-26T12:44:47.793",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C+": 2,
 			"6B+": 31,
 			"6B": 61,
-			"6A+": 707,
+			"6A+": 708,
 			"6A": 15,
 			"5+": 8
 		},
 		"userStars": {
-			"5": 380,
+			"5": 381,
 			"4": 378,
 			"3": 24,
 			"2": 10,
@@ -4228,7 +4228,7 @@
 		"setby": "Ben Moon",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 881,
+		"repeats": 882,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -4299,7 +4299,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 315536,
 		"dateInserted": "2018-02-15T12:24:33.173",
-		"dateUpdated": "2023-01-25T22:35:45.24",
+		"dateUpdated": "2023-01-26T12:40:12.57",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A": 1,
@@ -4307,12 +4307,12 @@
 			"6C": 1,
 			"6B+": 32,
 			"6B": 56,
-			"6A+": 763,
+			"6A+": 764,
 			"6A": 16,
 			"5+": 11
 		},
 		"userStars": {
-			"5": 368,
+			"5": 369,
 			"4": 408,
 			"3": 43,
 			"2": 13,
@@ -4446,7 +4446,7 @@
 		"setby": "Hopkins",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 222,
+		"repeats": 223,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -4517,17 +4517,17 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 315658,
 		"dateInserted": "2018-02-16T20:48:41.75",
-		"dateUpdated": "2023-01-18T15:04:31.413",
+		"dateUpdated": "2023-01-26T13:57:58.087",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A": 8,
 			"6C+": 14,
-			"6C": 196,
+			"6C": 197,
 			"6B+": 3,
 			"6B": 1
 		},
 		"userStars": {
-			"5": 126,
+			"5": 127,
 			"4": 86,
 			"3": 5,
 			"1": 5
@@ -4547,7 +4547,7 @@
 		"setby": "Hopkins",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 291,
+		"repeats": 292,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -4618,18 +4618,18 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 315659,
 		"dateInserted": "2018-02-16T20:50:07.96",
-		"dateUpdated": "2023-01-18T16:41:27.963",
+		"dateUpdated": "2023-01-26T13:54:16.19",
 		"dateDeleted": null,
 		"userGrades": {
 			"7B": 1,
 			"7A": 9,
 			"6C+": 21,
-			"6C": 248,
+			"6C": 249,
 			"6B+": 11,
 			"5+": 1
 		},
 		"userStars": {
-			"5": 164,
+			"5": 165,
 			"4": 111,
 			"3": 10,
 			"2": 2,
@@ -4764,7 +4764,7 @@
 		"setby": "Austin hoyt",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 802,
+		"repeats": 804,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -4834,7 +4834,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 315760,
 		"dateInserted": "2018-02-17T20:05:26.283",
-		"dateUpdated": "2023-01-25T22:06:10.587",
+		"dateUpdated": "2023-01-26T13:37:10.993",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A+": 3,
@@ -4842,14 +4842,14 @@
 			"6C+": 8,
 			"6C": 4,
 			"6B+": 46,
-			"6B": 627,
+			"6B": 629,
 			"6A+": 100,
 			"6A": 1,
 			"5+": 5
 		},
 		"userStars": {
-			"5": 311,
-			"4": 413,
+			"5": 312,
+			"4": 414,
 			"3": 37,
 			"2": 10,
 			"1": 22,
@@ -4961,7 +4961,7 @@
 		"setby": "lucy",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 940,
+		"repeats": 941,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -5037,11 +5037,11 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 315841,
 		"dateInserted": "2018-02-18T18:10:57.827",
-		"dateUpdated": "2023-01-25T19:28:38.267",
+		"dateUpdated": "2023-01-26T14:51:04.42",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A+": 5,
-			"7A": 767,
+			"7A": 768,
 			"6C+": 115,
 			"6C": 45,
 			"6B+": 6,
@@ -5051,7 +5051,7 @@
 			"5": 476,
 			"4": 368,
 			"3": 65,
-			"2": 12,
+			"2": 13,
 			"1": 2,
 			"0": 17
 		},
@@ -5190,7 +5190,7 @@
 		"setby": "jackmcc",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1168,
+		"repeats": 1169,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -5261,20 +5261,20 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 315915,
 		"dateInserted": "2018-02-19T22:03:53.247",
-		"dateUpdated": "2023-01-23T19:05:06.027",
+		"dateUpdated": "2023-01-26T13:51:30.417",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A": 2,
 			"6C+": 16,
 			"6C": 35,
-			"6B+": 1034,
+			"6B+": 1035,
 			"6B": 50,
 			"6A+": 23,
 			"6A": 3,
 			"5+": 5
 		},
 		"userStars": {
-			"5": 583,
+			"5": 584,
 			"4": 482,
 			"3": 37,
 			"2": 18,
@@ -5534,7 +5534,7 @@
 		"setby": "euank",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1265,
+		"repeats": 1266,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -5616,18 +5616,18 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 316105,
 		"dateInserted": "2018-02-23T15:14:38.757",
-		"dateUpdated": "2023-01-25T21:22:07.89",
+		"dateUpdated": "2023-01-26T06:44:11.613",
 		"dateDeleted": null,
 		"userGrades": {
 			"6B+": 13,
 			"6B": 14,
 			"6A+": 102,
-			"6A": 1106,
+			"6A": 1107,
 			"5+": 30
 		},
 		"userStars": {
 			"5": 500,
-			"4": 612,
+			"4": 613,
 			"3": 64,
 			"2": 14,
 			"1": 29,
@@ -5856,7 +5856,7 @@
 		"setby": "shun wai",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 490,
+		"repeats": 491,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -5933,18 +5933,18 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 316247,
 		"dateInserted": "2018-02-25T09:03:10.663",
-		"dateUpdated": "2023-01-25T21:14:18.647",
+		"dateUpdated": "2023-01-26T12:40:33.86",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C+": 7,
 			"6C": 17,
-			"6B+": 444,
+			"6B+": 445,
 			"6B": 18,
 			"6A+": 3,
 			"6A": 1
 		},
 		"userStars": {
-			"5": 212,
+			"5": 213,
 			"4": 235,
 			"3": 27,
 			"2": 6,
@@ -5966,7 +5966,7 @@
 		"setby": "jimi_lp",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 2196,
+		"repeats": 2197,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -6047,19 +6047,19 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 316271,
 		"dateInserted": "2018-02-25T12:57:30.167",
-		"dateUpdated": "2023-01-25T21:17:54.067",
+		"dateUpdated": "2023-01-26T12:32:20.483",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C+": 1,
 			"6B+": 15,
 			"6B": 17,
 			"6A+": 170,
-			"6A": 1932,
+			"6A": 1933,
 			"5+": 61
 		},
 		"userStars": {
 			"5": 832,
-			"4": 1117,
+			"4": 1118,
 			"3": 75,
 			"2": 38,
 			"1": 40,
@@ -6080,7 +6080,7 @@
 		"setby": "#dirtygirlchronicles ",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 5498,
+		"repeats": 5503,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -6145,7 +6145,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 316298,
 		"dateInserted": "2018-02-25T21:16:54.227",
-		"dateUpdated": "2023-01-25T20:54:03.367",
+		"dateUpdated": "2023-01-26T15:41:50.153",
 		"dateDeleted": null,
 		"userGrades": {
 			"8A+": 1,
@@ -6153,15 +6153,15 @@
 			"6B": 1,
 			"6A+": 14,
 			"6A": 83,
-			"5+": 5396
+			"5+": 5401
 		},
 		"userStars": {
-			"5": 1913,
+			"5": 1917,
 			"4": 2648,
 			"3": 285,
 			"2": 115,
 			"1": 112,
-			"0": 422
+			"0": 423
 		},
 		"userAttempts": {
 			"Flashed": 92,
@@ -6178,7 +6178,7 @@
 		"setby": "Garethbrooks_",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 2264,
+		"repeats": 2265,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -6248,18 +6248,18 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 316367,
 		"dateInserted": "2018-02-27T13:36:12.897",
-		"dateUpdated": "2023-01-25T21:16:52.787",
+		"dateUpdated": "2023-01-26T12:08:43.007",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C+": 3,
 			"6C": 1,
 			"6B+": 1,
 			"6A+": 27,
-			"6A": 83,
+			"6A": 84,
 			"5+": 2149
 		},
 		"userStars": {
-			"5": 894,
+			"5": 895,
 			"4": 1096,
 			"3": 92,
 			"2": 30,
@@ -6481,7 +6481,7 @@
 		"setby": "M\u00e1sz\u00f3ka",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1466,
+		"repeats": 1467,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -6563,7 +6563,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 316493,
 		"dateInserted": "2018-03-01T18:00:21.98",
-		"dateUpdated": "2023-01-25T20:34:22.087",
+		"dateUpdated": "2023-01-26T12:06:56.787",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A": 1,
@@ -6571,10 +6571,10 @@
 			"6B": 1,
 			"6A+": 41,
 			"6A": 106,
-			"5+": 1315
+			"5+": 1316
 		},
 		"userStars": {
-			"5": 593,
+			"5": 594,
 			"4": 715,
 			"3": 54,
 			"2": 24,
@@ -6808,7 +6808,7 @@
 		"setby": "DonnyDawes",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 2019,
+		"repeats": 2022,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -6879,17 +6879,17 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 316552,
 		"dateInserted": "2018-03-02T16:13:09.77",
-		"dateUpdated": "2023-01-25T15:09:54.177",
+		"dateUpdated": "2023-01-26T12:50:44.573",
 		"dateDeleted": null,
 		"userGrades": {
 			"6B+": 1,
 			"6A+": 9,
 			"6A": 33,
-			"5+": 1976
+			"5+": 1979
 		},
 		"userStars": {
-			"5": 679,
-			"4": 1087,
+			"5": 681,
+			"4": 1088,
 			"3": 98,
 			"2": 34,
 			"1": 57,
@@ -6910,7 +6910,7 @@
 		"setby": "DonnyDawes",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1019,
+		"repeats": 1020,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -6981,19 +6981,19 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 316553,
 		"dateInserted": "2018-03-02T16:21:35.967",
-		"dateUpdated": "2023-01-24T04:45:23.907",
+		"dateUpdated": "2023-01-26T12:36:44.287",
 		"dateDeleted": null,
 		"userGrades": {
 			"8B+": 1,
 			"6C+": 1,
 			"6B+": 32,
 			"6B": 83,
-			"6A+": 861,
+			"6A+": 862,
 			"6A": 25,
 			"5+": 16
 		},
 		"userStars": {
-			"5": 417,
+			"5": 418,
 			"4": 477,
 			"3": 41,
 			"2": 15,
@@ -7015,7 +7015,7 @@
 		"setby": "DonnyDawes",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 795,
+		"repeats": 796,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -7086,18 +7086,18 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 316554,
 		"dateInserted": "2018-03-02T16:27:11.57",
-		"dateUpdated": "2023-01-24T04:41:49.17",
+		"dateUpdated": "2023-01-26T12:50:32.047",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C": 2,
 			"6B+": 13,
 			"6B": 48,
-			"6A+": 687,
+			"6A+": 688,
 			"6A": 31,
 			"5+": 14
 		},
 		"userStars": {
-			"5": 330,
+			"5": 331,
 			"4": 394,
 			"3": 37,
 			"2": 8,
@@ -7225,7 +7225,7 @@
 		"setby": "DonnyDawes",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1221,
+		"repeats": 1222,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -7290,19 +7290,19 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 316764,
 		"dateInserted": "2018-03-06T20:37:56.107",
-		"dateUpdated": "2023-01-25T10:44:23.137",
+		"dateUpdated": "2023-01-26T11:44:03.907",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C+": 6,
 			"6C": 5,
 			"6B+": 48,
-			"6B": 1099,
+			"6B": 1100,
 			"6A+": 53,
 			"6A": 5,
 			"5+": 5
 		},
 		"userStars": {
-			"5": 568,
+			"5": 569,
 			"4": 547,
 			"3": 41,
 			"2": 22,
@@ -7611,7 +7611,7 @@
 		"setby": "Gud",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 301,
+		"repeats": 302,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -7700,19 +7700,19 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 317109,
 		"dateInserted": "2018-03-13T00:10:09.86",
-		"dateUpdated": "2023-01-23T12:58:37.757",
+		"dateUpdated": "2023-01-26T13:44:25.65",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A": 1,
 			"6C+": 6,
 			"6C": 22,
-			"6B+": 260,
+			"6B+": 261,
 			"6B": 9,
 			"6A+": 1,
 			"5+": 2
 		},
 		"userStars": {
-			"5": 152,
+			"5": 153,
 			"4": 123,
 			"3": 12,
 			"2": 3,
@@ -8038,7 +8038,7 @@
 		"setby": "Ben Moon",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1294,
+		"repeats": 1295,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -8103,12 +8103,12 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 317442,
 		"dateInserted": "2018-03-20T13:12:11.893",
-		"dateUpdated": "2023-01-25T19:21:48.95",
+		"dateUpdated": "2023-01-26T11:07:11.74",
 		"dateDeleted": null,
 		"userGrades": {
 			"7B": 1,
 			"7A+": 21,
-			"7A": 1132,
+			"7A": 1133,
 			"6C+": 85,
 			"6C": 30,
 			"6B+": 18,
@@ -8118,7 +8118,7 @@
 			"5+": 3
 		},
 		"userStars": {
-			"5": 678,
+			"5": 679,
 			"4": 509,
 			"3": 50,
 			"2": 10,
@@ -8592,7 +8592,7 @@
 		"setby": "Koha",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1004,
+		"repeats": 1006,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -8668,19 +8668,19 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 317818,
 		"dateInserted": "2018-03-29T21:39:03.333",
-		"dateUpdated": "2023-01-25T19:01:34.567",
+		"dateUpdated": "2023-01-26T15:20:01.417",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C+": 1,
 			"6B+": 5,
 			"6B": 33,
-			"6A+": 902,
+			"6A+": 904,
 			"6A": 52,
 			"5+": 11
 		},
 		"userStars": {
-			"5": 419,
-			"4": 508,
+			"5": 420,
+			"4": 509,
 			"3": 43,
 			"2": 14,
 			"1": 15,
@@ -8701,7 +8701,7 @@
 		"setby": "#dirtygirlchronicles ",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 503,
+		"repeats": 504,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -8766,15 +8766,15 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 317961,
 		"dateInserted": "2018-04-02T19:57:21.347",
-		"dateUpdated": "2023-01-25T20:07:30.48",
+		"dateUpdated": "2023-01-26T12:01:02.66",
 		"dateDeleted": null,
 		"userGrades": {
 			"6A+": 10,
 			"6A": 35,
-			"5+": 458
+			"5+": 459
 		},
 		"userStars": {
-			"5": 210,
+			"5": 211,
 			"4": 237,
 			"3": 35,
 			"2": 6,
@@ -8917,7 +8917,7 @@
 		"setby": "jimi_lp",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 784,
+		"repeats": 785,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -8992,19 +8992,19 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 318119,
 		"dateInserted": "2018-04-06T21:51:00.117",
-		"dateUpdated": "2023-01-25T22:08:32.51",
+		"dateUpdated": "2023-01-26T09:56:16.347",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C+": 1,
 			"6C": 2,
 			"6B+": 24,
-			"6B": 715,
+			"6B": 716,
 			"6A+": 34,
 			"6A": 6,
 			"5+": 2
 		},
 		"userStars": {
-			"5": 286,
+			"5": 287,
 			"4": 437,
 			"3": 39,
 			"2": 10,
@@ -9026,7 +9026,7 @@
 		"setby": "#dirtygirlchronicles ",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1139,
+		"repeats": 1141,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -9090,15 +9090,15 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 318198,
 		"dateInserted": "2018-04-08T23:36:45.947",
-		"dateUpdated": "2023-01-25T16:21:55.127",
+		"dateUpdated": "2023-01-26T11:59:09.713",
 		"dateDeleted": null,
 		"userGrades": {
 			"6A+": 16,
 			"6A": 64,
-			"5+": 1059
+			"5+": 1061
 		},
 		"userStars": {
-			"5": 376,
+			"5": 378,
 			"4": 660,
 			"3": 57,
 			"2": 24,
@@ -9106,7 +9106,7 @@
 			"0": 6
 		},
 		"userAttempts": {
-			"Flashed": 82,
+			"Flashed": 81,
 			"2nd try": 13,
 			"3rd try": 4,
 			"more than 3 tries": 2
@@ -9330,7 +9330,7 @@
 		"setby": "Christophe Paquot",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1362,
+		"repeats": 1364,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -9422,19 +9422,19 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 318650,
 		"dateInserted": "2018-04-19T07:10:42.92",
-		"dateUpdated": "2023-01-25T21:38:04.693",
+		"dateUpdated": "2023-01-26T14:15:29.623",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C+": 8,
 			"6C": 193,
-			"6B+": 1046,
+			"6B+": 1048,
 			"6B": 88,
 			"6A+": 19,
 			"6A": 3,
 			"5+": 5
 		},
 		"userStars": {
-			"5": 641,
+			"5": 643,
 			"4": 610,
 			"3": 41,
 			"2": 18,
@@ -9456,7 +9456,7 @@
 		"setby": "Christophe Paquot",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 540,
+		"repeats": 541,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -9526,19 +9526,19 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 318652,
 		"dateInserted": "2018-04-19T07:12:11.877",
-		"dateUpdated": "2023-01-25T19:08:28.41",
+		"dateUpdated": "2023-01-26T13:30:52.77",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A": 3,
 			"6C+": 17,
-			"6C": 492,
+			"6C": 493,
 			"6B+": 22,
 			"6B": 4,
 			"6A+": 1,
 			"5+": 1
 		},
 		"userStars": {
-			"5": 273,
+			"5": 274,
 			"4": 212,
 			"3": 34,
 			"2": 14,
@@ -9777,7 +9777,7 @@
 		"setby": "Ben Moon",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 279,
+		"repeats": 280,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -9836,17 +9836,17 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 319107,
 		"dateInserted": "2018-04-30T13:51:26.13",
-		"dateUpdated": "2023-01-25T18:56:21.29",
+		"dateUpdated": "2023-01-26T08:34:28.15",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A+": 20,
-			"7A": 217,
+			"7A": 218,
 			"6C+": 31,
 			"6C": 9,
 			"6B+": 2
 		},
 		"userStars": {
-			"5": 132,
+			"5": 133,
 			"4": 132,
 			"3": 8,
 			"2": 1,
@@ -9854,7 +9854,7 @@
 			"0": 1
 		},
 		"userAttempts": {
-			"Flashed": 62,
+			"Flashed": 61,
 			"2nd try": 16,
 			"3rd try": 9,
 			"more than 3 tries": 13
@@ -9962,7 +9962,7 @@
 		"setby": "sunnyvale moonboard40",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1808,
+		"repeats": 1810,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -10051,16 +10051,16 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 319294,
 		"dateInserted": "2018-05-05T00:52:05.27",
-		"dateUpdated": "2023-01-25T15:09:20.227",
+		"dateUpdated": "2023-01-26T11:56:40.387",
 		"dateDeleted": null,
 		"userGrades": {
 			"8B+": 1,
 			"6A+": 13,
 			"6A": 39,
-			"5+": 1755
+			"5+": 1757
 		},
 		"userStars": {
-			"5": 661,
+			"5": 663,
 			"4": 942,
 			"3": 91,
 			"2": 24,
@@ -10198,7 +10198,7 @@
 		"setby": "Climbing PT",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 305,
+		"repeats": 306,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -10269,18 +10269,18 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 319332,
 		"dateInserted": "2018-05-06T00:57:20.063",
-		"dateUpdated": "2023-01-20T18:08:55.057",
+		"dateUpdated": "2023-01-26T13:48:48.78",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A": 3,
 			"6C+": 9,
 			"6C": 26,
-			"6B+": 258,
+			"6B+": 259,
 			"6B": 7,
 			"6A+": 2
 		},
 		"userStars": {
-			"5": 147,
+			"5": 148,
 			"4": 123,
 			"3": 14,
 			"2": 5,
@@ -10408,7 +10408,7 @@
 		"setby": "Climbing PT",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 286,
+		"repeats": 287,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -10473,19 +10473,19 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 319335,
 		"dateInserted": "2018-05-06T01:07:16.54",
-		"dateUpdated": "2023-01-25T17:04:56.907",
+		"dateUpdated": "2023-01-26T13:46:04.707",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C+": 9,
 			"6C": 20,
-			"6B+": 211,
+			"6B+": 212,
 			"6B": 40,
 			"6A+": 3,
 			"6A": 2,
 			"5+": 1
 		},
 		"userStars": {
-			"5": 122,
+			"5": 123,
 			"4": 135,
 			"3": 9,
 			"2": 7,
@@ -11239,7 +11239,7 @@
 		"setby": "Christy",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 662,
+		"repeats": 663,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -11321,18 +11321,18 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 320705,
 		"dateInserted": "2018-06-07T05:13:02.94",
-		"dateUpdated": "2023-01-25T20:51:11.993",
+		"dateUpdated": "2023-01-26T13:02:32.487",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C": 1,
 			"6B+": 5,
-			"6B": 28,
+			"6B": 29,
 			"6A+": 603,
 			"6A": 21,
 			"5+": 4
 		},
 		"userStars": {
-			"5": 291,
+			"5": 292,
 			"4": 307,
 			"3": 44,
 			"2": 9,
@@ -11354,7 +11354,7 @@
 		"setby": "Christy",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1275,
+		"repeats": 1276,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -11424,19 +11424,19 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 320875,
 		"dateInserted": "2018-06-08T23:07:55.85",
-		"dateUpdated": "2023-01-25T19:00:55.087",
+		"dateUpdated": "2023-01-26T10:03:09.937",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C+": 2,
 			"6C": 17,
-			"6B+": 1111,
+			"6B+": 1112,
 			"6B": 106,
 			"6A+": 27,
 			"6A": 8,
 			"5+": 4
 		},
 		"userStars": {
-			"5": 505,
+			"5": 506,
 			"4": 664,
 			"3": 52,
 			"2": 28,
@@ -11458,7 +11458,7 @@
 		"setby": "Gabi",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1600,
+		"repeats": 1601,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -11534,19 +11534,19 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 321148,
 		"dateInserted": "2018-06-13T01:33:16.707",
-		"dateUpdated": "2023-01-25T18:12:23.267",
+		"dateUpdated": "2023-01-26T03:37:00.82",
 		"dateDeleted": null,
 		"userGrades": {
 			"6B+": 13,
 			"6B": 4,
 			"6A+": 45,
-			"6A": 1423,
+			"6A": 1424,
 			"5+": 115
 		},
 		"userStars": {
 			"5": 502,
 			"4": 897,
-			"3": 95,
+			"3": 96,
 			"2": 19,
 			"1": 54,
 			"0": 33
@@ -11566,7 +11566,7 @@
 		"setby": "Gabi",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1297,
+		"repeats": 1298,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -11648,21 +11648,21 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 321342,
 		"dateInserted": "2018-06-16T03:30:33.89",
-		"dateUpdated": "2023-01-25T21:28:28.62",
+		"dateUpdated": "2023-01-26T12:55:31.683",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C+": 1,
 			"6B+": 3,
 			"6B": 2,
 			"6A+": 125,
-			"6A": 1064,
+			"6A": 1065,
 			"5+": 102
 		},
 		"userStars": {
 			"5": 389,
 			"4": 734,
 			"3": 90,
-			"2": 27,
+			"2": 28,
 			"1": 50,
 			"0": 6
 		},
@@ -12222,7 +12222,7 @@
 		"setby": "Ben Moon",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 2231,
+		"repeats": 2232,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -12315,16 +12315,16 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 323589,
 		"dateInserted": "2018-07-26T12:16:45.48",
-		"dateUpdated": "2023-01-25T14:27:42.16",
+		"dateUpdated": "2023-01-26T12:13:31.597",
 		"dateDeleted": null,
 		"userGrades": {
 			"6B": 1,
 			"6A+": 13,
 			"6A": 63,
-			"5+": 2154
+			"5+": 2155
 		},
 		"userStars": {
-			"5": 862,
+			"5": 863,
 			"4": 1093,
 			"3": 77,
 			"2": 35,
@@ -12346,7 +12346,7 @@
 		"setby": "Ben Moon",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1750,
+		"repeats": 1751,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -12427,16 +12427,16 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 323590,
 		"dateInserted": "2018-07-26T12:19:57.98",
-		"dateUpdated": "2023-01-24T10:39:18.823",
+		"dateUpdated": "2023-01-26T12:16:04.623",
 		"dateDeleted": null,
 		"userGrades": {
 			"6B+": 3,
 			"6A+": 19,
 			"6A": 83,
-			"5+": 1645
+			"5+": 1646
 		},
 		"userStars": {
-			"5": 708,
+			"5": 709,
 			"4": 841,
 			"3": 71,
 			"2": 22,
@@ -12458,7 +12458,7 @@
 		"setby": "Ben Moon",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1960,
+		"repeats": 1962,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -12529,7 +12529,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 323591,
 		"dateInserted": "2018-07-26T12:22:48.283",
-		"dateUpdated": "2023-01-25T16:52:57.45",
+		"dateUpdated": "2023-01-26T12:18:35.69",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C": 1,
@@ -12537,11 +12537,11 @@
 			"6B": 1,
 			"6A+": 46,
 			"6A": 132,
-			"5+": 1778
+			"5+": 1780
 		},
 		"userStars": {
 			"5": 771,
-			"4": 968,
+			"4": 970,
 			"3": 78,
 			"2": 31,
 			"1": 43,
@@ -12562,7 +12562,7 @@
 		"setby": "Ben Moon",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1443,
+		"repeats": 1446,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -12638,19 +12638,19 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 323593,
 		"dateInserted": "2018-07-26T12:27:14.137",
-		"dateUpdated": "2023-01-25T15:08:56.8",
+		"dateUpdated": "2023-01-26T12:22:18.137",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C+": 2,
 			"6C": 1,
 			"6B+": 6,
 			"6B": 4,
-			"6A+": 99,
-			"6A": 224,
-			"5+": 1107
+			"6A+": 100,
+			"6A": 225,
+			"5+": 1108
 		},
 		"userStars": {
-			"5": 619,
+			"5": 622,
 			"4": 652,
 			"3": 53,
 			"2": 26,
@@ -12672,7 +12672,7 @@
 		"setby": "Ben Moon",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 2143,
+		"repeats": 2145,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -12753,19 +12753,19 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 323594,
 		"dateInserted": "2018-07-26T12:29:19.933",
-		"dateUpdated": "2023-01-25T18:38:49.333",
+		"dateUpdated": "2023-01-26T14:50:53.32",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C": 1,
 			"6B+": 13,
 			"6B": 9,
 			"6A+": 132,
-			"6A": 1773,
+			"6A": 1775,
 			"5+": 215
 		},
 		"userStars": {
-			"5": 940,
-			"4": 1022,
+			"5": 941,
+			"4": 1023,
 			"3": 72,
 			"2": 33,
 			"1": 26,
@@ -12890,7 +12890,7 @@
 		"setby": "Ben Moon",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 3656,
+		"repeats": 3659,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -12961,17 +12961,17 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 323596,
 		"dateInserted": "2018-07-26T12:33:52.777",
-		"dateUpdated": "2023-01-25T23:53:19.05",
+		"dateUpdated": "2023-01-26T12:28:59.817",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C+": 2,
 			"6B+": 2,
 			"6A+": 30,
 			"6A": 113,
-			"5+": 3509
+			"5+": 3512
 		},
 		"userStars": {
-			"5": 1378,
+			"5": 1381,
 			"4": 1802,
 			"3": 137,
 			"2": 54,
@@ -12993,7 +12993,7 @@
 		"setby": "Ben Moon",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 2440,
+		"repeats": 2443,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -13058,18 +13058,18 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 323597,
 		"dateInserted": "2018-07-26T12:37:41.337",
-		"dateUpdated": "2023-01-25T21:15:58.913",
+		"dateUpdated": "2023-01-26T12:26:20.917",
 		"dateDeleted": null,
 		"userGrades": {
 			"8B+": 1,
 			"6B+": 1,
 			"6B": 1,
-			"6A+": 40,
+			"6A+": 41,
 			"6A": 143,
-			"5+": 2254
+			"5+": 2256
 		},
 		"userStars": {
-			"5": 925,
+			"5": 928,
 			"4": 1227,
 			"3": 96,
 			"2": 33,
@@ -13091,7 +13091,7 @@
 		"setby": "Ben Moon",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 3927,
+		"repeats": 3931,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -13156,17 +13156,17 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 323598,
 		"dateInserted": "2018-07-26T12:40:22.677",
-		"dateUpdated": "2023-01-25T20:54:00.16",
+		"dateUpdated": "2023-01-26T14:31:44.917",
 		"dateDeleted": null,
 		"userGrades": {
 			"6B+": 1,
 			"6A+": 51,
 			"6A": 138,
-			"5+": 3737
+			"5+": 3741
 		},
 		"userStars": {
-			"5": 1540,
-			"4": 1873,
+			"5": 1543,
+			"4": 1874,
 			"3": 153,
 			"2": 60,
 			"1": 61,
@@ -13295,7 +13295,7 @@
 		"setby": "Ben Moon",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1678,
+		"repeats": 1679,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -13360,7 +13360,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 323601,
 		"dateInserted": "2018-07-26T12:46:56.24",
-		"dateUpdated": "2023-01-25T15:11:04.65",
+		"dateUpdated": "2023-01-26T10:54:21.813",
 		"dateDeleted": null,
 		"userGrades": {
 			"8B+": 1,
@@ -13369,11 +13369,11 @@
 			"6B+": 16,
 			"6B": 12,
 			"6A+": 149,
-			"6A": 1470,
+			"6A": 1471,
 			"5+": 27
 		},
 		"userStars": {
-			"5": 721,
+			"5": 722,
 			"4": 786,
 			"3": 65,
 			"2": 21,
@@ -13488,7 +13488,7 @@
 		"setby": "Ben Moon",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 2189,
+		"repeats": 2190,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -13559,7 +13559,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 323603,
 		"dateInserted": "2018-07-26T12:53:19.7",
-		"dateUpdated": "2023-01-25T19:02:21.163",
+		"dateUpdated": "2023-01-26T10:52:14.42",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A": 1,
@@ -13567,12 +13567,12 @@
 			"6C": 1,
 			"6B+": 28,
 			"6B": 113,
-			"6A+": 1951,
+			"6A+": 1952,
 			"6A": 73,
 			"5+": 21
 		},
 		"userStars": {
-			"5": 996,
+			"5": 997,
 			"4": 987,
 			"3": 93,
 			"2": 39,
@@ -13798,7 +13798,7 @@
 		"setby": "Ben Moon",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 853,
+		"repeats": 854,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -13878,20 +13878,20 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 323606,
 		"dateInserted": "2018-07-26T13:03:52.337",
-		"dateUpdated": "2023-01-25T21:51:09.923",
+		"dateUpdated": "2023-01-26T11:41:35.493",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A": 2,
 			"6C+": 7,
 			"6C": 10,
 			"6B+": 77,
-			"6B": 729,
+			"6B": 730,
 			"6A+": 19,
 			"6A": 1,
 			"5+": 8
 		},
 		"userStars": {
-			"5": 383,
+			"5": 384,
 			"4": 401,
 			"3": 19,
 			"2": 17,
@@ -13913,7 +13913,7 @@
 		"setby": "Ben Moon",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1434,
+		"repeats": 1435,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -13994,21 +13994,21 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 323607,
 		"dateInserted": "2018-07-26T13:06:41.443",
-		"dateUpdated": "2023-01-24T19:16:10.067",
+		"dateUpdated": "2023-01-26T11:44:33.15",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A+": 1,
 			"6C+": 21,
 			"6C": 8,
 			"6B+": 83,
-			"6B": 1273,
+			"6B": 1274,
 			"6A+": 33,
 			"6A": 6,
 			"5+": 9
 		},
 		"userStars": {
 			"5": 645,
-			"4": 663,
+			"4": 664,
 			"3": 51,
 			"2": 17,
 			"1": 25,
@@ -14153,7 +14153,7 @@
 		"setby": "Ben Moon",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1766,
+		"repeats": 1768,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -14250,21 +14250,21 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 323610,
 		"dateInserted": "2018-07-26T13:13:05.9",
-		"dateUpdated": "2023-01-26T01:08:43.48",
+		"dateUpdated": "2023-01-26T10:51:31.83",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A+": 1,
 			"6C+": 7,
 			"6C": 2,
 			"6B+": 43,
-			"6B": 1608,
-			"6A+": 88,
+			"6B": 1609,
+			"6A+": 89,
 			"6A": 9,
 			"5+": 8
 		},
 		"userStars": {
 			"5": 786,
-			"4": 823,
+			"4": 825,
 			"3": 58,
 			"2": 24,
 			"1": 22,
@@ -14835,7 +14835,7 @@
 		"setby": "Michael O'Donnell",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 2090,
+		"repeats": 2091,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -14917,15 +14917,15 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 325631,
 		"dateInserted": "2018-09-04T13:49:58.753",
-		"dateUpdated": "2023-01-25T11:34:34.74",
+		"dateUpdated": "2023-01-26T11:30:06.977",
 		"dateDeleted": null,
 		"userGrades": {
 			"6A+": 36,
 			"6A": 111,
-			"5+": 1943
+			"5+": 1944
 		},
 		"userStars": {
-			"5": 720,
+			"5": 721,
 			"4": 1099,
 			"3": 95,
 			"2": 34,
@@ -14947,7 +14947,7 @@
 		"setby": "Bella ciao ",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 2243,
+		"repeats": 2244,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -15040,15 +15040,15 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 326191,
 		"dateInserted": "2018-09-14T18:54:28.8",
-		"dateUpdated": "2023-01-25T14:49:26.653",
+		"dateUpdated": "2023-01-26T11:28:46.473",
 		"dateDeleted": null,
 		"userGrades": {
 			"6A+": 4,
 			"6A": 10,
-			"5+": 2229
+			"5+": 2230
 		},
 		"userStars": {
-			"5": 637,
+			"5": 638,
 			"4": 1346,
 			"3": 136,
 			"2": 43,
@@ -15286,7 +15286,7 @@
 		"setby": "RJtrials",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 562,
+		"repeats": 564,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -15372,20 +15372,20 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 326705,
 		"dateInserted": "2018-09-22T17:57:58.563",
-		"dateUpdated": "2023-01-25T22:14:19.63",
+		"dateUpdated": "2023-01-26T13:40:29.43",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C+": 4,
 			"6C": 2,
 			"6B+": 39,
-			"6B": 496,
+			"6B": 498,
 			"6A+": 15,
 			"6A": 4,
 			"5+": 2
 		},
 		"userStars": {
-			"5": 220,
-			"4": 278,
+			"5": 221,
+			"4": 279,
 			"3": 36,
 			"2": 22,
 			"1": 4,
@@ -15406,7 +15406,7 @@
 		"setby": "PaniX",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 2449,
+		"repeats": 2450,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -15504,18 +15504,18 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 327116,
 		"dateInserted": "2018-09-29T16:00:50.62",
-		"dateUpdated": "2023-01-25T21:13:58.907",
+		"dateUpdated": "2023-01-26T14:30:17.123",
 		"dateDeleted": null,
 		"userGrades": {
 			"6B+": 2,
 			"6A+": 15,
 			"6A": 60,
-			"5+": 2372
+			"5+": 2373
 		},
 		"userStars": {
 			"5": 890,
 			"4": 1251,
-			"3": 91,
+			"3": 92,
 			"2": 47,
 			"1": 68,
 			"0": 102
@@ -15752,7 +15752,7 @@
 		"setby": "catt",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 374,
+		"repeats": 376,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -15827,28 +15827,28 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 327743,
 		"dateInserted": "2018-10-08T16:35:04.43",
-		"dateUpdated": "2023-01-25T15:13:36.777",
+		"dateUpdated": "2023-01-26T11:34:45.277",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C+": 2,
 			"6C": 8,
-			"6B+": 318,
+			"6B+": 320,
 			"6B": 40,
 			"6A+": 3,
 			"6A": 1,
 			"5+": 2
 		},
 		"userStars": {
-			"5": 168,
-			"4": 142,
+			"5": 169,
+			"4": 143,
 			"3": 45,
 			"2": 12,
 			"1": 4,
 			"0": 2
 		},
 		"userAttempts": {
-			"Flashed": 72,
-			"2nd try": 16,
+			"Flashed": 73,
+			"2nd try": 15,
 			"3rd try": 9,
 			"more than 3 tries": 3
 		}
@@ -15861,7 +15861,7 @@
 		"setby": "hias",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 3021,
+		"repeats": 3022,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -15926,7 +15926,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 328493,
 		"dateInserted": "2018-10-20T22:30:50.403",
-		"dateUpdated": "2023-01-25T20:25:13.737",
+		"dateUpdated": "2023-01-26T10:46:15.74",
 		"dateDeleted": null,
 		"userGrades": {
 			"8B+": 1,
@@ -15934,11 +15934,11 @@
 			"6B+": 4,
 			"6B": 7,
 			"6A+": 167,
-			"6A": 2668,
+			"6A": 2669,
 			"5+": 173
 		},
 		"userStars": {
-			"5": 1024,
+			"5": 1025,
 			"4": 1628,
 			"3": 140,
 			"2": 62,
@@ -15960,7 +15960,7 @@
 		"setby": "lars2re",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1546,
+		"repeats": 1547,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -16052,16 +16052,16 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 329684,
 		"dateInserted": "2018-11-07T20:49:24.383",
-		"dateUpdated": "2023-01-25T18:42:11.81",
+		"dateUpdated": "2023-01-26T12:43:04.88",
 		"dateDeleted": null,
 		"userGrades": {
 			"6B+": 2,
 			"6A+": 25,
 			"6A": 79,
-			"5+": 1440
+			"5+": 1441
 		},
 		"userStars": {
-			"5": 451,
+			"5": 452,
 			"4": 907,
 			"3": 100,
 			"2": 34,
@@ -16292,7 +16292,7 @@
 		"setby": "ClimbEpic",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 3914,
+		"repeats": 3916,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -16384,7 +16384,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 329860,
 		"dateInserted": "2018-11-10T00:46:28.82",
-		"dateUpdated": "2023-01-25T18:04:02.39",
+		"dateUpdated": "2023-01-26T09:12:50.7",
 		"dateDeleted": null,
 		"userGrades": {
 			"8B+": 1,
@@ -16392,12 +16392,12 @@
 			"6C": 1,
 			"6B+": 18,
 			"6B": 43,
-			"6A+": 3415,
+			"6A+": 3417,
 			"6A": 352,
 			"5+": 83
 		},
 		"userStars": {
-			"5": 1498,
+			"5": 1500,
 			"4": 1967,
 			"3": 165,
 			"2": 65,
@@ -16419,7 +16419,7 @@
 		"setby": "RJtrials",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 2981,
+		"repeats": 2983,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -16511,22 +16511,22 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 330230,
 		"dateInserted": "2018-11-14T21:17:04.67",
-		"dateUpdated": "2023-01-25T15:58:20.613",
+		"dateUpdated": "2023-01-26T15:22:31.51",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A": 1,
 			"6C+": 3,
 			"6C": 3,
 			"6B+": 53,
-			"6B": 2633,
+			"6B": 2635,
 			"6A+": 226,
 			"6A": 43,
 			"5+": 19
 		},
 		"userStars": {
-			"5": 1247,
+			"5": 1248,
 			"4": 1436,
-			"3": 164,
+			"3": 165,
 			"2": 46,
 			"1": 30,
 			"0": 54
@@ -16769,7 +16769,7 @@
 		"setby": "Garethbrooks_",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 4840,
+		"repeats": 4842,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -16845,22 +16845,22 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 330548,
 		"dateInserted": "2018-11-20T12:59:26.193",
-		"dateUpdated": "2023-01-25T19:01:11.323",
+		"dateUpdated": "2023-01-26T10:42:50.527",
 		"dateDeleted": null,
 		"userGrades": {
 			"6B+": 2,
 			"6B": 1,
 			"6A+": 108,
-			"6A": 3820,
+			"6A": 3822,
 			"5+": 909
 		},
 		"userStars": {
-			"5": 1514,
+			"5": 1515,
 			"4": 2713,
 			"3": 237,
 			"2": 87,
 			"1": 113,
-			"0": 173
+			"0": 174
 		},
 		"userAttempts": {
 			"Flashed": 86,
@@ -16970,7 +16970,7 @@
 		"setby": "Jack Folkes",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 2728,
+		"repeats": 2733,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -17039,20 +17039,20 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 331804,
 		"dateInserted": "2018-12-06T05:12:15.64",
-		"dateUpdated": "2023-01-25T20:20:10.85",
+		"dateUpdated": "2023-01-26T10:41:15.8",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C+": 1,
 			"6B+": 4,
 			"6B": 22,
-			"6A+": 2348,
-			"6A": 299,
-			"5+": 54
+			"6A+": 2350,
+			"6A": 301,
+			"5+": 55
 		},
 		"userStars": {
-			"5": 1051,
+			"5": 1055,
 			"4": 1418,
-			"3": 118,
+			"3": 119,
 			"2": 44,
 			"1": 56,
 			"0": 38
@@ -17072,7 +17072,7 @@
 		"setby": "Jack Folkes",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 372,
+		"repeats": 375,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -17148,20 +17148,20 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 331809,
 		"dateInserted": "2018-12-06T05:59:29.457",
-		"dateUpdated": "2023-01-25T20:21:28.297",
+		"dateUpdated": "2023-01-26T11:31:38.42",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A": 1,
 			"6C+": 1,
 			"6C": 1,
-			"6B+": 11,
-			"6B": 312,
+			"6B+": 12,
+			"6B": 314,
 			"6A+": 39,
 			"6A": 5,
 			"5+": 2
 		},
 		"userStars": {
-			"5": 157,
+			"5": 160,
 			"4": 158,
 			"3": 36,
 			"2": 17,
@@ -17286,7 +17286,7 @@
 		"setby": "DREUX JEREMY",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 3693,
+		"repeats": 3694,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -17367,19 +17367,19 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 332130,
 		"dateInserted": "2018-12-10T10:53:02.367",
-		"dateUpdated": "2023-01-25T20:35:00.617",
+		"dateUpdated": "2023-01-26T14:27:54.07",
 		"dateDeleted": null,
 		"userGrades": {
 			"6B+": 1,
 			"6A+": 19,
 			"6A": 52,
-			"5+": 3621
+			"5+": 3622
 		},
 		"userStars": {
 			"5": 1150,
 			"4": 2084,
 			"3": 179,
-			"2": 68,
+			"2": 69,
 			"1": 71,
 			"0": 140
 		},
@@ -17398,7 +17398,7 @@
 		"setby": "RJtrials",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1691,
+		"repeats": 1692,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -17485,7 +17485,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 332567,
 		"dateInserted": "2018-12-14T19:03:14.58",
-		"dateUpdated": "2023-01-25T21:26:33.007",
+		"dateUpdated": "2023-01-26T09:21:41.47",
 		"dateDeleted": null,
 		"userGrades": {
 			"7B": 1,
@@ -17493,13 +17493,13 @@
 			"6C+": 15,
 			"6C": 13,
 			"6B+": 107,
-			"6B": 1491,
+			"6B": 1492,
 			"6A+": 50,
 			"6A": 6,
 			"5+": 7
 		},
 		"userStars": {
-			"5": 822,
+			"5": 823,
 			"4": 741,
 			"3": 53,
 			"2": 18,
@@ -17521,7 +17521,7 @@
 		"setby": "RJtrials",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1548,
+		"repeats": 1550,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -17607,18 +17607,18 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 332581,
 		"dateInserted": "2018-12-14T20:04:02.247",
-		"dateUpdated": "2023-01-25T15:10:54.11",
+		"dateUpdated": "2023-01-26T14:46:23.003",
 		"dateDeleted": null,
 		"userGrades": {
 			"6B+": 1,
 			"6B": 4,
 			"6A+": 53,
-			"6A": 1470,
+			"6A": 1472,
 			"5+": 20
 		},
 		"userStars": {
-			"5": 518,
-			"4": 890,
+			"5": 519,
+			"4": 891,
 			"3": 86,
 			"2": 24,
 			"1": 14,
@@ -17639,7 +17639,7 @@
 		"setby": "Mikala",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1905,
+		"repeats": 1908,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -17726,18 +17726,18 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 333210,
 		"dateInserted": "2018-12-21T17:15:26.72",
-		"dateUpdated": "2023-01-25T15:10:44.527",
+		"dateUpdated": "2023-01-26T12:09:00.65",
 		"dateDeleted": null,
 		"userGrades": {
 			"6B+": 1,
 			"6B": 2,
 			"6A+": 36,
-			"6A": 1755,
+			"6A": 1758,
 			"5+": 111
 		},
 		"userStars": {
-			"5": 591,
-			"4": 1104,
+			"5": 593,
+			"4": 1105,
 			"3": 118,
 			"2": 32,
 			"1": 46,
@@ -17758,7 +17758,7 @@
 		"setby": "Mikala",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 2935,
+		"repeats": 2938,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -17828,20 +17828,20 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 333692,
 		"dateInserted": "2018-12-28T21:04:17.093",
-		"dateUpdated": "2023-01-25T17:54:06.607",
+		"dateUpdated": "2023-01-26T11:29:50.427",
 		"dateDeleted": null,
 		"userGrades": {
 			"6B+": 7,
 			"6B": 7,
 			"6A+": 60,
-			"6A": 2704,
+			"6A": 2707,
 			"5+": 157
 		},
 		"userStars": {
-			"5": 933,
-			"4": 1739,
+			"5": 934,
+			"4": 1740,
 			"3": 116,
-			"2": 45,
+			"2": 46,
 			"1": 44,
 			"0": 54
 		},
@@ -17860,7 +17860,7 @@
 		"setby": "Michael O'Donnell",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 3830,
+		"repeats": 3835,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -17929,19 +17929,19 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 333798,
 		"dateInserted": "2018-12-30T22:22:57.307",
-		"dateUpdated": "2023-01-25T18:36:34.127",
+		"dateUpdated": "2023-01-26T14:22:56.15",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C+": 1,
 			"6A+": 17,
 			"6A": 64,
-			"5+": 3748
+			"5+": 3753
 		},
 		"userStars": {
-			"5": 1355,
-			"4": 1995,
-			"3": 178,
-			"2": 65,
+			"5": 1357,
+			"4": 1996,
+			"3": 179,
+			"2": 66,
 			"1": 83,
 			"0": 151
 		},
@@ -17960,7 +17960,7 @@
 		"setby": "Daan",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 2661,
+		"repeats": 2664,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -18041,19 +18041,19 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 335383,
 		"dateInserted": "2019-01-20T13:13:40.7",
-		"dateUpdated": "2023-01-25T21:00:10.38",
+		"dateUpdated": "2023-01-26T14:44:14.743",
 		"dateDeleted": null,
 		"userGrades": {
 			"6B": 3,
 			"6A+": 41,
-			"6A": 2235,
+			"6A": 2238,
 			"5+": 382
 		},
 		"userStars": {
-			"5": 833,
-			"4": 1514,
+			"5": 834,
+			"4": 1515,
 			"3": 160,
-			"2": 66,
+			"2": 67,
 			"1": 60,
 			"0": 25
 		},
@@ -18072,7 +18072,7 @@
 		"setby": "JK",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1476,
+		"repeats": 1477,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -18142,12 +18142,12 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 336162,
 		"dateInserted": "2019-01-28T22:07:38.47",
-		"dateUpdated": "2023-01-25T19:54:19.783",
+		"dateUpdated": "2023-01-26T09:40:09.177",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A": 3,
 			"6C+": 52,
-			"6C": 1303,
+			"6C": 1304,
 			"6B+": 93,
 			"6B": 21,
 			"6A+": 2,
@@ -18156,7 +18156,7 @@
 		"userStars": {
 			"5": 662,
 			"4": 700,
-			"3": 58,
+			"3": 59,
 			"2": 22,
 			"1": 7,
 			"0": 25
@@ -18176,7 +18176,7 @@
 		"setby": "Alex LaChapelle ",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1554,
+		"repeats": 1555,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -18246,18 +18246,18 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 336640,
 		"dateInserted": "2019-02-02T19:13:51.737",
-		"dateUpdated": "2023-01-25T15:08:46.24",
+		"dateUpdated": "2023-01-26T06:39:41.693",
 		"dateDeleted": null,
 		"userGrades": {
 			"6B+": 4,
 			"6B": 3,
 			"6A+": 49,
 			"6A": 118,
-			"5+": 1380
+			"5+": 1381
 		},
 		"userStars": {
 			"5": 504,
-			"4": 901,
+			"4": 902,
 			"3": 87,
 			"2": 23,
 			"1": 31,
@@ -18278,7 +18278,7 @@
 		"setby": "Alex LaChapelle ",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 2850,
+		"repeats": 2853,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -18354,7 +18354,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 336696,
 		"dateInserted": "2019-02-03T11:55:44.867",
-		"dateUpdated": "2023-01-25T23:07:24.237",
+		"dateUpdated": "2023-01-26T14:20:56.933",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A+": 1,
@@ -18362,12 +18362,12 @@
 			"6B": 1,
 			"6A+": 39,
 			"6A": 85,
-			"5+": 2723
+			"5+": 2726
 		},
 		"userStars": {
-			"5": 881,
-			"4": 1674,
-			"3": 150,
+			"5": 882,
+			"4": 1675,
+			"3": 151,
 			"2": 53,
 			"1": 23,
 			"0": 68
@@ -18725,7 +18725,7 @@
 		"setby": "Steven",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1056,
+		"repeats": 1057,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -18823,19 +18823,19 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 340503,
 		"dateInserted": "2019-03-23T10:10:50.477",
-		"dateUpdated": "2023-01-25T17:08:18.87",
+		"dateUpdated": "2023-01-26T11:29:06.433",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C+": 4,
 			"6C": 37,
 			"6B+": 912,
-			"6B": 79,
+			"6B": 80,
 			"6A+": 18,
 			"6A": 3,
 			"5+": 3
 		},
 		"userStars": {
-			"5": 386,
+			"5": 387,
 			"4": 589,
 			"3": 46,
 			"2": 14,
@@ -18993,7 +18993,7 @@
 		"setby": "Ben",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1222,
+		"repeats": 1224,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -19080,19 +19080,19 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 340765,
 		"dateInserted": "2019-03-27T15:28:26.013",
-		"dateUpdated": "2023-01-25T16:52:17.833",
+		"dateUpdated": "2023-01-26T14:41:19.293",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A+": 1,
 			"6A+": 19,
-			"6A": 1129,
-			"5+": 73
+			"6A": 1130,
+			"5+": 74
 		},
 		"userStars": {
-			"5": 365,
+			"5": 366,
 			"4": 714,
 			"3": 104,
-			"2": 17,
+			"2": 18,
 			"1": 14,
 			"0": 8
 		},
@@ -19111,7 +19111,7 @@
 		"setby": "Chalkdust66",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 782,
+		"repeats": 783,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -19226,19 +19226,19 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 342235,
 		"dateInserted": "2019-04-17T18:10:39.27",
-		"dateUpdated": "2023-01-25T03:46:15.107",
+		"dateUpdated": "2023-01-26T11:27:57.507",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C+": 2,
 			"6C": 2,
 			"6B+": 40,
 			"6B": 709,
-			"6A+": 24,
+			"6A+": 25,
 			"6A": 3,
 			"5+": 2
 		},
 		"userStars": {
-			"5": 296,
+			"5": 297,
 			"4": 419,
 			"3": 32,
 			"2": 10,
@@ -19260,7 +19260,7 @@
 		"setby": "xavighervas",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1941,
+		"repeats": 1944,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -19330,20 +19330,20 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 342590,
 		"dateInserted": "2019-04-24T15:07:51.1",
-		"dateUpdated": "2023-01-26T01:03:11.783",
+		"dateUpdated": "2023-01-26T11:37:57.21",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C+": 7,
 			"6C": 1,
 			"6B+": 59,
-			"6B": 1772,
+			"6B": 1775,
 			"6A+": 83,
 			"6A": 11,
 			"5+": 8
 		},
 		"userStars": {
-			"5": 738,
-			"4": 1024,
+			"5": 740,
+			"4": 1025,
 			"3": 103,
 			"2": 34,
 			"1": 17,
@@ -19364,7 +19364,7 @@
 		"setby": "Dan",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 115,
+		"repeats": 116,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -19456,26 +19456,26 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 344099,
 		"dateInserted": "2019-05-17T12:30:32.903",
-		"dateUpdated": "2023-01-25T20:16:22.443",
+		"dateUpdated": "2023-01-26T10:22:20.683",
 		"dateDeleted": null,
 		"userGrades": {
 			"6B+": 2,
 			"6B": 5,
-			"6A+": 91,
+			"6A+": 92,
 			"6A": 16,
 			"5+": 1
 		},
 		"userStars": {
 			"5": 63,
-			"4": 40,
+			"4": 41,
 			"3": 8,
 			"2": 2,
 			"1": 1,
 			"0": 1
 		},
 		"userAttempts": {
-			"Flashed": 89,
-			"2nd try": 5,
+			"Flashed": 88,
+			"2nd try": 6,
 			"3rd try": 5,
 			"more than 3 tries": 1
 		}
@@ -19609,7 +19609,7 @@
 		"setby": "martino.tito",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1484,
+		"repeats": 1485,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -19678,19 +19678,19 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 344882,
 		"dateInserted": "2019-05-26T12:53:07.293",
-		"dateUpdated": "2023-01-25T21:24:19.017",
+		"dateUpdated": "2023-01-26T11:25:13.26",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C+": 5,
 			"6C": 1,
 			"6B+": 48,
-			"6B": 1350,
+			"6B": 1351,
 			"6A+": 62,
 			"6A": 11,
 			"5+": 7
 		},
 		"userStars": {
-			"5": 564,
+			"5": 565,
 			"4": 769,
 			"3": 90,
 			"2": 28,
@@ -19822,7 +19822,7 @@
 		"setby": "RJtrials",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 3561,
+		"repeats": 3562,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -19892,18 +19892,18 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 345924,
 		"dateInserted": "2019-06-09T16:29:03.623",
-		"dateUpdated": "2023-01-25T18:45:38.043",
+		"dateUpdated": "2023-01-26T11:28:35.96",
 		"dateDeleted": null,
 		"userGrades": {
 			"6B+": 5,
 			"6B": 2,
 			"6A+": 80,
-			"6A": 3153,
+			"6A": 3154,
 			"5+": 321
 		},
 		"userStars": {
 			"5": 1095,
-			"4": 2094,
+			"4": 2095,
 			"3": 213,
 			"2": 72,
 			"1": 43,
@@ -19924,7 +19924,7 @@
 		"setby": "Chalkdust66",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 703,
+		"repeats": 704,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -20016,18 +20016,18 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 346729,
 		"dateInserted": "2019-06-20T18:15:01.897",
-		"dateUpdated": "2023-01-23T18:36:13.39",
+		"dateUpdated": "2023-01-26T11:24:12.537",
 		"dateDeleted": null,
 		"userGrades": {
 			"6C+": 5,
 			"6C": 19,
-			"6B+": 648,
+			"6B+": 649,
 			"6B": 24,
 			"6A+": 5,
 			"6A": 2
 		},
 		"userStars": {
-			"5": 261,
+			"5": 262,
 			"4": 402,
 			"3": 22,
 			"2": 9,
@@ -20371,7 +20371,7 @@
 		"setby": "Chalkdust66",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 2581,
+		"repeats": 2583,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -20452,21 +20452,21 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 351060,
 		"dateInserted": "2019-08-26T18:34:39.663",
-		"dateUpdated": "2023-01-25T21:12:36.61",
+		"dateUpdated": "2023-01-26T11:17:45.327",
 		"dateDeleted": null,
 		"userGrades": {
 			"8A+": 2,
 			"6C+": 2,
 			"6C": 4,
 			"6B+": 51,
-			"6B": 2313,
+			"6B": 2315,
 			"6A+": 176,
 			"6A": 26,
 			"5+": 7
 		},
 		"userStars": {
-			"5": 886,
-			"4": 1424,
+			"5": 887,
+			"4": 1425,
 			"3": 170,
 			"2": 53,
 			"1": 28,
@@ -21051,7 +21051,7 @@
 		"setby": "webermat",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 299,
+		"repeats": 300,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -21132,28 +21132,28 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 376649,
 		"dateInserted": "2020-09-16T04:34:36.15",
-		"dateUpdated": "2023-01-26T01:21:41.373",
+		"dateUpdated": "2023-01-26T13:25:44.43",
 		"dateDeleted": null,
 		"userGrades": {
 			"7A": 4,
 			"6C+": 15,
-			"6C": 245,
+			"6C": 246,
 			"6B+": 31,
 			"6B": 3,
 			"6A+": 1
 		},
 		"userStars": {
-			"5": 156,
+			"5": 157,
 			"4": 103,
 			"3": 29,
 			"2": 9,
 			"1": 2
 		},
 		"userAttempts": {
-			"Flashed": 69,
-			"2nd try": 13,
+			"Flashed": 68,
+			"2nd try": 12,
 			"3rd try": 9,
-			"more than 3 tries": 10
+			"more than 3 tries": 11
 		}
 	},
 	{
@@ -21367,7 +21367,7 @@
 		"setby": "Alex Freeman",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 115,
+		"repeats": 116,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -21443,25 +21443,25 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 405025,
 		"dateInserted": "2021-06-02T18:28:30.337",
-		"dateUpdated": "2023-01-25T20:12:17.113",
+		"dateUpdated": "2023-01-26T10:19:32.563",
 		"dateDeleted": null,
 		"userGrades": {
 			"6B+": 7,
 			"6B": 21,
-			"6A+": 71,
+			"6A+": 72,
 			"6A": 12,
 			"5+": 4
 		},
 		"userStars": {
 			"5": 65,
 			"4": 28,
-			"3": 15,
+			"3": 16,
 			"2": 6,
 			"1": 1
 		},
 		"userAttempts": {
 			"Flashed": 70,
-			"2nd try": 13,
+			"2nd try": 14,
 			"3rd try": 11,
 			"more than 3 tries": 5
 		}
@@ -21592,7 +21592,7 @@
 		"setby": "Clemens121",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 948,
+		"repeats": 949,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2017",
 			"holdsets": null,
@@ -21672,17 +21672,17 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 413528,
 		"dateInserted": "2021-09-06T17:38:11.617",
-		"dateUpdated": "2023-01-25T17:49:28.613",
+		"dateUpdated": "2023-01-26T09:05:44.357",
 		"dateDeleted": null,
 		"userGrades": {
 			"6B+": 2,
 			"6B": 7,
 			"6A+": 64,
-			"6A": 808,
+			"6A": 809,
 			"5+": 67
 		},
 		"userStars": {
-			"5": 307,
+			"5": 308,
 			"4": 404,
 			"3": 154,
 			"2": 58,
