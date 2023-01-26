@@ -11,7 +11,12 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 if (process.env.NODE_ENV === 'production') {
-	app.use(express.static(path.join(__dirname, 'app/build')));
+	app.use(() => {
+		if (req.header('x-forwarded-proto') !== 'https')
+			res.redirect(`https://${req.header('host')}${req.url}`);
+		else
+			express.static(path.join(__dirname, 'app/build'));
+	});
 }
 
 app.route('/benchmarks')
