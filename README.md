@@ -1,3 +1,3 @@
 # Moonboard Guidebook 🌝
 
-Workinonit 🍩
+A guidebook website for the [Moonboard](https:://moonboard.com).
