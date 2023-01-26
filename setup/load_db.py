@@ -1,7 +1,7 @@
 import requests, json
 from mb_types import mb_types
 
-URL = 'http://localhost:3001'
+URL = 'https://moonboard.herokuapp.com'
 
 for mb in mb_types:
 	print(f'Loading {mb} benchmarks...')

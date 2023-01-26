@@ -7,7 +7,7 @@
 		"setby": "kasperg ",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1033,
+		"repeats": 1037,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -100,7 +100,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 358895,
 		"dateInserted": "2019-12-24T12:29:05.79",
-		"dateUpdated": "2023-01-20T14:35:50.683",
+		"dateUpdated": "2023-01-25T17:22:31.483",
 		"dateDeleted": null
 	},
 	{
@@ -111,7 +111,7 @@
 		"setby": "kasperg ",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 812,
+		"repeats": 817,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -186,7 +186,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 358899,
 		"dateInserted": "2019-12-24T12:38:45.803",
-		"dateUpdated": "2023-01-20T20:45:37.85",
+		"dateUpdated": "2023-01-25T19:54:37.55",
 		"dateDeleted": null
 	},
 	{
@@ -197,7 +197,7 @@
 		"setby": "kasperg ",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1381,
+		"repeats": 1395,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -283,7 +283,104 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 358907,
 		"dateInserted": "2019-12-24T13:06:18.24",
-		"dateUpdated": "2023-01-20T23:50:36.53",
+		"dateUpdated": "2023-01-25T19:50:27.167",
+		"dateDeleted": null
+	},
+	{
+		"name": "PAKKELEG",
+		"grade": "6B+",
+		"userGrade": "6B",
+		"setbyId": "8012c0c1-44e4-48df-8596-b15a2c4743fa",
+		"setby": "kasperg ",
+		"method": "Feet follow hands",
+		"userRating": 4,
+		"repeats": 86,
+		"holdsetup": {
+			"description": "MoonBoard Masters 2019",
+			"holdsets": null,
+			"apiId": 17
+		},
+		"isBenchmark": true,
+		"isMaster": false,
+		"upgraded": true,
+		"downgraded": false,
+		"moves": [
+			{
+				"problemId": 358912,
+				"description": "J5",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 358912,
+				"description": "H6",
+				"isStart": true,
+				"isEnd": false
+			},
+			{
+				"problemId": 358912,
+				"description": "I9",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 358912,
+				"description": "J11",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 358912,
+				"description": "F12",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 358912,
+				"description": "H15",
+				"isStart": false,
+				"isEnd": false
+			},
+			{
+				"problemId": 358912,
+				"description": "D18",
+				"isStart": false,
+				"isEnd": true
+			},
+			{
+				"problemId": 358912,
+				"description": "E5",
+				"isStart": false,
+				"isEnd": false
+			}
+		],
+		"holdsets": [
+			{
+				"description": "Hold Set A",
+				"locations": null,
+				"apiId": 4
+			},
+			{
+				"description": "Hold Set B",
+				"locations": null,
+				"apiId": 5
+			},
+			{
+				"description": "Wooden Holds B",
+				"locations": null,
+				"apiId": 10
+			},
+			{
+				"description": "Wooden Holds C",
+				"locations": null,
+				"apiId": 11
+			}
+		],
+		"hasBetaVideo": false,
+		"moonBoardConfigurationId": 2,
+		"apiId": 358912,
+		"dateInserted": "2019-12-24T13:21:48.61",
+		"dateUpdated": "2023-01-25T18:22:13.87",
 		"dateDeleted": null
 	},
 	{
@@ -294,7 +391,7 @@
 		"setby": "Angus Harrison-smart",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 845,
+		"repeats": 851,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -369,7 +466,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 362869,
 		"dateInserted": "2020-02-11T18:52:23.487",
-		"dateUpdated": "2023-01-19T02:13:03.16",
+		"dateUpdated": "2023-01-25T19:22:02.35",
 		"dateDeleted": null
 	},
 	{
@@ -380,7 +477,7 @@
 		"setby": "Angus Harrison-smart",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 464,
+		"repeats": 472,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -460,7 +557,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 362870,
 		"dateInserted": "2020-02-11T18:58:08.597",
-		"dateUpdated": "2023-01-15T17:56:19.87",
+		"dateUpdated": "2023-01-24T19:30:18.03",
 		"dateDeleted": null
 	},
 	{
@@ -471,7 +568,7 @@
 		"setby": "Angus Harrison-smart",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 232,
+		"repeats": 237,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -546,7 +643,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 362881,
 		"dateInserted": "2020-02-11T20:00:16.277",
-		"dateUpdated": "2023-01-20T10:43:30.47",
+		"dateUpdated": "2023-01-24T18:36:58.84",
 		"dateDeleted": null
 	},
 	{
@@ -557,7 +654,7 @@
 		"setby": "Vizual Pupil",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 903,
+		"repeats": 912,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -627,7 +724,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 365729,
 		"dateInserted": "2020-03-14T15:38:25.62",
-		"dateUpdated": "2023-01-20T16:06:00.603",
+		"dateUpdated": "2023-01-26T02:03:39.3",
 		"dateDeleted": null
 	},
 	{
@@ -638,7 +735,7 @@
 		"setby": "Vizual Pupil",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 227,
+		"repeats": 232,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -724,7 +821,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 365733,
 		"dateInserted": "2020-03-14T16:15:15.767",
-		"dateUpdated": "2023-01-20T19:55:36.26",
+		"dateUpdated": "2023-01-25T09:01:40.787",
 		"dateDeleted": null
 	},
 	{
@@ -735,7 +832,7 @@
 		"setby": "Michael O'Donnell",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 895,
+		"repeats": 903,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -816,7 +913,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 365734,
 		"dateInserted": "2020-03-14T16:19:01.757",
-		"dateUpdated": "2023-01-20T18:53:06.347",
+		"dateUpdated": "2023-01-26T00:08:56.423",
 		"dateDeleted": null
 	},
 	{
@@ -827,7 +924,7 @@
 		"setby": "Chloe Krueger",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 907,
+		"repeats": 911,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -913,7 +1010,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 365745,
 		"dateInserted": "2020-03-14T17:20:55.08",
-		"dateUpdated": "2023-01-20T03:27:22.007",
+		"dateUpdated": "2023-01-24T17:57:21.137",
 		"dateDeleted": null
 	},
 	{
@@ -924,7 +1021,7 @@
 		"setby": "Chloe Krueger",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 836,
+		"repeats": 846,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -1005,7 +1102,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 365747,
 		"dateInserted": "2020-03-14T17:29:13.78",
-		"dateUpdated": "2023-01-20T14:20:00.13",
+		"dateUpdated": "2023-01-26T01:58:47.69",
 		"dateDeleted": null
 	},
 	{
@@ -1016,7 +1113,7 @@
 		"setby": "Chloe Krueger",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 392,
+		"repeats": 397,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -1097,7 +1194,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 365753,
 		"dateInserted": "2020-03-14T17:53:37.163",
-		"dateUpdated": "2023-01-20T19:02:37.807",
+		"dateUpdated": "2023-01-26T00:15:07.54",
 		"dateDeleted": null
 	},
 	{
@@ -1108,7 +1205,7 @@
 		"setby": "Chloe Krueger",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 124,
+		"repeats": 134,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -1206,7 +1303,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 365754,
 		"dateInserted": "2020-03-14T17:58:09.283",
-		"dateUpdated": "2023-01-20T19:13:45.117",
+		"dateUpdated": "2023-01-24T17:00:54.057",
 		"dateDeleted": null
 	},
 	{
@@ -1217,7 +1314,7 @@
 		"setby": "Erika Eliz",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 399,
+		"repeats": 401,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -1275,7 +1372,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 365836,
 		"dateInserted": "2020-03-15T17:03:57.527",
-		"dateUpdated": "2023-01-20T18:56:22.733",
+		"dateUpdated": "2023-01-26T00:13:23.823",
 		"dateDeleted": null
 	},
 	{
@@ -1286,7 +1383,7 @@
 		"setby": "Erika Eliz",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 430,
+		"repeats": 434,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -1356,7 +1453,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 365856,
 		"dateInserted": "2020-03-15T18:39:59.107",
-		"dateUpdated": "2023-01-20T18:55:11.347",
+		"dateUpdated": "2023-01-26T00:06:28.06",
 		"dateDeleted": null
 	},
 	{
@@ -1367,7 +1464,7 @@
 		"setby": "Chalkdust66",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1095,
+		"repeats": 1103,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -1426,7 +1523,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 366173,
 		"dateInserted": "2020-03-21T15:50:42.863",
-		"dateUpdated": "2023-01-20T23:53:29.38",
+		"dateUpdated": "2023-01-26T00:00:52.237",
 		"dateDeleted": null
 	},
 	{
@@ -1437,7 +1534,7 @@
 		"setby": "Chalkdust66",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 456,
+		"repeats": 461,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -1523,7 +1620,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 366249,
 		"dateInserted": "2020-03-22T15:25:01.04",
-		"dateUpdated": "2023-01-18T18:08:48.107",
+		"dateUpdated": "2023-01-25T08:52:26.073",
 		"dateDeleted": null
 	},
 	{
@@ -1534,7 +1631,7 @@
 		"setby": "Chalkdust66",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 273,
+		"repeats": 276,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -1626,7 +1723,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 366406,
 		"dateInserted": "2020-03-25T17:21:48.343",
-		"dateUpdated": "2023-01-20T20:18:29.65",
+		"dateUpdated": "2023-01-25T08:34:47.023",
 		"dateDeleted": null
 	},
 	{
@@ -1637,7 +1734,7 @@
 		"setby": "Erika Eliz",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 735,
+		"repeats": 741,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -1701,7 +1798,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 366741,
 		"dateInserted": "2020-03-31T23:50:06.647",
-		"dateUpdated": "2023-01-19T19:32:20.153",
+		"dateUpdated": "2023-01-26T02:07:07.77",
 		"dateDeleted": null
 	},
 	{
@@ -1712,7 +1809,7 @@
 		"setby": "Chalkdust66",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 543,
+		"repeats": 549,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -1820,7 +1917,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 367750,
 		"dateInserted": "2020-04-19T17:00:37.55",
-		"dateUpdated": "2023-01-17T11:09:27.213",
+		"dateUpdated": "2023-01-26T01:50:14.35",
 		"dateDeleted": null
 	},
 	{
@@ -1831,7 +1928,7 @@
 		"setby": "Allison Stowers",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 463,
+		"repeats": 471,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -1911,7 +2008,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 367762,
 		"dateInserted": "2020-04-19T19:12:26.873",
-		"dateUpdated": "2023-01-19T17:10:11.903",
+		"dateUpdated": "2023-01-25T08:48:39.863",
 		"dateDeleted": null
 	},
 	{
@@ -2009,7 +2106,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 368073,
 		"dateInserted": "2020-04-25T18:24:15.36",
-		"dateUpdated": "2023-01-14T23:36:47.523",
+		"dateUpdated": "2023-01-23T21:06:42.17",
 		"dateDeleted": null
 	},
 	{
@@ -2020,7 +2117,7 @@
 		"setby": "Chalkdust66",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 322,
+		"repeats": 326,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -2129,7 +2226,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 368139,
 		"dateInserted": "2020-04-26T17:11:00.263",
-		"dateUpdated": "2023-01-20T17:37:05.647",
+		"dateUpdated": "2023-01-24T18:16:44.96",
 		"dateDeleted": null
 	},
 	{
@@ -2140,7 +2237,7 @@
 		"setby": "Chalkdust66",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 864,
+		"repeats": 870,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -2237,7 +2334,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 368719,
 		"dateInserted": "2020-05-10T15:58:45.42",
-		"dateUpdated": "2023-01-20T20:55:24.12",
+		"dateUpdated": "2023-01-25T19:20:40.733",
 		"dateDeleted": null
 	},
 	{
@@ -2248,7 +2345,7 @@
 		"setby": "Chalkdust66",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 510,
+		"repeats": 512,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -2334,7 +2431,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 368854,
 		"dateInserted": "2020-05-13T15:27:22.58",
-		"dateUpdated": "2023-01-20T04:46:41.137",
+		"dateUpdated": "2023-01-26T02:15:37.98",
 		"dateDeleted": null
 	},
 	{
@@ -2345,7 +2442,7 @@
 		"setby": "saymix",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 202,
+		"repeats": 204,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -2425,7 +2522,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 369215,
 		"dateInserted": "2020-05-22T16:34:23.213",
-		"dateUpdated": "2023-01-20T18:21:09.78",
+		"dateUpdated": "2023-01-23T19:02:46.48",
 		"dateDeleted": null
 	},
 	{
@@ -2522,7 +2619,7 @@
 		"setby": "simon",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 202,
+		"repeats": 203,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -2608,7 +2705,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 369766,
 		"dateInserted": "2020-06-04T22:23:19.573",
-		"dateUpdated": "2023-01-20T18:41:48.553",
+		"dateUpdated": "2023-01-23T01:32:46.143",
 		"dateDeleted": null
 	},
 	{
@@ -2619,7 +2716,7 @@
 		"setby": "Allison Stowers",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 247,
+		"repeats": 264,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -2699,7 +2796,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 371532,
 		"dateInserted": "2020-07-06T20:56:00.817",
-		"dateUpdated": "2023-01-20T19:27:10.307",
+		"dateUpdated": "2023-01-25T17:32:57.69",
 		"dateDeleted": null
 	},
 	{
@@ -2710,7 +2807,7 @@
 		"setby": "Colin Bauer",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 121,
+		"repeats": 122,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -2784,7 +2881,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 371617,
 		"dateInserted": "2020-07-07T19:36:52.923",
-		"dateUpdated": "2023-01-14T17:16:23.787",
+		"dateUpdated": "2023-01-21T21:44:40.617",
 		"dateDeleted": null
 	},
 	{
@@ -2795,7 +2892,7 @@
 		"setby": "Yann",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 180,
+		"repeats": 184,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -2881,7 +2978,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 371946,
 		"dateInserted": "2020-07-12T11:01:11.557",
-		"dateUpdated": "2023-01-19T02:26:12.38",
+		"dateUpdated": "2023-01-24T19:43:41.603",
 		"dateDeleted": null
 	},
 	{
@@ -2892,7 +2989,7 @@
 		"setby": "Reinjong",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 296,
+		"repeats": 300,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -2966,7 +3063,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 372710,
 		"dateInserted": "2020-07-22T17:14:52.107",
-		"dateUpdated": "2023-01-20T11:21:08.41",
+		"dateUpdated": "2023-01-24T19:35:16.363",
 		"dateDeleted": null
 	},
 	{
@@ -2977,7 +3074,7 @@
 		"setby": "Raphaa",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 364,
+		"repeats": 365,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -3041,7 +3138,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 372946,
 		"dateInserted": "2020-07-25T20:10:10.197",
-		"dateUpdated": "2023-01-19T02:49:00.003",
+		"dateUpdated": "2023-01-23T00:56:19.433",
 		"dateDeleted": null
 	},
 	{
@@ -3143,7 +3240,7 @@
 		"setby": "Ludozen",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 716,
+		"repeats": 722,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -3212,7 +3309,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 373264,
 		"dateInserted": "2020-07-30T12:19:22.16",
-		"dateUpdated": "2023-01-19T02:02:49.243",
+		"dateUpdated": "2023-01-25T17:43:58.367",
 		"dateDeleted": null
 	},
 	{
@@ -3223,7 +3320,7 @@
 		"setby": "Mikkelfb",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1126,
+		"repeats": 1138,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -3304,7 +3401,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 373387,
 		"dateInserted": "2020-08-01T07:12:52.067",
-		"dateUpdated": "2023-01-20T23:52:30.197",
+		"dateUpdated": "2023-01-25T21:24:15.483",
 		"dateDeleted": null
 	},
 	{
@@ -3315,7 +3412,7 @@
 		"setby": "Malthe J\u00f8rgensen",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 334,
+		"repeats": 335,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -3401,7 +3498,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 373590,
 		"dateInserted": "2020-08-03T19:09:46.727",
-		"dateUpdated": "2023-01-20T20:22:18.57",
+		"dateUpdated": "2023-01-21T11:33:40.037",
 		"dateDeleted": null
 	},
 	{
@@ -3412,7 +3509,7 @@
 		"setby": "maurits enserink",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 1167,
+		"repeats": 1179,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -3487,7 +3584,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 374058,
 		"dateInserted": "2020-08-09T13:15:13.173",
-		"dateUpdated": "2023-01-20T16:54:50.067",
+		"dateUpdated": "2023-01-26T01:51:40.097",
 		"dateDeleted": null
 	},
 	{
@@ -3591,7 +3688,7 @@
 		"setby": "Rymeee",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 507,
+		"repeats": 510,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -3682,7 +3779,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 375854,
 		"dateInserted": "2020-09-04T10:55:46.297",
-		"dateUpdated": "2023-01-20T10:21:33.56",
+		"dateUpdated": "2023-01-24T19:16:02.173",
 		"dateDeleted": null
 	},
 	{
@@ -3784,7 +3881,7 @@
 		"setby": "Violett",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 174,
+		"repeats": 177,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -3849,7 +3946,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 381654,
 		"dateInserted": "2020-11-14T01:09:05.19",
-		"dateUpdated": "2023-01-17T10:14:17.59",
+		"dateUpdated": "2023-01-24T14:06:26.477",
 		"dateDeleted": null
 	},
 	{
@@ -3860,7 +3957,7 @@
 		"setby": "claud.ini",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 473,
+		"repeats": 478,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -3940,7 +4037,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 387798,
 		"dateInserted": "2021-01-19T14:41:29.3",
-		"dateUpdated": "2023-01-17T11:00:58.77",
+		"dateUpdated": "2023-01-26T02:02:25.173",
 		"dateDeleted": null
 	},
 	{
@@ -3951,7 +4048,7 @@
 		"setby": "Chalkdust66",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 490,
+		"repeats": 496,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -4036,7 +4133,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 395024,
 		"dateInserted": "2021-03-07T21:56:36.71",
-		"dateUpdated": "2023-01-21T02:08:48.44",
+		"dateUpdated": "2023-01-25T17:20:07.47",
 		"dateDeleted": null
 	},
 	{
@@ -4127,7 +4224,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 395086,
 		"dateInserted": "2021-03-08T17:56:19.843",
-		"dateUpdated": "2023-01-14T16:55:25.29",
+		"dateUpdated": "2023-01-23T20:44:39.763",
 		"dateDeleted": null
 	},
 	{
@@ -4138,7 +4235,7 @@
 		"setby": "Ullie",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 199,
+		"repeats": 202,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -4225,7 +4322,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 395281,
 		"dateInserted": "2021-03-10T10:56:32.8",
-		"dateUpdated": "2023-01-18T11:41:16.627",
+		"dateUpdated": "2023-01-22T23:03:02.707",
 		"dateDeleted": null
 	},
 	{
@@ -4236,7 +4333,7 @@
 		"setby": "Chalkdust66",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 329,
+		"repeats": 331,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -4327,7 +4424,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 395305,
 		"dateInserted": "2021-03-10T16:13:33.48",
-		"dateUpdated": "2023-01-17T09:46:41.187",
+		"dateUpdated": "2023-01-24T20:28:30.177",
 		"dateDeleted": null
 	},
 	{
@@ -4418,7 +4515,7 @@
 		"setby": "Chalkdust66",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 598,
+		"repeats": 600,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -4498,7 +4595,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 395311,
 		"dateInserted": "2021-03-10T16:47:57.17",
-		"dateUpdated": "2023-01-19T18:04:58.77",
+		"dateUpdated": "2023-01-25T15:26:35.283",
 		"dateDeleted": null
 	},
 	{
@@ -4509,7 +4606,7 @@
 		"setby": "Chalkdust66",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 209,
+		"repeats": 211,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -4606,7 +4703,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 395317,
 		"dateInserted": "2021-03-10T17:26:50.007",
-		"dateUpdated": "2023-01-19T08:05:30.163",
+		"dateUpdated": "2023-01-24T13:56:47.293",
 		"dateDeleted": null
 	},
 	{
@@ -4708,7 +4805,7 @@
 		"setby": "Chalkdust66",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 266,
+		"repeats": 267,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -4789,7 +4886,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 395685,
 		"dateInserted": "2021-03-14T17:12:15.01",
-		"dateUpdated": "2023-01-19T16:51:01.383",
+		"dateUpdated": "2023-01-24T11:54:27.18",
 		"dateDeleted": null
 	},
 	{
@@ -4800,7 +4897,7 @@
 		"setby": "Adrian Landreth",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 872,
+		"repeats": 883,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -4881,7 +4978,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 397774,
 		"dateInserted": "2021-03-28T04:33:21.4",
-		"dateUpdated": "2023-01-19T16:56:59.893",
+		"dateUpdated": "2023-01-25T17:25:47.197",
 		"dateDeleted": null
 	},
 	{
@@ -4892,7 +4989,7 @@
 		"setby": "Adrian Landreth",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 724,
+		"repeats": 734,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -4978,7 +5075,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 397775,
 		"dateInserted": "2021-03-28T04:35:21.01",
-		"dateUpdated": "2023-01-20T10:16:00.897",
+		"dateUpdated": "2023-01-26T02:25:58.897",
 		"dateDeleted": null
 	},
 	{
@@ -4989,7 +5086,7 @@
 		"setby": "Adrian Landreth",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 161,
+		"repeats": 170,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -5052,7 +5149,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 402100,
 		"dateInserted": "2021-05-08T01:46:41.083",
-		"dateUpdated": "2023-01-21T01:48:12.043",
+		"dateUpdated": "2023-01-26T00:17:02.883",
 		"dateDeleted": null
 	},
 	{
@@ -5063,7 +5160,7 @@
 		"setby": "Adrian Landreth",
 		"method": "Feet follow hands",
 		"userRating": 4,
-		"repeats": 359,
+		"repeats": 367,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -5138,7 +5235,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 402673,
 		"dateInserted": "2021-05-15T21:59:40.823",
-		"dateUpdated": "2023-01-18T22:33:47.66",
+		"dateUpdated": "2023-01-25T17:34:45.34",
 		"dateDeleted": null
 	},
 	{
@@ -5149,7 +5246,7 @@
 		"setby": "Yann",
 		"method": "Feet follow hands",
 		"userRating": 5,
-		"repeats": 126,
+		"repeats": 132,
 		"holdsetup": {
 			"description": "MoonBoard Masters 2019",
 			"holdsets": null,
@@ -5241,7 +5338,7 @@
 		"moonBoardConfigurationId": 2,
 		"apiId": 412565,
 		"dateInserted": "2021-08-22T18:03:48.663",
-		"dateUpdated": "2023-01-18T17:23:16.753",
+		"dateUpdated": "2023-01-24T13:52:49.853",
 		"dateDeleted": null
 	}
 ]

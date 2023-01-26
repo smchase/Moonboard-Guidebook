@@ -138,7 +138,6 @@ const getUserLogbook = async (request, response) => {
 			url: logbookURL,
 			headers: logbookHeaders,
 		});
-		console.log(logbookResponse.data);
 		let logbook = [];
 		for (let i = 0; i < logbookResponse.data.length; i++) {
 			logbook.push(logbookResponse.data[i].problem.apiId);

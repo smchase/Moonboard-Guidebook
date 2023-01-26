@@ -7,7 +7,7 @@
 		"grade": 1,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 1033,
+		"repeats": 1037,
 		"date_created": "2019-12-24 12:29:05",
 		"holdsets": [
 			1,
@@ -30,10 +30,10 @@
 		"end_holds": [
 			"J18"
 		],
-		"avg_user_grade": 1.0261,
+		"avg_user_grade": 1.026,
 		"user_grade_breakdown": [
 			51,
-			925,
+			929,
 			45,
 			3,
 			9,
@@ -51,14 +51,14 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.226,
+		"avg_user_stars": 4.224,
 		"user_star_breakdown": [
 			12,
 			3,
 			34,
-			90,
-			446,
-			448
+			92,
+			447,
+			449
 		],
 		"avg_user_attempts": 1.41,
 		"user_attempts_breakdown": [
@@ -76,7 +76,7 @@
 		"grade": 1,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 812,
+		"repeats": 817,
 		"date_created": "2019-12-24 12:38:45",
 		"holdsets": [
 			1,
@@ -96,11 +96,11 @@
 		"end_holds": [
 			"D18"
 		],
-		"avg_user_grade": 1.0764,
+		"avg_user_grade": 1.0771,
 		"user_grade_breakdown": [
 			32,
-			708,
-			59,
+			712,
+			60,
 			4,
 			9,
 			0,
@@ -117,14 +117,14 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.01,
+		"avg_user_stars": 4.015,
 		"user_star_breakdown": [
 			4,
 			25,
 			42,
 			81,
-			394,
-			264
+			395,
+			268
 		],
 		"avg_user_attempts": 1.55,
 		"user_attempts_breakdown": [
@@ -142,7 +142,7 @@
 		"grade": 0,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 1381,
+		"repeats": 1395,
 		"date_created": "2019-12-24 13:06:18",
 		"holdsets": [
 			1,
@@ -164,9 +164,9 @@
 		"end_holds": [
 			"D18"
 		],
-		"avg_user_grade": 0.0413,
+		"avg_user_grade": 0.0409,
 		"user_grade_breakdown": [
-			1343,
+			1357,
 			20,
 			17,
 			1,
@@ -185,14 +185,14 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.13,
+		"avg_user_stars": 4.135,
 		"user_star_breakdown": [
 			18,
 			2,
 			55,
-			137,
-			663,
-			505
+			138,
+			667,
+			514
 		],
 		"avg_user_attempts": 1.22,
 		"user_attempts_breakdown": [
@@ -203,6 +203,74 @@
 		]
 	},
 	{
+		"id": 358912,
+		"mb_type": 3,
+		"name": "PAKKELEG",
+		"setter": "kasperg ",
+		"grade": 4,
+		"upgraded": true,
+		"downgraded": false,
+		"repeats": 86,
+		"date_created": "2019-12-24 13:21:48",
+		"holdsets": [
+			1,
+			2,
+			5,
+			6
+		],
+		"start_holds": [
+			"J5",
+			"H6"
+		],
+		"mid_holds": [
+			"I9",
+			"J11",
+			"F12",
+			"H15",
+			"E5"
+		],
+		"end_holds": [
+			"D18"
+		],
+		"avg_user_grade": 3.1977,
+		"user_grade_breakdown": [
+			0,
+			0,
+			0,
+			70,
+			15,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"avg_user_stars": 4.477,
+		"user_star_breakdown": [
+			0,
+			0,
+			1,
+			4,
+			34,
+			47
+		],
+		"avg_user_attempts": 1.657,
+		"user_attempts_breakdown": [
+			59,
+			24,
+			7,
+			9
+		]
+	},
+	{
 		"id": 362869,
 		"mb_type": 3,
 		"name": "MOONLANDING",
@@ -210,7 +278,7 @@
 		"grade": 4,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 845,
+		"repeats": 851,
 		"date_created": "2020-02-11 18:52:23",
 		"holdsets": [
 			1,
@@ -230,13 +298,13 @@
 		"end_holds": [
 			"D18"
 		],
-		"avg_user_grade": 3.4994,
+		"avg_user_grade": 3.5029,
 		"user_grade_breakdown": [
 			8,
 			12,
 			101,
 			154,
-			569,
+			575,
 			1,
 			0,
 			0,
@@ -251,14 +319,14 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.222,
+		"avg_user_stars": 4.223,
 		"user_star_breakdown": [
 			5,
 			5,
 			25,
 			85,
-			367,
-			358
+			371,
+			360
 		],
 		"avg_user_attempts": 1.31,
 		"user_attempts_breakdown": [
@@ -276,7 +344,7 @@
 		"grade": 5,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 464,
+		"repeats": 472,
 		"date_created": "2020-02-11 18:58:08",
 		"holdsets": [
 			0,
@@ -297,14 +365,14 @@
 		"end_holds": [
 			"G18"
 		],
-		"avg_user_grade": 4.7716,
+		"avg_user_grade": 4.7712,
 		"user_grade_breakdown": [
 			3,
 			0,
 			3,
 			10,
-			67,
-			376,
+			69,
+			382,
 			5,
 			0,
 			0,
@@ -318,14 +386,14 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.19,
+		"avg_user_stars": 4.189,
 		"user_star_breakdown": [
 			3,
 			4,
 			18,
-			48,
-			195,
-			196
+			49,
+			200,
+			198
 		],
 		"avg_user_attempts": 1.55,
 		"user_attempts_breakdown": [
@@ -343,7 +411,7 @@
 		"grade": 6,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 232,
+		"repeats": 237,
 		"date_created": "2020-02-11 20:00:16",
 		"holdsets": [
 			4,
@@ -363,15 +431,15 @@
 		"end_holds": [
 			"B18"
 		],
-		"avg_user_grade": 5.8793,
+		"avg_user_grade": 5.8565,
 		"user_grade_breakdown": [
-			0,
+			1,
 			0,
 			0,
 			1,
 			7,
 			19,
-			197,
+			201,
 			8,
 			0,
 			0,
@@ -384,14 +452,14 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.353,
+		"avg_user_stars": 4.359,
 		"user_star_breakdown": [
 			0,
 			2,
 			6,
 			19,
-			86,
-			119
+			88,
+			122
 		],
 		"avg_user_attempts": 2.05,
 		"user_attempts_breakdown": [
@@ -409,7 +477,7 @@
 		"grade": 0,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 903,
+		"repeats": 912,
 		"date_created": "2020-03-14 15:38:25",
 		"holdsets": [
 			1,
@@ -428,10 +496,10 @@
 		"end_holds": [
 			"D18"
 		],
-		"avg_user_grade": 0.1595,
+		"avg_user_grade": 0.159,
 		"user_grade_breakdown": [
-			804,
-			59,
+			812,
+			60,
 			38,
 			1,
 			0,
@@ -449,14 +517,14 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.113,
+		"avg_user_stars": 4.115,
 		"user_star_breakdown": [
 			6,
 			10,
 			29,
 			106,
-			432,
-			320
+			438,
+			323
 		],
 		"avg_user_attempts": 1.404,
 		"user_attempts_breakdown": [
@@ -474,7 +542,7 @@
 		"grade": 6,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 227,
+		"repeats": 232,
 		"date_created": "2020-03-14 16:15:15",
 		"holdsets": [
 			0,
@@ -496,7 +564,7 @@
 		"end_holds": [
 			"C18"
 		],
-		"avg_user_grade": 5.8502,
+		"avg_user_grade": 5.8534,
 		"user_grade_breakdown": [
 			0,
 			0,
@@ -504,7 +572,7 @@
 			0,
 			12,
 			16,
-			193,
+			198,
 			6,
 			0,
 			0,
@@ -517,19 +585,19 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.3,
+		"avg_user_stars": 4.306,
 		"user_star_breakdown": [
 			0,
 			1,
 			9,
-			19,
+			20,
 			90,
-			108
+			112
 		],
-		"avg_user_attempts": 1.85,
+		"avg_user_attempts": 1.86,
 		"user_attempts_breakdown": [
-			56,
-			17,
+			55,
+			18,
 			13,
 			14
 		]
@@ -542,7 +610,7 @@
 		"grade": 2,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 895,
+		"repeats": 903,
 		"date_created": "2020-03-14 16:19:01",
 		"holdsets": [
 			0,
@@ -563,11 +631,11 @@
 		"end_holds": [
 			"C18"
 		],
-		"avg_user_grade": 1.8615,
+		"avg_user_grade": 1.8583,
 		"user_grade_breakdown": [
-			32,
-			81,
-			767,
+			33,
+			83,
+			772,
 			9,
 			6,
 			0,
@@ -589,9 +657,9 @@
 			7,
 			9,
 			25,
-			82,
-			421,
-			351
+			83,
+			426,
+			353
 		],
 		"avg_user_attempts": 1.313,
 		"user_attempts_breakdown": [
@@ -609,7 +677,7 @@
 		"grade": 2,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 907,
+		"repeats": 911,
 		"date_created": "2020-03-14 17:20:55",
 		"holdsets": [
 			0,
@@ -631,11 +699,11 @@
 		"end_holds": [
 			"H18"
 		],
-		"avg_user_grade": 1.88,
+		"avg_user_grade": 1.8804,
 		"user_grade_breakdown": [
 			34,
 			65,
-			792,
+			795,
 			10,
 			7,
 			0,
@@ -652,14 +720,14 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.086,
+		"avg_user_stars": 4.087,
 		"user_star_breakdown": [
 			11,
 			12,
 			33,
 			89,
-			450,
-			313
+			452,
+			314
 		],
 		"avg_user_attempts": 1.37,
 		"user_attempts_breakdown": [
@@ -677,7 +745,7 @@
 		"grade": 0,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 836,
+		"repeats": 846,
 		"date_created": "2020-03-14 17:29:13",
 		"holdsets": [
 			0,
@@ -698,11 +766,11 @@
 		"end_holds": [
 			"D18"
 		],
-		"avg_user_grade": 0.1854,
+		"avg_user_grade": 0.1868,
 		"user_grade_breakdown": [
-			729,
-			66,
-			37,
+			737,
+			67,
+			38,
 			1,
 			3,
 			0,
@@ -719,14 +787,14 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.122,
+		"avg_user_stars": 4.125,
 		"user_star_breakdown": [
 			12,
 			9,
 			28,
-			76,
-			402,
-			309
+			77,
+			406,
+			314
 		],
 		"avg_user_attempts": 1.33,
 		"user_attempts_breakdown": [
@@ -744,7 +812,7 @@
 		"grade": 4,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 392,
+		"repeats": 397,
 		"date_created": "2020-03-14 17:53:37",
 		"holdsets": [
 			0,
@@ -765,13 +833,13 @@
 		"end_holds": [
 			"D18"
 		],
-		"avg_user_grade": 3.875,
+		"avg_user_grade": 3.8766,
 		"user_grade_breakdown": [
 			3,
 			1,
 			13,
 			26,
-			333,
+			338,
 			14,
 			2,
 			0,
@@ -786,14 +854,14 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.166,
+		"avg_user_stars": 4.169,
 		"user_star_breakdown": [
 			3,
 			5,
 			23,
-			34,
-			155,
-			172
+			35,
+			156,
+			175
 		],
 		"avg_user_attempts": 1.68,
 		"user_attempts_breakdown": [
@@ -811,7 +879,7 @@
 		"grade": 4,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 124,
+		"repeats": 134,
 		"date_created": "2020-03-14 17:58:09",
 		"holdsets": [
 			0,
@@ -835,13 +903,13 @@
 		"end_holds": [
 			"D18"
 		],
-		"avg_user_grade": 3.9274,
+		"avg_user_grade": 3.9328,
 		"user_grade_breakdown": [
 			0,
 			0,
 			3,
 			8,
-			110,
+			120,
 			1,
 			2,
 			0,
@@ -856,21 +924,21 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.306,
+		"avg_user_stars": 4.299,
 		"user_star_breakdown": [
 			0,
 			4,
-			1,
+			2,
 			10,
-			47,
-			62
+			52,
+			66
 		],
-		"avg_user_attempts": 1.65,
+		"avg_user_attempts": 1.62,
 		"user_attempts_breakdown": [
-			63,
+			64,
 			15,
 			16,
-			6
+			5
 		]
 	},
 	{
@@ -881,7 +949,7 @@
 		"grade": 4,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 399,
+		"repeats": 401,
 		"date_created": "2020-03-15 17:03:57",
 		"holdsets": [
 			1,
@@ -898,13 +966,13 @@
 		"end_holds": [
 			"D18"
 		],
-		"avg_user_grade": 3.797,
+		"avg_user_grade": 3.793,
 		"user_grade_breakdown": [
 			4,
 			3,
-			17,
+			18,
 			44,
-			318,
+			319,
 			6,
 			5,
 			2,
@@ -919,20 +987,20 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.12,
+		"avg_user_stars": 4.11,
 		"user_star_breakdown": [
 			0,
-			7,
+			8,
 			26,
-			37,
+			38,
 			171,
 			158
 		],
-		"avg_user_attempts": 1.62,
+		"avg_user_attempts": 1.6,
 		"user_attempts_breakdown": [
-			67,
+			68,
 			13,
-			11,
+			10,
 			9
 		]
 	},
@@ -944,7 +1012,7 @@
 		"grade": 2,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 430,
+		"repeats": 434,
 		"date_created": "2020-03-15 18:39:59",
 		"holdsets": [
 			1,
@@ -963,13 +1031,13 @@
 		"end_holds": [
 			"A18"
 		],
-		"avg_user_grade": 2.2651,
+		"avg_user_grade": 2.2673,
 		"user_grade_breakdown": [
 			5,
 			9,
-			327,
+			330,
 			50,
-			36,
+			37,
 			1,
 			2,
 			0,
@@ -984,14 +1052,14 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.026,
+		"avg_user_stars": 4.03,
 		"user_star_breakdown": [
 			3,
 			14,
 			21,
 			45,
-			195,
-			152
+			197,
+			154
 		],
 		"avg_user_attempts": 1.87,
 		"user_attempts_breakdown": [
@@ -1009,7 +1077,7 @@
 		"grade": 0,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 1095,
+		"repeats": 1103,
 		"date_created": "2020-03-21 15:50:42",
 		"holdsets": [
 			1
@@ -1026,11 +1094,11 @@
 		"end_holds": [
 			"I18"
 		],
-		"avg_user_grade": 0.2256,
+		"avg_user_grade": 0.2294,
 		"user_grade_breakdown": [
-			919,
-			112,
-			59,
+			923,
+			114,
+			61,
 			3,
 			2,
 			0,
@@ -1051,10 +1119,10 @@
 		"user_star_breakdown": [
 			8,
 			18,
-			48,
-			140,
-			553,
-			328
+			49,
+			141,
+			556,
+			331
 		],
 		"avg_user_attempts": 1.5,
 		"user_attempts_breakdown": [
@@ -1072,7 +1140,7 @@
 		"grade": 2,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 456,
+		"repeats": 461,
 		"date_created": "2020-03-22 15:25:01",
 		"holdsets": [
 			0,
@@ -1094,11 +1162,11 @@
 		"end_holds": [
 			"D18"
 		],
-		"avg_user_grade": 1.9803,
+		"avg_user_grade": 1.9805,
 		"user_grade_breakdown": [
 			11,
 			19,
-			404,
+			409,
 			12,
 			10,
 			0,
@@ -1121,8 +1189,8 @@
 			3,
 			24,
 			44,
-			183,
-			198
+			187,
+			199
 		],
 		"avg_user_attempts": 1.49,
 		"user_attempts_breakdown": [
@@ -1140,7 +1208,7 @@
 		"grade": 5,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 273,
+		"repeats": 276,
 		"date_created": "2020-03-25 17:21:48",
 		"holdsets": [
 			0,
@@ -1163,15 +1231,15 @@
 		"end_holds": [
 			"A18"
 		],
-		"avg_user_grade": 4.9927,
+		"avg_user_grade": 4.9964,
 		"user_grade_breakdown": [
 			2,
 			0,
 			0,
 			2,
 			10,
-			241,
-			14,
+			243,
+			15,
 			4,
 			0,
 			0,
@@ -1184,14 +1252,14 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.293,
+		"avg_user_stars": 4.29,
 		"user_star_breakdown": [
 			0,
 			3,
 			7,
-			21,
-			118,
-			124
+			22,
+			119,
+			125
 		],
 		"avg_user_attempts": 1.82,
 		"user_attempts_breakdown": [
@@ -1209,7 +1277,7 @@
 		"grade": 3,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 735,
+		"repeats": 741,
 		"date_created": "2020-03-31 23:50:06",
 		"holdsets": [
 			0,
@@ -1227,12 +1295,12 @@
 		"end_holds": [
 			"C18"
 		],
-		"avg_user_grade": 2.8503,
+		"avg_user_grade": 2.8475,
 		"user_grade_breakdown": [
 			8,
 			8,
-			88,
-			617,
+			91,
+			620,
 			12,
 			0,
 			2,
@@ -1248,14 +1316,14 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.118,
+		"avg_user_stars": 4.117,
 		"user_star_breakdown": [
 			10,
 			6,
 			29,
-			70,
-			347,
-			273
+			72,
+			349,
+			275
 		],
 		"avg_user_attempts": 1.406,
 		"user_attempts_breakdown": [
@@ -1273,7 +1341,7 @@
 		"grade": 1,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 543,
+		"repeats": 549,
 		"date_created": "2020-04-19 17:00:37",
 		"holdsets": [
 			0,
@@ -1299,13 +1367,13 @@
 		"end_holds": [
 			"J18"
 		],
-		"avg_user_grade": 1.2155,
+		"avg_user_grade": 1.2222,
 		"user_grade_breakdown": [
 			14,
-			444,
-			57,
+			447,
+			59,
 			11,
-			16,
+			17,
 			1,
 			0,
 			0,
@@ -1320,19 +1388,19 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.116,
+		"avg_user_stars": 4.115,
 		"user_star_breakdown": [
 			2,
 			4,
 			28,
-			69,
-			232,
-			208
+			70,
+			236,
+			209
 		],
-		"avg_user_attempts": 1.58,
+		"avg_user_attempts": 1.59,
 		"user_attempts_breakdown": [
-			68,
-			15,
+			67,
+			16,
 			8,
 			9
 		]
@@ -1345,7 +1413,7 @@
 		"grade": 2,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 463,
+		"repeats": 471,
 		"date_created": "2020-04-19 19:12:26",
 		"holdsets": [
 			0,
@@ -1366,11 +1434,11 @@
 		"end_holds": [
 			"D18"
 		],
-		"avg_user_grade": 1.8985,
+		"avg_user_grade": 1.8981,
 		"user_grade_breakdown": [
 			15,
-			34,
-			403,
+			35,
+			410,
 			5,
 			6,
 			0,
@@ -1387,20 +1455,20 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.296,
+		"avg_user_stars": 4.289,
 		"user_star_breakdown": [
 			2,
 			1,
 			9,
-			50,
-			185,
+			51,
+			192,
 			216
 		],
-		"avg_user_attempts": 1.303,
+		"avg_user_attempts": 1.32,
 		"user_attempts_breakdown": [
 			80,
 			11,
-			5,
+			6,
 			3
 		]
 	},
@@ -1480,7 +1548,7 @@
 		"grade": 5,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 322,
+		"repeats": 326,
 		"date_created": "2020-04-26 17:11:00",
 		"holdsets": [
 			0,
@@ -1513,7 +1581,7 @@
 			0,
 			1,
 			15,
-			288,
+			292,
 			13,
 			4,
 			0,
@@ -1527,14 +1595,14 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.28,
+		"avg_user_stars": 4.282,
 		"user_star_breakdown": [
 			2,
 			4,
 			7,
-			29,
+			30,
 			127,
-			153
+			156
 		],
 		"avg_user_attempts": 1.93,
 		"user_attempts_breakdown": [
@@ -1552,7 +1620,7 @@
 		"grade": 3,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 864,
+		"repeats": 870,
 		"date_created": "2020-05-10 15:58:45",
 		"holdsets": [
 			1,
@@ -1576,13 +1644,13 @@
 		"end_holds": [
 			"J18"
 		],
-		"avg_user_grade": 2.875,
+		"avg_user_grade": 2.8759,
 		"user_grade_breakdown": [
 			11,
 			8,
-			82,
-			745,
-			15,
+			83,
+			749,
+			16,
 			1,
 			2,
 			0,
@@ -1597,18 +1665,18 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.26,
+		"avg_user_stars": 4.259,
 		"user_star_breakdown": [
 			7,
 			8,
 			15,
-			89,
-			349,
-			396
+			90,
+			353,
+			397
 		],
-		"avg_user_attempts": 1.446,
+		"avg_user_attempts": 1.45,
 		"user_attempts_breakdown": [
-			72,
+			71,
 			17,
 			8,
 			4
@@ -1622,7 +1690,7 @@
 		"grade": 4,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 510,
+		"repeats": 512,
 		"date_created": "2020-05-13 15:27:22",
 		"holdsets": [
 			0,
@@ -1644,13 +1712,13 @@
 		"end_holds": [
 			"J18"
 		],
-		"avg_user_grade": 3.8588,
+		"avg_user_grade": 3.8574,
 		"user_grade_breakdown": [
 			3,
 			0,
 			16,
-			39,
-			442,
+			40,
+			443,
 			9,
 			1,
 			0,
@@ -1670,9 +1738,9 @@
 			7,
 			5,
 			17,
-			39,
+			40,
 			233,
-			209
+			210
 		],
 		"avg_user_attempts": 1.782,
 		"user_attempts_breakdown": [
@@ -1690,7 +1758,7 @@
 		"grade": 7,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 202,
+		"repeats": 204,
 		"date_created": "2020-05-22 16:34:23",
 		"holdsets": [
 			1,
@@ -1711,7 +1779,7 @@
 		"end_holds": [
 			"G18"
 		],
-		"avg_user_grade": 6.9653,
+		"avg_user_grade": 6.9657,
 		"user_grade_breakdown": [
 			0,
 			0,
@@ -1720,7 +1788,7 @@
 			0,
 			2,
 			9,
-			185,
+			187,
 			6,
 			0,
 			0,
@@ -1732,21 +1800,21 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.183,
+		"avg_user_stars": 4.191,
 		"user_star_breakdown": [
 			1,
 			5,
 			7,
 			23,
 			73,
-			93
+			95
 		],
-		"avg_user_attempts": 2.515,
+		"avg_user_attempts": 2.53,
 		"user_attempts_breakdown": [
 			29,
 			17,
 			26,
-			27
+			28
 		]
 	},
 	{
@@ -1823,7 +1891,7 @@
 		"grade": 7,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 202,
+		"repeats": 203,
 		"date_created": "2020-06-04 22:23:19",
 		"holdsets": [
 			1,
@@ -1845,13 +1913,13 @@
 		"end_holds": [
 			"I18"
 		],
-		"avg_user_grade": 6.901,
+		"avg_user_grade": 6.8867,
 		"user_grade_breakdown": [
 			0,
 			0,
 			0,
 			0,
-			1,
+			2,
 			4,
 			19,
 			168,
@@ -1866,12 +1934,12 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.287,
+		"avg_user_stars": 4.281,
 		"user_star_breakdown": [
 			0,
 			3,
 			5,
-			17,
+			18,
 			83,
 			94
 		],
@@ -1891,7 +1959,7 @@
 		"grade": 0,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 247,
+		"repeats": 264,
 		"date_created": "2020-07-06 20:56:00",
 		"holdsets": [
 			1,
@@ -1912,9 +1980,9 @@
 		"end_holds": [
 			"D18"
 		],
-		"avg_user_grade": 0.1053,
+		"avg_user_grade": 0.0985,
 		"user_grade_breakdown": [
-			229,
+			246,
 			10,
 			8,
 			0,
@@ -1933,18 +2001,18 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.239,
+		"avg_user_stars": 4.25,
 		"user_star_breakdown": [
 			0,
 			2,
 			6,
-			20,
-			122,
-			97
+			23,
+			126,
+			107
 		],
-		"avg_user_attempts": 1.228,
+		"avg_user_attempts": 1.23,
 		"user_attempts_breakdown": [
-			87,
+			86,
 			8,
 			3,
 			3
@@ -1958,7 +2026,7 @@
 		"grade": 9,
 		"upgraded": true,
 		"downgraded": false,
-		"repeats": 121,
+		"repeats": 122,
 		"date_created": "2020-07-07 19:36:52",
 		"holdsets": [
 			1,
@@ -1978,7 +2046,7 @@
 		"end_holds": [
 			"D18"
 		],
-		"avg_user_grade": 8.7686,
+		"avg_user_grade": 8.7705,
 		"user_grade_breakdown": [
 			0,
 			0,
@@ -1989,7 +2057,7 @@
 			1,
 			3,
 			22,
-			92,
+			93,
 			3,
 			0,
 			0,
@@ -1999,13 +2067,13 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.413,
+		"avg_user_stars": 4.41,
 		"user_star_breakdown": [
 			1,
 			0,
 			2,
 			14,
-			32,
+			33,
 			72
 		],
 		"avg_user_attempts": 2.41,
@@ -2024,7 +2092,7 @@
 		"grade": 4,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 180,
+		"repeats": 184,
 		"date_created": "2020-07-12 11:01:11",
 		"holdsets": [
 			1,
@@ -2046,13 +2114,13 @@
 		"end_holds": [
 			"D18"
 		],
-		"avg_user_grade": 3.8667,
+		"avg_user_grade": 3.8696,
 		"user_grade_breakdown": [
 			0,
 			0,
 			8,
 			16,
-			150,
+			154,
 			4,
 			2,
 			0,
@@ -2067,21 +2135,21 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.228,
+		"avg_user_stars": 4.239,
 		"user_star_breakdown": [
 			0,
 			1,
 			3,
 			24,
-			78,
-			74
+			79,
+			77
 		],
-		"avg_user_attempts": 1.38,
+		"avg_user_attempts": 1.4,
 		"user_attempts_breakdown": [
 			74,
-			16,
+			15,
 			8,
-			2
+			3
 		]
 	},
 	{
@@ -2092,7 +2160,7 @@
 		"grade": 6,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 296,
+		"repeats": 300,
 		"date_created": "2020-07-22 17:14:52",
 		"holdsets": [
 			1,
@@ -2112,7 +2180,7 @@
 		"end_holds": [
 			"E18"
 		],
-		"avg_user_grade": 5.8345,
+		"avg_user_grade": 5.8367,
 		"user_grade_breakdown": [
 			0,
 			0,
@@ -2120,7 +2188,7 @@
 			3,
 			10,
 			23,
-			257,
+			261,
 			3,
 			0,
 			0,
@@ -2133,14 +2201,14 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.243,
+		"avg_user_stars": 4.247,
 		"user_star_breakdown": [
 			2,
 			3,
 			13,
-			25,
+			26,
 			113,
-			140
+			143
 		],
 		"avg_user_attempts": 1.89,
 		"user_attempts_breakdown": [
@@ -2158,7 +2226,7 @@
 		"grade": 3,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 364,
+		"repeats": 365,
 		"date_created": "2020-07-25 20:10:10",
 		"holdsets": [
 			5,
@@ -2176,12 +2244,12 @@
 		"end_holds": [
 			"J18"
 		],
-		"avg_user_grade": 3.1401,
+		"avg_user_grade": 3.1397,
 		"user_grade_breakdown": [
 			3,
 			2,
 			9,
-			297,
+			298,
 			42,
 			4,
 			6,
@@ -2197,12 +2265,12 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.184,
+		"avg_user_stars": 4.181,
 		"user_star_breakdown": [
 			2,
 			10,
 			7,
-			43,
+			44,
 			140,
 			162
 		],
@@ -2289,7 +2357,7 @@
 		"grade": 1,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 716,
+		"repeats": 722,
 		"date_created": "2020-07-30 12:19:22",
 		"holdsets": [
 			0,
@@ -2308,11 +2376,11 @@
 		"end_holds": [
 			"F18"
 		],
-		"avg_user_grade": 1.102,
+		"avg_user_grade": 1.1025,
 		"user_grade_breakdown": [
 			37,
-			612,
-			47,
+			617,
+			48,
 			9,
 			10,
 			0,
@@ -2329,18 +2397,18 @@
 			1,
 			0
 		],
-		"avg_user_stars": 4.074,
+		"avg_user_stars": 4.073,
 		"user_star_breakdown": [
 			5,
 			8,
-			35,
-			79,
-			343,
-			246
+			36,
+			80,
+			344,
+			249
 		],
-		"avg_user_attempts": 1.5,
+		"avg_user_attempts": 1.505,
 		"user_attempts_breakdown": [
-			71,
+			70,
 			15,
 			7,
 			7
@@ -2354,7 +2422,7 @@
 		"grade": 0,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 1126,
+		"repeats": 1138,
 		"date_created": "2020-08-01 07:12:52",
 		"holdsets": [
 			1,
@@ -2375,11 +2443,11 @@
 		"end_holds": [
 			"D18"
 		],
-		"avg_user_grade": 0.0639,
+		"avg_user_grade": 0.0668,
 		"user_grade_breakdown": [
-			1074,
+			1084,
 			32,
-			20,
+			22,
 			0,
 			0,
 			0,
@@ -2396,14 +2464,14 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.065,
+		"avg_user_stars": 4.069,
 		"user_star_breakdown": [
 			12,
 			18,
 			39,
-			136,
-			532,
-			389
+			137,
+			537,
+			395
 		],
 		"avg_user_attempts": 1.38,
 		"user_attempts_breakdown": [
@@ -2421,7 +2489,7 @@
 		"grade": 4,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 334,
+		"repeats": 335,
 		"date_created": "2020-08-03 19:09:46",
 		"holdsets": [
 			0,
@@ -2443,13 +2511,13 @@
 		"end_holds": [
 			"H18"
 		],
-		"avg_user_grade": 3.9611,
+		"avg_user_grade": 3.9612,
 		"user_grade_breakdown": [
 			3,
 			1,
 			5,
 			17,
-			283,
+			284,
 			21,
 			4,
 			0,
@@ -2464,14 +2532,14 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.246,
+		"avg_user_stars": 4.248,
 		"user_star_breakdown": [
 			0,
 			6,
 			12,
 			33,
 			126,
-			157
+			158
 		],
 		"avg_user_attempts": 1.901,
 		"user_attempts_breakdown": [
@@ -2489,7 +2557,7 @@
 		"grade": 0,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 1167,
+		"repeats": 1179,
 		"date_created": "2020-08-09 13:15:13",
 		"holdsets": [
 			1,
@@ -2509,11 +2577,11 @@
 		"end_holds": [
 			"H18"
 		],
-		"avg_user_grade": 0.1131,
+		"avg_user_grade": 0.1137,
 		"user_grade_breakdown": [
-			1070,
+			1081,
 			63,
-			33,
+			34,
 			1,
 			0,
 			0,
@@ -2530,14 +2598,14 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.082,
+		"avg_user_stars": 4.087,
 		"user_star_breakdown": [
 			17,
 			5,
 			35,
-			148,
-			565,
-			397
+			149,
+			568,
+			405
 		],
 		"avg_user_attempts": 1.37,
 		"user_attempts_breakdown": [
@@ -2622,7 +2690,7 @@
 		"grade": 3,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 507,
+		"repeats": 510,
 		"date_created": "2020-09-04 10:55:46",
 		"holdsets": [
 			1,
@@ -2645,12 +2713,12 @@
 		"end_holds": [
 			"G18"
 		],
-		"avg_user_grade": 3.0099,
+		"avg_user_grade": 3.0098,
 		"user_grade_breakdown": [
 			5,
 			3,
 			23,
-			435,
+			438,
 			37,
 			0,
 			4,
@@ -2666,18 +2734,18 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.174,
+		"avg_user_stars": 4.178,
 		"user_star_breakdown": [
 			3,
 			6,
 			20,
 			48,
 			224,
-			206
+			209
 		],
-		"avg_user_attempts": 1.54,
+		"avg_user_attempts": 1.545,
 		"user_attempts_breakdown": [
-			68,
+			67,
 			17,
 			8,
 			7
@@ -2758,7 +2826,7 @@
 		"grade": 6,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 174,
+		"repeats": 177,
 		"date_created": "2020-11-14 01:09:05",
 		"holdsets": [
 			4
@@ -2776,7 +2844,7 @@
 		"end_holds": [
 			"E18"
 		],
-		"avg_user_grade": 5.9483,
+		"avg_user_grade": 5.9548,
 		"user_grade_breakdown": [
 			0,
 			0,
@@ -2784,8 +2852,8 @@
 			0,
 			8,
 			7,
-			149,
-			8,
+			151,
+			9,
 			1,
 			0,
 			1,
@@ -2797,18 +2865,18 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.305,
+		"avg_user_stars": 4.311,
 		"user_star_breakdown": [
 			0,
 			1,
 			5,
-			24,
-			54,
-			90
+			25,
+			53,
+			93
 		],
-		"avg_user_attempts": 2.099,
+		"avg_user_attempts": 2.11,
 		"user_attempts_breakdown": [
-			49,
+			48,
 			14,
 			17,
 			21
@@ -2822,7 +2890,7 @@
 		"grade": 1,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 473,
+		"repeats": 478,
 		"date_created": "2021-01-19 14:41:29",
 		"holdsets": [
 			0,
@@ -2843,15 +2911,15 @@
 		"end_holds": [
 			"H18"
 		],
-		"avg_user_grade": 1.2939,
+		"avg_user_grade": 1.3096,
 		"user_grade_breakdown": [
 			7,
-			364,
-			75,
+			366,
+			76,
 			10,
-			17,
+			18,
 			0,
-			0,
+			1,
 			0,
 			0,
 			0,
@@ -2869,13 +2937,13 @@
 			3,
 			8,
 			19,
-			61,
-			228,
-			154
+			62,
+			231,
+			155
 		],
-		"avg_user_attempts": 1.782,
+		"avg_user_attempts": 1.79,
 		"user_attempts_breakdown": [
-			59,
+			58,
 			19,
 			9,
 			14
@@ -2889,7 +2957,7 @@
 		"grade": 5,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 490,
+		"repeats": 496,
 		"date_created": "2021-03-07 21:56:36",
 		"holdsets": [
 			0,
@@ -2911,14 +2979,14 @@
 		"end_holds": [
 			"B18"
 		],
-		"avg_user_grade": 4.8286,
+		"avg_user_grade": 4.8306,
 		"user_grade_breakdown": [
 			3,
 			1,
 			3,
 			10,
 			45,
-			421,
+			427,
 			5,
 			2,
 			0,
@@ -2937,9 +3005,9 @@
 			2,
 			4,
 			17,
-			37,
-			189,
-			241
+			38,
+			191,
+			244
 		],
 		"avg_user_attempts": 1.69,
 		"user_attempts_breakdown": [
@@ -3024,7 +3092,7 @@
 		"grade": 8,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 199,
+		"repeats": 202,
 		"date_created": "2021-03-10 10:56:32",
 		"holdsets": [
 			0,
@@ -3046,7 +3114,7 @@
 		"end_holds": [
 			"F18"
 		],
-		"avg_user_grade": 7.7839,
+		"avg_user_grade": 7.7871,
 		"user_grade_breakdown": [
 			0,
 			0,
@@ -3056,7 +3124,7 @@
 			2,
 			4,
 			31,
-			160,
+			163,
 			2,
 			0,
 			0,
@@ -3067,21 +3135,21 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.362,
+		"avg_user_stars": 4.371,
 		"user_star_breakdown": [
 			0,
 			2,
 			2,
 			20,
 			73,
-			102
+			105
 		],
-		"avg_user_attempts": 2.15,
+		"avg_user_attempts": 2.17,
 		"user_attempts_breakdown": [
 			46,
-			16,
 			15,
-			23
+			15,
+			24
 		]
 	},
 	{
@@ -3092,7 +3160,7 @@
 		"grade": 5,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 329,
+		"repeats": 331,
 		"date_created": "2021-03-10 16:13:33",
 		"holdsets": [
 			0,
@@ -3122,7 +3190,7 @@
 			0,
 			1,
 			14,
-			288,
+			290,
 			23,
 			1,
 			0,
@@ -3136,21 +3204,21 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.243,
+		"avg_user_stars": 4.242,
 		"user_star_breakdown": [
 			0,
 			4,
 			16,
 			27,
-			131,
+			133,
 			151
 		],
-		"avg_user_attempts": 1.747,
+		"avg_user_attempts": 1.77,
 		"user_attempts_breakdown": [
 			59,
 			18,
 			10,
-			12
+			13
 		]
 	},
 	{
@@ -3226,7 +3294,7 @@
 		"grade": 3,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 598,
+		"repeats": 600,
 		"date_created": "2021-03-10 16:47:57",
 		"holdsets": [
 			0,
@@ -3247,12 +3315,12 @@
 		"end_holds": [
 			"B18"
 		],
-		"avg_user_grade": 3.0084,
+		"avg_user_grade": 3.0083,
 		"user_grade_breakdown": [
 			5,
 			3,
 			26,
-			527,
+			529,
 			34,
 			1,
 			1,
@@ -3268,12 +3336,12 @@
 			1,
 			0
 		],
-		"avg_user_stars": 4.253,
+		"avg_user_stars": 4.248,
 		"user_star_breakdown": [
 			3,
 			4,
 			24,
-			56,
+			58,
 			232,
 			279
 		],
@@ -3293,7 +3361,7 @@
 		"grade": 6,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 209,
+		"repeats": 211,
 		"date_created": "2021-03-10 17:26:50",
 		"holdsets": [
 			0,
@@ -3317,7 +3385,7 @@
 		"end_holds": [
 			"J18"
 		],
-		"avg_user_grade": 6.0239,
+		"avg_user_grade": 6.0284,
 		"user_grade_breakdown": [
 			0,
 			0,
@@ -3325,8 +3393,8 @@
 			0,
 			2,
 			11,
-			177,
-			18,
+			178,
+			19,
 			1,
 			0,
 			0,
@@ -3338,19 +3406,19 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.388,
+		"avg_user_stars": 4.393,
 		"user_star_breakdown": [
 			0,
 			2,
 			6,
 			19,
 			64,
-			118
+			120
 		],
-		"avg_user_attempts": 2.17,
+		"avg_user_attempts": 2.16,
 		"user_attempts_breakdown": [
-			41,
-			21,
+			42,
+			20,
 			18,
 			20
 		]
@@ -3430,7 +3498,7 @@
 		"grade": 7,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 266,
+		"repeats": 267,
 		"date_created": "2021-03-14 17:12:15",
 		"holdsets": [
 			0,
@@ -3451,7 +3519,7 @@
 		"end_holds": [
 			"K18"
 		],
-		"avg_user_grade": 6.8835,
+		"avg_user_grade": 6.8839,
 		"user_grade_breakdown": [
 			0,
 			0,
@@ -3460,7 +3528,7 @@
 			2,
 			7,
 			22,
-			224,
+			225,
 			11,
 			0,
 			0,
@@ -3472,14 +3540,14 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.372,
+		"avg_user_stars": 4.375,
 		"user_star_breakdown": [
 			0,
 			2,
 			4,
 			22,
 			103,
-			135
+			136
 		],
 		"avg_user_attempts": 1.99,
 		"user_attempts_breakdown": [
@@ -3497,7 +3565,7 @@
 		"grade": 2,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 872,
+		"repeats": 883,
 		"date_created": "2021-03-28 04:33:21",
 		"holdsets": [
 			1,
@@ -3518,11 +3586,11 @@
 		"end_holds": [
 			"B18"
 		],
-		"avg_user_grade": 1.8807,
+		"avg_user_grade": 1.8822,
 		"user_grade_breakdown": [
 			23,
 			83,
-			747,
+			758,
 			13,
 			6,
 			0,
@@ -3539,18 +3607,18 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.173,
+		"avg_user_stars": 4.176,
 		"user_star_breakdown": [
 			8,
 			2,
 			35,
-			89,
-			390,
-			348
+			91,
+			393,
+			354
 		],
-		"avg_user_attempts": 1.307,
+		"avg_user_attempts": 1.31,
 		"user_attempts_breakdown": [
-			82,
+			81,
 			11,
 			4,
 			4
@@ -3564,7 +3632,7 @@
 		"grade": 2,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 724,
+		"repeats": 734,
 		"date_created": "2021-03-28 04:35:21",
 		"holdsets": [
 			1,
@@ -3586,13 +3654,13 @@
 		"end_holds": [
 			"D18"
 		],
-		"avg_user_grade": 2.0152,
+		"avg_user_grade": 2.0177,
 		"user_grade_breakdown": [
 			13,
 			34,
-			626,
+			635,
 			31,
-			20,
+			21,
 			0,
 			0,
 			0,
@@ -3612,9 +3680,9 @@
 			5,
 			5,
 			32,
-			80,
-			287,
-			315
+			81,
+			293,
+			318
 		],
 		"avg_user_attempts": 1.52,
 		"user_attempts_breakdown": [
@@ -3632,7 +3700,7 @@
 		"grade": 5,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 161,
+		"repeats": 170,
 		"date_created": "2021-05-08 01:46:41",
 		"holdsets": [
 			0,
@@ -3650,14 +3718,14 @@
 		"end_holds": [
 			"D18"
 		],
-		"avg_user_grade": 4.6646,
+		"avg_user_grade": 4.6529,
 		"user_grade_breakdown": [
 			0,
 			0,
-			0,
+			1,
 			10,
-			37,
-			111,
+			39,
+			117,
 			3,
 			0,
 			0,
@@ -3671,14 +3739,14 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.199,
+		"avg_user_stars": 4.218,
 		"user_star_breakdown": [
 			0,
 			0,
 			2,
-			22,
-			79,
-			58
+			23,
+			81,
+			64
 		],
 		"avg_user_attempts": 1.28,
 		"user_attempts_breakdown": [
@@ -3696,7 +3764,7 @@
 		"grade": 5,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 359,
+		"repeats": 367,
 		"date_created": "2021-05-15 21:59:40",
 		"holdsets": [
 			1,
@@ -3716,14 +3784,14 @@
 		"end_holds": [
 			"D18"
 		],
-		"avg_user_grade": 4.7772,
+		"avg_user_grade": 4.7793,
 		"user_grade_breakdown": [
 			3,
 			0,
 			2,
 			5,
-			57,
-			284,
+			58,
+			291,
 			8,
 			0,
 			0,
@@ -3742,9 +3810,9 @@
 			1,
 			0,
 			7,
-			37,
-			128,
-			186
+			38,
+			131,
+			190
 		],
 		"avg_user_attempts": 1.364,
 		"user_attempts_breakdown": [
@@ -3762,7 +3830,7 @@
 		"grade": 5,
 		"upgraded": false,
 		"downgraded": false,
-		"repeats": 126,
+		"repeats": 132,
 		"date_created": "2021-08-22 18:03:48",
 		"holdsets": [
 			0,
@@ -3785,15 +3853,15 @@
 		"end_holds": [
 			"C18"
 		],
-		"avg_user_grade": 4.9921,
+		"avg_user_grade": 5.0,
 		"user_grade_breakdown": [
 			0,
 			0,
 			0,
 			3,
 			5,
-			110,
-			6,
+			115,
+			7,
 			2,
 			0,
 			0,
@@ -3806,18 +3874,18 @@
 			0,
 			0
 		],
-		"avg_user_stars": 4.476,
+		"avg_user_stars": 4.485,
 		"user_star_breakdown": [
 			1,
 			0,
 			1,
 			10,
-			38,
-			76
+			40,
+			80
 		],
-		"avg_user_attempts": 1.616,
+		"avg_user_attempts": 1.61,
 		"user_attempts_breakdown": [
-			63,
+			64,
 			17,
 			13,
 			6

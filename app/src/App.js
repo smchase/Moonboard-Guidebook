@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from 'react'
 import { Table, Container, Nav, Navbar, Button, Spinner, Form, ToggleButton, Collapse, Row, Col, Modal, Tooltip, OverlayTrigger, Alert } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleQuestion } from '@fortawesome/free-regular-svg-icons'
-import { faArrowUp, faArrowDown, faCircleUp, faCircleDown, faCheck, faX } from '@fortawesome/free-solid-svg-icons'
+import { faArrowUp, faArrowDown, faCircleUp, faCircleDown, faCheck, faXmark } from '@fortawesome/free-solid-svg-icons'
 import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -654,7 +654,7 @@ export default function App() {
 							<tbody>
 								{data.filter(row => filterRow(row)).map((row) => (
 									<tr key={row.id}>
-										{logbook ? <td><center><FontAwesomeIcon style={{ color: logbook.includes(row.id) ? 'green' : 'red' }} icon={logbook.includes(row.id) ? faCheck : faX}></FontAwesomeIcon></center></td> : null}
+										{logbook ? <td><center><FontAwesomeIcon style={{ color: logbook.includes(row.id) ? 'green' : 'red' }} icon={logbook.includes(row.id) ? faCheck : faXmark}></FontAwesomeIcon></center></td> : null}
 										<td><u style={{ cursor: 'pointer' }} onClick={() => openPopup(row)}>{row.name}</u></td>
 										<td>{row.setter}</td>
 										<td>{gradeMap[row.grade]}{' '}{row.upgraded ? <FontAwesomeIcon icon={faCircleUp}></FontAwesomeIcon> : null} {row.downgraded ? <FontAwesomeIcon icon={faCircleDown}></FontAwesomeIcon> : null}</td>
@@ -691,14 +691,14 @@ export default function App() {
 					</div>
 				</Modal.Body>
 				<Modal.Footer className='d-flex justify-content-between'>
-					<Button variant='secondary' onClick={handlePrevious}>Previous</Button>
+					<Button variant='secondary' onClick={handlePrevious} style={{width: '90px'}}>Previous</Button>
 					<a href={
 						'https://www.youtube.com/results?search_query=' +
 						popupClimb.name.replace(/ /g, '+') + '+' +
 						gradeMap[popupClimb.grade].replace('+', '%2B').replace(' ', '+').replace('(', '').replace(')', '') +
 						'+moonboard+benchmark'
-					} target='_blank' rel='noopener noreferrer'><Button variant='outline-primary'><FontAwesomeIcon icon={faYoutube} /> Find Beta Videos</Button></a>
-					<Button variant='secondary' onClick={handleNext}>Next</Button>
+					} target='_blank' rel='noopener noreferrer'><Button variant='outline-primary'><FontAwesomeIcon icon={faYoutube} /> Beta Videos</Button></a>
+					<Button variant='secondary' onClick={handleNext} style={{width: '90px'}}>Next</Button>
 				</Modal.Footer>
 			</Modal>
 
