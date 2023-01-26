@@ -3,7 +3,7 @@
   "name": "Moonboard Guidebook",
   "icons": [
     {
-      "src": "moon-bg-icon.png",
+      "src": "pwa-icon.png",
       "type": "image/png",
       "sizes": "512x512"
     }
