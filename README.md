@@ -28,4 +28,6 @@ The [Moonboard](https://moonboard.com) is a standarized light-up rock climbing w
 
 ### Why a Moonboard Guidebook?
 
-### How (did I build) a Moonboard Guidebook?
+### How did I build a Moonboard Guidebook?
+
+### What doesn't a Moonboard Guidebook do?
