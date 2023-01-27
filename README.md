@@ -1,6 +1,6 @@
 # Moonboard Guidebook 🌝
 
-An interactive guidebook for the Moonboard<sup>[?](#whats-a-moonboard)</sup>, making it easier to discover and research benchmarks. Improving upon the official Moonboard app in ways you didn't even know you needed.
+An interactive guidebook for the Moonboard, making it easier to discover and research benchmarks. Improving upon the official Moonboard app in ways you didn't even know you needed.
 
 ### Features
 
@@ -15,8 +15,10 @@ An interactive guidebook for the Moonboard<sup>[?](#whats-a-moonboard)</sup>, ma
 
 ### Tech Stack
 
-Frontend: React, Bootstrap
+Frontend: React, Bootstra
+
 Backend: Node, Express, Postgres
+
 Deployment: Heroku
 
 
