@@ -16,7 +16,7 @@ export default function App() {
 		name: '',
 		setter: '',
 		gradeMin: 0,
-		gradeMax: 17,
+		gradeMax: 16,
 		sandbagMin: '',
 		sandbagMax: '',
 		repeatsMin: '',
