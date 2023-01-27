@@ -4,7 +4,7 @@ An interactive guidebook for the Moonboard, making it easier to discover and res
 
 ### Features
 
-- Mobile friendly
+- Mobile friendly (add it to your home screen!)
 - Sandbag score, measuring how hard or soft a climb is for its grade
 - Advanced filtering and sorting system, with new options such as excluded holds
 - More accurate information, such as star averages calculated to three decimal places
