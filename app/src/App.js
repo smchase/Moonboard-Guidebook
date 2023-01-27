@@ -232,8 +232,8 @@ export default function App() {
 
 	const canvasRef = useRef(null)
 	const gradeMap = {
-		0: '5+ (V2)',
-		1: '6A (V3)',
+		0: '5+ (V1)',
+		1: '6A (V2)',
 		2: '6A+ (V3)',
 		3: '6B (V4)',
 		4: '6B+ (V4)',
@@ -249,7 +249,6 @@ export default function App() {
 		14: '8A+ (V12)',
 		15: '8B (V13)',
 		16: '8B+ (V14)',
-		17: '8C (V15)',
 	}
 
 	return (
