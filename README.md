@@ -11,7 +11,7 @@ An interactive guidebook for the Moonboard, making it easier to discover and res
 - Connect and filter based on your logbook
 - YouTube integration to give you more options for beta videos
 - View and move between climb previews
-- Support for all Moonboard setups and years
+- Support for all Moonboard years and angles
 
 ### Tech Stack
 
