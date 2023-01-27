@@ -13,7 +13,7 @@ export default function App() {
 	const [data, setData] = useState(null) // all benchmarks
 	const [sort, setSort] = useState({ column: 'date_created', order: 'asc' })
 	const [filter, setFilter] = useState({
-		name: '',
+		climbName: '',
 		setter: '',
 		gradeMin: 0,
 		gradeMax: 16,
@@ -91,7 +91,7 @@ export default function App() {
 					}
 					ctx.beginPath()
 					ctx.lineWidth = 4
-					ctx.arc(65 + x * 34.6, 60 + y * 34.6, 18, 0, 2 * Math.PI)
+					ctx.arc(65 + x * 34.6, 60 + y * 34.6, 20, 0, 2 * Math.PI)
 					ctx.stroke()
 				}
 			}
@@ -133,7 +133,7 @@ export default function App() {
 	}
 	// true if keep row, false if hide it
 	const filterRow = (row) => {
-		if (filter.name && row.name.toLowerCase().indexOf(filter.name.toLowerCase()) === -1) return false
+		if (filter.climbName && row.name.toLowerCase().indexOf(filter.climbName.toLowerCase()) === -1) return false
 		if (filter.setter && row.setter.toLowerCase().indexOf(filter.setter.toLowerCase()) === -1) return false
 		if (filter.gradeMin > row.grade) return false
 		if (filter.gradeMax < row.grade) return false
@@ -285,7 +285,7 @@ export default function App() {
 					<Row>
 						<Form.Group as={Col} md className='mb-3'>
 							<Form.Label>Climb Name</Form.Label>
-							<Form.Control type='text' placeholder='All' value={filter.name} onChange={(e) => setFilter({ ...filter, name: e.target.value })} />
+							<Form.Control type='text' placeholder='All' value={filter.climbName} onChange={(e) => setFilter({ ...filter, climbName: e.target.value })} />
 						</Form.Group>
 
 						<Form.Group as={Col} md className='mb-3'>
@@ -709,7 +709,7 @@ export default function App() {
 				<Modal.Body>
 					<Form onSubmit={submitLogin}>
 						<Alert variant='warning'>
-							We won't do anything bad with your login, but we can't guarantee security, so use at your own risk.
+							This website is unofficial. We won't do anything bad with your login, but we can't guarantee security, so use at your own risk.
 						</Alert>
 
 						<Form.Group className='mb-3'>
@@ -737,7 +737,7 @@ export default function App() {
 			<footer className='footer mt-auto'>
 				<Container className='pt-3'>
 					<center>
-						<p>© 2023 Simon Chase | <a href='https://github.com/smchase/Moonboard-Guidebook'>View on GitHub</a></p>
+						<p>This website is unofficial and unaffiliated with Moon Climbing.<br/><a href='https://github.com/smchase/Moonboard-Guidebook'>View source code on GitHub.</a></p>
 					</center>
 				</Container>
 			</footer>
