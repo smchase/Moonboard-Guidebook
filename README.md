@@ -26,8 +26,8 @@ An interactive guidebook for the Moonboard, making it easier to discover and res
 
 The [Moonboard](https://moonboard.com) is a standarized light-up rock climbing wall with an accompanying app. You can use the app to create and light up climbs, and since it's standarized, anyone around the world with a Moonboard can try them. A small portion of published climbs are classified as benchmarks, meaning they're confirmed to be high quality and accurate for their grade. These count towards your ranking on the leaderboard and are usually the most popular. There are a few different Moonboard setups with different holds, but they all work the same way. A guidebook in climbing serves as a point of reference for a group of climbs. In this case, the climbs in question are Moonboard benchmarks.
 
-### Why a Moonboard Guidebook?
+### Why did you build this?
 
-### How did I build a Moonboard Guidebook?
+### How did you build this?
 
-### What doesn't a Moonboard Guidebook do?
+### Does it replace the official Moonboard app?
