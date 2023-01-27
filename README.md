@@ -9,7 +9,7 @@ An interactive guidebook for the Moonboard, making it easier to discover and res
 - Advanced filtering and sorting system, with new options such as excluded holds
 - More accurate information, such as star averages calculated to three decimal places
 - Connect and filter based on your logbook
-- YouTube integration to give you more options for beta videos
+- YouTube integration to provide more options for beta videos
 - View and move between climb previews
 - Support for all Moonboard years and angles
 
