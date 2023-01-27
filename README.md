@@ -15,7 +15,7 @@ An interactive guidebook for the Moonboard, making it easier to discover and res
 
 ### Tech Stack
 
-- Frontend: React, Bootstra
+- Frontend: React, Bootstrap
 - Backend: Node, Express, Postgres
 - Deployment: Heroku
 
