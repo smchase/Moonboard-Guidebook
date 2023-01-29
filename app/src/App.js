@@ -737,7 +737,7 @@ export default function App() {
 			<footer className='footer mt-auto'>
 				<Container className='pt-3'>
 					<center>
-						<p>This website is unofficial and unaffiliated with Moon Climbing.<br/><a href='https://github.com/smchase/Moonboard-Guidebook'>View source code on GitHub.</a></p>
+						<p>Note: This website is unofficial and unaffiliated with Moon Climbing.<br/><a href='https://github.com/smchase/Moonboard-Guidebook'>View source code on GitHub.</a></p>
 					</center>
 				</Container>
 			</footer>
