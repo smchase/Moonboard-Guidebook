@@ -41,3 +41,7 @@ The [Moonboard](https://moonboard.com) is a standarized light-up rock climbing w
 ### Why build a Moonboard Guidebook?
 
 The Moonboard comes with an official app. I've used the Moonboard a lot and and I've used the app a lot and while I love the Moonboard, I can't say the same for the app. It's missing a number of features I wish it had, and it's slow and unintuitive to use. So this project is meant to fill those gaps! It can't do everything the app can, such as using Bluetooth to light up climbs, but it aims to give power users a lot more tools to sort through and find cool benchmarks to try.
+
+## Acknowledgements
+
+Thanks to [Kamiel Brees](https://github.com/spookykat) and [Erik Wallin](https://github.com/erikwallin86) for help with figuring out how to build the database.
