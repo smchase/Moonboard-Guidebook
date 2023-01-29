@@ -27,7 +27,7 @@ Note: This project is unofficial and unaffiliated with Moon Climbing.
 - **Python** (building/updating the database)
 
 ### Database
-- **Postgres** (the source of all the data)
+- **Postgres** (holding all the data)
 
 ### Deployment
 - **Heroku** (hosting everything)
