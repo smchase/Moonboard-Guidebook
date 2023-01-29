@@ -1,10 +1,10 @@
 # Moonboard Guidebook 🌝
 
-An interactive guidebook for the Moonboard, making it easier to discover and research benchmarks. Improving upon the official Moonboard app in ways you didn't even know you needed.
+An interactive guidebook for the Moonboard, making it easier to discover and research benchmarks. Improving upon the official Moonboard app in ways you didn't even know you needed. [Wondering what all this is about?](#faq)
 
 Note: This website is unofficial and unaffiliated with Moon Climbing.
 
-### Features
+## Features
 
 - Mobile friendly (add it to your home screen!)
 - Sandbag score, measuring how hard or soft a climb is for its grade
@@ -15,22 +15,22 @@ Note: This website is unofficial and unaffiliated with Moon Climbing.
 - View and move between climb previews
 - Support for all Moonboard years and angles
 
-### Tech Stack
+## Tech Stack
 
-Frontend:
+### Frontend
 - **React** (actual website logic)
 - **Bootstrap** (making it look pretty)
 
-Backend:
+### Backend
 - **Node** (running the server)
 - **Express** (API for database access)
 - **Python** (building/updating the database)
 
-Database:
-- **Postgres** (storing all the data)
+### Database
+- **Postgres** (the source of all the data)
 
-Deployment:
-- **Heroku** (hosting the website & database)
+### Deployment
+- **Heroku** (hosting everything)
 
 ## FAQ
 
@@ -40,4 +40,4 @@ The [Moonboard](https://moonboard.com) is a standarized light-up rock climbing w
 
 ### Why build a Moonboard Guidebook?
 
-The Moonboard comes with an official app. I've used the Moonboard a lot and and I've used the app a lot and while I love the Moonboard, I can't say the same for the app. It's missing a number of features I wish it had, and it's slow and unintuitive to use. So this project is meant to fill those gaps! It doesn't do everything the app can, such as lighting climbs up with Bluetooth or adding climbs to your logbook, but it aims to give power users a lot more tools to sort through and find cool benchmarks to try.
+The Moonboard comes with an official app. I've used the Moonboard a lot and and I've used the app a lot and while I love the Moonboard, I can't say the same for the app. It's missing a number of features I wish it had, and it's slow and unintuitive to use. So this project is meant to fill those gaps! It doesn't do everything the app can, such as using Bluetooth to light up climbs or adding climbs to your logbook, but it aims to give power users a lot more tools to sort through and find cool benchmarks to try.
