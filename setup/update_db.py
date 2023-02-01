@@ -26,14 +26,14 @@ grade_map = {
 	16: '8B+ (V14)',
 }
 
-def send_email(subject, body, sender, recipients, password):
+def send_email(subject, body, sender_email, sender_name, recipients, password):
     msg = MIMEText(body)
     msg['Subject'] = subject
-    msg['From'] = sender
+    msg['From'] = '{0} <{1}>'.format(sender_name, sender_email)
     msg['To'] = ', '.join(recipients)
     smtp_server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-    smtp_server.login(sender, password)
-    smtp_server.sendmail(sender, recipients, msg.as_string())
+    smtp_server.login(sender_email, password)
+    smtp_server.sendmail(sender_email, recipients, msg.as_string())
     smtp_server.quit()
 
 for mb in mb_types:
@@ -61,11 +61,11 @@ for mb in mb_types:
 			emails = json.load(rfile)
 			if len(emails[mb]) > 0:
 				message = ''
-				subject = f'{len(new)} New Benchmark{"s" if len(new) > 1 else ""}!'
+				subject = f'{len(new)} New Benchmark{"s" if len(new) > 1 else ""}'
 				for climb in new:
 					message += f'Name: {climb["name"]}\n'
 					message += f'Grade: {grade_map[climb["grade"]]}\n'
 					message += f'Setter: {climb["setter"]}\n'
 					message += '\n'
-				message += f'Check out the new benchmark{"s" if len(new) > 1 else ""} at {URL}!'
-				send_email(subject, message, secret.gmail_email, emails[mb], secret.gmail_password)
+				message += f'Check out the new benchmark{"s" if len(new) > 1 else ""} at {URL}.'
+				send_email(subject, message, secret.gmail_email, 'Moonboard Alerts', emails[mb], secret.gmail_password)
