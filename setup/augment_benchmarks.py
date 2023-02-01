@@ -43,7 +43,7 @@ for mb in mb_types:
 
 			# load user attempt data
 			attempts_section = soup.find('div', {'id': 'chart'})
-			attempts_chart = attempts_section.find_next('script').text.strip()
+			attempts_chart = attempts_section.find_next('script').string.strip()
 			chart_data = json.loads(attempts_chart.replace('kendo.syncReady(function(){jQuery("#chart").kendoChart(', '').replace(');});', ''))
 			attempt_map = {}
 			for entry in chart_data['series'][0]['data']:
