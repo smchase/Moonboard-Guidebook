@@ -68,7 +68,7 @@ export default function App() {
 			}
 		}
 		getData()
-		defaultSort()
+		setSort({ column: 'date_created', order: 'asc' })
 	}, [mbtype])
 	// render mb in popup
 	useEffect(() => {
@@ -101,9 +101,6 @@ export default function App() {
 
 
 	// sort data
-	const defaultSort = () => {
-		data.sort(compare(sort.column, sort.order))
-	}
 	const handleSort = (column) => {
 		const order = sort.column === column && sort.order === 'asc' ? 'desc' : 'asc'
 		setSort({ column, order })
