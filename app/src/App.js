@@ -68,7 +68,7 @@ export default function App() {
 			}
 		}
 		getData()
-		data.sort(compare(column, order))
+		data.sort(compare(sort.column, sort.order))
 	}, [mbtype])
 	// render mb in popup
 	useEffect(() => {
