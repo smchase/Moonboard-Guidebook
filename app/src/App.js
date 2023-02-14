@@ -53,7 +53,6 @@ export default function App() {
 
 	// load data from api
 	useEffect(() => {
-		setSort({ column: 'date_created', order: 'asc' })
 		const urlBase = '/benchmarks/mb_type/'
 		setLoadingData(true)
 		const getData = async () => {
@@ -69,6 +68,7 @@ export default function App() {
 			}
 		}
 		getData()
+		data.sort(compare(column, order))
 	}, [mbtype])
 	// render mb in popup
 	useEffect(() => {
