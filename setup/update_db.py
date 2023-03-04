@@ -4,68 +4,68 @@ import secret
 import smtplib
 from email.mime.text import MIMEText
 
-URL = 'https://moonboard.herokuapp.com'
+URL = "https://moonboard.herokuapp.com"
 
 grade_map = {
-	0: '5+ (V1)',
-	1: '6A (V2)',
-	2: '6A+ (V3)',
-	3: '6B (V4)',
-	4: '6B+ (V4)',
-	5: '6C (V5)',
-	6: '6C+ (V5)',
-	7: '7A (V6)',
-	8: '7A+ (V7)',
-	9: '7B (V8)',
-	10: '7B+ (V8)',
-	11: '7C (V9)',
-	12: '7C+ (V10)',
-	13: '8A (V11)',
-	14: '8A+ (V12)',
-	15: '8B (V13)',
-	16: '8B+ (V14)',
+	0: "5+ (V1)",
+	1: "6A (V2)",
+	2: "6A+ (V3)",
+	3: "6B (V4)",
+	4: "6B+ (V4)",
+	5: "6C (V5)",
+	6: "6C+ (V5)",
+	7: "7A (V6)",
+	8: "7A+ (V7)",
+	9: "7B (V8)",
+	10: "7B+ (V8)",
+	11: "7C (V9)",
+	12: "7C+ (V10)",
+	13: "8A (V11)",
+	14: "8A+ (V12)",
+	15: "8B (V13)",
+	16: "8B+ (V14)",
 }
 
 def send_email(subject, body, sender_email, sender_name, recipients, password):
     msg = MIMEText(body)
-    msg['Subject'] = subject
-    msg['From'] = '{0} <{1}>'.format(sender_name, sender_email)
-    msg['To'] = ', '.join(recipients)
-    smtp_server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
+    msg["Subject"] = subject
+    msg["From"] = "{0} <{1}>".format(sender_name, sender_email)
+    msg["To"] = ", ".join(recipients)
+    smtp_server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
     smtp_server.login(sender_email, password)
     smtp_server.sendmail(sender_email, recipients, msg.as_string())
     smtp_server.quit()
 
 for mb in mb_types:
-	print(f'Updating {mb} benchmarks...')
+	print(f"Updating {mb} benchmarks...")
 	new = []
-	with open(f'data/processed_{mb}.json', 'r') as rfile:
+	with open(f"data/processed_{mb}.json", "r") as rfile:
 		benchmarks = json.load(rfile)
 		for climb in benchmarks:
-			id = climb['id']
-			response = requests.get(f'{URL}/benchmarks/id/{id}').json()
+			id = climb["id"]
+			response = requests.get(f"{URL}/benchmarks/id/{id}").json()
 			if len(response) == 0:
 				# new benchmark
-				print('new', climb['name'])
+				print("new", climb["name"])
 				new.append(climb)
-				requests.post(f'{URL}/benchmarks', json=climb)
+				requests.post(f"{URL}/benchmarks", json=climb)
 			else:
 				for field in climb:
-					if climb[field] != response[0][field] and field != 'date_created':
+					if climb[field] != response[0][field] and field != "date_created":
 						# update benchmark
-						# print('update', field, climb['name'])
-						requests.put(f'{URL}/benchmarks/id/{id}', json={field: climb[field]})
+						# print("update", field, climb["name"])
+						requests.put(f"{URL}/benchmarks/id/{id}", json={field: climb[field]})
 
 	if len(new) > 0:
-		with open(f'data/emails.json', 'r') as rfile:
+		with open(f"data/emails.json", "r") as rfile:
 			emails = json.load(rfile)
 			if len(emails[mb]) > 0:
-				message = ''
-				subject = f'{len(new)} New Benchmark{"s" if len(new) > 1 else ""}'
+				message = ""
+				subject = f"{len(new)} New Benchmark{'s' if len(new) > 1 else ''}"
 				for climb in new:
-					message += f'Name: {climb["name"]}\n'
-					message += f'Grade: {grade_map[climb["grade"]]}\n'
-					message += f'Setter: {climb["setter"]}\n'
-					message += '\n'
-				message += f'Check out the new benchmark{"s" if len(new) > 1 else ""} at {URL}.'
-				send_email(subject, message, secret.gmail_email, 'Moonboard Alerts', emails[mb], secret.gmail_password)
+					message += f"Name: {climb['name']}\n"
+					message += f"Grade: {grade_map[climb['grade']]}\n"
+					message += f"Setter: {climb['setter']}\n"
+					message += "\n"
+				message += f"Check out the new benchmark{'s' if len(new) > 1 else ''} at {URL}."
+				send_email(subject, message, secret.gmail_email, "Moonboard Alerts", emails[mb], secret.gmail_password)

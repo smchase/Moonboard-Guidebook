@@ -1,6 +1,6 @@
-const axios = require('axios');
-const Pool = require('pg/lib').Pool;
-require('dotenv').config();
+const axios = require("axios")
+const Pool = require("pg/lib").Pool
+require("dotenv").config()
 
 const devConfig = {
 	user: process.env.PG_USER,
@@ -8,60 +8,60 @@ const devConfig = {
 	host: process.env.PG_HOST,
 	database: process.env.PG_DATABASE,
 	port: process.env.PG_PORT,
-};
+}
 
 const proConfig = {
 	connectionString: process.env.DATABASE_URL,
 	ssl: { rejectUnauthorized: false }
-};
+}
 
-const pool = new Pool(process.env.NODE_ENV === 'production' ? proConfig : devConfig);
+const pool = new Pool(process.env.NODE_ENV === "production" ? proConfig : devConfig)
 
 const getAllBenchmarks = (request, response) => {
-	pool.query('SELECT * FROM benchmarks ORDER BY id ASC', (error, results) => {
+	pool.query("SELECT * FROM benchmarks ORDER BY id ASC", (error, results) => {
 		if (error) {
-			throw error;
+			throw error
 		}
-		response.status(200).json(results.rows);
-	});
-};
+		response.status(200).json(results.rows)
+	})
+}
 
 const getBenchmarksByType = (request, response) => {
-	const type = parseInt(request.params.type);
+	const type = parseInt(request.params.type)
 
-	pool.query('SELECT * FROM benchmarks WHERE mb_type = $1 ORDER BY id ASC', [type], (error, results) => {
+	pool.query("SELECT * FROM benchmarks WHERE mb_type = $1 ORDER BY id ASC", [type], (error, results) => {
 		if (error) {
-			throw error;
+			throw error
 		}
-		response.status(200).json(results.rows);
-	});
-};
+		response.status(200).json(results.rows)
+	})
+}
 
 const getBenchmarkById = (request, response) => {
-	const id = parseInt(request.params.id);
+	const id = parseInt(request.params.id)
 
-	pool.query('SELECT * FROM benchmarks WHERE id = $1', [id], (error, results) => {
+	pool.query("SELECT * FROM benchmarks WHERE id = $1", [id], (error, results) => {
 		if (error) {
-			throw error;
+			throw error
 		}
-		response.status(200).json(results.rows);
-	});
-};
+		response.status(200).json(results.rows)
+	})
+}
 
 const createBenchmark = (request, response) => {
-	const { id, mb_type, name, setter, grade, upgraded, downgraded, repeats, date_created, holdsets, start_holds, mid_holds, end_holds, avg_user_grade, user_grade_breakdown, avg_user_stars, user_stars_breakdown, avg_user_attempts, user_attempts_breakdown } = request.body;
+	const { id, mb_type, name, setter, grade, upgraded, downgraded, repeats, date_created, holdsets, start_holds, mid_holds, end_holds, avg_user_grade, user_grade_breakdown, avg_user_stars, user_stars_breakdown, avg_user_attempts, user_attempts_breakdown } = request.body
 
-	pool.query('INSERT INTO benchmarks (id, mb_type, name, setter, grade, upgraded, downgraded, repeats, date_created, holdsets, start_holds, mid_holds, end_holds, avg_user_grade, user_grade_breakdown, avg_user_stars, user_stars_breakdown, avg_user_attempts, user_attempts_breakdown) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19)', [id, mb_type, name, setter, grade, upgraded, downgraded, repeats, date_created, holdsets, start_holds, mid_holds, end_holds, avg_user_grade, user_grade_breakdown, avg_user_stars, user_stars_breakdown, avg_user_attempts, user_attempts_breakdown], (error, results) => {
+	pool.query("INSERT INTO benchmarks (id, mb_type, name, setter, grade, upgraded, downgraded, repeats, date_created, holdsets, start_holds, mid_holds, end_holds, avg_user_grade, user_grade_breakdown, avg_user_stars, user_stars_breakdown, avg_user_attempts, user_attempts_breakdown) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19)", [id, mb_type, name, setter, grade, upgraded, downgraded, repeats, date_created, holdsets, start_holds, mid_holds, end_holds, avg_user_grade, user_grade_breakdown, avg_user_stars, user_stars_breakdown, avg_user_attempts, user_attempts_breakdown], (error, results) => {
 		if (error) {
-			throw error;
+			throw error
 		}
-		response.status(201).send(`Benchmark added with ID: ${id}`);
-	});
-};
+		response.status(201).send(`Benchmark added with ID: ${id}`)
+	})
+}
 
 const updateBenchmarkById = (request, response) => {
-	const id = parseInt(request.params.id);
-	const { mb_type, name, setter, grade, upgraded, downgraded, repeats, date_created, holdsets, start_holds, mid_holds, end_holds, avg_user_grade, user_grade_breakdown, avg_user_stars, user_stars_breakdown, avg_user_attempts, user_attempts_breakdown } = request.body;
+	const id = parseInt(request.params.id)
+	const { mb_type, name, setter, grade, upgraded, downgraded, repeats, date_created, holdsets, start_holds, mid_holds, end_holds, avg_user_grade, user_grade_breakdown, avg_user_stars, user_stars_breakdown, avg_user_attempts, user_attempts_breakdown } = request.body
 
 	pool.query(`UPDATE benchmarks SET
     mb_type = COALESCE($1, mb_type),
@@ -84,69 +84,71 @@ const updateBenchmarkById = (request, response) => {
     user_attempts_breakdown = COALESCE($18, user_attempts_breakdown)
 WHERE id = $19`, [mb_type, name, setter, grade, upgraded, downgraded, repeats, date_created, holdsets, start_holds, mid_holds, end_holds, avg_user_grade, user_grade_breakdown, avg_user_stars, user_stars_breakdown, avg_user_attempts, user_attempts_breakdown, id], (error, results) => {
 		if (error) {
-			throw error;
+			throw error
 		}
-		response.status(200).send(`Benchmark modified with ID: ${id}`);
-	});
-};
+		response.status(200).send(`Benchmark modified with ID: ${id}`)
+	})
+}
 
 const deleteBenchmarkById = (request, response) => {
-	const id = parseInt(request.params.id);
+	const id = parseInt(request.params.id)
 
-	pool.query('DELETE FROM benchmarks WHERE id = $1', [id], (error, results) => {
+	pool.query("DELETE FROM benchmarks WHERE id = $1", [id], (error, results) => {
 		if (error) {
-			throw error;
+			throw error
 		}
-		response.status(200).send(`Benchmark deleted with ID: ${id}`);
-	});
-};
+		response.status(200).send(`Benchmark deleted with ID: ${id}`)
+	})
+}
 
 const getUserLogbook = async (request, response) => {
-	const username = request.query.username;
-	const password = request.query.password;
+	const username = request.query.username
+	const password = request.query.password
 	try {
-		const tokenURL = "https://restapimoonboard.ems-x.com/token";
+		const tokenURL = "https://restapimoonboard.ems-x.com/token"
 		const tokenHeaders = {
-			'accept-encoding': 'gzip',
-			'content-type': 'application/x-www-form-urlencoded',
-			'host': 'restapimoonboard.ems-x.com',
-			'user-agent': 'MoonBoard/1.0',
-		};
+			"accept-encoding": "gzip",
+			"content-type": "application/x-www-form-urlencoded",
+			"host": "restapimoonboard.ems-x.com",
+			"user-agent": "MoonBoard/1.0",
+		}
 		const data = {
-			'username': username,
-			'password': password,
-			'grant_type': 'password',
-			'client_id': 'com.moonclimbing.mb'
-		};
+			"username": username,
+			"password": password,
+			"grant_type": "password",
+			"client_id": "com.moonclimbing.mb"
+		}
 		const tokenResponse = await axios({
-			method: 'get',
+			method: "get",
 			url: tokenURL,
 			headers: tokenHeaders,
 			data: data,
-		});
-		const access_token = tokenResponse.data.access_token;
+		})
+		const access_token = tokenResponse.data.access_token
 
-		const logbookURL = "https://restapimoonboard.ems-x.com/v1/_moonapi/Logbook/0?v=8.3.4";
+		const logbookURL = "https://restapimoonboard.ems-x.com/v1/_moonapi/Logbook/0?v=8.3.4"
 		const logbookHeaders = {
-			'accept-encoding': 'gzip, gzip',
-			'authorization': `BEARER ${access_token}`,
-			'host': 'restapimoonboard.ems-x.com',
-			'user-agent': 'MoonBoard/1.0',
-		};
+			"accept-encoding": "gzip, gzip",
+			"authorization": `BEARER ${access_token}`,
+			"host": "restapimoonboard.ems-x.com",
+			"user-agent": "MoonBoard/1.0",
+		}
 		const logbookResponse = await axios({
-			method: 'get',
+			method: "get",
 			url: logbookURL,
 			headers: logbookHeaders,
-		});
-		let logbook = [];
+		})
+		let logbook = []
 		for (let i = 0; i < logbookResponse.data.length; i++) {
-			logbook.push(logbookResponse.data[i].problem.apiId);
+			if (logbookResponse.data[i].numberOfTries != "Project") {
+				logbook.push(logbookResponse.data[i].problem.apiId)
+			}
 		}
-		response.status(200).json(logbook);
+		response.status(200).json(logbook)
 	} catch (err) {
-		response.status(500).json({ error: "Error logging in" });
+		response.status(500).json({ error: "Error logging in" })
 	}
-};
+}
 
 module.exports = {
 	getAllBenchmarks,
@@ -156,4 +158,4 @@ module.exports = {
 	updateBenchmarkById,
 	deleteBenchmarkById,
 	getUserLogbook
-};
+}
