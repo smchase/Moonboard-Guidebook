@@ -68,4 +68,4 @@ for mb in mb_types:
 					message += f"Setter: {climb['setter']}\n"
 					message += "\n"
 				message += f"Check out the new benchmark{'s' if len(new) > 1 else ''} at {URL}."
-				send_email(subject, message, secret.gmail_email, "Moonboard Alerts", emails[mb], secret.gmail_password)
+				send_email(subject, message, secret.gmail_email, "Moonboard Guidebook", emails[mb], secret.gmail_password)
