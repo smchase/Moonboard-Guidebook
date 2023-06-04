@@ -298,13 +298,6 @@ export default function App() {
 						<Form.Group as={Col} md className="mb-3">
 							<Form.Label>
 								Grade
-								<OverlayTrigger
-									placement="right"
-									delay={{ show: 250, hide: 400 }}
-									overlay={<Tooltip>Font or V Grade</Tooltip>}
-								>
-									<FontAwesomeIcon className="mx-1" style={{ color: "grey" }} icon={faCircleQuestion} />
-								</OverlayTrigger>
 							</Form.Label>
 
 							<span className="d-flex flex-row">
@@ -343,13 +336,6 @@ export default function App() {
 						<Form.Group as={Col} md className="mb-3">
 							<Form.Label>
 								Repeats
-								<OverlayTrigger
-									placement="right"
-									delay={{ show: 250, hide: 400 }}
-									overlay={<Tooltip>Number of users who have logged a send</Tooltip>}
-								>
-									<FontAwesomeIcon className="mx-1" style={{ color: "grey" }} icon={faCircleQuestion} />
-								</OverlayTrigger>
 							</Form.Label>
 							<span className="d-flex flex-row">
 								<Form.Control type="text" placeholder="Minimum" value={filter.repeatsMin} onChange={(e) => setFilter({ ...filter, repeatsMin: e.target.value })} />
@@ -361,13 +347,6 @@ export default function App() {
 						<Form.Group as={Col} md className="mb-3">
 							<Form.Label>
 								Stars
-								<OverlayTrigger
-									placement="right"
-									delay={{ show: 250, hide: 400 }}
-									overlay={<Tooltip>Average user star rating</Tooltip>}
-								>
-									<FontAwesomeIcon className="mx-1" style={{ color: "grey" }} icon={faCircleQuestion} />
-								</OverlayTrigger>
 							</Form.Label>
 							<span className="d-flex flex-row">
 								<Form.Control type="text" placeholder="Minimum" value={filter.starsMin} onChange={(e) => setFilter({ ...filter, starsMin: e.target.value })} />
@@ -380,13 +359,6 @@ export default function App() {
 						<Form.Group as={Col} md={3} className="mb-3">
 							<Form.Label>
 								Average Attempts
-								<OverlayTrigger
-									placement="right"
-									delay={{ show: 250, hide: 400 }}
-									overlay={<Tooltip>Calculations count "more than 3 tries" as 4</Tooltip>}
-								>
-									<FontAwesomeIcon className="mx-1" style={{ color: "grey" }} icon={faCircleQuestion} />
-								</OverlayTrigger>
 							</Form.Label>
 							<span className="d-flex flex-row">
 								<Form.Control type="text" placeholder="Minimum" value={filter.attemptsMin} onChange={(e) => setFilter({ ...filter, attemptsMin: e.target.value })} />
@@ -417,13 +389,6 @@ export default function App() {
 						<Form.Group as={Col} md={6} className="mb-3">
 							<Form.Label>
 								Hold Sets
-								<OverlayTrigger
-									placement="right"
-									delay={{ show: 250, hide: 400 }}
-									overlay={<Tooltip>Which hold sets climbs can use, hover over holds below for names</Tooltip>}
-								>
-									<FontAwesomeIcon className="mx-1" style={{ color: "grey" }} icon={faCircleQuestion} />
-								</OverlayTrigger>
 							</Form.Label>
 							<div>
 								<Form.Check
@@ -553,13 +518,6 @@ export default function App() {
 						<Form.Group as={Col} md className="mb-3">
 							<Form.Label>
 								Logbook Status
-								<OverlayTrigger
-									placement="right"
-									delay={{ show: 250, hide: 400 }}
-									overlay={<Tooltip>You have to load your logbook to use this</Tooltip>}
-								>
-									<FontAwesomeIcon className="mx-1" style={{ color: "grey" }} icon={faCircleQuestion} />
-								</OverlayTrigger>
 							</Form.Label>
 							<Form.Select value={filter.logbook} disabled={!logbook} onChange={(e) => setFilter({ ...filter, logbook: e.target.value })}>
 								<option value={0}>Any</option>
