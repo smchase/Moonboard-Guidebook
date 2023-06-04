@@ -498,7 +498,7 @@ export default function App() {
 									<FontAwesomeIcon className="mx-1" style={{ color: "grey" }} icon={faCircleQuestion} />
 								</OverlayTrigger>
 							</Form.Label>
-							<Form.Control type="text" placeholder="All" value={filter.included} onChange={(e) => setFilter({ ...filter, included: e.target.value })} />
+							<Form.Control type="text" placeholder="None" value={filter.included} onChange={(e) => setFilter({ ...filter, included: e.target.value })} />
 						</Form.Group>
 
 						<Form.Group as={Col} md className="mb-3">
