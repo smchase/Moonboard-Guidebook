@@ -321,7 +321,7 @@ export default function App() {
 								<OverlayTrigger
 									placement="right"
 									delay={{ show: 250, hide: 400 }}
-									overlay={<Tooltip>Based on user grades, negative means soft, positive means hard</Tooltip>}
+									overlay={<Tooltip>Calculated as the difference between user grades and official grades (higher means harder and lower means softer)</Tooltip>}
 								>
 									<FontAwesomeIcon className="mx-1" style={{ color: "grey" }} icon={faCircleQuestion} />
 								</OverlayTrigger>
