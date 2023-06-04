@@ -668,7 +668,7 @@ export default function App() {
 				<Modal.Body>
 					<Form onSubmit={submitLogin}>
 						<Alert variant="warning">
-							This website is unofficial. We won"t do anything bad with your login, but we can't guarantee security, so use at your own risk.
+							This website is unofficial. We won't do anything bad with your login, but we can't guarantee security, so use at your own risk.
 						</Alert>
 
 						<Form.Group className="mb-3">
