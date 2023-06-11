@@ -327,7 +327,7 @@ export default function App() {
 								<OverlayTrigger
 									placement="right"
 									delay={{ show: 250, hide: 400 }}
-									overlay={<Tooltip>Calculated as the difference between user grades and official grades (higher means harder and lower means softer)</Tooltip>}
+									overlay={<Tooltip>Calculated using the difference between user grades and official grades</Tooltip>}
 								>
 									<FontAwesomeIcon className="mx-1" style={{ color: "grey" }} icon={faCircleQuestion} />
 								</OverlayTrigger>
@@ -518,11 +518,18 @@ export default function App() {
 							<Form.Label>
 								Logbook Status
 							</Form.Label>
-							<Form.Select value={filter.logbook} disabled={!logbook} onChange={(e) => setFilter({ ...filter, logbook: e.target.value })}>
-								<option value={0}>Any</option>
-								<option value={1}>Exclude my repeats</option>
-								<option value={2}>Only my repeats</option>
-							</Form.Select>
+							<OverlayTrigger
+								placement="bottom"
+								delay={{ show: 250, hide: 400 }}
+								overlay={<Tooltip>A logbook must be loaded to filter by logbook status</Tooltip>}
+								disabled={logbook}
+							>
+								<Form.Select value={filter.logbook} disabled={!logbook} onChange={(e) => setFilter({ ...filter, logbook: e.target.value })}>
+									<option value={0}>Any</option>
+									<option value={1}>Exclude my repeats</option>
+									<option value={2}>Only my repeats</option>
+								</Form.Select>
+							</OverlayTrigger>
 						</Form.Group>
 					</Row>
 
