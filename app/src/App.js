@@ -5,6 +5,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCircleQuestion } from "@fortawesome/free-regular-svg-icons"
 import { faArrowUp, faArrowDown, faCircleUp, faCircleDown, faCheck, faXmark } from "@fortawesome/free-solid-svg-icons"
 import { faYoutube } from "@fortawesome/free-brands-svg-icons"
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 import "bootstrap/dist/css/bootstrap.min.css"
 
 export default function App() {
@@ -25,8 +27,8 @@ export default function App() {
 		starsMax: "",
 		attemptsMin: "",
 		attemptsMax: "",
-		dateMin: "",
-		dateMax: "",
+		dateMin: null,
+		dateMax: null,
 		hsa: true, // hold set a, etc
 		hsb: true,
 		hsc: true,
@@ -146,8 +148,8 @@ export default function App() {
 		if (filter.starsMax && filter.starsMax < row.avg_user_stars) return false
 		if (filter.attemptsMin && filter.attemptsMin > row.avg_user_attempts) return false
 		if (filter.attemptsMax && filter.attemptsMax < row.avg_user_attempts) return false
-		if (filter.dateMin && filter.dateMin > row.date_created.substring(0, 10).split("-").join("/")) return false
-		if (filter.dateMax && filter.dateMax < row.date_created.substring(0, 10).split("-").join("/")) return false
+		if (filter.dateMin && filter.dateMin > row.date_created) return false
+		if (filter.dateMax && filter.dateMax < row.date_created) return false
 		if (!filter.osh && row.holdsets.includes(0)) return false
 		if (!filter.hsa && row.holdsets.includes(1)) return false
 		if (!filter.hsb && row.holdsets.includes(2)) return false
@@ -371,18 +373,11 @@ export default function App() {
 						<Form.Group as={Col} md={3} className="mb-3">
 							<Form.Label>
 								Date Created
-								<OverlayTrigger
-									placement="right"
-									delay={{ show: 250, hide: 400 }}
-									overlay={<Tooltip>YYYY/MM/DD</Tooltip>}
-								>
-									<FontAwesomeIcon className="mx-1" style={{ color: "grey" }} icon={faCircleQuestion} />
-								</OverlayTrigger>
 							</Form.Label>
 							<span className="d-flex flex-row">
-								<Form.Control type="text" placeholder="Earliest" value={filter.dateMin} onChange={(e) => setFilter({ ...filter, dateMin: e.target.value })} />
+								<DatePicker placeholderText={"Earliest"} className="form-control" selected={filter.dateMin} onChange={(date) => setFilter({ ...filter, dateMin: date })} />
 								<span className="my-auto mx-2">to</span>
-								<Form.Control type="text" placeholder="Latest" value={filter.dateMax} onChange={(e) => setFilter({ ...filter, dateMax: e.target.value })} />
+								<DatePicker placeholderText={"Latest"} className="form-control" selected={filter.dateMax} onChange={(date) => setFilter({ ...filter, dateMax: date })} />
 							</span>
 						</Form.Group>
 
@@ -620,7 +615,7 @@ export default function App() {
 										<td>{row.repeats}</td>
 										<td>{row.avg_user_stars}</td>
 										<td>{row.avg_user_attempts}</td>
-										<td>{row.date_created.substring(0, 10).split("-").join("/")}</td>
+										<td>{row.date_created.toISOString().slice(0, 10).replace(/-/g, '/')}</td>
 										<td>
 											{row.holdsets.includes(1) ? <img alt="White Hold" src="white-hold.png"></img> : null}
 											{row.holdsets.includes(2) ? <img alt="Black Hold" src="black-hold.png"></img> : null}
