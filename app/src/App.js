@@ -60,7 +60,11 @@ export default function App() {
 		const getData = async () => {
 			try {
 				const response = await axios.get(urlBase + mbtype)
-				setData(response.data)
+				setData(response.data.map((climb) => {
+					const convertedItem = { ...climb };
+					convertedItem.date_created = new Date(convertedItem.date_created);
+					return convertedItem;
+				}))
 				setErrorLoadingData(null)
 			} catch (err) {
 				setErrorLoadingData(err.message)
@@ -644,14 +648,14 @@ export default function App() {
 					</div>
 				</Modal.Body>
 				<Modal.Footer className="d-flex justify-content-between">
-					<Button variant="secondary" onClick={handlePrevious} style={{width: "90px"}}>Previous</Button>
+					<Button variant="secondary" onClick={handlePrevious} style={{ width: "90px" }}>Previous</Button>
 					<a href={
 						"https://www.youtube.com/results?search_query=\"" +
 						popupClimb.name.replace(/ /g, "+") + "\"+" +
 						gradeMap[popupClimb.grade].replace("+", "%2B").replace(" ", "+").replace("(", "").replace(")", "") +
 						"+moonboard+benchmark"
 					} target="_blank" rel="noopener noreferrer"><Button variant="outline-primary"><FontAwesomeIcon icon={faYoutube} /> Beta Videos</Button></a>
-					<Button variant="secondary" onClick={handleNext} style={{width: "90px"}}>Next</Button>
+					<Button variant="secondary" onClick={handleNext} style={{ width: "90px" }}>Next</Button>
 				</Modal.Footer>
 			</Modal>
 
@@ -691,7 +695,7 @@ export default function App() {
 			<footer className="footer mt-auto">
 				<Container className="pt-3">
 					<center>
-						<p>Note: This website is unofficial and unaffiliated with Moon Climbing.<br/><a href="https://github.com/smchase/Moonboard-Guidebook">View on GitHub</a></p>
+						<p>Note: This website is unofficial and unaffiliated with Moon Climbing.<br /><a href="https://github.com/smchase/Moonboard-Guidebook">View on GitHub</a></p>
 					</center>
 				</Container>
 			</footer>
