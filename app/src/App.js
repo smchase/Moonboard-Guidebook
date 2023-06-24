@@ -591,7 +591,7 @@ export default function App() {
 						<Table striped bordered hover responsive>
 							<thead>
 								<tr>
-									{logbook ? <th>Sent</th> : null}
+									{logbook ? <th>Sent?</th> : null}
 									<th>
 										<u style={{ cursor: "pointer" }} onClick={() => handleSort("name")}>Climb Name</u>
 										{sort.column === "name" ? (sort.order === "asc" ? <FontAwesomeIcon className="mx-1" icon={faArrowDown} /> : <FontAwesomeIcon className="mx-1" icon={faArrowUp} />) : null}
