@@ -703,7 +703,7 @@ export default function App() {
 
 						<div className="d-grid gap-2">
 							<Button variant="primary" type="submit">
-								Submit
+								Load Logbook
 							</Button>
 						</div>
 
