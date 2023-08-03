@@ -4,5 +4,5 @@ __pycache__
 node_modules
 .vscode
 .env
-setup/data
+setup/data/*
 log.txt
