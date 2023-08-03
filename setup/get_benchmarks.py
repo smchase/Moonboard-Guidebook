@@ -58,7 +58,7 @@ for mb in mb_types:
 	problems = get_problems(holdset, angle, token)
 	benchmarks = []
 	for climb in problems:
-		if climb["isBenchmark"]:
+		if climb["isBenchmark"] and climb["apiId"] != 469277: # remove apiId thing later
 			benchmarks.append(climb)
 	with open(f"data/raw_{mb}.json", "w") as wfile:
 		json.dump(benchmarks, wfile, indent="\t")
