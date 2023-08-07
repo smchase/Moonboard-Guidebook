@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from mb_types import mb_types
 
 for mb in mb_types:
-	print(f"Augmenting {mb} benchmarks...")
+	print(f"Augmenting {mb} benchmarks")
 	with open(f"data/raw_{mb}.json", "r") as rfile:
 		benchmarks = json.load(rfile)
 		for climb in benchmarks:

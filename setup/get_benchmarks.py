@@ -54,7 +54,7 @@ mb_map = {
 token = get_access_token()
 for mb in mb_types:
 	holdset, angle = mb_map[mb]
-	print(f"Getting {mb} benchmarks...")
+	print(f"Getting {mb} benchmarks")
 	problems = get_problems(holdset, angle, token)
 	benchmarks = []
 	for climb in problems:

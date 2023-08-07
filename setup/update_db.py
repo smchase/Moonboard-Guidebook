@@ -37,7 +37,7 @@ def send_email(subject, body, sender_email, sender_name, recipients, password):
     smtp_server.quit()
 
 for mb in mb_types:
-	print(f"Updating {mb} benchmarks...")
+	print(f"Updating {mb} benchmarks")
 	new = []
 	with open(f"data/processed_{mb}.json", "r") as rfile:
 		benchmarks = json.load(rfile)
@@ -46,14 +46,13 @@ for mb in mb_types:
 			response = requests.get(f"{URL}/benchmarks/id/{id}").json()
 			if len(response) == 0:
 				# new benchmark
-				print("new", climb["name"])
+				print("NEW:", climb["name"])
 				new.append(climb)
 				requests.post(f"{URL}/benchmarks", json=climb)
 			else:
 				for field in climb:
 					if climb[field] != response[0][field] and field != "date_created":
 						# update benchmark
-						# print("update", field, climb["name"])
 						requests.put(f"{URL}/benchmarks/id/{id}", json={field: climb[field]})
 
 	if len(new) > 0:

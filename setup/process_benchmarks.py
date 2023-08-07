@@ -46,7 +46,7 @@ enumerate_holdsets = {
 }
 
 for mb in mb_types:
-	print(f"Processing {mb} benchmarks...")
+	print(f"Processing {mb} benchmarks")
 	p_benchmarks = [] 
 	with open(f"data/augmented_{mb}.json", "r") as rfile:
 		benchmarks = json.load(rfile)
