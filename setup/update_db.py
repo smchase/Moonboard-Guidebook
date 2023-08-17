@@ -39,21 +39,25 @@ def send_email(subject, body, sender_email, sender_name, recipients, password):
 for mb in mb_types:
 	print(f"Updating {mb} benchmarks")
 	new = []
-	with open(f"data/processed_{mb}.json", "r") as rfile:
-		benchmarks = json.load(rfile)
-		for climb in benchmarks:
-			id = climb["id"]
-			response = requests.get(f"{URL}/benchmarks/id/{id}").json()
-			if len(response) == 0:
-				# new benchmark
-				print("NEW:", climb["name"])
-				new.append(climb)
-				requests.post(f"{URL}/benchmarks", json=climb)
-			else:
-				for field in climb:
-					if climb[field] != response[0][field] and field != "date_created":
-						# update benchmark
-						requests.put(f"{URL}/benchmarks/id/{id}", json={field: climb[field]})
+	try:
+		with open(f"data/processed_{mb}.json", "r") as rfile:
+			benchmarks = json.load(rfile)
+			for climb in benchmarks:
+				id = climb["id"]
+				response = requests.get(f"{URL}/benchmarks/id/{id}").json()
+				if len(response) == 0:
+					# new benchmark
+					requests.post(f"{URL}/benchmarks", json=climb)
+					print("NEW:", climb["name"])
+					new.append(climb)
+				else:
+					for field in climb:
+						if climb[field] != response[0][field] and field != "date_created":
+							# update benchmark
+							requests.put(f"{URL}/benchmarks/id/{id}", json={field: climb[field]})
+	except Exception as e:
+		print(e)
+		print("Terminated updates early")
 
 	if len(new) > 0:
 		with open(f"data/emails.json", "r") as rfile:
@@ -68,3 +72,4 @@ for mb in mb_types:
 					message += "\n"
 				message += f"Check out the new benchmark{'s' if len(new) > 1 else ''} at {URL}."
 				send_email(subject, message, secret.gmail_email, "Moonboard Guidebook", emails[mb], secret.gmail_password)
+				print("Email sent")
