@@ -51,26 +51,35 @@ for mb in mb_types:
 	with open(f"data/augmented_{mb}.json", "r") as rfile:
 		benchmarks = json.load(rfile)
 		for climb in benchmarks:
-			user_grade_sum = 0
-			user_grade_breakdown = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-			for grade in climb["userGrades"]:
-				user_grade_sum += climb["userGrades"][grade] * enumerate_grades[grade]
-				user_grade_breakdown[enumerate_grades[grade]] = climb["userGrades"][grade]
-			avg_user_grade = user_grade_sum / sum(climb["userGrades"].values())
+			if climb["userGrades"] == {}:
+				avg_user_grade = climb["grade"]
+			else:
+				user_grade_sum = 0
+				user_grade_breakdown = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+				for grade in climb["userGrades"]:
+					user_grade_sum += climb["userGrades"][grade] * enumerate_grades[grade]
+					user_grade_breakdown[enumerate_grades[grade]] = climb["userGrades"][grade]
+				avg_user_grade = user_grade_sum / sum(climb["userGrades"].values())
 
-			user_star_sum = 0
-			user_star_breakdown = [0, 0, 0, 0, 0, 0]
-			for star in climb["userStars"]:
-				user_star_sum += climb["userStars"][star] * int(star)
-				user_star_breakdown[int(star)] = climb["userStars"][star]
-			avg_user_star = user_star_sum / sum(climb["userStars"].values())
+			if climb["userStars"] == {}:
+				avg_user_star = 0
+			else:
+				user_star_sum = 0
+				user_star_breakdown = [0, 0, 0, 0, 0, 0]
+				for star in climb["userStars"]:
+					user_star_sum += climb["userStars"][star] * int(star)
+					user_star_breakdown[int(star)] = climb["userStars"][star]
+				avg_user_star = user_star_sum / sum(climb["userStars"].values())
 
-			user_attempts_sum = 0
-			user_attempts_breakdown = [0, 0, 0, 0]
-			for attempts in climb["userAttempts"]:
-				user_attempts_sum += climb["userAttempts"][attempts] * (enumerate_attempts[attempts]+1)
-				user_attempts_breakdown[enumerate_attempts[attempts]] = climb["userAttempts"][attempts]
-			avg_user_attempts = user_attempts_sum / sum(climb["userAttempts"].values())
+			if climb["userAttempts"] == {}:
+				avg_user_attempts = 0
+			else:
+				user_attempts_sum = 0
+				user_attempts_breakdown = [0, 0, 0, 0]
+				for attempts in climb["userAttempts"]:
+					user_attempts_sum += climb["userAttempts"][attempts] * (enumerate_attempts[attempts]+1)
+					user_attempts_breakdown[enumerate_attempts[attempts]] = climb["userAttempts"][attempts]
+				avg_user_attempts = user_attempts_sum / sum(climb["userAttempts"].values())
 
 			holdsets = []
 			for hs in climb["holdsets"]:

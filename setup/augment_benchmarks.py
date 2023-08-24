@@ -56,7 +56,10 @@ for mb in mb_types:
 				climb["userGrades"] = grade_map
 				climb["userStars"] = star_map
 				climb["userAttempts"] = attempt_map
-			except Exception as e:
-				print(f"Error augmenting climb {apiId}: {e}")
+			except:
+				print(f"Error augmenting climb {apiId}")
+				climb["userGrades"] = {}
+				climb["userStars"] = {}
+				climb["userAttempts"] = {}
 		with open(f"data/augmented_{mb}.json", "w") as wfile:
 			json.dump(benchmarks, wfile, indent="\t")
