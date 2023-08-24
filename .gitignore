@@ -6,3 +6,4 @@ node_modules
 .env
 setup/data/*
 log.txt
+setup/logs/*
