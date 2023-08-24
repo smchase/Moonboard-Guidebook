@@ -52,7 +52,7 @@ for mb in mb_types:
 		benchmarks = json.load(rfile)
 		for climb in benchmarks:
 			if climb["userGrades"] == {}:
-				avg_user_grade = climb["grade"]
+				avg_user_grade = enumerate_grades[climb["grade"]]
 			else:
 				user_grade_sum = 0
 				user_grade_breakdown = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
