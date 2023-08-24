@@ -60,16 +60,21 @@ for mb in mb_types:
 		print("Terminated updates early")
 
 	if len(new) > 0:
-		with open(f"data/emails.json", "r") as rfile:
-			emails = json.load(rfile)
-			if len(emails[mb]) > 0:
-				message = ""
-				subject = f"{len(new)} New Benchmark{'s' if len(new) > 1 else ''}"
-				for climb in new:
-					message += f"Name: {climb['name']}\n"
-					message += f"Grade: {grade_map[climb['grade']]}\n"
-					message += f"Setter: {climb['setter']}\n"
-					message += "\n"
-				message += f"Check out the new benchmark{'s' if len(new) > 1 else ''} at {URL}."
-				send_email(subject, message, secret.gmail_email, "Moonboard Guidebook", emails[mb], secret.gmail_password)
-				print("Email sent")
+		try:
+			with open(f"data/emails.json", "r") as rfile:
+				emails = json.load(rfile)
+				if len(emails[mb]) > 0:
+					message = ""
+					subject = f"{len(new)} New Benchmark{'s' if len(new) > 1 else ''}"
+					for climb in new:
+						message += f"Name: {climb['name']}\n"
+						message += f"Grade: {grade_map[climb['grade']]}\n"
+						message += f"Setter: {climb['setter']}\n"
+						message += "\n"
+					message += f"Check out the new benchmark{'s' if len(new) > 1 else ''} at {URL}."
+					send_email(subject, message, secret.gmail_email, "Moonboard Guidebook", emails[mb], secret.gmail_password)
+					print("Email sent")
+		except Exception as e:
+			print(e)
+			print("Email failed to send")
+			print("Climbs that should have been in email:", new)
