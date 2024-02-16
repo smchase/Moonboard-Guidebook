@@ -33,8 +33,10 @@ app.route("/getlogbook")
 
 app.get("*", (req, res) => {
 	const host = req.headers.host
+	console.log(host)
 	if (host === "moonboard.herokuapp.com") {
-		res.redirect(301, `https://www.moonboard.simonchase.com${req.originalUrl}`)
+		console.log("redirecting to moonboard.simonchase.com")
+		res.redirect(301, `https://moonboard.simonchase.com${req.originalUrl}`)
 	} else {
 		res.sendFile(path.join(__dirname, "app/build/index.html"))
 	}
