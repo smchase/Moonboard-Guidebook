@@ -32,7 +32,12 @@ app.route("/getlogbook")
 	.get(db.getUserLogbook)
 
 app.get("*", (req, res) => {
-	res.sendFile(path.join(__dirname, "app/build/index.html"))
+	const host = req.headers.host
+	if (host === "moonboard.herokuapp.com") {
+		res.redirect(301, `https://www.moonboard.simonchase.com${req.originalUrl}`)
+	} else {
+		res.sendFile(path.join(__dirname, "app/build/index.html"))
+	}
 })
 
 app.listen(port, () => {
