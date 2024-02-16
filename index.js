@@ -12,6 +12,14 @@ app.use(cors())
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
+app.use((req, res, next) => {
+	const host = req.headers.host;
+	if (host === "moonboard.herokuapp.com") {
+		return res.redirect(301, "https://moonboard.herokuapp.com" + req.originalUrl);
+	}
+	next();
+});
+
 if (process.env.NODE_ENV === "production") {
 	app.use(express.static(path.join(__dirname, "app/build")))
 }
@@ -32,14 +40,7 @@ app.route("/getlogbook")
 	.get(db.getUserLogbook)
 
 app.get("*", (req, res) => {
-	const host = req.headers.host
-	console.log(host)
-	if (host === "moonboard.herokuapp.com") {
-		console.log("redirecting to moonboard.simonchase.com")
-		res.redirect(301, `https://moonboard.simonchase.com${req.originalUrl}`)
-	} else {
-		res.sendFile(path.join(__dirname, "app/build/index.html"))
-	}
+	res.sendFile(path.join(__dirname, "app/build/index.html"))
 })
 
 app.listen(port, () => {
