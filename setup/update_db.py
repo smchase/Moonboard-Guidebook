@@ -4,7 +4,7 @@ import secret
 import smtplib
 from email.mime.text import MIMEText
 
-URL = "https://moonboard.herokuapp.com"
+URL = "https://moonboard.simonchase.com"
 
 grade_map = {
 	0: "5+ (V1)",
