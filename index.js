@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use((req, res, next) => {
 	const host = req.headers.host;
 	if (host === "moonboard.herokuapp.com") {
-		return res.redirect(301, "https://moonboard.herokuapp.com" + req.originalUrl);
+		return res.redirect(301, "https://moonboard.simonchase.com" + req.originalUrl);
 	}
 	next();
 });
