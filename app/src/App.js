@@ -587,7 +587,7 @@ export default function App() {
 					<span className="visually-hidden">Loading...</span>
 				</Spinner></center></div>}
 				{data && (
-					<><div><p>Found {data.filter(row => filterRow(row)).length} benchmark{data.filter(row => filterRow(row)).length === 1 ? null : "s"}.{logbook ? ` Logbook loaded from ${username}.` : " No logbook loaded."}</p></div>
+					<><div><p>Found {data.filter(row => filterRow(row)).length} benchmark{data.filter(row => filterRow(row)).length === 1 ? null : "s"}.{logbook ? ` Logbook loaded from ${username}.` : " No logbook loaded."}<br>Unfortunately, due to changes in the Moon Climbing API, we are no longer able to fetch new climbs and updated data, or load user logbooks. The below data is accurate as of late 2023.</p></div>
 						<Table striped bordered hover responsive>
 							<thead>
 								<tr>
