@@ -2,7 +2,7 @@
 
 An interactive guidebook for the Moonboard, making it easier to discover and research benchmarks. Improving upon the official Moonboard app in ways you didn't even know you needed. [Wondering what all this is about?](#faq)
 
-Note: This project is unofficial and unaffiliated with Moon Climbing.
+This project is unofficial and unaffiliated with Moon Climbing.
 
 ![Screenshot](screenshot.png)
 
