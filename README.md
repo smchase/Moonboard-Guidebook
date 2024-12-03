@@ -6,6 +6,8 @@ An interactive guidebook for the Moonboard, making it easier to discover and res
 
 Note: This project is unofficial and unaffiliated with Moon Climbing.
 
+![Screenshot](screenshot.png)
+
 ## Features
 
 - Mobile friendly (add it to your home screen!)
