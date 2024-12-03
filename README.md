@@ -1,5 +1,7 @@
 # Moonboard Guidebook 🌝
 
+**Note: No longer hosting this app. I ran out of free Heroku credits, and due to the new Moonboard app switching to Firebase, I can't pull new data. Also, the new Moonboard app is a lot better to use now, so there's less of a reason for this to exist anymore.**
+
 An interactive guidebook for the Moonboard, making it easier to discover and research benchmarks. Improving upon the official Moonboard app in ways you didn't even know you needed. [Wondering what all this is about?](#faq)
 
 Note: This project is unofficial and unaffiliated with Moon Climbing.
