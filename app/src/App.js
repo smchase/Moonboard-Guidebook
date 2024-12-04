@@ -7,7 +7,6 @@ import { faYoutube } from "@fortawesome/free-brands-svg-icons"
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import "bootstrap/dist/css/bootstrap.min.css"
-import benchmarks from "./benchmarks.json"
 
 export default function App() {
   // Consolidate initial state values into objects
@@ -78,24 +77,28 @@ export default function App() {
 
   // Simplified data loading
   useEffect(() => {
-    setLoadingData(true)
-    try {
-      const filteredData = benchmarks
-        .filter(climb => climb.mb_type === mbtype)
-        .map(climb => ({
-          ...climb,
-          date_created: new Date(climb.date_created)
-        }))
-      setData(filteredData)
-      setErrorLoadingData(null)
-    } catch (err) {
-      setErrorLoadingData(err.message)
-      setData(null)
-    } finally {
-      setLoadingData(false)
-    }
-    setSort({ column: "date_created", order: "asc" })
-  }, [mbtype])
+    setLoadingData(true);
+    fetch('/benchmarks.json')
+      .then(response => response.json())
+      .then(benchmarks => {
+        const filteredData = benchmarks
+          .filter(climb => climb.mb_type === mbtype)
+          .map(climb => ({
+            ...climb,
+            date_created: new Date(climb.date_created)
+          }));
+        setData(filteredData);
+        setErrorLoadingData(null);
+      })
+      .catch(err => {
+        setErrorLoadingData(err.message);
+        setData(null);
+      })
+      .finally(() => {
+        setLoadingData(false);
+      });
+    setSort({ column: "date_created", order: "asc" });
+  }, [mbtype]);
 
   // render mb in popup
   useEffect(() => {
