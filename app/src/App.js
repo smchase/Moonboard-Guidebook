@@ -42,9 +42,9 @@ export default function App() {
   const [data, setData] = useState(null)
   const [sort, setSort] = useState({ column: "date_created", order: "asc" })
   const [filter, setFilter] = useState(initialFilterState)
-  const [logbook, setLogbook] = useState(null) // user logbook list of ids
+  const [logbook] = useState(null) // user logbook list of ids
   const [popupClimb, setPopupClimb] = useState({ name: "", grade: 0 }) // which climb in popup
-  const [username, setUsername] = useState(null)
+  const [username] = useState(null)
 
   // display state
   const [loadingData, setLoadingData] = useState(true) // whether benchmarks are loading from api
