@@ -6,8 +6,6 @@ This project is unofficial and unaffiliated with Moon Climbing.
 
 ![Screenshot](screenshot.png)
 
-**Note: No longer hosting this app. I ran out of free Heroku credits, and due to the new Moonboard app switching to Firebase, I can't pull new data. Also, the new Moonboard app is a lot better to use now, so there's less of a reason for this to exist anymore.**
-
 ## Features
 
 - Mobile friendly (add it to your home screen!)
