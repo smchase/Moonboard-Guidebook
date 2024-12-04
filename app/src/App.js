@@ -9,7 +9,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import "bootstrap/dist/css/bootstrap.min.css"
 
 export default function App() {
-  // Consolidate initial state values into objects
+  // Initial filter state object
   const initialFilterState = {
     climbName: "",
     setter: "",
@@ -37,24 +37,23 @@ export default function App() {
     logbook: 0
   }
 
-  // State declarations
+  // Core application state
   const [mbtype, setMbtype] = useState(0)
   const [data, setData] = useState(null)
   const [sort, setSort] = useState({ column: "date_created", order: "asc" })
   const [filter, setFilter] = useState(initialFilterState)
-  const [logbook] = useState(null) // user logbook list of ids
-  const [popupClimb, setPopupClimb] = useState({ name: "", grade: 0 }) // which climb in popup
-  const [username] = useState(null)
+  const [logbook] = useState(null)
+  const [popupClimb, setPopupClimb] = useState({ name: "", grade: 0 })
 
-  // display state
-  const [loadingData, setLoadingData] = useState(true) // whether benchmarks are loading from api
-  const [errorLoadingData, setErrorLoadingData] = useState(null) // if there was an error loading them
-  const [showLayout, setShowLayout] = useState(false) // expand/collapse board layout image
-  const [showPopup, setShowPopup] = useState(false) // climb popup show/hide
-  const [showLogin, setShowLogin] = useState(false) // show/hide login popup
-  const [loginErr, setLoginErr] = useState(null) // wrong password etc
+  // UI state
+  const [loadingData, setLoadingData] = useState(true)
+  const [errorLoadingData, setErrorLoadingData] = useState(null)
+  const [showLayout, setShowLayout] = useState(false)
+  const [showPopup, setShowPopup] = useState(false)
+  const [showLogin, setShowLogin] = useState(false)
+  const [loginErr, setLoginErr] = useState(null)
 
-  // Memoize grade map to prevent recreation on each render
+  // Grade mapping for display
   const gradeMap = {
     0: "5+ (V1)",
     1: "6A (V2)",
@@ -75,7 +74,7 @@ export default function App() {
     16: "8B+ (V14)",
   }
 
-  // Simplified data loading
+  // Data fetching and initialization
   useEffect(() => {
     setLoadingData(true);
     fetch('/benchmarks.json')
@@ -100,7 +99,7 @@ export default function App() {
     setSort({ column: "date_created", order: "asc" });
   }, [mbtype]);
 
-  // render mb in popup
+  // Canvas rendering for climb visualization
   useEffect(() => {
     if (!showPopup) {
       return
@@ -235,18 +234,18 @@ export default function App() {
     return true
   }
 
-  // login popup
+  // Popup handlers
   const closeLogin = () => {
     setShowLogin(false)
     setLoginErr(false)
   }
+  
   const submitLogin = (e) => {
     e.preventDefault()
     setLoginErr(true) // Always show error since API is not available
     // Note: Remove or modify the axios login code since API is not available
   }
 
-  // climb popup
   const closePopup = () => setShowPopup(false)
   const openPopup = (row) => {
     setShowPopup(true)
@@ -576,11 +575,6 @@ export default function App() {
                 Show Board Layout
               </ToggleButton>
             </Col>
-            {/* <Col className="ml-auto d-flex justify-content-end">
-              <Button variant="primary" onClick={() => setShowLogin(true)}>
-                Load Logbook
-              </Button>
-            </Col> */}
           </Row>
 
           <Row>
@@ -604,7 +598,7 @@ export default function App() {
           <span className="visually-hidden">Loading...</span>
         </Spinner></center></div>}
         {data && (
-          <><div><p>Found {data.filter(row => filterRow(row)).length} benchmark{data.filter(row => filterRow(row)).length === 1 ? null : "s"}.{logbook ? ` Logbook loaded from ${username}.` : " No logbook loaded."} <br /> The below data is accurate as of late 2023. Unfortunately we are unable to fetch new data.</p></div>
+          <><div><p>Found <strong>{data.filter(row => filterRow(row)).length}</strong> benchmark{data.filter(row => filterRow(row)).length === 1 ? null : "s"}. Data and benchmark list is accurate as of late 2023.</p></div>
             <Table striped bordered hover responsive>
               <thead>
                 <tr>
