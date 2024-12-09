@@ -33,8 +33,7 @@ export default function App() {
     whb: true,
     whc: true,
     included: "",
-    excluded: "",
-    logbook: 0
+    excluded: ""
   }
 
   // Core application state
@@ -42,7 +41,6 @@ export default function App() {
   const [data, setData] = useState(null)
   const [sort, setSort] = useState({ column: "date_created", order: "asc" })
   const [filter, setFilter] = useState(initialFilterState)
-  const [logbook] = useState(null)
   const [popupClimb, setPopupClimb] = useState({ name: "", grade: 0 })
 
   // UI state
@@ -223,13 +221,6 @@ export default function App() {
     // Hold inclusion/exclusion filters
     if (!filterHolds(filter.included, row)) return false
     if (!filterExcludedHolds(filter.excluded, row)) return false
-
-    // Logbook filters
-    if (logbook && filter.logbook) {
-      const isLogged = logbook.includes(row.id)
-      if (filter.logbook === "1" && isLogged) return false
-      if (filter.logbook === "2" && !isLogged) return false
-    }
 
     return true
   }
@@ -529,38 +520,6 @@ export default function App() {
               </Form.Label>
               <Form.Control type="text" placeholder="None" value={filter.excluded} onChange={(e) => setFilter({ ...filter, excluded: e.target.value })} />
             </Form.Group>
-
-            <Form.Group as={Col} md className="mb-3">
-              <Form.Label>
-                Logbook Status
-              </Form.Label>
-              {logbook ? (
-                <Form.Select
-                  value={filter.logbook}
-                  onChange={(e) => setFilter({ ...filter, logbook: e.target.value })}
-                >
-                  <option value={0}>Any</option>
-                  <option value={1}>Exclude my repeats</option>
-                  <option value={2}>Only my repeats</option>
-                </Form.Select>
-              ) : (
-                <OverlayTrigger
-                  placement="bottom"
-                  delay={{ show: 250, hide: 400 }}
-                  overlay={<Tooltip>A logbook must be loaded to filter by logbook status</Tooltip>}
-                >
-                  <Form.Select
-                    value={filter.logbook}
-                    disabled
-                    onChange={(e) => setFilter({ ...filter, logbook: e.target.value })}
-                  >
-                    <option value={0}>Any</option>
-                    <option value={1}>Exclude my repeats</option>
-                    <option value={2}>Only my repeats</option>
-                  </Form.Select>
-                </OverlayTrigger>
-              )}
-            </Form.Group>
           </Row>
 
           <Row className="mt-1">
@@ -602,7 +561,6 @@ export default function App() {
             <Table striped bordered hover responsive>
               <thead>
                 <tr>
-                  {logbook ? <th>Sent?</th> : null}
                   <th>
                     <u style={{ cursor: "pointer" }} onClick={() => handleSort("name")}>Climb Name</u>
                     {sort.column === "name" ? (sort.order === "asc" ? <FontAwesomeIcon className="mx-1" icon={faArrowDown} /> : <FontAwesomeIcon className="mx-1" icon={faArrowUp} />) : null}
@@ -643,7 +601,6 @@ export default function App() {
               <tbody>
                 {data.filter(row => filterRow(row)).map((row) => (
                   <tr key={row.id}>
-                    {logbook ? <td><center><FontAwesomeIcon style={{ color: logbook.includes(row.id) ? "green" : "red" }} icon={logbook.includes(row.id) ? faCheck : faXmark}></FontAwesomeIcon></center></td> : null}
                     <td><u style={{ cursor: "pointer" }} onClick={() => openPopup(row)}>{row.name}</u></td>
                     <td>{row.setter}</td>
                     <td>{gradeMap[row.grade]}{" "}{row.upgraded ? <FontAwesomeIcon icon={faCircleUp}></FontAwesomeIcon> : null} {row.downgraded ? <FontAwesomeIcon icon={faCircleDown}></FontAwesomeIcon> : null}</td>
@@ -689,38 +646,6 @@ export default function App() {
           } target="_blank" rel="noopener noreferrer"><Button variant="outline-primary"><FontAwesomeIcon icon={faYoutube} /> Beta Videos</Button></a>
           <Button variant="secondary" onClick={handleNext} style={{ width: "90px" }}>Next</Button>
         </Modal.Footer>
-      </Modal>
-
-      {/* Login window */}
-      <Modal show={showLogin} onHide={closeLogin}>
-        <Modal.Header closeButton>
-          <Modal.Title>Moonboard Account Login</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <Form onSubmit={submitLogin}>
-            <Alert variant="warning">
-              This website is unofficial. We won't do anything bad with your login, but we can't guarantee security, so use at your own risk.
-            </Alert>
-
-            <Form.Group className="mb-3">
-              <Form.Label>Username</Form.Label>
-              <Form.Control type="text" placeholder="ravioli_biceps" name="username" />
-            </Form.Group>
-
-            <Form.Group className="mb-3">
-              <Form.Label>Password</Form.Label>
-              <Form.Control type="password" placeholder="password123" name="password" />
-            </Form.Group>
-
-            <div className="d-grid gap-2">
-              <Button variant="primary" type="submit">
-                Load Logbook
-              </Button>
-            </div>
-
-            {loginErr ? <div className="mt-2"><Form.Text style={{ color: "red" }}>Error fetching logbook, please check your login info and try again.</Form.Text></div> : null}
-          </Form>
-        </Modal.Body>
       </Modal>
 
       {/* Footer */}
