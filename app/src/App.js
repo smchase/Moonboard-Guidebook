@@ -1,8 +1,8 @@
 import { useState, useEffect, useRef } from "react"
-import { Table, Container, Nav, Navbar, Button, Spinner, Form, ToggleButton, Collapse, Row, Col, Modal, Tooltip, OverlayTrigger, Alert } from "react-bootstrap"
+import { Table, Container, Nav, Navbar, Button, Spinner, Form, ToggleButton, Collapse, Row, Col, Modal, Tooltip, OverlayTrigger } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCircleQuestion } from "@fortawesome/free-regular-svg-icons"
-import { faArrowUp, faArrowDown, faCircleUp, faCircleDown, faCheck, faXmark } from "@fortawesome/free-solid-svg-icons"
+import { faArrowUp, faArrowDown, faCircleUp, faCircleDown } from "@fortawesome/free-solid-svg-icons"
 import { faYoutube } from "@fortawesome/free-brands-svg-icons"
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
@@ -48,8 +48,6 @@ export default function App() {
   const [errorLoadingData, setErrorLoadingData] = useState(null)
   const [showLayout, setShowLayout] = useState(false)
   const [showPopup, setShowPopup] = useState(false)
-  const [showLogin, setShowLogin] = useState(false)
-  const [loginErr, setLoginErr] = useState(null)
 
   // Grade mapping for display
   const gradeMap = {
@@ -226,17 +224,6 @@ export default function App() {
   }
 
   // Popup handlers
-  const closeLogin = () => {
-    setShowLogin(false)
-    setLoginErr(false)
-  }
-  
-  const submitLogin = (e) => {
-    e.preventDefault()
-    setLoginErr(true) // Always show error since API is not available
-    // Note: Remove or modify the axios login code since API is not available
-  }
-
   const closePopup = () => setShowPopup(false)
   const openPopup = (row) => {
     setShowPopup(true)
